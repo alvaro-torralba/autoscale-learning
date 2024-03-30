@@ -1,0 +1,30 @@
+pickup b3
+pickup b4
+pickup b5
+pickup b6
+pickup b7
+putdown b3
+putdown b5
+putdown b6
+putdown b7
+stack b3 b6
+stack b4 b2
+stack b5 b2
+stack b5 b3
+stack b5 b6
+stack b5 b7
+stack b6 b3
+stack b6 b4
+stack b6 b5
+stack b6 b7
+stack b7 b1
+unstack b3 b5
+unstack b5 b1
+unstack b5 b2
+unstack b5 b3
+unstack b5 b6
+unstack b6 b2
+unstack b6 b3
+unstack b6 b5
+unstack b6 b7
+unstack b7 b4
