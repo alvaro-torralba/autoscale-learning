@@ -1,0 +1,320 @@
+/home/alvaro/projects/learning-benchmarks/.venv/bin/python /home/alvaro/projects/learning-benchmarks/generate-training-data.py barman 
+2024-03-30 13:07:29,655 INFO     Running generation of training data for domain barman
+2024-03-30 13:07:29,787 INFO     Running step build: build()
+2024-03-30 13:07:29,787 INFO     Experiment path: "data/barman/good-operators-unit-exp"
+2024-03-30 13:07:29,855 INFO     Building 10 runs
+2024-03-30 13:07:29,860 INFO     Finished building runs
+2024-03-30 13:07:29,861 INFO     Running step start: start_runs()
+2024-03-30 13:07:29,861 INFO     Executing /home/alvaro/projects/learning-benchmarks/.venv/bin/python run {'cwd': '/home/alvaro/projects/learning-benchmarks/data/barman/good-operators-unit-exp'}
+2024-03-30 13:07:29,902 INFO     Starting run 8 (TASK_ID 1) in runs-00001-00100/00008
+2024-03-30 13:07:29,902 INFO     Starting run 9 (TASK_ID 2) in runs-00001-00100/00009
+2024-03-30 13:07:29,902 INFO     Starting run 2 (TASK_ID 3) in runs-00001-00100/00002
+2024-03-30 13:07:29,902 INFO     Starting run 6 (TASK_ID 4) in runs-00001-00100/00006
+2024-03-30 13:07:30,584 INFO     Starting run 4 (TASK_ID 5) in runs-00001-00100/00004
+2024-03-30 13:07:30,689 INFO     Starting run 5 (TASK_ID 6) in runs-00001-00100/00005
+2024-03-30 13:07:30,709 INFO     Starting run 3 (TASK_ID 7) in runs-00001-00100/00003
+2024-03-30 13:07:30,766 INFO     Starting run 1 (TASK_ID 8) in runs-00001-00100/00001
+2024-03-30 13:07:31,160 INFO     Starting run 10 (TASK_ID 9) in runs-00001-00100/00010
+2024-03-30 13:07:31,446 INFO     Starting run 7 (TASK_ID 10) in runs-00001-00100/00007
+2024-03-30 13:07:31,990 INFO     Joining pool processes
+2024-03-30 13:07:31,997 INFO     Running step parse: parse()
+2024-03-30 13:07:31,998 INFO     Running 5 parsers in 10 run directories.
+2024-03-30 13:07:32,178 INFO     Running step build: build()
+2024-03-30 13:07:32,178 INFO     Running step build: build()
+2024-03-30 13:07:32,178 INFO     Experiment path: "data/barman/good-operators-unit-exp"
+2024-03-30 13:07:32,178 INFO     Experiment path: "data/barman/good-operators-unit-exp"
+2024-03-30 13:07:32,265 INFO     Building 10 runs
+2024-03-30 13:07:32,265 INFO     Building 10 runs
+2024-03-30 13:07:32,269 INFO     Finished building runs
+2024-03-30 13:07:32,269 INFO     Finished building runs
+2024-03-30 13:07:32,270 INFO     Running step start: start_runs()
+2024-03-30 13:07:32,270 INFO     Running step start: start_runs()
+2024-03-30 13:07:32,270 INFO     Executing /home/alvaro/projects/learning-benchmarks/.venv/bin/python run {'cwd': '/home/alvaro/projects/learning-benchmarks/data/barman/good-operators-unit-exp'}
+2024-03-30 13:07:32,270 INFO     Executing /home/alvaro/projects/learning-benchmarks/.venv/bin/python run {'cwd': '/home/alvaro/projects/learning-benchmarks/data/barman/good-operators-unit-exp'}
+2024-03-30 13:07:32,313 INFO     Starting run 10 (TASK_ID 1) in runs-00001-00100/00010
+2024-03-30 13:07:32,313 INFO     Starting run 5 (TASK_ID 2) in runs-00001-00100/00005
+2024-03-30 13:07:32,314 INFO     Starting run 7 (TASK_ID 4) in runs-00001-00100/00007
+2024-03-30 13:07:32,314 INFO     Starting run 9 (TASK_ID 3) in runs-00001-00100/00009
+2024-03-30 13:07:33,230 INFO     Starting run 1 (TASK_ID 5) in runs-00001-00100/00001
+2024-03-30 13:07:33,306 INFO     Starting run 2 (TASK_ID 6) in runs-00001-00100/00002
+2024-03-30 13:07:33,424 INFO     Starting run 8 (TASK_ID 7) in runs-00001-00100/00008
+2024-03-30 13:07:33,853 INFO     Starting run 3 (TASK_ID 8) in runs-00001-00100/00003
+2024-03-30 13:07:34,142 INFO     Starting run 4 (TASK_ID 9) in runs-00001-00100/00004
+2024-03-30 13:07:34,560 INFO     Starting run 6 (TASK_ID 10) in runs-00001-00100/00006
+2024-03-30 13:07:36,265 INFO     Joining pool processes
+2024-03-30 13:07:36,272 INFO     Running step parse: parse()
+2024-03-30 13:07:36,272 INFO     Running step parse: parse()
+2024-03-30 13:07:36,272 INFO     Running 5 parsers in 10 run directories.
+2024-03-30 13:07:36,272 INFO     Running 5 parsers in 10 run directories.
+2024-03-30 13:07:36,447 INFO     Running step build: build()
+2024-03-30 13:07:36,447 INFO     Running step build: build()
+2024-03-30 13:07:36,447 INFO     Experiment path: "data/barman/good-operators-unit-exp"
+2024-03-30 13:07:36,447 INFO     Experiment path: "data/barman/good-operators-unit-exp"
+2024-03-30 13:07:36,532 INFO     Building 10 runs
+2024-03-30 13:07:36,532 INFO     Building 10 runs
+2024-03-30 13:07:36,537 INFO     Finished building runs
+2024-03-30 13:07:36,537 INFO     Finished building runs
+2024-03-30 13:07:36,537 INFO     Running step start: start_runs()
+2024-03-30 13:07:36,537 INFO     Running step start: start_runs()
+2024-03-30 13:07:36,537 INFO     Executing /home/alvaro/projects/learning-benchmarks/.venv/bin/python run {'cwd': '/home/alvaro/projects/learning-benchmarks/data/barman/good-operators-unit-exp'}
+2024-03-30 13:07:36,537 INFO     Executing /home/alvaro/projects/learning-benchmarks/.venv/bin/python run {'cwd': '/home/alvaro/projects/learning-benchmarks/data/barman/good-operators-unit-exp'}
+2024-03-30 13:07:36,577 INFO     Starting run 8 (TASK_ID 1) in runs-00001-00100/00008
+2024-03-30 13:07:36,577 INFO     Starting run 1 (TASK_ID 2) in runs-00001-00100/00001
+2024-03-30 13:07:36,577 INFO     Starting run 4 (TASK_ID 4) in runs-00001-00100/00004
+2024-03-30 13:07:36,577 INFO     Starting run 10 (TASK_ID 3) in runs-00001-00100/00010
+2024-03-30 13:07:37,661 INFO     Starting run 3 (TASK_ID 5) in runs-00001-00100/00003
+2024-03-30 13:07:38,205 INFO     Starting run 6 (TASK_ID 6) in runs-00001-00100/00006
+2024-03-30 13:07:38,207 INFO     Starting run 7 (TASK_ID 7) in runs-00001-00100/00007
+2024-03-30 13:07:38,844 INFO     Starting run 9 (TASK_ID 8) in runs-00001-00100/00009
+2024-03-30 13:07:39,452 INFO     Starting run 2 (TASK_ID 9) in runs-00001-00100/00002
+2024-03-30 13:07:40,217 INFO     Starting run 5 (TASK_ID 10) in runs-00001-00100/00005
+2024-03-30 13:07:48,596 INFO     Joining pool processes
+2024-03-30 13:07:48,604 INFO     Running step parse: parse()
+2024-03-30 13:07:48,604 INFO     Running step parse: parse()
+2024-03-30 13:07:48,604 INFO     Running 5 parsers in 10 run directories.
+2024-03-30 13:07:48,604 INFO     Running 5 parsers in 10 run directories.
+2024-03-30 13:07:48,784 INFO     Running step build: build()
+2024-03-30 13:07:48,784 INFO     Running step build: build()
+2024-03-30 13:07:48,784 INFO     Experiment path: "data/barman/good-operators-unit-exp"
+2024-03-30 13:07:48,784 INFO     Experiment path: "data/barman/good-operators-unit-exp"
+2024-03-30 13:07:48,864 INFO     Building 10 runs
+2024-03-30 13:07:48,864 INFO     Building 10 runs
+2024-03-30 13:07:48,868 INFO     Finished building runs
+2024-03-30 13:07:48,868 INFO     Finished building runs
+2024-03-30 13:07:48,869 INFO     Running step start: start_runs()
+2024-03-30 13:07:48,869 INFO     Running step start: start_runs()
+2024-03-30 13:07:48,869 INFO     Executing /home/alvaro/projects/learning-benchmarks/.venv/bin/python run {'cwd': '/home/alvaro/projects/learning-benchmarks/data/barman/good-operators-unit-exp'}
+2024-03-30 13:07:48,869 INFO     Executing /home/alvaro/projects/learning-benchmarks/.venv/bin/python run {'cwd': '/home/alvaro/projects/learning-benchmarks/data/barman/good-operators-unit-exp'}
+2024-03-30 13:07:48,912 INFO     Starting run 1 (TASK_ID 1) in runs-00001-00100/00001
+2024-03-30 13:07:48,912 INFO     Starting run 3 (TASK_ID 2) in runs-00001-00100/00003
+2024-03-30 13:07:48,912 INFO     Starting run 9 (TASK_ID 3) in runs-00001-00100/00009
+2024-03-30 13:07:48,912 INFO     Starting run 4 (TASK_ID 4) in runs-00001-00100/00004
+2024-03-30 13:07:51,359 INFO     Starting run 2 (TASK_ID 5) in runs-00001-00100/00002
+2024-03-30 13:07:51,396 INFO     Starting run 8 (TASK_ID 6) in runs-00001-00100/00008
+2024-03-30 13:07:52,543 INFO     Starting run 5 (TASK_ID 7) in runs-00001-00100/00005
+2024-03-30 13:07:54,575 INFO     Starting run 10 (TASK_ID 8) in runs-00001-00100/00010
+2024-03-30 13:07:55,949 INFO     Starting run 7 (TASK_ID 9) in runs-00001-00100/00007
+2024-03-30 13:08:02,882 INFO     Starting run 6 (TASK_ID 10) in runs-00001-00100/00006
+2024-03-30 13:12:07,399 INFO     Joining pool processes
+2024-03-30 13:12:07,406 INFO     Running step parse: parse()
+2024-03-30 13:12:07,406 INFO     Running step parse: parse()
+2024-03-30 13:12:07,406 INFO     Running 5 parsers in 10 run directories.
+2024-03-30 13:12:07,406 INFO     Running 5 parsers in 10 run directories.
+2024-03-30 13:12:07,594 INFO     Running step build: build()
+2024-03-30 13:12:07,594 INFO     Running step build: build()
+2024-03-30 13:12:07,594 INFO     Experiment path: "data/barman/good-operators-unit-exp"
+2024-03-30 13:12:07,594 INFO     Experiment path: "data/barman/good-operators-unit-exp"
+2024-03-30 13:12:07,684 INFO     Building 10 runs
+2024-03-30 13:12:07,684 INFO     Building 10 runs
+2024-03-30 13:12:07,689 INFO     Finished building runs
+2024-03-30 13:12:07,689 INFO     Finished building runs
+2024-03-30 13:12:07,689 INFO     Running step start: start_runs()
+2024-03-30 13:12:07,689 INFO     Running step start: start_runs()
+2024-03-30 13:12:07,689 INFO     Executing /home/alvaro/projects/learning-benchmarks/.venv/bin/python run {'cwd': '/home/alvaro/projects/learning-benchmarks/data/barman/good-operators-unit-exp'}
+2024-03-30 13:12:07,689 INFO     Executing /home/alvaro/projects/learning-benchmarks/.venv/bin/python run {'cwd': '/home/alvaro/projects/learning-benchmarks/data/barman/good-operators-unit-exp'}
+2024-03-30 13:12:07,731 INFO     Starting run 5 (TASK_ID 1) in runs-00001-00100/00005
+2024-03-30 13:12:07,731 INFO     Starting run 2 (TASK_ID 2) in runs-00001-00100/00002
+2024-03-30 13:12:07,731 INFO     Starting run 3 (TASK_ID 3) in runs-00001-00100/00003
+2024-03-30 13:12:07,731 INFO     Starting run 7 (TASK_ID 4) in runs-00001-00100/00007
+2024-03-30 13:12:13,065 INFO     Starting run 4 (TASK_ID 5) in runs-00001-00100/00004
+2024-03-30 13:12:14,273 INFO     Starting run 6 (TASK_ID 6) in runs-00001-00100/00006
+2024-03-30 13:12:17,081 INFO     Starting run 8 (TASK_ID 7) in runs-00001-00100/00008
+2024-03-30 13:12:17,334 INFO     Starting run 10 (TASK_ID 8) in runs-00001-00100/00010
+2024-03-30 13:12:21,913 INFO     Starting run 9 (TASK_ID 9) in runs-00001-00100/00009
+2024-03-30 13:12:24,511 INFO     Starting run 1 (TASK_ID 10) in runs-00001-00100/00001
+2024-03-30 13:22:13,681 INFO     Joining pool processes
+2024-03-30 13:22:13,688 INFO     Running step parse: parse()
+2024-03-30 13:22:13,688 INFO     Running step parse: parse()
+2024-03-30 13:22:13,688 INFO     Running 5 parsers in 10 run directories.
+2024-03-30 13:22:13,688 INFO     Running 5 parsers in 10 run directories.
+2024-03-30 13:22:13,879 INFO     Running step build: build()
+2024-03-30 13:22:13,879 INFO     Running step build: build()
+2024-03-30 13:22:13,880 INFO     Experiment path: "data/barman/good-operators-unit-exp"
+2024-03-30 13:22:13,880 INFO     Experiment path: "data/barman/good-operators-unit-exp"
+2024-03-30 13:22:13,959 INFO     Building 10 runs
+2024-03-30 13:22:13,959 INFO     Building 10 runs
+2024-03-30 13:22:13,964 INFO     Finished building runs
+2024-03-30 13:22:13,964 INFO     Finished building runs
+2024-03-30 13:22:13,964 INFO     Running step start: start_runs()
+2024-03-30 13:22:13,964 INFO     Running step start: start_runs()
+2024-03-30 13:22:13,964 INFO     Executing /home/alvaro/projects/learning-benchmarks/.venv/bin/python run {'cwd': '/home/alvaro/projects/learning-benchmarks/data/barman/good-operators-unit-exp'}
+2024-03-30 13:22:13,964 INFO     Executing /home/alvaro/projects/learning-benchmarks/.venv/bin/python run {'cwd': '/home/alvaro/projects/learning-benchmarks/data/barman/good-operators-unit-exp'}
+2024-03-30 13:22:14,006 INFO     Starting run 9 (TASK_ID 1) in runs-00001-00100/00009
+2024-03-30 13:22:14,006 INFO     Starting run 3 (TASK_ID 2) in runs-00001-00100/00003
+2024-03-30 13:22:14,006 INFO     Starting run 7 (TASK_ID 3) in runs-00001-00100/00007
+2024-03-30 13:22:14,006 INFO     Starting run 5 (TASK_ID 4) in runs-00001-00100/00005
+2024-03-30 13:22:17,971 INFO     Starting run 2 (TASK_ID 5) in runs-00001-00100/00002
+2024-03-30 13:22:22,252 INFO     Starting run 1 (TASK_ID 6) in runs-00001-00100/00001
+2024-03-30 13:22:33,595 INFO     Starting run 8 (TASK_ID 7) in runs-00001-00100/00008
+2024-03-30 13:22:36,506 INFO     Starting run 10 (TASK_ID 8) in runs-00001-00100/00010
+2024-03-30 13:22:38,996 INFO     Starting run 4 (TASK_ID 9) in runs-00001-00100/00004
+2024-03-30 13:24:22,673 INFO     Starting run 6 (TASK_ID 10) in runs-00001-00100/00006
+2024-03-30 13:32:14,602 INFO     Joining pool processes
+2024-03-30 13:32:14,609 INFO     Running step parse: parse()
+2024-03-30 13:32:14,609 INFO     Running step parse: parse()
+2024-03-30 13:32:14,609 INFO     Running 5 parsers in 10 run directories.
+2024-03-30 13:32:14,609 INFO     Running 5 parsers in 10 run directories.
+2024-03-30 13:32:14,804 INFO     Running step build: build()
+2024-03-30 13:32:14,804 INFO     Running step build: build()
+2024-03-30 13:32:14,804 INFO     Experiment path: "data/barman/good-operators-unit-exp"
+2024-03-30 13:32:14,804 INFO     Experiment path: "data/barman/good-operators-unit-exp"
+2024-03-30 13:32:14,893 INFO     Building 10 runs
+2024-03-30 13:32:14,893 INFO     Building 10 runs
+2024-03-30 13:32:14,898 INFO     Finished building runs
+2024-03-30 13:32:14,898 INFO     Finished building runs
+2024-03-30 13:32:14,898 INFO     Running step start: start_runs()
+2024-03-30 13:32:14,898 INFO     Running step start: start_runs()
+2024-03-30 13:32:14,899 INFO     Executing /home/alvaro/projects/learning-benchmarks/.venv/bin/python run {'cwd': '/home/alvaro/projects/learning-benchmarks/data/barman/good-operators-unit-exp'}
+2024-03-30 13:32:14,899 INFO     Executing /home/alvaro/projects/learning-benchmarks/.venv/bin/python run {'cwd': '/home/alvaro/projects/learning-benchmarks/data/barman/good-operators-unit-exp'}
+2024-03-30 13:32:14,940 INFO     Starting run 10 (TASK_ID 2) in runs-00001-00100/00010
+2024-03-30 13:32:14,940 INFO     Starting run 7 (TASK_ID 3) in runs-00001-00100/00007
+2024-03-30 13:32:14,940 INFO     Starting run 6 (TASK_ID 1) in runs-00001-00100/00006
+2024-03-30 13:32:14,940 INFO     Starting run 4 (TASK_ID 4) in runs-00001-00100/00004
+2024-03-30 13:32:22,589 INFO     Starting run 5 (TASK_ID 5) in runs-00001-00100/00005
+2024-03-30 13:32:38,217 INFO     Starting run 3 (TASK_ID 6) in runs-00001-00100/00003
+2024-03-30 13:33:37,578 INFO     Starting run 1 (TASK_ID 7) in runs-00001-00100/00001
+2024-03-30 13:33:58,490 INFO     Starting run 2 (TASK_ID 8) in runs-00001-00100/00002
+2024-03-30 13:37:06,753 INFO     Starting run 8 (TASK_ID 9) in runs-00001-00100/00008
+2024-03-30 13:42:15,645 INFO     Starting run 9 (TASK_ID 10) in runs-00001-00100/00009
+2024-03-30 13:47:07,361 INFO     Joining pool processes
+2024-03-30 13:47:07,368 INFO     Running step parse: parse()
+2024-03-30 13:47:07,368 INFO     Running step parse: parse()
+2024-03-30 13:47:07,369 INFO     Running 5 parsers in 10 run directories.
+2024-03-30 13:47:07,369 INFO     Running 5 parsers in 10 run directories.
+2024-03-30 13:47:07,559 INFO     Running step build: build()
+2024-03-30 13:47:07,559 INFO     Running step build: build()
+2024-03-30 13:47:07,559 INFO     Experiment path: "data/barman/good-operators-unit-exp"
+2024-03-30 13:47:07,559 INFO     Experiment path: "data/barman/good-operators-unit-exp"
+2024-03-30 13:47:07,646 INFO     Building 10 runs
+2024-03-30 13:47:07,646 INFO     Building 10 runs
+2024-03-30 13:47:07,651 INFO     Finished building runs
+2024-03-30 13:47:07,651 INFO     Finished building runs
+2024-03-30 13:47:07,651 INFO     Running step start: start_runs()
+2024-03-30 13:47:07,651 INFO     Running step start: start_runs()
+2024-03-30 13:47:07,652 INFO     Executing /home/alvaro/projects/learning-benchmarks/.venv/bin/python run {'cwd': '/home/alvaro/projects/learning-benchmarks/data/barman/good-operators-unit-exp'}
+2024-03-30 13:47:07,652 INFO     Executing /home/alvaro/projects/learning-benchmarks/.venv/bin/python run {'cwd': '/home/alvaro/projects/learning-benchmarks/data/barman/good-operators-unit-exp'}
+2024-03-30 13:47:07,693 INFO     Starting run 1 (TASK_ID 1) in runs-00001-00100/00001
+2024-03-30 13:47:07,693 INFO     Starting run 4 (TASK_ID 2) in runs-00001-00100/00004
+2024-03-30 13:47:07,693 INFO     Starting run 6 (TASK_ID 3) in runs-00001-00100/00006
+2024-03-30 13:47:07,693 INFO     Starting run 8 (TASK_ID 4) in runs-00001-00100/00008
+2024-03-30 13:47:20,575 INFO     Starting run 7 (TASK_ID 5) in runs-00001-00100/00007
+2024-03-30 13:47:48,837 INFO     Starting run 3 (TASK_ID 6) in runs-00001-00100/00003
+2024-03-30 13:51:26,164 INFO     Starting run 10 (TASK_ID 7) in runs-00001-00100/00010
+2024-03-30 13:52:48,914 INFO     Starting run 2 (TASK_ID 8) in runs-00001-00100/00002
+2024-03-30 13:56:31,201 INFO     Starting run 5 (TASK_ID 9) in runs-00001-00100/00005
+2024-03-30 13:56:37,839 INFO     Starting run 9 (TASK_ID 10) in runs-00001-00100/00009
+2024-03-30 14:05:43,406 INFO     Joining pool processes
+2024-03-30 14:05:43,413 INFO     Running step parse: parse()
+2024-03-30 14:05:43,413 INFO     Running step parse: parse()
+2024-03-30 14:05:43,413 INFO     Running 5 parsers in 10 run directories.
+2024-03-30 14:05:43,413 INFO     Running 5 parsers in 10 run directories.
+2024-03-30 14:05:43,608 INFO     Running step build: build()
+2024-03-30 14:05:43,608 INFO     Running step build: build()
+2024-03-30 14:05:43,608 INFO     Experiment path: "data/barman/good-operators-unit-exp"
+2024-03-30 14:05:43,608 INFO     Experiment path: "data/barman/good-operators-unit-exp"
+2024-03-30 14:05:43,693 INFO     Building 10 runs
+2024-03-30 14:05:43,693 INFO     Building 10 runs
+2024-03-30 14:05:43,698 INFO     Finished building runs
+2024-03-30 14:05:43,698 INFO     Finished building runs
+2024-03-30 14:05:43,698 INFO     Running step start: start_runs()
+2024-03-30 14:05:43,698 INFO     Running step start: start_runs()
+2024-03-30 14:05:43,698 INFO     Executing /home/alvaro/projects/learning-benchmarks/.venv/bin/python run {'cwd': '/home/alvaro/projects/learning-benchmarks/data/barman/good-operators-unit-exp'}
+2024-03-30 14:05:43,698 INFO     Executing /home/alvaro/projects/learning-benchmarks/.venv/bin/python run {'cwd': '/home/alvaro/projects/learning-benchmarks/data/barman/good-operators-unit-exp'}
+2024-03-30 14:05:43,740 INFO     Starting run 6 (TASK_ID 1) in runs-00001-00100/00006
+2024-03-30 14:05:43,740 INFO     Starting run 4 (TASK_ID 2) in runs-00001-00100/00004
+2024-03-30 14:05:43,740 INFO     Starting run 1 (TASK_ID 3) in runs-00001-00100/00001
+2024-03-30 14:05:43,740 INFO     Starting run 10 (TASK_ID 4) in runs-00001-00100/00010
+2024-03-30 14:07:29,793 INFO     Starting run 9 (TASK_ID 5) in runs-00001-00100/00009
+2024-03-30 14:07:42,240 INFO     Starting run 5 (TASK_ID 6) in runs-00001-00100/00005
+2024-03-30 14:08:50,104 INFO     Starting run 3 (TASK_ID 7) in runs-00001-00100/00003
+2024-03-30 14:08:58,047 INFO     Starting run 7 (TASK_ID 8) in runs-00001-00100/00007
+2024-03-30 14:09:07,352 INFO     Starting run 2 (TASK_ID 9) in runs-00001-00100/00002
+2024-03-30 14:11:22,455 INFO     Starting run 8 (TASK_ID 10) in runs-00001-00100/00008
+2024-03-30 14:21:23,190 INFO     Joining pool processes
+2024-03-30 14:21:23,197 INFO     Running step parse: parse()
+2024-03-30 14:21:23,197 INFO     Running step parse: parse()
+2024-03-30 14:21:23,197 INFO     Running 5 parsers in 10 run directories.
+2024-03-30 14:21:23,197 INFO     Running 5 parsers in 10 run directories.
+2024-03-30 14:21:23,391 INFO     Running step build: build()
+2024-03-30 14:21:23,391 INFO     Running step build: build()
+2024-03-30 14:21:23,391 INFO     Experiment path: "data/barman/good-operators-unit-exp"
+2024-03-30 14:21:23,391 INFO     Experiment path: "data/barman/good-operators-unit-exp"
+2024-03-30 14:21:23,473 INFO     Building 10 runs
+2024-03-30 14:21:23,473 INFO     Building 10 runs
+2024-03-30 14:21:23,478 INFO     Finished building runs
+2024-03-30 14:21:23,478 INFO     Finished building runs
+2024-03-30 14:21:23,479 INFO     Running step start: start_runs()
+2024-03-30 14:21:23,479 INFO     Running step start: start_runs()
+2024-03-30 14:21:23,479 INFO     Executing /home/alvaro/projects/learning-benchmarks/.venv/bin/python run {'cwd': '/home/alvaro/projects/learning-benchmarks/data/barman/good-operators-unit-exp'}
+2024-03-30 14:21:23,479 INFO     Executing /home/alvaro/projects/learning-benchmarks/.venv/bin/python run {'cwd': '/home/alvaro/projects/learning-benchmarks/data/barman/good-operators-unit-exp'}
+2024-03-30 14:21:23,522 INFO     Starting run 7 (TASK_ID 1) in runs-00001-00100/00007
+2024-03-30 14:21:23,522 INFO     Starting run 10 (TASK_ID 2) in runs-00001-00100/00010
+2024-03-30 14:21:23,522 INFO     Starting run 8 (TASK_ID 3) in runs-00001-00100/00008
+2024-03-30 14:21:23,522 INFO     Starting run 2 (TASK_ID 4) in runs-00001-00100/00002
+2024-03-30 14:22:13,314 INFO     Starting run 6 (TASK_ID 5) in runs-00001-00100/00006
+2024-03-30 14:22:54,897 INFO     Starting run 9 (TASK_ID 6) in runs-00001-00100/00009
+2024-03-30 14:28:11,328 INFO     Starting run 4 (TASK_ID 7) in runs-00001-00100/00004
+2024-03-30 14:30:29,899 INFO     Starting run 5 (TASK_ID 8) in runs-00001-00100/00005
+2024-03-30 14:31:24,175 INFO     Starting run 1 (TASK_ID 9) in runs-00001-00100/00001
+2024-03-30 14:31:24,310 INFO     Starting run 3 (TASK_ID 10) in runs-00001-00100/00003
+2024-03-30 14:41:24,838 INFO     Joining pool processes
+2024-03-30 14:41:24,845 INFO     Running step parse: parse()
+2024-03-30 14:41:24,845 INFO     Running step parse: parse()
+2024-03-30 14:41:24,846 INFO     Running 5 parsers in 10 run directories.
+2024-03-30 14:41:24,846 INFO     Running 5 parsers in 10 run directories.
+2024-03-30 14:41:25,043 INFO     Running step build: build()
+2024-03-30 14:41:25,043 INFO     Running step build: build()
+2024-03-30 14:41:25,043 INFO     Experiment path: "data/barman/good-operators-unit-exp"
+2024-03-30 14:41:25,043 INFO     Experiment path: "data/barman/good-operators-unit-exp"
+2024-03-30 14:41:25,124 INFO     Building 10 runs
+2024-03-30 14:41:25,124 INFO     Building 10 runs
+2024-03-30 14:41:25,129 INFO     Finished building runs
+2024-03-30 14:41:25,129 INFO     Finished building runs
+2024-03-30 14:41:25,129 INFO     Running step start: start_runs()
+2024-03-30 14:41:25,129 INFO     Running step start: start_runs()
+2024-03-30 14:41:25,129 INFO     Executing /home/alvaro/projects/learning-benchmarks/.venv/bin/python run {'cwd': '/home/alvaro/projects/learning-benchmarks/data/barman/good-operators-unit-exp'}
+2024-03-30 14:41:25,129 INFO     Executing /home/alvaro/projects/learning-benchmarks/.venv/bin/python run {'cwd': '/home/alvaro/projects/learning-benchmarks/data/barman/good-operators-unit-exp'}
+2024-03-30 14:41:25,172 INFO     Starting run 1 (TASK_ID 2) in runs-00001-00100/00001
+2024-03-30 14:41:25,172 INFO     Starting run 10 (TASK_ID 1) in runs-00001-00100/00010
+2024-03-30 14:41:25,172 INFO     Starting run 4 (TASK_ID 3) in runs-00001-00100/00004
+2024-03-30 14:41:25,172 INFO     Starting run 3 (TASK_ID 4) in runs-00001-00100/00003
+2024-03-30 14:51:25,803 INFO     Starting run 5 (TASK_ID 5) in runs-00001-00100/00005
+2024-03-30 14:51:25,821 INFO     Starting run 6 (TASK_ID 6) in runs-00001-00100/00006
+2024-03-30 14:51:25,832 INFO     Starting run 8 (TASK_ID 7) in runs-00001-00100/00008
+2024-03-30 14:51:25,916 INFO     Starting run 7 (TASK_ID 8) in runs-00001-00100/00007
+2024-03-30 14:52:20,010 INFO     Starting run 9 (TASK_ID 9) in runs-00001-00100/00009
+2024-03-30 14:54:21,806 INFO     Starting run 2 (TASK_ID 10) in runs-00001-00100/00002
+2024-03-30 15:02:20,543 INFO     Joining pool processes
+2024-03-30 15:02:20,551 INFO     Running step parse: parse()
+2024-03-30 15:02:20,551 INFO     Running step parse: parse()
+2024-03-30 15:02:20,551 INFO     Running 5 parsers in 10 run directories.
+2024-03-30 15:02:20,551 INFO     Running 5 parsers in 10 run directories.
+2024-03-30 15:02:20,750 INFO     Running step build: build()
+2024-03-30 15:02:20,750 INFO     Running step build: build()
+2024-03-30 15:02:20,750 INFO     Experiment path: "data/barman/good-operators-unit-exp"
+2024-03-30 15:02:20,750 INFO     Experiment path: "data/barman/good-operators-unit-exp"
+2024-03-30 15:02:20,833 INFO     Building 10 runs
+2024-03-30 15:02:20,833 INFO     Building 10 runs
+2024-03-30 15:02:20,838 INFO     Finished building runs
+2024-03-30 15:02:20,838 INFO     Finished building runs
+2024-03-30 15:02:20,839 INFO     Running step start: start_runs()
+2024-03-30 15:02:20,839 INFO     Running step start: start_runs()
+2024-03-30 15:02:20,839 INFO     Executing /home/alvaro/projects/learning-benchmarks/.venv/bin/python run {'cwd': '/home/alvaro/projects/learning-benchmarks/data/barman/good-operators-unit-exp'}
+2024-03-30 15:02:20,839 INFO     Executing /home/alvaro/projects/learning-benchmarks/.venv/bin/python run {'cwd': '/home/alvaro/projects/learning-benchmarks/data/barman/good-operators-unit-exp'}
+2024-03-30 15:02:20,882 INFO     Starting run 8 (TASK_ID 1) in runs-00001-00100/00008
+2024-03-30 15:02:20,882 INFO     Starting run 6 (TASK_ID 2) in runs-00001-00100/00006
+2024-03-30 15:02:20,882 INFO     Starting run 2 (TASK_ID 3) in runs-00001-00100/00002
+2024-03-30 15:02:20,882 INFO     Starting run 1 (TASK_ID 4) in runs-00001-00100/00001
+2024-03-30 15:12:21,580 INFO     Starting run 3 (TASK_ID 5) in runs-00001-00100/00003
+2024-03-30 15:12:21,652 INFO     Starting run 9 (TASK_ID 6) in runs-00001-00100/00009
+2024-03-30 15:12:21,735 INFO     Starting run 10 (TASK_ID 7) in runs-00001-00100/00010
+2024-03-30 15:12:21,872 INFO     Starting run 5 (TASK_ID 8) in runs-00001-00100/00005
+2024-03-30 15:22:22,388 INFO     Starting run 7 (TASK_ID 9) in runs-00001-00100/00007
+2024-03-30 15:22:22,395 INFO     Starting run 4 (TASK_ID 10) in runs-00001-00100/00004
+2024-03-30 15:32:23,005 INFO     Joining pool processes
+2024-03-30 15:32:23,012 INFO     Running step parse: parse()
+2024-03-30 15:32:23,012 INFO     Running step parse: parse()
+2024-03-30 15:32:23,013 INFO     Running 5 parsers in 10 run directories.
+2024-03-30 15:32:23,013 INFO     Running 5 parsers in 10 run directories.
+
+Process finished with exit code 0
