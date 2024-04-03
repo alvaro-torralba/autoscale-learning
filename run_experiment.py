@@ -40,7 +40,6 @@ class RunExperiment:
         self.memory_limit = memory_limit
 
     def run (self, path_exp, cached_rev, planner, config, ENV, SUITE, build_options = [], driver_options = [], extra_parsers = []):
-
         exp = Experiment(path=path_exp+ "-exp", environment=ENV)
 
         PLANNER = Path (planner)

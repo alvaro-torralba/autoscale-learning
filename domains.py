@@ -9,6 +9,7 @@ import sys
 TMP_PROBLEM = "tmp-problem.pddl"
 TMP_DOMAIN = "tmp-domain.pddl"
 
+
 class LinearAttr:
     def __init__(self, name, base_attr=None, lower_b=1, upper_b=20):
         self.name = name
@@ -30,7 +31,7 @@ class LinearAttr:
             return True
         else:
             return False
-        
+
     def has_lowest_value(self, cfg):
         return self.lower_b == cfg[f"{self.name}_b"]
 
@@ -38,16 +39,19 @@ class LinearAttr:
         attr = self.name
         val = self.lower_b if self.lower_b == self.upper_b else int(cfg.get(f"{attr}_b"))
         if self.base_attr:
-            val+= cfg[self.base_attr]
+            val += cfg[self.base_attr]
 
         cfg[self.name] = val
 
+    def dominates(self, config, otherconfig):
+        return config[f"{self.name}_b"] <= otherconfig[f"{self.name}_b"]
 
     def __str__(self):
-        return f"Linear(b=[{self.lower_b}, {self.upper_b}], {'' if self.base_attr is None else ' + ' +self.base_attr}])"
+        return f"Linear(b=[{self.lower_b}, {self.upper_b}], {'' if self.base_attr is None else ' + ' + self.base_attr}])"
 
     def __repr__(self):
         return str(self)
+
 
 class GridAttr:
     def __init__(self, name, name_x, name_y, lower_x, upper_x):
@@ -80,23 +84,24 @@ class GridAttr:
         return [cfgcopy]
 
     def set_value(self, cfg):
-        attr = self.name
-
         index = cfg[f"{self.name}_index"]
         cfg[self.name_x] = self.grid_values[index][0]
         cfg[self.name_y] = self.grid_values[index][1]
+
+    def dominates(self, config, otherconfig):
+        return config[f"{self.name}_index"] <= otherconfig[f"{self.name}_index"]
 
     def increment(self, cfg):
         if cfg[f"{self.name}_index"] < len(self.grid_values) - 1:
             cfg[f"{self.name}_index"] += 1
             return True
         return False
+
     def __str__(self):
         return f"Grid(x=[{self.lower_x}, {self.upper_x}])"
 
     def __repr__(self):
         return str(self)
-
 
 
 class ConstantAttr:
@@ -105,11 +110,13 @@ class ConstantAttr:
         self.value = value
 
     def get_lower_values(self, cfg):
-        return [self.value]
+        cfg[self.name] = [self.value]
 
-    def linear_expand(self, cfg):
+    def linear_expand(cfg):
         return []
 
+    def dominates(self, value, other):
+        return True
 
     def set_value(self, cfg):
         cfg[self.name] = self.value
@@ -122,6 +129,7 @@ class ConstantAttr:
 
     def __repr__(self):
         return str(self)
+
 
 class EnumAttr:
     def __init__(self, name, values):
@@ -146,13 +154,17 @@ class EnumAttr:
     def __repr__(self):
         return str(self)
 
+    def dominates(self, config, otherconfig):
+        return config[self.name] == otherconfig[self.name]
+
+
 class Domain:
     def __init__(
             self, name, generator_command, attributes, adapt_parameters=None, discard_sequence_function=None,
             num_sequences_linear_hierarchy=3,
             penalty_for_instances_with_duplicated_parameters=100.0,
-            time_limit_to_consider_trivial=30 # An instance is trivial if the baseline solves it under this time limit
-        ):
+            time_limit_to_consider_trivial=30  # An instance is trivial if the baseline solves it under this time limit
+    ):
         self.name = name
         self.attributes = attributes
         self.generator_command = generator_command
@@ -175,7 +187,6 @@ class Domain:
 
         return cfg
 
-
     def generate_instance(self, generators_dir, parameters, target_problem_file, target_dir):
         command = self.get_generator_command(generators_dir, self.get_config(parameters))
 
@@ -184,14 +195,14 @@ class Domain:
             self.generate_problem(command, target_problem_file, target_dir / "domain.pddl")
         except subprocess.CalledProcessError as err:
             print(err, file=sys.stderr)
-            return (command, False)
+            return command, False
 
-        return (command, True)
+        return command, True
 
     def get_penalty_for_instances_with_duplicated_parameters(self):
         return self.penalty_for_instances_with_duplicated_parameters
 
-    def allow_instances_with_duplicated_parameters(self,intersection):
+    def allow_instances_with_duplicated_parameters(self):
         return (
                 self.penalty_for_instances_with_duplicated_parameters is not None
                 and self.penalty_for_instances_with_duplicated_parameters != math.inf)
@@ -302,7 +313,7 @@ def adapt_parameters_agricola(parameters):
 
 def adapt_parameters_storage(parameters):
     crates, hoists, store_areas, depots = parameters["crates"], parameters["hoists"], parameters["store_areas"], \
-                                          parameters["depots"]
+        parameters["depots"]
     depots = min(depots, 36)
     parameters["depots"] = depots
     parameters["store_areas"] = store_areas + max(depots, hoists, crates)
@@ -373,7 +384,7 @@ DOMAIN_LIST = [
             LinearAttr("goods", lower_b=3, upper_b=10)],
            ),
     # Removed because it is an ADL domain and pre-grounding it generates instances that are just too large
-    #Domain("trucks",
+    # Domain("trucks",
     #       f"trucks-strips.sh {TMP_DOMAIN} {TMP_PROBLEM} -seed {{seed}} -t 1 -l {{locations}} -p {{packages}} -a {{areas}} -n 1",
     #       [LinearAttr("areas", lower_b=2, upper_b=10, upper_m=1, optional_m=True),
     #        LinearAttr("packages", lower_b=2, upper_b=15, upper_m=5),
@@ -429,7 +440,7 @@ DOMAIN_LIST = [
 
     Domain("childsnack",
            "child-snack-generator.py pool {seed} {num_children} {num_trays} {gluten_factor} {const_ratio}",
-           [LinearAttr("num_children", lower_b=2, upper_b=12,),
+           [LinearAttr("num_children", lower_b=2, upper_b=12, ),
             EnumAttr("const_ratio", [1, 1.3, 2]),
             EnumAttr("num_trays", [2, 3, 4]),
             EnumAttr("gluten_factor", [0.4, 0.6, 0.8])]
@@ -486,14 +497,14 @@ DOMAIN_LIST = [
             ],
            adapt_parameters=adapt_parameters_snake
            ),
-# Disabled pathways because generator may return unsolvable instances -> moved to domains-without-generator
-#    Domain("pathways",
-#           f"wrapper.py --seed {{seed}} --reactions {{reactions}} --goals {{num_goals}} --initial-substances {{substances}} {TMP_DOMAIN} {TMP_PROBLEM}",
-#           [LinearAttr("reactions", lower_b=10, upper_b=20, upper_m=10),
-#            LinearAttr("num_goals", lower_b=1, upper_b=10),
-#            LinearAttr("substances", lower_b=2, upper_b=10),
-#            ]
-#           ),
+    # Disabled pathways because generator may return unsolvable instances -> moved to domains-without-generator
+    #    Domain("pathways",
+    #           f"wrapper.py --seed {{seed}} --reactions {{reactions}} --goals {{num_goals}} --initial-substances {{substances}} {TMP_DOMAIN} {TMP_PROBLEM}",
+    #           [LinearAttr("reactions", lower_b=10, upper_b=20, upper_m=10),
+    #            LinearAttr("num_goals", lower_b=1, upper_b=10),
+    #            LinearAttr("substances", lower_b=2, upper_b=10),
+    #            ]
+    #           ),
 
     Domain("scanalyzer",
            "generator.py {size} {segment_type} {inout} --seed {seed}",
@@ -565,15 +576,15 @@ DOMAIN_LIST = [
             ],
            adapt_parameters=adapt_parameters_datanetwork
            ),
-# Disabled agricola because generator may return unsolvable instances -> moved to domains-without-generator
-#    Domain("agricola", "GenAgricola.py {stages} {seed} --num_workers {workers}  {all_workers_flag}",
-           # --num_ints {num_ints} --num_rounds {num_rounds}  num ints, num rounds excluded because they were not used in IPC'18
-#           [LinearAttr("stages", lower_b=3, upper_b=7, lower_m=0.1, upper_m=2),
-#            LinearAttr("workers", lower_b=3, upper_b=7, lower_m=0.1, upper_m=2),
-#            EnumAttr("all_workers", ["false", "true"]),
-#            ],
-#           adapt_parameters=adapt_parameters_agricola
-#           ),
+    # Disabled agricola because generator may return unsolvable instances -> moved to domains-without-generator
+    #    Domain("agricola", "GenAgricola.py {stages} {seed} --num_workers {workers}  {all_workers_flag}",
+    # --num_ints {num_ints} --num_rounds {num_rounds}  num ints, num rounds excluded because they were not used in IPC'18
+    #           [LinearAttr("stages", lower_b=3, upper_b=7, lower_m=0.1, upper_m=2),
+    #            LinearAttr("workers", lower_b=3, upper_b=7, lower_m=0.1, upper_m=2),
+    #            EnumAttr("all_workers", ["false", "true"]),
+    #            ],
+    #           adapt_parameters=adapt_parameters_agricola
+    #           ),
 
     Domain("termes",
            "./generate-autoscale.py {seed} pddl --size_x {x} --size_y {y} --min_height {min_height} --max_height {max_height} --num_towers {num_towers} --ensure_plan --dont_remove_slack",
