@@ -1,0 +1,48 @@
+calibrate satellite3 instrument8 groundstation5
+calibrate satellite3 instrument8 star4
+switch_on instrument8 satellite3
+take_image satellite3 planet11 instrument8 thermograph0
+take_image satellite3 planet8 instrument8 image1
+take_image satellite3 planet9 instrument8 thermograph0
+take_image satellite3 star10 instrument8 image2
+take_image satellite3 star12 instrument8 thermograph0
+take_image satellite3 star7 instrument8 image2
+turn_to satellite1 groundstation3 star7
+turn_to satellite3 groundstation5 groundstation3
+turn_to satellite3 planet11 groundstation5
+turn_to satellite3 planet11 planet9
+turn_to satellite3 planet11 star10
+turn_to satellite3 planet11 star12
+turn_to satellite3 planet11 star4
+turn_to satellite3 planet11 star7
+turn_to satellite3 planet8 planet11
+turn_to satellite3 planet8 planet9
+turn_to satellite3 planet8 star10
+turn_to satellite3 planet8 star12
+turn_to satellite3 planet8 star7
+turn_to satellite3 planet9 groundstation5
+turn_to satellite3 planet9 planet11
+turn_to satellite3 planet9 star10
+turn_to satellite3 planet9 star12
+turn_to satellite3 planet9 star4
+turn_to satellite3 planet9 star7
+turn_to satellite3 star10 groundstation5
+turn_to satellite3 star10 planet11
+turn_to satellite3 star10 planet9
+turn_to satellite3 star10 star12
+turn_to satellite3 star10 star4
+turn_to satellite3 star10 star7
+turn_to satellite3 star12 groundstation5
+turn_to satellite3 star12 planet11
+turn_to satellite3 star12 planet9
+turn_to satellite3 star12 star10
+turn_to satellite3 star12 star4
+turn_to satellite3 star12 star7
+turn_to satellite3 star4 groundstation3
+turn_to satellite3 star7 groundstation5
+turn_to satellite3 star7 planet11
+turn_to satellite3 star7 planet9
+turn_to satellite3 star7 star10
+turn_to satellite3 star7 star12
+turn_to satellite3 star7 star4
+turn_to satellite4 star7 star10

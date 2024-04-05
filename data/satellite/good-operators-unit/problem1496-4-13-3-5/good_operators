@@ -1,0 +1,64 @@
+calibrate satellite0 instrument0 groundstation3
+calibrate satellite1 instrument1 star2
+switch_on instrument0 satellite0
+switch_on instrument1 satellite1
+take_image satellite0 phenomenon16 instrument0 infrared2
+take_image satellite0 phenomenon17 instrument0 infrared2
+take_image satellite0 star13 instrument0 spectrograph0
+take_image satellite0 star14 instrument0 infrared2
+take_image satellite0 star15 instrument0 spectrograph0
+take_image satellite1 phenomenon16 instrument1 infrared2
+take_image satellite1 phenomenon17 instrument1 infrared2
+take_image satellite1 star13 instrument1 spectrograph0
+take_image satellite1 star14 instrument1 infrared2
+take_image satellite1 star15 instrument1 spectrograph0
+turn_to satellite0 phenomenon16 groundstation3
+turn_to satellite0 phenomenon16 phenomenon17
+turn_to satellite0 phenomenon16 star13
+turn_to satellite0 phenomenon16 star14
+turn_to satellite0 phenomenon16 star15
+turn_to satellite0 phenomenon17 groundstation3
+turn_to satellite0 phenomenon17 phenomenon16
+turn_to satellite0 phenomenon17 star13
+turn_to satellite0 phenomenon17 star14
+turn_to satellite0 phenomenon17 star15
+turn_to satellite0 star13 groundstation3
+turn_to satellite0 star13 phenomenon16
+turn_to satellite0 star13 phenomenon17
+turn_to satellite0 star13 star14
+turn_to satellite0 star13 star15
+turn_to satellite0 star14 groundstation3
+turn_to satellite0 star14 phenomenon16
+turn_to satellite0 star14 phenomenon17
+turn_to satellite0 star14 star13
+turn_to satellite0 star14 star15
+turn_to satellite0 star15 groundstation3
+turn_to satellite0 star15 phenomenon16
+turn_to satellite0 star15 phenomenon17
+turn_to satellite0 star15 star13
+turn_to satellite0 star15 star14
+turn_to satellite1 phenomenon16 phenomenon17
+turn_to satellite1 phenomenon16 star13
+turn_to satellite1 phenomenon16 star14
+turn_to satellite1 phenomenon16 star15
+turn_to satellite1 phenomenon16 star2
+turn_to satellite1 phenomenon17 phenomenon16
+turn_to satellite1 phenomenon17 star13
+turn_to satellite1 phenomenon17 star14
+turn_to satellite1 phenomenon17 star15
+turn_to satellite1 phenomenon17 star2
+turn_to satellite1 star13 phenomenon16
+turn_to satellite1 star13 phenomenon17
+turn_to satellite1 star13 star14
+turn_to satellite1 star13 star15
+turn_to satellite1 star13 star2
+turn_to satellite1 star14 phenomenon16
+turn_to satellite1 star14 phenomenon17
+turn_to satellite1 star14 star13
+turn_to satellite1 star14 star15
+turn_to satellite1 star14 star2
+turn_to satellite1 star15 phenomenon16
+turn_to satellite1 star15 phenomenon17
+turn_to satellite1 star15 star13
+turn_to satellite1 star15 star14
+turn_to satellite1 star15 star2

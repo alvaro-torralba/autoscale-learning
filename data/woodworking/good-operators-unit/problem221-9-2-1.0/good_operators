@@ -1,0 +1,93 @@
+do-glaze p0 glazer0 white
+do-glaze p0 glazer1 white
+do-glaze p1 glazer0 white
+do-glaze p1 glazer1 white
+do-glaze p3 glazer1 green
+do-glaze p4 glazer0 red
+do-glaze p4 glazer1 red
+do-glaze p5 glazer0 white
+do-glaze p5 glazer1 white
+do-glaze p6 glazer0 white
+do-glaze p6 glazer1 white
+do-glaze p7 glazer0 mauve
+do-glaze p8 glazer1 blue
+do-grind p5 grinder0 smooth natural untreated untreated
+do-grind p5 grinder1 smooth natural untreated untreated
+do-grind p7 grinder0 smooth natural untreated untreated
+do-grind p7 grinder1 smooth natural untreated untreated
+do-immersion-varnish p2 immersion-varnisher0 blue smooth
+do-immersion-varnish p2 immersion-varnisher0 green smooth
+do-immersion-varnish p2 immersion-varnisher1 mauve smooth
+do-immersion-varnish p2 immersion-varnisher1 white smooth
+do-immersion-varnish p7 immersion-varnisher1 mauve verysmooth
+do-immersion-varnish p8 immersion-varnisher0 blue smooth
+do-plane p4 planer0 rough natural untreated
+do-plane p4 planer1 rough natural untreated
+do-plane p5 planer0 rough natural untreated
+do-plane p5 planer1 rough natural untreated
+do-plane p6 planer0 rough blue glazed
+do-plane p6 planer1 rough blue glazed
+do-plane p7 planer0 rough natural untreated
+do-plane p7 planer1 rough natural untreated
+do-saw-large b0 p1 saw0 cherry rough s3 s1 s2 s0
+do-saw-large b0 p1 saw0 cherry rough s5 s3 s4 s2
+do-saw-large b0 p1 saw1 cherry rough s3 s1 s2 s0
+do-saw-large b0 p1 saw1 cherry rough s5 s3 s4 s2
+do-saw-medium b0 p0 saw0 cherry rough s2 s1 s0
+do-saw-medium b0 p0 saw0 cherry rough s5 s4 s3
+do-saw-medium b0 p0 saw1 cherry rough s2 s1 s0
+do-saw-medium b0 p0 saw1 cherry rough s5 s4 s3
+do-saw-medium b2 p3 saw0 walnut rough s2 s1 s0
+do-saw-medium b2 p3 saw0 walnut rough s3 s2 s1
+do-saw-medium b2 p3 saw0 walnut rough s4 s3 s2
+do-saw-medium b2 p3 saw1 walnut rough s2 s1 s0
+do-saw-medium b2 p3 saw1 walnut rough s3 s2 s1
+do-saw-medium b2 p3 saw1 walnut rough s4 s3 s2
+do-saw-medium b2 p7 saw0 walnut rough s2 s1 s0
+do-saw-medium b2 p7 saw0 walnut rough s3 s2 s1
+do-saw-medium b2 p7 saw0 walnut rough s4 s3 s2
+do-saw-medium b2 p7 saw1 walnut rough s2 s1 s0
+do-saw-medium b2 p7 saw1 walnut rough s3 s2 s1
+do-saw-medium b2 p7 saw1 walnut rough s4 s3 s2
+do-saw-medium b3 p3 saw0 walnut rough s2 s1 s0
+do-saw-medium b3 p3 saw1 walnut rough s2 s1 s0
+do-saw-medium b3 p7 saw0 walnut rough s2 s1 s0
+do-saw-medium b3 p7 saw1 walnut rough s2 s1 s0
+do-saw-small b1 p2 saw0 cherry smooth s1 s0
+do-saw-small b1 p2 saw0 cherry smooth s2 s1
+do-saw-small b1 p2 saw1 cherry smooth s1 s0
+do-saw-small b1 p2 saw1 cherry smooth s2 s1
+do-saw-small b1 p8 saw0 cherry smooth s1 s0
+do-saw-small b1 p8 saw0 cherry smooth s2 s1
+do-saw-small b1 p8 saw1 cherry smooth s1 s0
+do-saw-small b1 p8 saw1 cherry smooth s2 s1
+do-saw-small b2 p4 saw0 walnut rough s1 s0
+do-saw-small b2 p4 saw0 walnut rough s2 s1
+do-saw-small b2 p4 saw0 walnut rough s3 s2
+do-saw-small b2 p4 saw0 walnut rough s4 s3
+do-saw-small b2 p4 saw1 walnut rough s1 s0
+do-saw-small b2 p4 saw1 walnut rough s2 s1
+do-saw-small b2 p4 saw1 walnut rough s3 s2
+do-saw-small b2 p4 saw1 walnut rough s4 s3
+do-saw-small b2 p5 saw0 walnut rough s1 s0
+do-saw-small b2 p5 saw0 walnut rough s2 s1
+do-saw-small b2 p5 saw0 walnut rough s3 s2
+do-saw-small b2 p5 saw0 walnut rough s4 s3
+do-saw-small b2 p5 saw1 walnut rough s1 s0
+do-saw-small b2 p5 saw1 walnut rough s2 s1
+do-saw-small b2 p5 saw1 walnut rough s3 s2
+do-saw-small b2 p5 saw1 walnut rough s4 s3
+do-saw-small b3 p4 saw0 walnut rough s1 s0
+do-saw-small b3 p4 saw0 walnut rough s2 s1
+do-saw-small b3 p4 saw1 walnut rough s1 s0
+do-saw-small b3 p4 saw1 walnut rough s2 s1
+do-saw-small b3 p5 saw0 walnut rough s1 s0
+do-saw-small b3 p5 saw0 walnut rough s2 s1
+do-saw-small b3 p5 saw1 walnut rough s1 s0
+do-saw-small b3 p5 saw1 walnut rough s2 s1
+do-spray-varnish p2 spray-varnisher0 green smooth
+do-spray-varnish p2 spray-varnisher0 white smooth
+do-spray-varnish p2 spray-varnisher1 blue smooth
+do-spray-varnish p2 spray-varnisher1 mauve smooth
+do-spray-varnish p7 spray-varnisher1 mauve verysmooth
+do-spray-varnish p8 spray-varnisher1 blue smooth

@@ -1,0 +1,156 @@
+do-glaze p0 glazer0 white
+do-glaze p0 glazer2 white
+do-glaze p10 glazer0 natural
+do-glaze p10 glazer0 red
+do-glaze p10 glazer0 white
+do-glaze p10 glazer1 blue
+do-glaze p10 glazer2 natural
+do-glaze p10 glazer2 red
+do-glaze p10 glazer2 white
+do-glaze p2 glazer0 white
+do-glaze p2 glazer2 white
+do-glaze p5 glazer0 red
+do-glaze p5 glazer2 red
+do-glaze p6 glazer0 white
+do-glaze p6 glazer2 white
+do-glaze p7 glazer0 white
+do-glaze p7 glazer2 white
+do-glaze p8 glazer1 blue
+do-glaze p9 glazer0 natural
+do-glaze p9 glazer2 natural
+do-grind p2 grinder0 smooth red glazed untreated
+do-grind p2 grinder1 smooth red glazed untreated
+do-grind p2 grinder2 smooth red glazed untreated
+do-grind p4 grinder0 smooth natural untreated untreated
+do-grind p4 grinder0 verysmooth green varnished colourfragments
+do-grind p4 grinder0 verysmooth natural colourfragments untreated
+do-grind p4 grinder1 smooth natural untreated untreated
+do-grind p4 grinder1 verysmooth green varnished colourfragments
+do-grind p4 grinder1 verysmooth natural colourfragments untreated
+do-grind p4 grinder2 smooth natural untreated untreated
+do-grind p4 grinder2 verysmooth green varnished colourfragments
+do-grind p4 grinder2 verysmooth natural colourfragments untreated
+do-grind p7 grinder0 smooth natural untreated untreated
+do-grind p7 grinder1 smooth natural untreated untreated
+do-grind p7 grinder2 smooth natural untreated untreated
+do-grind p8 grinder0 verysmooth mauve glazed untreated
+do-grind p8 grinder1 verysmooth mauve glazed untreated
+do-grind p8 grinder2 verysmooth mauve glazed untreated
+do-immersion-varnish p0 immersion-varnisher0 white smooth
+do-immersion-varnish p0 immersion-varnisher1 white smooth
+do-immersion-varnish p1 immersion-varnisher0 blue smooth
+do-immersion-varnish p1 immersion-varnisher0 white smooth
+do-immersion-varnish p1 immersion-varnisher1 blue smooth
+do-immersion-varnish p1 immersion-varnisher1 white smooth
+do-immersion-varnish p1 immersion-varnisher2 blue smooth
+do-immersion-varnish p2 immersion-varnisher0 white smooth
+do-immersion-varnish p2 immersion-varnisher0 white verysmooth
+do-immersion-varnish p2 immersion-varnisher1 white smooth
+do-immersion-varnish p2 immersion-varnisher1 white verysmooth
+do-immersion-varnish p3 immersion-varnisher0 blue smooth
+do-immersion-varnish p3 immersion-varnisher1 blue smooth
+do-immersion-varnish p3 immersion-varnisher2 blue smooth
+do-immersion-varnish p4 immersion-varnisher0 white verysmooth
+do-immersion-varnish p4 immersion-varnisher1 white verysmooth
+do-immersion-varnish p8 immersion-varnisher0 blue verysmooth
+do-immersion-varnish p8 immersion-varnisher1 blue verysmooth
+do-immersion-varnish p8 immersion-varnisher2 blue verysmooth
+do-plane p0 planer0 rough green glazed
+do-plane p0 planer1 rough green glazed
+do-plane p0 planer2 rough green glazed
+do-plane p1 planer0 verysmooth mauve glazed
+do-plane p1 planer1 verysmooth mauve glazed
+do-plane p1 planer2 verysmooth mauve glazed
+do-plane p10 planer0 rough natural untreated
+do-plane p10 planer1 rough natural untreated
+do-plane p10 planer2 rough natural untreated
+do-plane p2 planer0 smooth red glazed
+do-plane p2 planer1 smooth red glazed
+do-plane p2 planer2 smooth red glazed
+do-plane p3 planer0 rough natural varnished
+do-plane p3 planer1 rough natural varnished
+do-plane p3 planer2 rough natural varnished
+do-plane p4 planer0 verysmooth green varnished
+do-plane p4 planer1 verysmooth green varnished
+do-plane p4 planer2 verysmooth green varnished
+do-plane p7 planer0 rough natural untreated
+do-plane p7 planer1 rough natural untreated
+do-plane p7 planer2 rough natural untreated
+do-plane p9 planer0 rough black colourfragments
+do-plane p9 planer1 rough black colourfragments
+do-plane p9 planer2 rough black colourfragments
+do-saw-large b0 p10 saw0 pine rough s3 s1 s2 s0
+do-saw-large b0 p10 saw0 pine rough s4 s2 s3 s1
+do-saw-large b0 p10 saw0 pine rough s5 s3 s4 s2
+do-saw-large b0 p10 saw0 pine rough s6 s4 s5 s3
+do-saw-large b0 p10 saw1 pine rough s3 s1 s2 s0
+do-saw-large b0 p10 saw1 pine rough s4 s2 s3 s1
+do-saw-large b0 p10 saw1 pine rough s5 s3 s4 s2
+do-saw-large b0 p10 saw1 pine rough s6 s4 s5 s3
+do-saw-large b0 p10 saw2 pine rough s3 s1 s2 s0
+do-saw-large b0 p10 saw2 pine rough s4 s2 s3 s1
+do-saw-large b0 p10 saw2 pine rough s5 s3 s4 s2
+do-saw-large b0 p10 saw2 pine rough s6 s4 s5 s3
+do-saw-large b0 p5 saw0 pine rough s3 s1 s2 s0
+do-saw-large b0 p5 saw0 pine rough s4 s2 s3 s1
+do-saw-large b0 p5 saw0 pine rough s5 s3 s4 s2
+do-saw-large b0 p5 saw0 pine rough s6 s4 s5 s3
+do-saw-large b0 p5 saw1 pine rough s3 s1 s2 s0
+do-saw-large b0 p5 saw1 pine rough s4 s2 s3 s1
+do-saw-large b0 p5 saw1 pine rough s5 s3 s4 s2
+do-saw-large b0 p5 saw1 pine rough s6 s4 s5 s3
+do-saw-large b0 p5 saw2 pine rough s3 s1 s2 s0
+do-saw-large b0 p5 saw2 pine rough s4 s2 s3 s1
+do-saw-large b0 p5 saw2 pine rough s5 s3 s4 s2
+do-saw-large b0 p5 saw2 pine rough s6 s4 s5 s3
+do-saw-large b1 p10 saw0 oak rough s3 s1 s2 s0
+do-saw-large b1 p10 saw1 oak rough s3 s1 s2 s0
+do-saw-large b1 p10 saw2 oak rough s3 s1 s2 s0
+do-saw-large b1 p5 saw0 oak rough s3 s1 s2 s0
+do-saw-large b1 p5 saw1 oak rough s3 s1 s2 s0
+do-saw-large b1 p5 saw2 oak rough s3 s1 s2 s0
+do-saw-medium b0 p6 saw0 pine rough s2 s1 s0
+do-saw-medium b0 p6 saw0 pine rough s3 s2 s1
+do-saw-medium b0 p6 saw0 pine rough s5 s4 s3
+do-saw-medium b0 p6 saw0 pine rough s6 s5 s4
+do-saw-medium b0 p6 saw1 pine rough s2 s1 s0
+do-saw-medium b0 p6 saw1 pine rough s3 s2 s1
+do-saw-medium b0 p6 saw1 pine rough s5 s4 s3
+do-saw-medium b0 p6 saw1 pine rough s6 s5 s4
+do-saw-medium b0 p6 saw2 pine rough s2 s1 s0
+do-saw-medium b0 p6 saw2 pine rough s3 s2 s1
+do-saw-medium b0 p6 saw2 pine rough s5 s4 s3
+do-saw-medium b0 p6 saw2 pine rough s6 s5 s4
+do-saw-small b0 p7 saw0 pine rough s1 s0
+do-saw-small b0 p7 saw0 pine rough s3 s2
+do-saw-small b0 p7 saw0 pine rough s4 s3
+do-saw-small b0 p7 saw0 pine rough s6 s5
+do-saw-small b0 p7 saw1 pine rough s1 s0
+do-saw-small b0 p7 saw1 pine rough s3 s2
+do-saw-small b0 p7 saw1 pine rough s4 s3
+do-saw-small b0 p7 saw1 pine rough s6 s5
+do-saw-small b0 p7 saw2 pine rough s1 s0
+do-saw-small b0 p7 saw2 pine rough s3 s2
+do-saw-small b0 p7 saw2 pine rough s4 s3
+do-saw-small b0 p7 saw2 pine rough s6 s5
+do-spray-varnish p0 spray-varnisher0 white smooth
+do-spray-varnish p0 spray-varnisher1 white smooth
+do-spray-varnish p0 spray-varnisher2 white smooth
+do-spray-varnish p1 spray-varnisher0 blue smooth
+do-spray-varnish p1 spray-varnisher0 white smooth
+do-spray-varnish p1 spray-varnisher1 blue smooth
+do-spray-varnish p1 spray-varnisher1 white smooth
+do-spray-varnish p1 spray-varnisher2 white smooth
+do-spray-varnish p2 spray-varnisher0 white smooth
+do-spray-varnish p2 spray-varnisher0 white verysmooth
+do-spray-varnish p2 spray-varnisher1 white smooth
+do-spray-varnish p2 spray-varnisher1 white verysmooth
+do-spray-varnish p2 spray-varnisher2 white smooth
+do-spray-varnish p2 spray-varnisher2 white verysmooth
+do-spray-varnish p3 spray-varnisher0 blue smooth
+do-spray-varnish p3 spray-varnisher1 blue smooth
+do-spray-varnish p4 spray-varnisher0 white verysmooth
+do-spray-varnish p4 spray-varnisher1 white verysmooth
+do-spray-varnish p4 spray-varnisher2 white verysmooth
+do-spray-varnish p8 spray-varnisher0 blue verysmooth
+do-spray-varnish p8 spray-varnisher1 blue verysmooth

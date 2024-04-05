@@ -1,0 +1,7 @@
+drive-truck t2 l2-0 l2-1 c2
+drive-truck t2 l2-2 l2-0 c2
+fly-airplane a1 l0-0 l2-0
+load-airplane p0 a1 l0-0
+load-truck p0 t2 l2-0
+unload-airplane p0 a1 l2-0
+unload-truck p0 t2 l2-1

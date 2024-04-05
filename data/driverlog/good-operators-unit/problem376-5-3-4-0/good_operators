@@ -1,0 +1,11 @@
+board-truck driver2 truck3 s0
+board-truck driver3 truck3 s3
+disembark-truck driver2 truck3 s1
+disembark-truck driver3 truck3 s0
+drive-truck truck3 s0 s2 driver2
+drive-truck truck3 s2 s1 driver2
+drive-truck truck3 s3 s0 driver3
+load-truck package1 truck3 s0
+unload-truck package1 truck3 s2
+walk driver5 p1-2 s1
+walk driver5 s2 p1-2

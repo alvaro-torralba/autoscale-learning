@@ -1,0 +1,51 @@
+calibrate rover0 camera2 objective2 waypoint2
+calibrate rover0 camera2 objective2 waypoint4
+calibrate rover0 camera2 objective2 waypoint6
+communicate_image_data rover0 general objective1 colour waypoint0 waypoint5
+communicate_image_data rover0 general objective1 colour waypoint1 waypoint5
+communicate_image_data rover0 general objective1 colour waypoint2 waypoint5
+communicate_image_data rover0 general objective1 colour waypoint4 waypoint5
+communicate_image_data rover0 general objective1 colour waypoint6 waypoint5
+communicate_image_data rover0 general objective1 colour waypoint8 waypoint5
+communicate_rock_data rover0 general waypoint0 waypoint0 waypoint5
+communicate_rock_data rover0 general waypoint0 waypoint1 waypoint5
+communicate_rock_data rover0 general waypoint0 waypoint2 waypoint5
+communicate_rock_data rover0 general waypoint0 waypoint4 waypoint5
+communicate_rock_data rover0 general waypoint0 waypoint6 waypoint5
+communicate_rock_data rover0 general waypoint0 waypoint8 waypoint5
+communicate_rock_data rover0 general waypoint3 waypoint0 waypoint5
+communicate_rock_data rover0 general waypoint3 waypoint1 waypoint5
+communicate_rock_data rover0 general waypoint3 waypoint2 waypoint5
+communicate_rock_data rover0 general waypoint3 waypoint4 waypoint5
+communicate_rock_data rover0 general waypoint3 waypoint6 waypoint5
+communicate_rock_data rover0 general waypoint3 waypoint8 waypoint5
+communicate_soil_data rover0 general waypoint2 waypoint0 waypoint5
+communicate_soil_data rover0 general waypoint2 waypoint1 waypoint5
+communicate_soil_data rover0 general waypoint2 waypoint2 waypoint5
+communicate_soil_data rover0 general waypoint2 waypoint4 waypoint5
+communicate_soil_data rover0 general waypoint2 waypoint6 waypoint5
+communicate_soil_data rover0 general waypoint2 waypoint8 waypoint5
+communicate_soil_data rover0 general waypoint4 waypoint0 waypoint5
+communicate_soil_data rover0 general waypoint4 waypoint1 waypoint5
+communicate_soil_data rover0 general waypoint4 waypoint2 waypoint5
+communicate_soil_data rover0 general waypoint4 waypoint4 waypoint5
+communicate_soil_data rover0 general waypoint4 waypoint6 waypoint5
+communicate_soil_data rover0 general waypoint4 waypoint8 waypoint5
+drop rover0 rover0store
+navigate rover0 waypoint0 waypoint1
+navigate rover0 waypoint1 waypoint0
+navigate rover0 waypoint1 waypoint4
+navigate rover0 waypoint1 waypoint8
+navigate rover0 waypoint2 waypoint6
+navigate rover0 waypoint3 waypoint6
+navigate rover0 waypoint4 waypoint1
+navigate rover0 waypoint6 waypoint2
+navigate rover0 waypoint6 waypoint3
+navigate rover0 waypoint6 waypoint8
+navigate rover0 waypoint8 waypoint1
+navigate rover0 waypoint8 waypoint6
+sample_rock rover0 rover0store waypoint0
+sample_rock rover0 rover0store waypoint3
+sample_soil rover0 rover0store waypoint2
+sample_soil rover0 rover0store waypoint4
+take_image rover0 waypoint2 objective1 camera2 colour

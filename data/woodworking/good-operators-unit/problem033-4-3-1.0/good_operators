@@ -1,0 +1,61 @@
+do-glaze p0 glazer1 mauve
+do-glaze p0 glazer2 mauve
+do-glaze p1 glazer0 blue
+do-glaze p1 glazer1 blue
+do-glaze p1 glazer2 blue
+do-glaze p3 glazer0 blue
+do-glaze p3 glazer1 blue
+do-glaze p3 glazer2 blue
+do-grind p3 grinder0 smooth natural untreated untreated
+do-grind p3 grinder1 smooth natural untreated untreated
+do-grind p3 grinder2 smooth natural untreated untreated
+do-immersion-varnish p2 immersion-varnisher0 mauve smooth
+do-immersion-varnish p2 immersion-varnisher1 mauve smooth
+do-plane p2 planer0 rough natural untreated
+do-plane p2 planer1 rough natural untreated
+do-plane p2 planer2 rough natural untreated
+do-plane p3 planer0 rough natural untreated
+do-plane p3 planer1 rough natural untreated
+do-plane p3 planer2 rough natural untreated
+do-saw-large b0 p3 saw0 cherry rough s3 s1 s2 s0
+do-saw-large b0 p3 saw0 cherry rough s4 s2 s3 s1
+do-saw-large b0 p3 saw0 cherry rough s5 s3 s4 s2
+do-saw-large b0 p3 saw0 cherry rough s6 s4 s5 s3
+do-saw-large b0 p3 saw1 cherry rough s3 s1 s2 s0
+do-saw-large b0 p3 saw1 cherry rough s4 s2 s3 s1
+do-saw-large b0 p3 saw1 cherry rough s5 s3 s4 s2
+do-saw-large b0 p3 saw1 cherry rough s6 s4 s5 s3
+do-saw-large b0 p3 saw2 cherry rough s3 s1 s2 s0
+do-saw-large b0 p3 saw2 cherry rough s4 s2 s3 s1
+do-saw-large b0 p3 saw2 cherry rough s5 s3 s4 s2
+do-saw-large b0 p3 saw2 cherry rough s6 s4 s5 s3
+do-saw-medium b0 p0 saw0 cherry rough s2 s1 s0
+do-saw-medium b0 p0 saw0 cherry rough s3 s2 s1
+do-saw-medium b0 p0 saw0 cherry rough s5 s4 s3
+do-saw-medium b0 p0 saw0 cherry rough s6 s5 s4
+do-saw-medium b0 p0 saw1 cherry rough s2 s1 s0
+do-saw-medium b0 p0 saw1 cherry rough s3 s2 s1
+do-saw-medium b0 p0 saw1 cherry rough s5 s4 s3
+do-saw-medium b0 p0 saw1 cherry rough s6 s5 s4
+do-saw-medium b0 p0 saw2 cherry rough s2 s1 s0
+do-saw-medium b0 p0 saw2 cherry rough s3 s2 s1
+do-saw-medium b0 p0 saw2 cherry rough s5 s4 s3
+do-saw-medium b0 p0 saw2 cherry rough s6 s5 s4
+do-saw-small b0 p1 saw0 cherry rough s1 s0
+do-saw-small b0 p1 saw0 cherry rough s3 s2
+do-saw-small b0 p1 saw0 cherry rough s4 s3
+do-saw-small b0 p1 saw0 cherry rough s6 s5
+do-saw-small b0 p1 saw1 cherry rough s1 s0
+do-saw-small b0 p1 saw1 cherry rough s3 s2
+do-saw-small b0 p1 saw1 cherry rough s4 s3
+do-saw-small b0 p1 saw1 cherry rough s6 s5
+do-saw-small b0 p1 saw2 cherry rough s1 s0
+do-saw-small b0 p1 saw2 cherry rough s3 s2
+do-saw-small b0 p1 saw2 cherry rough s4 s3
+do-saw-small b0 p1 saw2 cherry rough s6 s5
+do-saw-small b1 p2 saw0 walnut rough s1 s0
+do-saw-small b1 p2 saw1 walnut rough s1 s0
+do-saw-small b1 p2 saw2 walnut rough s1 s0
+do-spray-varnish p2 spray-varnisher0 mauve smooth
+do-spray-varnish p2 spray-varnisher1 mauve smooth
+do-spray-varnish p2 spray-varnisher2 mauve smooth

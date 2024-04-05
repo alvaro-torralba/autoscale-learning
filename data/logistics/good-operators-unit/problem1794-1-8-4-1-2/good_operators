@@ -1,0 +1,11 @@
+drive-truck t5 l5-0 l5-2 c5
+drive-truck t5 l5-3 l5-0 c5
+drive-truck t8 l3-1 l3-0 c3
+fly-airplane a0 l3-0 l5-0
+fly-airplane a0 l5-0 l3-0
+load-airplane p0 a0 l3-0
+load-truck p0 t5 l5-0
+load-truck p0 t8 l3-1
+unload-airplane p0 a0 l5-0
+unload-truck p0 t5 l5-2
+unload-truck p0 t8 l3-0

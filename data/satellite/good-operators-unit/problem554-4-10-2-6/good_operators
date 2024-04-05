@@ -1,0 +1,51 @@
+calibrate satellite2 instrument5 star3
+switch_on instrument5 satellite2
+take_image satellite2 phenomenon13 instrument5 spectrograph0
+take_image satellite2 phenomenon15 instrument5 image1
+take_image satellite2 planet10 instrument5 image1
+take_image satellite2 planet11 instrument5 spectrograph0
+take_image satellite2 planet12 instrument5 image1
+take_image satellite2 planet14 instrument5 spectrograph0
+turn_to satellite0 groundstation8 star0
+turn_to satellite2 phenomenon13 phenomenon15
+turn_to satellite2 phenomenon13 planet10
+turn_to satellite2 phenomenon13 planet11
+turn_to satellite2 phenomenon13 planet12
+turn_to satellite2 phenomenon13 planet14
+turn_to satellite2 phenomenon13 star3
+turn_to satellite2 phenomenon15 phenomenon13
+turn_to satellite2 phenomenon15 planet10
+turn_to satellite2 phenomenon15 planet11
+turn_to satellite2 phenomenon15 planet12
+turn_to satellite2 phenomenon15 planet14
+turn_to satellite2 phenomenon15 star3
+turn_to satellite2 planet10 phenomenon13
+turn_to satellite2 planet10 phenomenon15
+turn_to satellite2 planet10 planet11
+turn_to satellite2 planet10 planet12
+turn_to satellite2 planet10 planet14
+turn_to satellite2 planet10 star3
+turn_to satellite2 planet11 phenomenon13
+turn_to satellite2 planet11 phenomenon15
+turn_to satellite2 planet11 planet10
+turn_to satellite2 planet11 planet12
+turn_to satellite2 planet11 planet14
+turn_to satellite2 planet11 star3
+turn_to satellite2 planet12 phenomenon13
+turn_to satellite2 planet12 phenomenon15
+turn_to satellite2 planet12 planet10
+turn_to satellite2 planet12 planet11
+turn_to satellite2 planet12 planet14
+turn_to satellite2 planet12 star3
+turn_to satellite2 planet14 phenomenon13
+turn_to satellite2 planet14 phenomenon15
+turn_to satellite2 planet14 planet10
+turn_to satellite2 planet14 planet11
+turn_to satellite2 planet14 planet12
+turn_to satellite2 planet14 star3
+turn_to satellite2 star2 phenomenon13
+turn_to satellite2 star2 phenomenon15
+turn_to satellite2 star2 planet10
+turn_to satellite2 star2 planet11
+turn_to satellite2 star2 planet12
+turn_to satellite2 star2 planet14

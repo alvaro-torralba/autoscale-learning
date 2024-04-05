@@ -1,0 +1,17 @@
+do-glaze p0 glazer1 blue
+do-glaze p1 glazer0 white
+do-glaze p1 glazer1 white
+do-glaze p1 glazer2 white
+do-immersion-varnish p0 immersion-varnisher0 blue smooth
+do-immersion-varnish p0 immersion-varnisher1 blue smooth
+do-immersion-varnish p0 immersion-varnisher2 blue smooth
+do-plane p0 planer0 rough natural untreated
+do-plane p0 planer1 rough natural untreated
+do-plane p0 planer2 rough natural untreated
+do-saw-large b1 p1 saw0 teak rough s3 s1 s2 s0
+do-saw-large b1 p1 saw1 teak rough s3 s1 s2 s0
+do-saw-large b1 p1 saw2 teak rough s3 s1 s2 s0
+do-saw-small b0 p0 saw0 beech rough s1 s0
+do-saw-small b0 p0 saw1 beech rough s1 s0
+do-saw-small b0 p0 saw2 beech rough s1 s0
+do-spray-varnish p0 spray-varnisher0 blue smooth

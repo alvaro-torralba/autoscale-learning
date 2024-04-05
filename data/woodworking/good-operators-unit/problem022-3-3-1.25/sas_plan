@@ -1,0 +1,8 @@
+(do-saw-small b0 p0 saw0 oak rough s3 s2)
+(do-saw-medium b1 p1 saw0 mahogany rough s3 s2 s1)
+(do-glaze p1 glazer0 natural)
+(do-glaze p0 glazer0 natural)
+(do-saw-small b0 p2 saw0 oak rough s2 s1)
+(do-plane p2 planer0 rough natural untreated)
+(do-glaze p2 glazer0 white)
+; cost = 135 (general cost)

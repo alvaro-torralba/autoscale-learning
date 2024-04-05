@@ -1,0 +1,9 @@
+calibrate rover2 camera2 objective0 waypoint3
+communicate_image_data rover2 general objective1 colour waypoint3 waypoint2
+communicate_soil_data rover7 general waypoint3 waypoint3 waypoint2
+communicate_soil_data rover8 general waypoint3 waypoint3 waypoint2
+navigate rover7 waypoint0 waypoint3
+navigate rover8 waypoint2 waypoint3
+sample_soil rover7 rover7store waypoint3
+sample_soil rover8 rover8store waypoint3
+take_image rover2 waypoint3 objective1 camera2 colour

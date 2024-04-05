@@ -1,0 +1,8 @@
+(do-plane p0 planer0 rough natural glazed)
+(do-grind p0 grinder0 smooth natural untreated untreated)
+(do-glaze p0 glazer0 red)
+(do-saw-medium b0 p1 saw0 oak rough s4 s3 s2)
+(do-plane p1 planer0 rough natural untreated)
+(do-grind p1 grinder0 smooth natural untreated untreated)
+(do-glaze p1 glazer0 red)
+; cost = 190 (general cost)

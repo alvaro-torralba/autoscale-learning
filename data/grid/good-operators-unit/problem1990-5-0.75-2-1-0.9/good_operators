@@ -1,0 +1,33 @@
+move pos0-3 pos0-4
+move pos0-3 pos1-3
+move pos0-4 pos0-3
+move pos1-3 pos0-3
+move pos1-3 pos2-3
+move pos2-2 pos2-3
+move pos2-2 pos3-2
+move pos2-3 pos1-3
+move pos2-3 pos2-2
+move pos2-3 pos3-3
+move pos3-1 pos3-0
+move pos3-1 pos3-2
+move pos3-2 pos2-2
+move pos3-2 pos3-1
+move pos3-2 pos3-3
+move pos3-3 pos2-3
+move pos3-3 pos3-2
+pickup pos0-4 key1
+pickup pos3-3 key0
+pickup-and-loose pos3-2 key0 key1
+pickup-and-loose pos3-2 key0 key2
+pickup-and-loose pos3-2 key1 key0
+pickup-and-loose pos3-2 key2 key0
+putdown pos2-2 key2
+putdown pos3-0 key1
+unlock pos0-3 pos0-4 key2 shape1
+unlock pos1-3 pos0-3 key2 shape1
+unlock pos2-3 pos1-3 key2 shape1
+unlock pos3-1 pos3-0 key0 shape0
+unlock pos3-2 pos3-1 key1 shape1
+unlock pos3-2 pos3-1 key2 shape1
+unlock pos3-3 pos2-3 key0 shape0
+unlock pos3-3 pos3-2 key0 shape0

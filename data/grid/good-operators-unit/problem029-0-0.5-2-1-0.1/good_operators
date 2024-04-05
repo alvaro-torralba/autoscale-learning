@@ -1,0 +1,6 @@
+move pos1-0 pos2-0
+move pos2-0 pos2-1
+move pos2-1 pos2-2
+pickup pos2-0 key0
+putdown pos2-2 key0
+unlock pos2-1 pos2-2 key0 shape0

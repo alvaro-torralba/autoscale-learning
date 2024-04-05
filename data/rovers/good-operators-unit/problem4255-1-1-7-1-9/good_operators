@@ -1,0 +1,11 @@
+calibrate rover0 camera0 objective0 waypoint5
+calibrate rover0 camera1 objective0 waypoint5
+calibrate rover0 camera4 objective0 waypoint5
+calibrate rover0 camera6 objective0 waypoint5
+communicate_image_data rover0 general objective0 low_res waypoint5 waypoint8
+navigate rover0 waypoint2 waypoint5
+navigate rover0 waypoint8 waypoint2
+take_image rover0 waypoint5 objective0 camera0 low_res
+take_image rover0 waypoint5 objective0 camera1 low_res
+take_image rover0 waypoint5 objective0 camera4 low_res
+take_image rover0 waypoint5 objective0 camera6 low_res

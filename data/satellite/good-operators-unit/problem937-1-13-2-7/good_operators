@@ -1,0 +1,60 @@
+calibrate satellite0 instrument0 groundstation10
+calibrate satellite0 instrument0 groundstation8
+switch_on instrument0 satellite0
+take_image satellite0 phenomenon13 instrument0 thermograph0
+take_image satellite0 phenomenon15 instrument0 thermograph0
+take_image satellite0 phenomenon19 instrument0 thermograph0
+take_image satellite0 planet16 instrument0 infrared1
+take_image satellite0 planet18 instrument0 thermograph0
+take_image satellite0 star14 instrument0 infrared1
+take_image satellite0 star17 instrument0 thermograph0
+turn_to satellite0 groundstation10 groundstation5
+turn_to satellite0 groundstation8 groundstation5
+turn_to satellite0 phenomenon13 groundstation10
+turn_to satellite0 phenomenon13 groundstation8
+turn_to satellite0 phenomenon13 phenomenon15
+turn_to satellite0 phenomenon13 phenomenon19
+turn_to satellite0 phenomenon13 planet16
+turn_to satellite0 phenomenon13 planet18
+turn_to satellite0 phenomenon13 star17
+turn_to satellite0 phenomenon15 groundstation10
+turn_to satellite0 phenomenon15 groundstation8
+turn_to satellite0 phenomenon15 phenomenon13
+turn_to satellite0 phenomenon15 phenomenon19
+turn_to satellite0 phenomenon15 planet16
+turn_to satellite0 phenomenon15 planet18
+turn_to satellite0 phenomenon15 star17
+turn_to satellite0 phenomenon19 groundstation10
+turn_to satellite0 phenomenon19 groundstation8
+turn_to satellite0 phenomenon19 phenomenon13
+turn_to satellite0 phenomenon19 phenomenon15
+turn_to satellite0 phenomenon19 planet16
+turn_to satellite0 phenomenon19 planet18
+turn_to satellite0 phenomenon19 star17
+turn_to satellite0 planet16 groundstation10
+turn_to satellite0 planet16 groundstation8
+turn_to satellite0 planet16 phenomenon13
+turn_to satellite0 planet16 phenomenon15
+turn_to satellite0 planet16 phenomenon19
+turn_to satellite0 planet16 planet18
+turn_to satellite0 planet16 star17
+turn_to satellite0 planet18 groundstation10
+turn_to satellite0 planet18 groundstation8
+turn_to satellite0 planet18 phenomenon13
+turn_to satellite0 planet18 phenomenon15
+turn_to satellite0 planet18 phenomenon19
+turn_to satellite0 planet18 planet16
+turn_to satellite0 planet18 star17
+turn_to satellite0 star14 phenomenon13
+turn_to satellite0 star14 phenomenon15
+turn_to satellite0 star14 phenomenon19
+turn_to satellite0 star14 planet16
+turn_to satellite0 star14 planet18
+turn_to satellite0 star14 star17
+turn_to satellite0 star17 groundstation10
+turn_to satellite0 star17 groundstation8
+turn_to satellite0 star17 phenomenon13
+turn_to satellite0 star17 phenomenon15
+turn_to satellite0 star17 phenomenon19
+turn_to satellite0 star17 planet16
+turn_to satellite0 star17 planet18

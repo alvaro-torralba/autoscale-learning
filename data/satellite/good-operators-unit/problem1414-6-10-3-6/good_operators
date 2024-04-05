@@ -1,0 +1,50 @@
+calibrate satellite5 instrument11 groundstation5
+switch_on instrument11 satellite5
+take_image satellite5 phenomenon10 instrument11 spectrograph0
+take_image satellite5 phenomenon14 instrument11 thermograph2
+take_image satellite5 phenomenon15 instrument11 spectrograph0
+take_image satellite5 planet11 instrument11 spectrograph1
+take_image satellite5 planet12 instrument11 spectrograph0
+take_image satellite5 star13 instrument11 spectrograph0
+turn_to satellite5 groundstation3 phenomenon10
+turn_to satellite5 groundstation3 phenomenon14
+turn_to satellite5 groundstation3 phenomenon15
+turn_to satellite5 groundstation3 planet11
+turn_to satellite5 groundstation3 planet12
+turn_to satellite5 groundstation3 star13
+turn_to satellite5 phenomenon10 groundstation5
+turn_to satellite5 phenomenon10 phenomenon14
+turn_to satellite5 phenomenon10 phenomenon15
+turn_to satellite5 phenomenon10 planet11
+turn_to satellite5 phenomenon10 planet12
+turn_to satellite5 phenomenon10 star13
+turn_to satellite5 phenomenon14 groundstation5
+turn_to satellite5 phenomenon14 phenomenon10
+turn_to satellite5 phenomenon14 phenomenon15
+turn_to satellite5 phenomenon14 planet11
+turn_to satellite5 phenomenon14 planet12
+turn_to satellite5 phenomenon14 star13
+turn_to satellite5 phenomenon15 groundstation5
+turn_to satellite5 phenomenon15 phenomenon10
+turn_to satellite5 phenomenon15 phenomenon14
+turn_to satellite5 phenomenon15 planet11
+turn_to satellite5 phenomenon15 planet12
+turn_to satellite5 phenomenon15 star13
+turn_to satellite5 planet11 groundstation5
+turn_to satellite5 planet11 phenomenon10
+turn_to satellite5 planet11 phenomenon14
+turn_to satellite5 planet11 phenomenon15
+turn_to satellite5 planet11 planet12
+turn_to satellite5 planet11 star13
+turn_to satellite5 planet12 groundstation5
+turn_to satellite5 planet12 phenomenon10
+turn_to satellite5 planet12 phenomenon14
+turn_to satellite5 planet12 phenomenon15
+turn_to satellite5 planet12 planet11
+turn_to satellite5 planet12 star13
+turn_to satellite5 star13 groundstation5
+turn_to satellite5 star13 phenomenon10
+turn_to satellite5 star13 phenomenon14
+turn_to satellite5 star13 phenomenon15
+turn_to satellite5 star13 planet11
+turn_to satellite5 star13 planet12

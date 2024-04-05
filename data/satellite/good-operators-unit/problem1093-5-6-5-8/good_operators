@@ -1,0 +1,52 @@
+calibrate satellite3 instrument7 groundstation5
+calibrate satellite3 instrument7 star3
+calibrate satellite4 instrument10 groundstation0
+switch_on instrument10 satellite4
+switch_on instrument7 satellite3
+take_image satellite3 phenomenon12 instrument7 image3
+take_image satellite3 planet10 instrument7 image1
+take_image satellite3 planet7 instrument7 thermograph2
+take_image satellite3 planet9 instrument7 image1
+take_image satellite3 star11 instrument7 image1
+take_image satellite4 phenomenon6 instrument10 infrared0
+take_image satellite4 planet13 instrument10 thermograph4
+take_image satellite4 star8 instrument10 thermograph4
+turn_to satellite3 groundstation5 star11
+turn_to satellite3 phenomenon12 groundstation5
+turn_to satellite3 phenomenon12 planet10
+turn_to satellite3 phenomenon12 planet7
+turn_to satellite3 phenomenon12 planet9
+turn_to satellite3 phenomenon12 star11
+turn_to satellite3 phenomenon12 star3
+turn_to satellite3 planet10 groundstation5
+turn_to satellite3 planet10 phenomenon12
+turn_to satellite3 planet10 planet7
+turn_to satellite3 planet10 planet9
+turn_to satellite3 planet10 star11
+turn_to satellite3 planet10 star3
+turn_to satellite3 planet7 groundstation5
+turn_to satellite3 planet7 phenomenon12
+turn_to satellite3 planet7 planet10
+turn_to satellite3 planet7 planet9
+turn_to satellite3 planet7 star11
+turn_to satellite3 planet7 star3
+turn_to satellite3 planet9 groundstation5
+turn_to satellite3 planet9 phenomenon12
+turn_to satellite3 planet9 planet10
+turn_to satellite3 planet9 planet7
+turn_to satellite3 planet9 star11
+turn_to satellite3 planet9 star3
+turn_to satellite3 star11 groundstation5
+turn_to satellite3 star11 phenomenon12
+turn_to satellite3 star11 planet10
+turn_to satellite3 star11 planet7
+turn_to satellite3 star11 planet9
+turn_to satellite3 star11 star3
+turn_to satellite3 star3 star11
+turn_to satellite4 groundstation0 star11
+turn_to satellite4 phenomenon6 groundstation0
+turn_to satellite4 phenomenon6 planet13
+turn_to satellite4 planet13 groundstation0
+turn_to satellite4 planet13 phenomenon6
+turn_to satellite4 star8 phenomenon6
+turn_to satellite4 star8 planet13

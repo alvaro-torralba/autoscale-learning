@@ -1,0 +1,60 @@
+calibrate satellite2 instrument5 groundstation3
+calibrate satellite2 instrument5 groundstation5
+switch_on instrument5 satellite2
+take_image satellite2 phenomenon8 instrument5 infrared1
+take_image satellite2 planet10 instrument5 image2
+take_image satellite2 planet11 instrument5 infrared1
+take_image satellite2 planet12 instrument5 image2
+take_image satellite2 planet7 instrument5 infrared1
+take_image satellite2 planet9 instrument5 image2
+take_image satellite2 star6 instrument5 image2
+turn_to satellite2 groundstation3 star4
+turn_to satellite2 groundstation5 star4
+turn_to satellite2 phenomenon8 groundstation3
+turn_to satellite2 phenomenon8 groundstation5
+turn_to satellite2 phenomenon8 planet10
+turn_to satellite2 phenomenon8 planet11
+turn_to satellite2 phenomenon8 planet7
+turn_to satellite2 phenomenon8 planet9
+turn_to satellite2 phenomenon8 star6
+turn_to satellite2 planet10 groundstation3
+turn_to satellite2 planet10 groundstation5
+turn_to satellite2 planet10 phenomenon8
+turn_to satellite2 planet10 planet11
+turn_to satellite2 planet10 planet7
+turn_to satellite2 planet10 planet9
+turn_to satellite2 planet10 star6
+turn_to satellite2 planet11 groundstation3
+turn_to satellite2 planet11 groundstation5
+turn_to satellite2 planet11 phenomenon8
+turn_to satellite2 planet11 planet10
+turn_to satellite2 planet11 planet7
+turn_to satellite2 planet11 planet9
+turn_to satellite2 planet11 star6
+turn_to satellite2 planet12 phenomenon8
+turn_to satellite2 planet12 planet10
+turn_to satellite2 planet12 planet11
+turn_to satellite2 planet12 planet7
+turn_to satellite2 planet12 planet9
+turn_to satellite2 planet12 star6
+turn_to satellite2 planet7 groundstation3
+turn_to satellite2 planet7 groundstation5
+turn_to satellite2 planet7 phenomenon8
+turn_to satellite2 planet7 planet10
+turn_to satellite2 planet7 planet11
+turn_to satellite2 planet7 planet9
+turn_to satellite2 planet7 star6
+turn_to satellite2 planet9 groundstation3
+turn_to satellite2 planet9 groundstation5
+turn_to satellite2 planet9 phenomenon8
+turn_to satellite2 planet9 planet10
+turn_to satellite2 planet9 planet11
+turn_to satellite2 planet9 planet7
+turn_to satellite2 planet9 star6
+turn_to satellite2 star6 groundstation3
+turn_to satellite2 star6 groundstation5
+turn_to satellite2 star6 phenomenon8
+turn_to satellite2 star6 planet10
+turn_to satellite2 star6 planet11
+turn_to satellite2 star6 planet7
+turn_to satellite2 star6 planet9

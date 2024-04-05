@@ -1,0 +1,52 @@
+calibrate satellite2 instrument4 groundstation4
+switch_on instrument4 satellite2
+take_image satellite2 phenomenon11 instrument4 thermograph0
+take_image satellite2 phenomenon14 instrument4 infrared1
+take_image satellite2 planet8 instrument4 thermograph0
+take_image satellite2 star10 instrument4 infrared1
+take_image satellite2 star12 instrument4 thermograph0
+take_image satellite2 star13 instrument4 infrared1
+take_image satellite2 star9 instrument4 infrared1
+turn_to satellite0 star1 star7
+turn_to satellite2 phenomenon11 groundstation4
+turn_to satellite2 phenomenon11 phenomenon14
+turn_to satellite2 phenomenon11 planet8
+turn_to satellite2 phenomenon11 star10
+turn_to satellite2 phenomenon11 star12
+turn_to satellite2 phenomenon11 star9
+turn_to satellite2 phenomenon14 groundstation4
+turn_to satellite2 phenomenon14 phenomenon11
+turn_to satellite2 phenomenon14 planet8
+turn_to satellite2 phenomenon14 star10
+turn_to satellite2 phenomenon14 star12
+turn_to satellite2 phenomenon14 star9
+turn_to satellite2 planet8 groundstation4
+turn_to satellite2 planet8 phenomenon11
+turn_to satellite2 planet8 phenomenon14
+turn_to satellite2 planet8 star10
+turn_to satellite2 planet8 star12
+turn_to satellite2 planet8 star9
+turn_to satellite2 star10 groundstation4
+turn_to satellite2 star10 phenomenon11
+turn_to satellite2 star10 phenomenon14
+turn_to satellite2 star10 planet8
+turn_to satellite2 star10 star12
+turn_to satellite2 star10 star9
+turn_to satellite2 star12 groundstation4
+turn_to satellite2 star12 phenomenon11
+turn_to satellite2 star12 phenomenon14
+turn_to satellite2 star12 planet8
+turn_to satellite2 star12 star10
+turn_to satellite2 star12 star9
+turn_to satellite2 star13 phenomenon11
+turn_to satellite2 star13 phenomenon14
+turn_to satellite2 star13 planet8
+turn_to satellite2 star13 star10
+turn_to satellite2 star13 star12
+turn_to satellite2 star13 star9
+turn_to satellite2 star9 groundstation4
+turn_to satellite2 star9 phenomenon11
+turn_to satellite2 star9 phenomenon14
+turn_to satellite2 star9 planet8
+turn_to satellite2 star9 star10
+turn_to satellite2 star9 star12

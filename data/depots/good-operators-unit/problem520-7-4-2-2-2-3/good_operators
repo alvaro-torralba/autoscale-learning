@@ -1,0 +1,10 @@
+drive truck0 depot1 depot6
+drive truck0 depot6 depot3
+drive truck1 depot3 depot6
+drive truck1 depot6 depot3
+drop hoist3 crate1 crate2 depot3
+lift hoist6 crate1 pallet6 depot6
+load hoist6 crate1 truck0 depot6
+load hoist6 crate1 truck1 depot6
+unload hoist3 crate1 truck0 depot3
+unload hoist3 crate1 truck1 depot3

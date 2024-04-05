@@ -1,0 +1,4 @@
+board-truck driver2 truck1 s0
+drive-truck truck1 s0 s1 driver2
+load-truck package2 truck1 s0
+unload-truck package2 truck1 s1

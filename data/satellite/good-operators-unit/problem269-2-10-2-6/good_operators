@@ -1,0 +1,95 @@
+calibrate satellite0 instrument0 star8
+calibrate satellite1 instrument5 groundstation0
+switch_on instrument0 satellite0
+switch_on instrument5 satellite1
+take_image satellite0 phenomenon10 instrument0 infrared1
+take_image satellite0 phenomenon13 instrument0 image0
+take_image satellite0 planet11 instrument0 image0
+take_image satellite0 planet12 instrument0 image0
+take_image satellite0 planet14 instrument0 infrared1
+take_image satellite0 planet15 instrument0 infrared1
+take_image satellite1 phenomenon10 instrument5 infrared1
+take_image satellite1 phenomenon13 instrument5 image0
+take_image satellite1 planet11 instrument5 image0
+take_image satellite1 planet12 instrument5 image0
+take_image satellite1 planet14 instrument5 infrared1
+take_image satellite1 planet15 instrument5 infrared1
+turn_to satellite0 phenomenon10 phenomenon13
+turn_to satellite0 phenomenon10 planet11
+turn_to satellite0 phenomenon10 planet12
+turn_to satellite0 phenomenon10 planet14
+turn_to satellite0 phenomenon10 planet15
+turn_to satellite0 phenomenon10 star8
+turn_to satellite0 phenomenon13 phenomenon10
+turn_to satellite0 phenomenon13 planet11
+turn_to satellite0 phenomenon13 planet12
+turn_to satellite0 phenomenon13 planet14
+turn_to satellite0 phenomenon13 planet15
+turn_to satellite0 phenomenon13 star8
+turn_to satellite0 planet11 phenomenon10
+turn_to satellite0 planet11 phenomenon13
+turn_to satellite0 planet11 planet12
+turn_to satellite0 planet11 planet14
+turn_to satellite0 planet11 planet15
+turn_to satellite0 planet11 star8
+turn_to satellite0 planet12 phenomenon10
+turn_to satellite0 planet12 phenomenon13
+turn_to satellite0 planet12 planet11
+turn_to satellite0 planet12 planet14
+turn_to satellite0 planet12 planet15
+turn_to satellite0 planet12 star8
+turn_to satellite0 planet14 phenomenon10
+turn_to satellite0 planet14 phenomenon13
+turn_to satellite0 planet14 planet11
+turn_to satellite0 planet14 planet12
+turn_to satellite0 planet14 planet15
+turn_to satellite0 planet14 star8
+turn_to satellite0 planet15 phenomenon10
+turn_to satellite0 planet15 phenomenon13
+turn_to satellite0 planet15 planet11
+turn_to satellite0 planet15 planet12
+turn_to satellite0 planet15 planet14
+turn_to satellite0 planet15 star8
+turn_to satellite1 phenomenon10 groundstation0
+turn_to satellite1 phenomenon10 phenomenon13
+turn_to satellite1 phenomenon10 planet11
+turn_to satellite1 phenomenon10 planet12
+turn_to satellite1 phenomenon10 planet14
+turn_to satellite1 phenomenon10 planet15
+turn_to satellite1 phenomenon13 groundstation0
+turn_to satellite1 phenomenon13 phenomenon10
+turn_to satellite1 phenomenon13 planet11
+turn_to satellite1 phenomenon13 planet12
+turn_to satellite1 phenomenon13 planet14
+turn_to satellite1 phenomenon13 planet15
+turn_to satellite1 planet11 groundstation0
+turn_to satellite1 planet11 phenomenon10
+turn_to satellite1 planet11 phenomenon13
+turn_to satellite1 planet11 planet12
+turn_to satellite1 planet11 planet14
+turn_to satellite1 planet11 planet15
+turn_to satellite1 planet12 groundstation0
+turn_to satellite1 planet12 phenomenon10
+turn_to satellite1 planet12 phenomenon13
+turn_to satellite1 planet12 planet11
+turn_to satellite1 planet12 planet14
+turn_to satellite1 planet12 planet15
+turn_to satellite1 planet14 groundstation0
+turn_to satellite1 planet14 phenomenon10
+turn_to satellite1 planet14 phenomenon13
+turn_to satellite1 planet14 planet11
+turn_to satellite1 planet14 planet12
+turn_to satellite1 planet14 planet15
+turn_to satellite1 planet15 groundstation0
+turn_to satellite1 planet15 phenomenon10
+turn_to satellite1 planet15 phenomenon13
+turn_to satellite1 planet15 planet11
+turn_to satellite1 planet15 planet12
+turn_to satellite1 planet15 planet14
+turn_to satellite1 star4 groundstation0
+turn_to satellite1 star4 phenomenon10
+turn_to satellite1 star4 phenomenon13
+turn_to satellite1 star4 planet11
+turn_to satellite1 star4 planet12
+turn_to satellite1 star4 planet14
+turn_to satellite1 star4 planet15

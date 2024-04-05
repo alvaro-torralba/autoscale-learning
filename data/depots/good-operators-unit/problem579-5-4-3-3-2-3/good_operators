@@ -1,0 +1,34 @@
+drive truck0 depot4 distributor3
+drive truck0 distributor3 distributor1
+drive truck1 depot4 distributor3
+drive truck1 distributor3 distributor1
+drive truck2 depot0 depot3
+drive truck2 depot0 distributor0
+drive truck2 depot0 distributor3
+drive truck2 depot3 distributor0
+drive truck2 depot3 distributor1
+drive truck2 depot3 distributor3
+drive truck2 distributor0 depot3
+drive truck2 distributor0 distributor1
+drive truck2 distributor0 distributor3
+drive truck2 distributor1 depot3
+drive truck2 distributor1 distributor0
+drive truck2 distributor3 depot3
+drive truck2 distributor3 distributor0
+drive truck2 distributor3 distributor1
+drop hoist3 crate0 pallet3 depot3
+drop hoist5 crate1 pallet5 distributor0
+drop hoist6 crate2 pallet6 distributor1
+lift hoist0 crate0 pallet0 depot0
+lift hoist0 crate1 crate0 depot0
+lift hoist8 crate2 pallet8 distributor3
+load hoist0 crate0 truck2 depot0
+load hoist0 crate1 truck2 depot0
+load hoist8 crate2 truck0 distributor3
+load hoist8 crate2 truck1 distributor3
+load hoist8 crate2 truck2 distributor3
+unload hoist3 crate0 truck2 depot3
+unload hoist5 crate1 truck2 distributor0
+unload hoist6 crate2 truck0 distributor1
+unload hoist6 crate2 truck1 distributor1
+unload hoist6 crate2 truck2 distributor1

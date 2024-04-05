@@ -1,0 +1,33 @@
+calibrate satellite0 instrument0 star2
+switch_on instrument0 satellite0
+take_image satellite0 planet11 instrument0 image4
+take_image satellite0 planet11 instrument0 thermograph5
+take_image satellite0 planet13 instrument0 infrared0
+take_image satellite0 planet14 instrument0 spectrograph1
+take_image satellite0 planet15 instrument0 image4
+take_image satellite0 star12 instrument0 thermograph5
+turn_to satellite0 planet11 planet13
+turn_to satellite0 planet11 planet14
+turn_to satellite0 planet11 planet15
+turn_to satellite0 planet11 star12
+turn_to satellite0 planet11 star2
+turn_to satellite0 planet13 planet11
+turn_to satellite0 planet13 planet14
+turn_to satellite0 planet13 planet15
+turn_to satellite0 planet13 star12
+turn_to satellite0 planet13 star2
+turn_to satellite0 planet14 planet11
+turn_to satellite0 planet14 planet13
+turn_to satellite0 planet14 planet15
+turn_to satellite0 planet14 star12
+turn_to satellite0 planet14 star2
+turn_to satellite0 planet15 planet11
+turn_to satellite0 planet15 planet13
+turn_to satellite0 planet15 planet14
+turn_to satellite0 planet15 star12
+turn_to satellite0 planet15 star2
+turn_to satellite0 star12 planet11
+turn_to satellite0 star12 planet13
+turn_to satellite0 star12 planet14
+turn_to satellite0 star12 planet15
+turn_to satellite0 star12 star2

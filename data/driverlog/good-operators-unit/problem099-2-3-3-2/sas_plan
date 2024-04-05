@@ -1,0 +1,4 @@
+(board-truck driver2 truck1 s2)
+(drive-truck truck1 s2 s1 driver2)
+(disembark-truck driver2 truck1 s1)
+; cost = 3 (unit cost)

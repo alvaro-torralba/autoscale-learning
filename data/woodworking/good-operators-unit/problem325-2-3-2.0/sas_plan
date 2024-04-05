@@ -1,0 +1,6 @@
+(do-plane p0 planer0 verysmooth natural varnished)
+(do-glaze p0 glazer1 white)
+(do-saw-large b0 p1 saw0 mahogany rough s6 s4 s5 s3)
+(do-plane p1 planer0 rough natural untreated)
+(do-immersion-varnish p1 immersion-varnisher0 natural smooth)
+; cost = 90 (general cost)

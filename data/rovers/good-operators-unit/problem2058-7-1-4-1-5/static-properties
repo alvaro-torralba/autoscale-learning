@@ -1,0 +1,26 @@
+{
+  "algorithm": "name",
+  "build_options": [],
+  "component_options": [
+    "--search",
+    "sbd(store_operators_in_optimal_plan=true, cost_type=1)"
+  ],
+  "domain": "tasks",
+  "driver_options": [
+    "--overall-time-limit",
+    600,
+    "--overall-memory-limit",
+    3221225472
+  ],
+  "experiment_name": "good-operators-unit-exp",
+  "global_revision": null,
+  "id": [
+    "name",
+    "tasks",
+    "problem2058-7-1-4-1-5.pddl"
+  ],
+  "local_revision": "default",
+  "problem": "problem2058-7-1-4-1-5.pddl",
+  "repo": "/nfs/home/cs.aau.dk/bx56lg/autoscale-learning/fd-symbolic",
+  "run_dir": "runs-00001-00100/00001"
+}

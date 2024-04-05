@@ -1,0 +1,8 @@
+(do-plane p0 planer0 verysmooth green varnished)
+(do-grind p1 grinder0 smooth natural colourfragments untreated)
+(do-glaze p0 glazer0 natural)
+(do-immersion-varnish p1 immersion-varnisher0 black verysmooth)
+(do-saw-large b0 p2 saw0 walnut smooth s6 s4 s5 s3)
+(do-saw-large b0 p3 saw0 walnut smooth s3 s1 s2 s0)
+(do-immersion-varnish p3 immersion-varnisher0 black smooth)
+; cost = 160 (general cost)

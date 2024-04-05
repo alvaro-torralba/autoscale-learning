@@ -1,0 +1,53 @@
+calibrate satellite1 instrument3 groundstation0
+calibrate satellite1 instrument3 star1
+calibrate satellite1 instrument5 groundstation4
+switch_on instrument3 satellite1
+switch_on instrument5 satellite1
+take_image satellite1 planet10 instrument3 image2
+take_image satellite1 planet10 instrument5 image2
+take_image satellite1 planet8 instrument3 spectrograph0
+take_image satellite1 planet8 instrument5 spectrograph0
+take_image satellite1 planet9 instrument3 spectrograph0
+take_image satellite1 planet9 instrument5 spectrograph0
+take_image satellite1 star6 instrument3 image2
+take_image satellite1 star6 instrument5 image2
+take_image satellite1 star7 instrument3 infrared1
+take_image satellite1 star7 instrument5 infrared1
+turn_to satellite1 groundstation0 star2
+turn_to satellite1 groundstation4 star2
+turn_to satellite1 planet10 groundstation0
+turn_to satellite1 planet10 groundstation4
+turn_to satellite1 planet10 planet8
+turn_to satellite1 planet10 planet9
+turn_to satellite1 planet10 star1
+turn_to satellite1 planet10 star6
+turn_to satellite1 planet10 star7
+turn_to satellite1 planet8 groundstation0
+turn_to satellite1 planet8 groundstation4
+turn_to satellite1 planet8 planet10
+turn_to satellite1 planet8 planet9
+turn_to satellite1 planet8 star1
+turn_to satellite1 planet8 star6
+turn_to satellite1 planet8 star7
+turn_to satellite1 planet9 groundstation0
+turn_to satellite1 planet9 groundstation4
+turn_to satellite1 planet9 planet10
+turn_to satellite1 planet9 planet8
+turn_to satellite1 planet9 star1
+turn_to satellite1 planet9 star6
+turn_to satellite1 planet9 star7
+turn_to satellite1 star1 star2
+turn_to satellite1 star6 groundstation0
+turn_to satellite1 star6 groundstation4
+turn_to satellite1 star6 planet10
+turn_to satellite1 star6 planet8
+turn_to satellite1 star6 planet9
+turn_to satellite1 star6 star1
+turn_to satellite1 star6 star7
+turn_to satellite1 star7 groundstation0
+turn_to satellite1 star7 groundstation4
+turn_to satellite1 star7 planet10
+turn_to satellite1 star7 planet8
+turn_to satellite1 star7 planet9
+turn_to satellite1 star7 star1
+turn_to satellite1 star7 star6

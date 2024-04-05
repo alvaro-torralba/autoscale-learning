@@ -1,0 +1,273 @@
+do-glaze p0 glazer0 green
+do-glaze p0 glazer1 green
+do-glaze p1 glazer0 white
+do-glaze p1 glazer1 white
+do-glaze p2 glazer0 blue
+do-glaze p2 glazer1 blue
+do-glaze p4 glazer0 white
+do-glaze p4 glazer1 white
+do-glaze p5 glazer0 blue
+do-glaze p5 glazer1 blue
+do-glaze p6 glazer0 green
+do-glaze p6 glazer1 green
+do-glaze p7 glazer0 natural
+do-glaze p7 glazer1 natural
+do-glaze p8 glazer0 green
+do-glaze p8 glazer1 green
+do-glaze p9 glazer0 natural
+do-glaze p9 glazer1 natural
+do-grind p1 grinder0 smooth natural untreated untreated
+do-grind p1 grinder1 smooth natural untreated untreated
+do-grind p3 grinder0 smooth natural untreated untreated
+do-grind p3 grinder1 smooth natural untreated untreated
+do-grind p4 grinder0 smooth natural untreated untreated
+do-grind p4 grinder1 smooth natural untreated untreated
+do-grind p5 grinder0 smooth natural untreated untreated
+do-grind p5 grinder1 smooth natural untreated untreated
+do-grind p7 grinder0 smooth natural untreated untreated
+do-grind p7 grinder1 smooth natural untreated untreated
+do-immersion-varnish p1 immersion-varnisher0 white verysmooth
+do-immersion-varnish p1 immersion-varnisher1 white verysmooth
+do-immersion-varnish p2 immersion-varnisher0 blue smooth
+do-immersion-varnish p6 immersion-varnisher0 green smooth
+do-immersion-varnish p8 immersion-varnisher0 green smooth
+do-plane p0 planer0 verysmooth blue colourfragments
+do-plane p0 planer1 verysmooth blue colourfragments
+do-plane p1 planer0 rough natural untreated
+do-plane p1 planer1 rough natural untreated
+do-plane p2 planer0 rough natural untreated
+do-plane p2 planer1 rough natural untreated
+do-plane p3 planer0 rough natural untreated
+do-plane p3 planer1 rough natural untreated
+do-plane p4 planer0 rough natural untreated
+do-plane p4 planer1 rough natural untreated
+do-plane p5 planer0 rough white varnished
+do-plane p5 planer1 rough white varnished
+do-plane p6 planer0 rough natural untreated
+do-plane p6 planer1 rough natural untreated
+do-plane p8 planer0 rough blue colourfragments
+do-plane p8 planer1 rough blue colourfragments
+do-saw-large b0 p2 saw0 beech rough s3 s1 s2 s0
+do-saw-large b0 p2 saw0 beech rough s4 s2 s3 s1
+do-saw-large b0 p2 saw0 beech rough s5 s3 s4 s2
+do-saw-large b0 p2 saw0 beech rough s6 s4 s5 s3
+do-saw-large b0 p2 saw0 beech rough s7 s5 s6 s4
+do-saw-large b0 p2 saw1 beech rough s3 s1 s2 s0
+do-saw-large b0 p2 saw1 beech rough s4 s2 s3 s1
+do-saw-large b0 p2 saw1 beech rough s5 s3 s4 s2
+do-saw-large b0 p2 saw1 beech rough s6 s4 s5 s3
+do-saw-large b0 p2 saw1 beech rough s7 s5 s6 s4
+do-saw-large b0 p3 saw0 beech rough s3 s1 s2 s0
+do-saw-large b0 p3 saw0 beech rough s4 s2 s3 s1
+do-saw-large b0 p3 saw0 beech rough s5 s3 s4 s2
+do-saw-large b0 p3 saw0 beech rough s6 s4 s5 s3
+do-saw-large b0 p3 saw0 beech rough s7 s5 s6 s4
+do-saw-large b0 p3 saw1 beech rough s3 s1 s2 s0
+do-saw-large b0 p3 saw1 beech rough s4 s2 s3 s1
+do-saw-large b0 p3 saw1 beech rough s5 s3 s4 s2
+do-saw-large b0 p3 saw1 beech rough s6 s4 s5 s3
+do-saw-large b0 p3 saw1 beech rough s7 s5 s6 s4
+do-saw-large b0 p4 saw0 beech rough s3 s1 s2 s0
+do-saw-large b0 p4 saw0 beech rough s4 s2 s3 s1
+do-saw-large b0 p4 saw0 beech rough s5 s3 s4 s2
+do-saw-large b0 p4 saw0 beech rough s6 s4 s5 s3
+do-saw-large b0 p4 saw0 beech rough s7 s5 s6 s4
+do-saw-large b0 p4 saw1 beech rough s3 s1 s2 s0
+do-saw-large b0 p4 saw1 beech rough s4 s2 s3 s1
+do-saw-large b0 p4 saw1 beech rough s5 s3 s4 s2
+do-saw-large b0 p4 saw1 beech rough s6 s4 s5 s3
+do-saw-large b0 p4 saw1 beech rough s7 s5 s6 s4
+do-saw-large b1 p2 saw0 beech smooth s3 s1 s2 s0
+do-saw-large b1 p2 saw0 beech smooth s4 s2 s3 s1
+do-saw-large b1 p2 saw1 beech smooth s3 s1 s2 s0
+do-saw-large b1 p2 saw1 beech smooth s4 s2 s3 s1
+do-saw-large b1 p3 saw0 beech smooth s3 s1 s2 s0
+do-saw-large b1 p3 saw0 beech smooth s4 s2 s3 s1
+do-saw-large b1 p3 saw1 beech smooth s3 s1 s2 s0
+do-saw-large b1 p3 saw1 beech smooth s4 s2 s3 s1
+do-saw-large b1 p4 saw0 beech smooth s3 s1 s2 s0
+do-saw-large b1 p4 saw0 beech smooth s4 s2 s3 s1
+do-saw-large b1 p4 saw1 beech smooth s3 s1 s2 s0
+do-saw-large b1 p4 saw1 beech smooth s4 s2 s3 s1
+do-saw-large b2 p2 saw0 beech rough s3 s1 s2 s0
+do-saw-large b2 p2 saw0 beech rough s4 s2 s3 s1
+do-saw-large b2 p2 saw0 beech rough s5 s3 s4 s2
+do-saw-large b2 p2 saw0 beech rough s6 s4 s5 s3
+do-saw-large b2 p2 saw0 beech rough s7 s5 s6 s4
+do-saw-large b2 p2 saw0 beech rough s8 s6 s7 s5
+do-saw-large b2 p2 saw0 beech rough s9 s7 s8 s6
+do-saw-large b2 p2 saw1 beech rough s3 s1 s2 s0
+do-saw-large b2 p2 saw1 beech rough s4 s2 s3 s1
+do-saw-large b2 p2 saw1 beech rough s5 s3 s4 s2
+do-saw-large b2 p2 saw1 beech rough s6 s4 s5 s3
+do-saw-large b2 p2 saw1 beech rough s7 s5 s6 s4
+do-saw-large b2 p2 saw1 beech rough s8 s6 s7 s5
+do-saw-large b2 p2 saw1 beech rough s9 s7 s8 s6
+do-saw-large b2 p3 saw0 beech rough s3 s1 s2 s0
+do-saw-large b2 p3 saw0 beech rough s4 s2 s3 s1
+do-saw-large b2 p3 saw0 beech rough s5 s3 s4 s2
+do-saw-large b2 p3 saw0 beech rough s6 s4 s5 s3
+do-saw-large b2 p3 saw0 beech rough s7 s5 s6 s4
+do-saw-large b2 p3 saw0 beech rough s8 s6 s7 s5
+do-saw-large b2 p3 saw0 beech rough s9 s7 s8 s6
+do-saw-large b2 p3 saw1 beech rough s3 s1 s2 s0
+do-saw-large b2 p3 saw1 beech rough s4 s2 s3 s1
+do-saw-large b2 p3 saw1 beech rough s5 s3 s4 s2
+do-saw-large b2 p3 saw1 beech rough s6 s4 s5 s3
+do-saw-large b2 p3 saw1 beech rough s7 s5 s6 s4
+do-saw-large b2 p3 saw1 beech rough s8 s6 s7 s5
+do-saw-large b2 p3 saw1 beech rough s9 s7 s8 s6
+do-saw-large b2 p4 saw0 beech rough s3 s1 s2 s0
+do-saw-large b2 p4 saw0 beech rough s4 s2 s3 s1
+do-saw-large b2 p4 saw0 beech rough s5 s3 s4 s2
+do-saw-large b2 p4 saw0 beech rough s6 s4 s5 s3
+do-saw-large b2 p4 saw0 beech rough s7 s5 s6 s4
+do-saw-large b2 p4 saw0 beech rough s8 s6 s7 s5
+do-saw-large b2 p4 saw0 beech rough s9 s7 s8 s6
+do-saw-large b2 p4 saw1 beech rough s3 s1 s2 s0
+do-saw-large b2 p4 saw1 beech rough s4 s2 s3 s1
+do-saw-large b2 p4 saw1 beech rough s5 s3 s4 s2
+do-saw-large b2 p4 saw1 beech rough s6 s4 s5 s3
+do-saw-large b2 p4 saw1 beech rough s7 s5 s6 s4
+do-saw-large b2 p4 saw1 beech rough s8 s6 s7 s5
+do-saw-large b2 p4 saw1 beech rough s9 s7 s8 s6
+do-saw-large b3 p2 saw0 walnut rough s3 s1 s2 s0
+do-saw-large b3 p2 saw0 walnut rough s4 s2 s3 s1
+do-saw-large b3 p2 saw0 walnut rough s5 s3 s4 s2
+do-saw-large b3 p2 saw0 walnut rough s6 s4 s5 s3
+do-saw-large b3 p2 saw0 walnut rough s7 s5 s6 s4
+do-saw-large b3 p2 saw0 walnut rough s8 s6 s7 s5
+do-saw-large b3 p2 saw1 walnut rough s3 s1 s2 s0
+do-saw-large b3 p2 saw1 walnut rough s4 s2 s3 s1
+do-saw-large b3 p2 saw1 walnut rough s5 s3 s4 s2
+do-saw-large b3 p2 saw1 walnut rough s6 s4 s5 s3
+do-saw-large b3 p2 saw1 walnut rough s7 s5 s6 s4
+do-saw-large b3 p2 saw1 walnut rough s8 s6 s7 s5
+do-saw-large b3 p4 saw0 walnut rough s3 s1 s2 s0
+do-saw-large b3 p4 saw0 walnut rough s4 s2 s3 s1
+do-saw-large b3 p4 saw0 walnut rough s5 s3 s4 s2
+do-saw-large b3 p4 saw0 walnut rough s6 s4 s5 s3
+do-saw-large b3 p4 saw0 walnut rough s7 s5 s6 s4
+do-saw-large b3 p4 saw0 walnut rough s8 s6 s7 s5
+do-saw-large b3 p4 saw1 walnut rough s3 s1 s2 s0
+do-saw-large b3 p4 saw1 walnut rough s4 s2 s3 s1
+do-saw-large b3 p4 saw1 walnut rough s5 s3 s4 s2
+do-saw-large b3 p4 saw1 walnut rough s6 s4 s5 s3
+do-saw-large b3 p4 saw1 walnut rough s7 s5 s6 s4
+do-saw-large b3 p4 saw1 walnut rough s8 s6 s7 s5
+do-saw-medium b0 p1 saw0 beech rough s3 s2 s1
+do-saw-medium b0 p1 saw0 beech rough s4 s3 s2
+do-saw-medium b0 p1 saw0 beech rough s6 s5 s4
+do-saw-medium b0 p1 saw0 beech rough s7 s6 s5
+do-saw-medium b0 p1 saw1 beech rough s3 s2 s1
+do-saw-medium b0 p1 saw1 beech rough s4 s3 s2
+do-saw-medium b0 p1 saw1 beech rough s6 s5 s4
+do-saw-medium b0 p1 saw1 beech rough s7 s6 s5
+do-saw-medium b1 p1 saw0 beech smooth s2 s1 s0
+do-saw-medium b1 p1 saw0 beech smooth s3 s2 s1
+do-saw-medium b1 p1 saw0 beech smooth s4 s3 s2
+do-saw-medium b1 p1 saw1 beech smooth s2 s1 s0
+do-saw-medium b1 p1 saw1 beech smooth s3 s2 s1
+do-saw-medium b1 p1 saw1 beech smooth s4 s3 s2
+do-saw-medium b2 p1 saw0 beech rough s2 s1 s0
+do-saw-medium b2 p1 saw0 beech rough s3 s2 s1
+do-saw-medium b2 p1 saw0 beech rough s5 s4 s3
+do-saw-medium b2 p1 saw0 beech rough s6 s5 s4
+do-saw-medium b2 p1 saw0 beech rough s8 s7 s6
+do-saw-medium b2 p1 saw0 beech rough s9 s8 s7
+do-saw-medium b2 p1 saw1 beech rough s2 s1 s0
+do-saw-medium b2 p1 saw1 beech rough s3 s2 s1
+do-saw-medium b2 p1 saw1 beech rough s5 s4 s3
+do-saw-medium b2 p1 saw1 beech rough s6 s5 s4
+do-saw-medium b2 p1 saw1 beech rough s8 s7 s6
+do-saw-medium b2 p1 saw1 beech rough s9 s8 s7
+do-saw-medium b3 p1 saw0 walnut rough s2 s1 s0
+do-saw-medium b3 p1 saw0 walnut rough s3 s2 s1
+do-saw-medium b3 p1 saw0 walnut rough s4 s3 s2
+do-saw-medium b3 p1 saw0 walnut rough s5 s4 s3
+do-saw-medium b3 p1 saw0 walnut rough s6 s5 s4
+do-saw-medium b3 p1 saw0 walnut rough s7 s6 s5
+do-saw-medium b3 p1 saw0 walnut rough s8 s7 s6
+do-saw-medium b3 p1 saw1 walnut rough s2 s1 s0
+do-saw-medium b3 p1 saw1 walnut rough s3 s2 s1
+do-saw-medium b3 p1 saw1 walnut rough s4 s3 s2
+do-saw-medium b3 p1 saw1 walnut rough s5 s4 s3
+do-saw-medium b3 p1 saw1 walnut rough s6 s5 s4
+do-saw-medium b3 p1 saw1 walnut rough s7 s6 s5
+do-saw-medium b3 p1 saw1 walnut rough s8 s7 s6
+do-saw-medium b3 p6 saw0 walnut rough s2 s1 s0
+do-saw-medium b3 p6 saw0 walnut rough s3 s2 s1
+do-saw-medium b3 p6 saw0 walnut rough s4 s3 s2
+do-saw-medium b3 p6 saw0 walnut rough s5 s4 s3
+do-saw-medium b3 p6 saw0 walnut rough s6 s5 s4
+do-saw-medium b3 p6 saw0 walnut rough s7 s6 s5
+do-saw-medium b3 p6 saw0 walnut rough s8 s7 s6
+do-saw-medium b3 p6 saw1 walnut rough s2 s1 s0
+do-saw-medium b3 p6 saw1 walnut rough s3 s2 s1
+do-saw-medium b3 p6 saw1 walnut rough s4 s3 s2
+do-saw-medium b3 p6 saw1 walnut rough s5 s4 s3
+do-saw-medium b3 p6 saw1 walnut rough s6 s5 s4
+do-saw-medium b3 p6 saw1 walnut rough s7 s6 s5
+do-saw-medium b3 p6 saw1 walnut rough s8 s7 s6
+do-saw-medium b4 p1 saw0 walnut rough s2 s1 s0
+do-saw-medium b4 p1 saw1 walnut rough s2 s1 s0
+do-saw-medium b4 p6 saw0 walnut rough s2 s1 s0
+do-saw-medium b4 p6 saw1 walnut rough s2 s1 s0
+do-saw-small b0 p9 saw0 beech rough s1 s0
+do-saw-small b0 p9 saw0 beech rough s2 s1
+do-saw-small b0 p9 saw0 beech rough s4 s3
+do-saw-small b0 p9 saw0 beech rough s5 s4
+do-saw-small b0 p9 saw0 beech rough s7 s6
+do-saw-small b0 p9 saw1 beech rough s1 s0
+do-saw-small b0 p9 saw1 beech rough s2 s1
+do-saw-small b0 p9 saw1 beech rough s4 s3
+do-saw-small b0 p9 saw1 beech rough s5 s4
+do-saw-small b0 p9 saw1 beech rough s7 s6
+do-saw-small b1 p7 saw0 beech smooth s1 s0
+do-saw-small b1 p7 saw0 beech smooth s2 s1
+do-saw-small b1 p7 saw0 beech smooth s3 s2
+do-saw-small b1 p7 saw0 beech smooth s4 s3
+do-saw-small b1 p7 saw1 beech smooth s1 s0
+do-saw-small b1 p7 saw1 beech smooth s2 s1
+do-saw-small b1 p7 saw1 beech smooth s3 s2
+do-saw-small b1 p7 saw1 beech smooth s4 s3
+do-saw-small b1 p9 saw0 beech smooth s1 s0
+do-saw-small b1 p9 saw0 beech smooth s2 s1
+do-saw-small b1 p9 saw0 beech smooth s3 s2
+do-saw-small b1 p9 saw0 beech smooth s4 s3
+do-saw-small b1 p9 saw1 beech smooth s1 s0
+do-saw-small b1 p9 saw1 beech smooth s2 s1
+do-saw-small b1 p9 saw1 beech smooth s3 s2
+do-saw-small b1 p9 saw1 beech smooth s4 s3
+do-saw-small b2 p9 saw0 beech rough s1 s0
+do-saw-small b2 p9 saw0 beech rough s3 s2
+do-saw-small b2 p9 saw0 beech rough s4 s3
+do-saw-small b2 p9 saw0 beech rough s6 s5
+do-saw-small b2 p9 saw0 beech rough s7 s6
+do-saw-small b2 p9 saw0 beech rough s9 s8
+do-saw-small b2 p9 saw1 beech rough s1 s0
+do-saw-small b2 p9 saw1 beech rough s3 s2
+do-saw-small b2 p9 saw1 beech rough s4 s3
+do-saw-small b2 p9 saw1 beech rough s6 s5
+do-saw-small b2 p9 saw1 beech rough s7 s6
+do-saw-small b2 p9 saw1 beech rough s9 s8
+do-saw-small b3 p9 saw0 walnut rough s1 s0
+do-saw-small b3 p9 saw0 walnut rough s2 s1
+do-saw-small b3 p9 saw0 walnut rough s3 s2
+do-saw-small b3 p9 saw0 walnut rough s4 s3
+do-saw-small b3 p9 saw0 walnut rough s5 s4
+do-saw-small b3 p9 saw0 walnut rough s6 s5
+do-saw-small b3 p9 saw0 walnut rough s8 s7
+do-saw-small b3 p9 saw1 walnut rough s1 s0
+do-saw-small b3 p9 saw1 walnut rough s2 s1
+do-saw-small b3 p9 saw1 walnut rough s3 s2
+do-saw-small b3 p9 saw1 walnut rough s4 s3
+do-saw-small b3 p9 saw1 walnut rough s5 s4
+do-saw-small b3 p9 saw1 walnut rough s6 s5
+do-saw-small b3 p9 saw1 walnut rough s8 s7
+do-saw-small b4 p9 saw0 walnut rough s2 s1
+do-saw-small b4 p9 saw1 walnut rough s2 s1
+do-spray-varnish p1 spray-varnisher0 white verysmooth
+do-spray-varnish p2 spray-varnisher0 blue smooth
+do-spray-varnish p6 spray-varnisher1 green smooth
+do-spray-varnish p8 spray-varnisher1 green smooth

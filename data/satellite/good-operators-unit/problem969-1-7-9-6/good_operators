@@ -1,0 +1,60 @@
+calibrate satellite0 instrument0 star4
+calibrate satellite0 instrument0 star6
+switch_on instrument0 satellite0
+take_image satellite0 phenomenon11 instrument0 infrared2
+take_image satellite0 phenomenon11 instrument0 thermograph7
+take_image satellite0 phenomenon8 instrument0 spectrograph4
+take_image satellite0 phenomenon8 instrument0 thermograph7
+take_image satellite0 planet12 instrument0 image5
+take_image satellite0 planet12 instrument0 image8
+take_image satellite0 planet12 instrument0 thermograph7
+take_image satellite0 star10 instrument0 image5
+take_image satellite0 star10 instrument0 image8
+take_image satellite0 star10 instrument0 infrared2
+take_image satellite0 star7 instrument0 image5
+take_image satellite0 star9 instrument0 thermograph6
+take_image satellite0 star9 instrument0 thermograph7
+turn_to satellite0 phenomenon11 phenomenon8
+turn_to satellite0 phenomenon11 planet12
+turn_to satellite0 phenomenon11 star10
+turn_to satellite0 phenomenon11 star4
+turn_to satellite0 phenomenon11 star6
+turn_to satellite0 phenomenon11 star7
+turn_to satellite0 phenomenon11 star9
+turn_to satellite0 phenomenon8 phenomenon11
+turn_to satellite0 phenomenon8 planet12
+turn_to satellite0 phenomenon8 star10
+turn_to satellite0 phenomenon8 star4
+turn_to satellite0 phenomenon8 star6
+turn_to satellite0 phenomenon8 star7
+turn_to satellite0 phenomenon8 star9
+turn_to satellite0 planet12 phenomenon11
+turn_to satellite0 planet12 phenomenon8
+turn_to satellite0 planet12 star10
+turn_to satellite0 planet12 star4
+turn_to satellite0 planet12 star6
+turn_to satellite0 planet12 star7
+turn_to satellite0 planet12 star9
+turn_to satellite0 star10 phenomenon11
+turn_to satellite0 star10 phenomenon8
+turn_to satellite0 star10 planet12
+turn_to satellite0 star10 star4
+turn_to satellite0 star10 star6
+turn_to satellite0 star10 star7
+turn_to satellite0 star10 star9
+turn_to satellite0 star4 star9
+turn_to satellite0 star6 star9
+turn_to satellite0 star7 phenomenon11
+turn_to satellite0 star7 phenomenon8
+turn_to satellite0 star7 planet12
+turn_to satellite0 star7 star10
+turn_to satellite0 star7 star4
+turn_to satellite0 star7 star6
+turn_to satellite0 star7 star9
+turn_to satellite0 star9 phenomenon11
+turn_to satellite0 star9 phenomenon8
+turn_to satellite0 star9 planet12
+turn_to satellite0 star9 star10
+turn_to satellite0 star9 star4
+turn_to satellite0 star9 star6
+turn_to satellite0 star9 star7

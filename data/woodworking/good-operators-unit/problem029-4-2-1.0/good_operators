@@ -1,0 +1,33 @@
+do-glaze p0 glazer0 red
+do-glaze p0 glazer1 red
+do-glaze p1 glazer1 blue
+do-immersion-varnish p2 immersion-varnisher0 natural smooth
+do-immersion-varnish p2 immersion-varnisher1 natural smooth
+do-plane p2 planer0 rough natural untreated
+do-plane p2 planer1 rough natural untreated
+do-saw-large b0 p0 saw0 walnut rough s3 s1 s2 s0
+do-saw-large b0 p0 saw0 walnut rough s5 s3 s4 s2
+do-saw-large b0 p0 saw0 walnut rough s6 s4 s5 s3
+do-saw-large b0 p0 saw0 walnut rough s8 s6 s7 s5
+do-saw-large b0 p0 saw1 walnut rough s3 s1 s2 s0
+do-saw-large b0 p0 saw1 walnut rough s5 s3 s4 s2
+do-saw-large b0 p0 saw1 walnut rough s6 s4 s5 s3
+do-saw-large b0 p0 saw1 walnut rough s8 s6 s7 s5
+do-saw-large b0 p2 saw0 walnut rough s3 s1 s2 s0
+do-saw-large b0 p2 saw0 walnut rough s5 s3 s4 s2
+do-saw-large b0 p2 saw0 walnut rough s6 s4 s5 s3
+do-saw-large b0 p2 saw0 walnut rough s8 s6 s7 s5
+do-saw-large b0 p2 saw1 walnut rough s3 s1 s2 s0
+do-saw-large b0 p2 saw1 walnut rough s5 s3 s4 s2
+do-saw-large b0 p2 saw1 walnut rough s6 s4 s5 s3
+do-saw-large b0 p2 saw1 walnut rough s8 s6 s7 s5
+do-saw-medium b0 p1 saw0 walnut rough s2 s1 s0
+do-saw-medium b0 p1 saw0 walnut rough s5 s4 s3
+do-saw-medium b0 p1 saw0 walnut rough s8 s7 s6
+do-saw-medium b0 p1 saw1 walnut rough s2 s1 s0
+do-saw-medium b0 p1 saw1 walnut rough s5 s4 s3
+do-saw-medium b0 p1 saw1 walnut rough s8 s7 s6
+do-saw-medium b1 p3 saw0 mahogany rough s2 s1 s0
+do-saw-medium b1 p3 saw1 mahogany rough s2 s1 s0
+do-spray-varnish p2 spray-varnisher0 natural smooth
+do-spray-varnish p2 spray-varnisher1 natural smooth

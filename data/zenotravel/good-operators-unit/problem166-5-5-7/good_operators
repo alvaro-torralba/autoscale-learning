@@ -1,0 +1,142 @@
+board person2 plane1 city3
+board person2 plane1 city6
+board person2 plane2 city3
+board person2 plane5 city3
+board person4 plane1 city5
+board person4 plane2 city5
+board person4 plane3 city5
+board person4 plane4 city5
+board person4 plane5 city5
+board person5 plane3 city2
+board person5 plane4 city2
+debark person2 plane1 city4
+debark person2 plane2 city4
+debark person2 plane2 city6
+debark person2 plane5 city4
+debark person2 plane5 city6
+debark person4 plane1 city6
+debark person4 plane2 city6
+debark person4 plane3 city6
+debark person4 plane4 city6
+debark person4 plane5 city6
+debark person5 plane3 city0
+debark person5 plane4 city0
+fly plane1 city3 city4 fl1 fl0
+fly plane1 city3 city5 fl1 fl0
+fly plane1 city3 city5 fl2 fl1
+fly plane1 city3 city5 fl3 fl2
+fly plane1 city3 city6 fl1 fl0
+fly plane1 city3 city6 fl2 fl1
+fly plane1 city5 city3 fl1 fl0
+fly plane1 city5 city3 fl2 fl1
+fly plane1 city5 city3 fl3 fl2
+fly plane1 city5 city6 fl1 fl0
+fly plane1 city5 city6 fl2 fl1
+fly plane1 city5 city6 fl3 fl2
+fly plane1 city6 city3 fl1 fl0
+fly plane1 city6 city3 fl2 fl1
+fly plane1 city6 city3 fl3 fl2
+fly plane1 city6 city3 fl4 fl3
+fly plane1 city6 city4 fl1 fl0
+fly plane1 city6 city5 fl1 fl0
+fly plane1 city6 city5 fl2 fl1
+fly plane1 city6 city5 fl3 fl2
+fly plane1 city6 city5 fl4 fl3
+fly plane2 city3 city4 fl1 fl0
+fly plane2 city3 city4 fl2 fl1
+fly plane2 city3 city4 fl3 fl2
+fly plane2 city3 city5 fl1 fl0
+fly plane2 city3 city5 fl2 fl1
+fly plane2 city3 city5 fl3 fl2
+fly plane2 city4 city5 fl1 fl0
+fly plane2 city4 city5 fl2 fl1
+fly plane2 city4 city6 fl1 fl0
+fly plane2 city5 city4 fl1 fl0
+fly plane2 city5 city4 fl2 fl1
+fly plane2 city5 city6 fl1 fl0
+fly plane2 city5 city6 fl2 fl1
+fly plane2 city6 city4 fl1 fl0
+fly plane3 city0 city5 fl1 fl0
+fly plane3 city0 city5 fl2 fl1
+fly plane3 city0 city6 fl1 fl0
+fly plane3 city2 city0 fl1 fl0
+fly plane3 city2 city0 fl2 fl1
+fly plane3 city2 city0 fl3 fl2
+fly plane3 city2 city5 fl1 fl0
+fly plane3 city2 city5 fl2 fl1
+fly plane3 city2 city5 fl3 fl2
+fly plane3 city5 city0 fl1 fl0
+fly plane3 city5 city0 fl2 fl1
+fly plane3 city5 city6 fl1 fl0
+fly plane3 city5 city6 fl2 fl1
+fly plane3 city6 city0 fl1 fl0
+fly plane4 city0 city5 fl1 fl0
+fly plane4 city0 city5 fl2 fl1
+fly plane4 city0 city6 fl1 fl0
+fly plane4 city2 city0 fl1 fl0
+fly plane4 city2 city0 fl2 fl1
+fly plane4 city2 city0 fl3 fl2
+fly plane4 city2 city5 fl1 fl0
+fly plane4 city2 city5 fl2 fl1
+fly plane4 city2 city5 fl3 fl2
+fly plane4 city5 city0 fl1 fl0
+fly plane4 city5 city0 fl2 fl1
+fly plane4 city5 city6 fl1 fl0
+fly plane4 city5 city6 fl2 fl1
+fly plane4 city6 city0 fl1 fl0
+fly plane5 city3 city4 fl1 fl0
+fly plane5 city3 city4 fl2 fl1
+fly plane5 city3 city4 fl3 fl2
+fly plane5 city3 city5 fl1 fl0
+fly plane5 city3 city5 fl2 fl1
+fly plane5 city3 city5 fl3 fl2
+fly plane5 city4 city5 fl1 fl0
+fly plane5 city4 city5 fl2 fl1
+fly plane5 city4 city6 fl1 fl0
+fly plane5 city5 city4 fl1 fl0
+fly plane5 city5 city4 fl2 fl1
+fly plane5 city5 city6 fl1 fl0
+fly plane5 city5 city6 fl2 fl1
+fly plane5 city6 city4 fl1 fl0
+refuel plane1 city3 fl0 fl1
+refuel plane1 city3 fl1 fl2
+refuel plane1 city3 fl2 fl3
+refuel plane1 city5 fl0 fl1
+refuel plane1 city5 fl1 fl2
+refuel plane1 city5 fl2 fl3
+refuel plane1 city6 fl0 fl1
+refuel plane1 city6 fl1 fl2
+refuel plane1 city6 fl2 fl3
+refuel plane1 city6 fl3 fl4
+refuel plane2 city3 fl0 fl1
+refuel plane2 city3 fl1 fl2
+refuel plane2 city3 fl2 fl3
+refuel plane2 city4 fl0 fl1
+refuel plane2 city4 fl1 fl2
+refuel plane2 city5 fl0 fl1
+refuel plane2 city5 fl1 fl2
+refuel plane2 city6 fl0 fl1
+refuel plane3 city0 fl0 fl1
+refuel plane3 city0 fl1 fl2
+refuel plane3 city2 fl0 fl1
+refuel plane3 city2 fl1 fl2
+refuel plane3 city2 fl2 fl3
+refuel plane3 city5 fl0 fl1
+refuel plane3 city5 fl1 fl2
+refuel plane3 city6 fl0 fl1
+refuel plane4 city0 fl0 fl1
+refuel plane4 city0 fl1 fl2
+refuel plane4 city2 fl0 fl1
+refuel plane4 city2 fl1 fl2
+refuel plane4 city2 fl2 fl3
+refuel plane4 city5 fl0 fl1
+refuel plane4 city5 fl1 fl2
+refuel plane4 city6 fl0 fl1
+refuel plane5 city3 fl0 fl1
+refuel plane5 city3 fl1 fl2
+refuel plane5 city3 fl2 fl3
+refuel plane5 city4 fl0 fl1
+refuel plane5 city4 fl1 fl2
+refuel plane5 city5 fl0 fl1
+refuel plane5 city5 fl1 fl2
+refuel plane5 city6 fl0 fl1

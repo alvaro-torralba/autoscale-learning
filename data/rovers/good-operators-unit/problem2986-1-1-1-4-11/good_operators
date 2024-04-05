@@ -1,0 +1,41 @@
+calibrate rover0 camera0 objective0 waypoint1
+calibrate rover0 camera0 objective0 waypoint3
+calibrate rover0 camera0 objective0 waypoint6
+communicate_image_data rover0 general objective0 colour waypoint1 waypoint6
+communicate_image_data rover0 general objective0 colour waypoint10 waypoint6
+communicate_image_data rover0 general objective0 colour waypoint4 waypoint6
+communicate_image_data rover0 general objective0 colour waypoint7 waypoint6
+communicate_rock_data rover0 general waypoint1 waypoint1 waypoint6
+communicate_rock_data rover0 general waypoint10 waypoint1 waypoint6
+communicate_rock_data rover0 general waypoint10 waypoint10 waypoint6
+communicate_rock_data rover0 general waypoint10 waypoint4 waypoint6
+communicate_rock_data rover0 general waypoint10 waypoint7 waypoint6
+communicate_rock_data rover0 general waypoint4 waypoint1 waypoint6
+communicate_rock_data rover0 general waypoint4 waypoint10 waypoint6
+communicate_rock_data rover0 general waypoint4 waypoint4 waypoint6
+communicate_rock_data rover0 general waypoint4 waypoint7 waypoint6
+communicate_rock_data rover0 general waypoint6 waypoint1 waypoint6
+communicate_rock_data rover0 general waypoint6 waypoint10 waypoint6
+communicate_rock_data rover0 general waypoint6 waypoint4 waypoint6
+communicate_rock_data rover0 general waypoint6 waypoint7 waypoint6
+communicate_rock_data rover0 general waypoint7 waypoint1 waypoint6
+communicate_rock_data rover0 general waypoint7 waypoint10 waypoint6
+communicate_rock_data rover0 general waypoint7 waypoint4 waypoint6
+communicate_rock_data rover0 general waypoint7 waypoint7 waypoint6
+drop rover0 rover0store
+navigate rover0 waypoint10 waypoint4
+navigate rover0 waypoint3 waypoint1
+navigate rover0 waypoint4 waypoint10
+navigate rover0 waypoint4 waypoint3
+navigate rover0 waypoint4 waypoint6
+navigate rover0 waypoint4 waypoint7
+navigate rover0 waypoint6 waypoint4
+navigate rover0 waypoint7 waypoint4
+sample_rock rover0 rover0store waypoint1
+sample_rock rover0 rover0store waypoint10
+sample_rock rover0 rover0store waypoint4
+sample_rock rover0 rover0store waypoint6
+sample_rock rover0 rover0store waypoint7
+take_image rover0 waypoint1 objective0 camera0 colour
+take_image rover0 waypoint3 objective0 camera0 colour
+take_image rover0 waypoint6 objective0 camera0 colour

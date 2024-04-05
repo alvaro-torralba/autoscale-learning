@@ -1,0 +1,7 @@
+(do-plane p0 planer0 verysmooth white varnished)
+(do-glaze p0 glazer0 green)
+(do-saw-large b0 p1 saw0 pine rough s3 s1 s2 s0)
+(do-plane p1 planer0 rough natural untreated)
+(do-grind p1 grinder0 smooth natural untreated untreated)
+(do-glaze p1 glazer0 natural)
+; cost = 175 (general cost)

@@ -1,0 +1,20 @@
+drive-truck t6 l6-0 l6-1 c6
+drive-truck t6 l6-1 l6-0 c6
+fly-airplane a0 l0-0 l1-0
+fly-airplane a0 l0-0 l2-0
+fly-airplane a0 l1-0 l2-0
+fly-airplane a0 l1-0 l6-0
+fly-airplane a0 l1-0 l7-0
+fly-airplane a0 l2-0 l1-0
+fly-airplane a0 l2-0 l6-0
+fly-airplane a0 l2-0 l7-0
+fly-airplane a0 l6-0 l2-0
+fly-airplane a0 l6-0 l7-0
+fly-airplane a0 l7-0 l1-0
+fly-airplane a0 l7-0 l6-0
+load-airplane p1 a0 l1-0
+load-airplane p2 a0 l2-0
+load-truck p1 t6 l6-0
+unload-airplane p1 a0 l6-0
+unload-airplane p2 a0 l7-0
+unload-truck p1 t6 l6-1

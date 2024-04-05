@@ -1,0 +1,52 @@
+drive-truck t0 l0-0 l0-1 c0
+drive-truck t0 l0-0 l0-2 c0
+drive-truck t0 l0-0 l0-3 c0
+drive-truck t0 l0-1 l0-0 c0
+drive-truck t0 l0-1 l0-2 c0
+drive-truck t0 l0-1 l0-3 c0
+drive-truck t0 l0-2 l0-0 c0
+drive-truck t0 l0-2 l0-1 c0
+drive-truck t0 l0-2 l0-3 c0
+drive-truck t0 l0-3 l0-0 c0
+drive-truck t0 l0-3 l0-1 c0
+drive-truck t0 l0-3 l0-2 c0
+drive-truck t1 l1-0 l1-1 c1
+drive-truck t1 l1-0 l1-3 c1
+drive-truck t1 l1-1 l1-2 c1
+drive-truck t1 l1-1 l1-3 c1
+drive-truck t1 l1-2 l1-3 c1
+drive-truck t1 l1-3 l1-1 c1
+drive-truck t1 l1-3 l1-2 c1
+drive-truck t2 l1-1 l1-2 c1
+drive-truck t2 l1-3 l1-1 c1
+fly-airplane a0 l0-0 l1-0
+fly-airplane a0 l1-0 l0-0
+fly-airplane a1 l0-0 l1-0
+load-airplane p0 a0 l1-0
+load-airplane p1 a0 l0-0
+load-airplane p1 a1 l0-0
+load-airplane p5 a0 l1-0
+load-airplane p6 a0 l0-0
+load-airplane p6 a1 l0-0
+load-truck p1 t0 l0-1
+load-truck p2 t1 l1-1
+load-truck p2 t2 l1-1
+load-truck p3 t0 l0-0
+load-truck p4 t0 l0-0
+load-truck p5 t0 l0-0
+load-truck p6 t0 l0-2
+load-truck p6 t1 l1-0
+unload-airplane p0 a0 l0-0
+unload-airplane p1 a0 l1-0
+unload-airplane p1 a1 l1-0
+unload-airplane p5 a0 l0-0
+unload-airplane p6 a0 l1-0
+unload-airplane p6 a1 l1-0
+unload-truck p1 t0 l0-0
+unload-truck p2 t1 l1-2
+unload-truck p2 t2 l1-2
+unload-truck p3 t0 l0-2
+unload-truck p4 t0 l0-3
+unload-truck p5 t0 l0-2
+unload-truck p6 t0 l0-0
+unload-truck p6 t1 l1-3

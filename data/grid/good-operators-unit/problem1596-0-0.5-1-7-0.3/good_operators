@@ -1,0 +1,23 @@
+move pos0-2 pos1-2
+move pos1-2 pos0-2
+move pos1-2 pos2-2
+move pos2-0 pos2-1
+move pos2-1 pos2-2
+move pos2-2 pos1-2
+move pos2-2 pos2-1
+pickup pos0-2 key1
+pickup pos0-2 key7
+pickup pos1-2 key4
+pickup-and-loose pos0-2 key1 key0
+pickup-and-loose pos0-2 key7 key0
+pickup-and-loose pos1-2 key4 key0
+pickup-and-loose pos2-1 key0 key1
+pickup-and-loose pos2-1 key0 key5
+pickup-and-loose pos2-1 key0 key6
+pickup-and-loose pos2-2 key5 key4
+pickup-and-loose pos2-2 key5 key7
+pickup-and-loose pos2-2 key6 key4
+pickup-and-loose pos2-2 key6 key7
+putdown pos2-1 key1
+putdown pos2-1 key5
+putdown pos2-1 key6

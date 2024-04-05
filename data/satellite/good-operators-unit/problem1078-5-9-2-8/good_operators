@@ -1,0 +1,172 @@
+calibrate satellite3 instrument8 star2
+calibrate satellite3 instrument9 star4
+calibrate satellite4 instrument11 star7
+calibrate satellite4 instrument12 star7
+switch_on instrument11 satellite4
+switch_on instrument12 satellite4
+switch_on instrument8 satellite3
+switch_on instrument9 satellite3
+take_image satellite3 phenomenon10 instrument8 image1
+take_image satellite3 phenomenon10 instrument9 image1
+take_image satellite3 phenomenon11 instrument8 thermograph0
+take_image satellite3 phenomenon11 instrument9 thermograph0
+take_image satellite3 phenomenon12 instrument8 thermograph0
+take_image satellite3 phenomenon12 instrument9 thermograph0
+take_image satellite3 phenomenon16 instrument8 thermograph0
+take_image satellite3 phenomenon16 instrument9 thermograph0
+take_image satellite3 planet14 instrument8 thermograph0
+take_image satellite3 planet14 instrument9 thermograph0
+take_image satellite3 planet15 instrument8 image1
+take_image satellite3 planet15 instrument9 image1
+take_image satellite3 planet9 instrument8 thermograph0
+take_image satellite3 planet9 instrument9 thermograph0
+take_image satellite3 star13 instrument8 image1
+take_image satellite3 star13 instrument9 image1
+take_image satellite4 phenomenon10 instrument11 image1
+take_image satellite4 phenomenon10 instrument12 image1
+take_image satellite4 phenomenon11 instrument11 thermograph0
+take_image satellite4 phenomenon11 instrument12 thermograph0
+take_image satellite4 phenomenon12 instrument11 thermograph0
+take_image satellite4 phenomenon12 instrument12 thermograph0
+take_image satellite4 phenomenon16 instrument11 thermograph0
+take_image satellite4 phenomenon16 instrument12 thermograph0
+take_image satellite4 planet14 instrument11 thermograph0
+take_image satellite4 planet14 instrument12 thermograph0
+take_image satellite4 planet15 instrument11 image1
+take_image satellite4 planet15 instrument12 image1
+take_image satellite4 planet9 instrument11 thermograph0
+take_image satellite4 planet9 instrument12 thermograph0
+take_image satellite4 star13 instrument11 image1
+take_image satellite4 star13 instrument12 image1
+turn_to satellite0 groundstation8 phenomenon12
+turn_to satellite1 star7 planet15
+turn_to satellite3 phenomenon10 phenomenon11
+turn_to satellite3 phenomenon10 phenomenon12
+turn_to satellite3 phenomenon10 phenomenon16
+turn_to satellite3 phenomenon10 planet14
+turn_to satellite3 phenomenon10 planet9
+turn_to satellite3 phenomenon10 star13
+turn_to satellite3 phenomenon10 star2
+turn_to satellite3 phenomenon10 star4
+turn_to satellite3 phenomenon11 phenomenon10
+turn_to satellite3 phenomenon11 phenomenon12
+turn_to satellite3 phenomenon11 phenomenon16
+turn_to satellite3 phenomenon11 planet14
+turn_to satellite3 phenomenon11 planet9
+turn_to satellite3 phenomenon11 star13
+turn_to satellite3 phenomenon11 star2
+turn_to satellite3 phenomenon11 star4
+turn_to satellite3 phenomenon12 phenomenon10
+turn_to satellite3 phenomenon12 phenomenon11
+turn_to satellite3 phenomenon12 phenomenon16
+turn_to satellite3 phenomenon12 planet14
+turn_to satellite3 phenomenon12 planet9
+turn_to satellite3 phenomenon12 star13
+turn_to satellite3 phenomenon12 star2
+turn_to satellite3 phenomenon12 star4
+turn_to satellite3 phenomenon16 phenomenon10
+turn_to satellite3 phenomenon16 phenomenon11
+turn_to satellite3 phenomenon16 phenomenon12
+turn_to satellite3 phenomenon16 planet14
+turn_to satellite3 phenomenon16 planet9
+turn_to satellite3 phenomenon16 star13
+turn_to satellite3 phenomenon16 star2
+turn_to satellite3 phenomenon16 star4
+turn_to satellite3 planet14 phenomenon10
+turn_to satellite3 planet14 phenomenon11
+turn_to satellite3 planet14 phenomenon12
+turn_to satellite3 planet14 phenomenon16
+turn_to satellite3 planet14 planet9
+turn_to satellite3 planet14 star13
+turn_to satellite3 planet14 star2
+turn_to satellite3 planet14 star4
+turn_to satellite3 planet15 phenomenon10
+turn_to satellite3 planet15 phenomenon11
+turn_to satellite3 planet15 phenomenon12
+turn_to satellite3 planet15 phenomenon16
+turn_to satellite3 planet15 planet14
+turn_to satellite3 planet15 planet9
+turn_to satellite3 planet15 star13
+turn_to satellite3 planet15 star7
+turn_to satellite3 planet9 phenomenon10
+turn_to satellite3 planet9 phenomenon11
+turn_to satellite3 planet9 phenomenon12
+turn_to satellite3 planet9 phenomenon16
+turn_to satellite3 planet9 planet14
+turn_to satellite3 planet9 star13
+turn_to satellite3 planet9 star2
+turn_to satellite3 planet9 star4
+turn_to satellite3 star13 phenomenon10
+turn_to satellite3 star13 phenomenon11
+turn_to satellite3 star13 phenomenon12
+turn_to satellite3 star13 phenomenon16
+turn_to satellite3 star13 planet14
+turn_to satellite3 star13 planet9
+turn_to satellite3 star13 star2
+turn_to satellite3 star13 star4
+turn_to satellite3 star2 star7
+turn_to satellite3 star4 star7
+turn_to satellite4 phenomenon10 phenomenon11
+turn_to satellite4 phenomenon10 phenomenon12
+turn_to satellite4 phenomenon10 phenomenon16
+turn_to satellite4 phenomenon10 planet14
+turn_to satellite4 phenomenon10 planet15
+turn_to satellite4 phenomenon10 planet9
+turn_to satellite4 phenomenon10 star13
+turn_to satellite4 phenomenon10 star7
+turn_to satellite4 phenomenon11 phenomenon10
+turn_to satellite4 phenomenon11 phenomenon12
+turn_to satellite4 phenomenon11 phenomenon16
+turn_to satellite4 phenomenon11 planet14
+turn_to satellite4 phenomenon11 planet15
+turn_to satellite4 phenomenon11 planet9
+turn_to satellite4 phenomenon11 star13
+turn_to satellite4 phenomenon11 star7
+turn_to satellite4 phenomenon12 phenomenon10
+turn_to satellite4 phenomenon12 phenomenon11
+turn_to satellite4 phenomenon12 phenomenon16
+turn_to satellite4 phenomenon12 planet14
+turn_to satellite4 phenomenon12 planet15
+turn_to satellite4 phenomenon12 planet9
+turn_to satellite4 phenomenon12 star13
+turn_to satellite4 phenomenon12 star7
+turn_to satellite4 phenomenon16 phenomenon10
+turn_to satellite4 phenomenon16 phenomenon11
+turn_to satellite4 phenomenon16 phenomenon12
+turn_to satellite4 phenomenon16 planet14
+turn_to satellite4 phenomenon16 planet15
+turn_to satellite4 phenomenon16 planet9
+turn_to satellite4 phenomenon16 star13
+turn_to satellite4 phenomenon16 star7
+turn_to satellite4 planet14 phenomenon10
+turn_to satellite4 planet14 phenomenon11
+turn_to satellite4 planet14 phenomenon12
+turn_to satellite4 planet14 phenomenon16
+turn_to satellite4 planet14 planet15
+turn_to satellite4 planet14 planet9
+turn_to satellite4 planet14 star13
+turn_to satellite4 planet14 star7
+turn_to satellite4 planet15 phenomenon10
+turn_to satellite4 planet15 phenomenon11
+turn_to satellite4 planet15 phenomenon12
+turn_to satellite4 planet15 phenomenon16
+turn_to satellite4 planet15 planet14
+turn_to satellite4 planet15 planet9
+turn_to satellite4 planet15 star13
+turn_to satellite4 planet15 star7
+turn_to satellite4 planet9 phenomenon10
+turn_to satellite4 planet9 phenomenon11
+turn_to satellite4 planet9 phenomenon12
+turn_to satellite4 planet9 phenomenon16
+turn_to satellite4 planet9 planet14
+turn_to satellite4 planet9 planet15
+turn_to satellite4 planet9 star13
+turn_to satellite4 planet9 star7
+turn_to satellite4 star13 phenomenon10
+turn_to satellite4 star13 phenomenon11
+turn_to satellite4 star13 phenomenon12
+turn_to satellite4 star13 phenomenon16
+turn_to satellite4 star13 planet14
+turn_to satellite4 star13 planet15
+turn_to satellite4 star13 planet9
+turn_to satellite4 star13 star7

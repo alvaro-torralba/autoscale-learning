@@ -1,0 +1,17 @@
+calibrate rover0 camera2 objective0 waypoint6
+calibrate rover0 camera5 objective1 waypoint3
+calibrate rover0 camera5 objective1 waypoint6
+calibrate rover0 camera6 objective1 waypoint3
+calibrate rover0 camera6 objective1 waypoint6
+calibrate rover0 camera7 objective0 waypoint6
+calibrate rover0 camera8 objective0 waypoint6
+communicate_image_data rover0 general objective0 colour waypoint3 waypoint5
+communicate_rock_data rover0 general waypoint6 waypoint3 waypoint5
+navigate rover0 waypoint3 waypoint6
+navigate rover0 waypoint6 waypoint3
+sample_rock rover0 rover0store waypoint6
+take_image rover0 waypoint6 objective0 camera2 colour
+take_image rover0 waypoint6 objective0 camera5 colour
+take_image rover0 waypoint6 objective0 camera6 colour
+take_image rover0 waypoint6 objective0 camera7 colour
+take_image rover0 waypoint6 objective0 camera8 colour

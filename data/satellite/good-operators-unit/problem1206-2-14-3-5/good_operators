@@ -1,0 +1,45 @@
+calibrate satellite0 instrument1 groundstation12
+calibrate satellite0 instrument1 groundstation3
+switch_on instrument1 satellite0
+take_image satellite0 phenomenon15 instrument1 thermograph2
+take_image satellite0 phenomenon17 instrument1 infrared0
+take_image satellite0 phenomenon18 instrument1 infrared0
+take_image satellite0 planet14 instrument1 infrared0
+take_image satellite0 star16 instrument1 infrared1
+turn_to satellite0 groundstation12 star5
+turn_to satellite0 groundstation13 phenomenon15
+turn_to satellite0 groundstation13 phenomenon17
+turn_to satellite0 groundstation13 phenomenon18
+turn_to satellite0 groundstation13 planet14
+turn_to satellite0 groundstation13 star16
+turn_to satellite0 groundstation3 star5
+turn_to satellite0 phenomenon15 groundstation12
+turn_to satellite0 phenomenon15 groundstation3
+turn_to satellite0 phenomenon15 phenomenon17
+turn_to satellite0 phenomenon15 phenomenon18
+turn_to satellite0 phenomenon15 planet14
+turn_to satellite0 phenomenon15 star16
+turn_to satellite0 phenomenon17 groundstation12
+turn_to satellite0 phenomenon17 groundstation3
+turn_to satellite0 phenomenon17 phenomenon15
+turn_to satellite0 phenomenon17 phenomenon18
+turn_to satellite0 phenomenon17 planet14
+turn_to satellite0 phenomenon17 star16
+turn_to satellite0 phenomenon18 groundstation12
+turn_to satellite0 phenomenon18 groundstation3
+turn_to satellite0 phenomenon18 phenomenon15
+turn_to satellite0 phenomenon18 phenomenon17
+turn_to satellite0 phenomenon18 planet14
+turn_to satellite0 phenomenon18 star16
+turn_to satellite0 planet14 groundstation12
+turn_to satellite0 planet14 groundstation3
+turn_to satellite0 planet14 phenomenon15
+turn_to satellite0 planet14 phenomenon17
+turn_to satellite0 planet14 phenomenon18
+turn_to satellite0 planet14 star16
+turn_to satellite0 star16 groundstation12
+turn_to satellite0 star16 groundstation3
+turn_to satellite0 star16 phenomenon15
+turn_to satellite0 star16 phenomenon17
+turn_to satellite0 star16 phenomenon18
+turn_to satellite0 star16 planet14

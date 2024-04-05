@@ -1,0 +1,10 @@
+drive-truck t0 l0-0 l0-3 c0
+drive-truck t0 l0-3 l0-0 c0
+drive-truck t3 l3-2 l3-3 c3
+drive-truck t6 l3-2 l3-3 c3
+load-truck p0 t3 l3-2
+load-truck p0 t6 l3-2
+load-truck p1 t0 l0-0
+unload-truck p0 t3 l3-3
+unload-truck p0 t6 l3-3
+unload-truck p1 t0 l0-3

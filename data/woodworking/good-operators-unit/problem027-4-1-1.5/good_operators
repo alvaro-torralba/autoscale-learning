@@ -1,0 +1,27 @@
+do-glaze p0 glazer0 red
+do-glaze p2 glazer0 green
+do-glaze p3 glazer0 green
+do-grind p1 grinder0 smooth natural untreated untreated
+do-grind p2 grinder0 smooth natural untreated untreated
+do-immersion-varnish p0 immersion-varnisher0 red smooth
+do-immersion-varnish p1 immersion-varnisher0 mauve verysmooth
+do-plane p0 planer0 rough natural untreated
+do-plane p1 planer0 rough natural untreated
+do-plane p2 planer0 rough natural untreated
+do-saw-medium b0 p2 saw0 pine rough s4 s3 s2
+do-saw-medium b0 p2 saw0 pine rough s5 s4 s3
+do-saw-medium b0 p2 saw0 pine rough s6 s5 s4
+do-saw-small b0 p0 saw0 pine rough s3 s2
+do-saw-small b0 p0 saw0 pine rough s4 s3
+do-saw-small b0 p0 saw0 pine rough s5 s4
+do-saw-small b0 p0 saw0 pine rough s6 s5
+do-saw-small b0 p3 saw0 pine rough s3 s2
+do-saw-small b0 p3 saw0 pine rough s4 s3
+do-saw-small b0 p3 saw0 pine rough s5 s4
+do-saw-small b0 p3 saw0 pine rough s6 s5
+do-saw-small b1 p0 saw0 cherry rough s1 s0
+do-saw-small b1 p0 saw0 cherry rough s2 s1
+do-saw-small b1 p1 saw0 cherry rough s1 s0
+do-saw-small b1 p1 saw0 cherry rough s2 s1
+do-spray-varnish p0 spray-varnisher0 red smooth
+do-spray-varnish p1 spray-varnisher0 mauve verysmooth

@@ -1,0 +1,8 @@
+(do-saw-small b1 p1 saw0 walnut rough s2 s1)
+(do-saw-small b0 p0 saw0 teak rough s2 s1)
+(do-plane p0 planer0 rough natural untreated)
+(do-glaze p0 glazer0 green)
+(do-plane p1 planer0 rough natural untreated)
+(do-grind p1 grinder0 smooth natural untreated untreated)
+(do-immersion-varnish p1 immersion-varnisher0 blue verysmooth)
+; cost = 115 (general cost)

@@ -1,0 +1,155 @@
+do-glaze p0 glazer0 blue
+do-glaze p1 glazer0 blue
+do-glaze p1 glazer1 black
+do-glaze p1 glazer1 white
+do-glaze p1 glazer2 red
+do-glaze p1 glazer2 white
+do-glaze p2 glazer2 red
+do-glaze p3 glazer0 blue
+do-glaze p3 glazer1 black
+do-glaze p3 glazer1 white
+do-glaze p3 glazer2 red
+do-glaze p3 glazer2 white
+do-glaze p5 glazer1 black
+do-glaze p6 glazer1 white
+do-glaze p6 glazer2 white
+do-grind p3 grinder0 smooth natural untreated untreated
+do-grind p3 grinder1 smooth natural untreated untreated
+do-grind p3 grinder2 smooth natural untreated untreated
+do-grind p6 grinder0 smooth natural untreated untreated
+do-grind p6 grinder1 smooth natural untreated untreated
+do-grind p6 grinder2 smooth natural untreated untreated
+do-grind p7 grinder0 smooth black glazed untreated
+do-grind p7 grinder1 smooth black glazed untreated
+do-grind p7 grinder2 smooth black glazed untreated
+do-immersion-varnish p0 immersion-varnisher2 blue smooth
+do-immersion-varnish p2 immersion-varnisher0 red smooth
+do-immersion-varnish p4 immersion-varnisher0 white smooth
+do-immersion-varnish p4 immersion-varnisher2 white smooth
+do-immersion-varnish p5 immersion-varnisher1 black smooth
+do-immersion-varnish p7 immersion-varnisher0 red verysmooth
+do-immersion-varnish p7 immersion-varnisher0 white verysmooth
+do-immersion-varnish p7 immersion-varnisher1 black verysmooth
+do-immersion-varnish p7 immersion-varnisher2 blue verysmooth
+do-immersion-varnish p7 immersion-varnisher2 white verysmooth
+do-plane p5 planer0 verysmooth mauve varnished
+do-plane p5 planer1 verysmooth mauve varnished
+do-plane p5 planer2 verysmooth mauve varnished
+do-saw-large b0 p4 saw0 pine smooth s4 s2 s3 s1
+do-saw-large b0 p4 saw0 pine smooth s5 s3 s4 s2
+do-saw-large b0 p4 saw0 pine smooth s6 s4 s5 s3
+do-saw-large b0 p4 saw0 pine smooth s7 s5 s6 s4
+do-saw-large b0 p4 saw0 pine smooth s8 s6 s7 s5
+do-saw-large b0 p4 saw1 pine smooth s4 s2 s3 s1
+do-saw-large b0 p4 saw1 pine smooth s5 s3 s4 s2
+do-saw-large b0 p4 saw1 pine smooth s6 s4 s5 s3
+do-saw-large b0 p4 saw1 pine smooth s7 s5 s6 s4
+do-saw-large b0 p4 saw1 pine smooth s8 s6 s7 s5
+do-saw-large b0 p4 saw2 pine smooth s4 s2 s3 s1
+do-saw-large b0 p4 saw2 pine smooth s5 s3 s4 s2
+do-saw-large b0 p4 saw2 pine smooth s6 s4 s5 s3
+do-saw-large b0 p4 saw2 pine smooth s7 s5 s6 s4
+do-saw-large b0 p4 saw2 pine smooth s8 s6 s7 s5
+do-saw-medium b0 p6 saw0 pine smooth s3 s2 s1
+do-saw-medium b0 p6 saw0 pine smooth s4 s3 s2
+do-saw-medium b0 p6 saw0 pine smooth s5 s4 s3
+do-saw-medium b0 p6 saw0 pine smooth s6 s5 s4
+do-saw-medium b0 p6 saw0 pine smooth s7 s6 s5
+do-saw-medium b0 p6 saw0 pine smooth s8 s7 s6
+do-saw-medium b0 p6 saw1 pine smooth s3 s2 s1
+do-saw-medium b0 p6 saw1 pine smooth s4 s3 s2
+do-saw-medium b0 p6 saw1 pine smooth s5 s4 s3
+do-saw-medium b0 p6 saw1 pine smooth s6 s5 s4
+do-saw-medium b0 p6 saw1 pine smooth s7 s6 s5
+do-saw-medium b0 p6 saw1 pine smooth s8 s7 s6
+do-saw-medium b0 p6 saw2 pine smooth s3 s2 s1
+do-saw-medium b0 p6 saw2 pine smooth s4 s3 s2
+do-saw-medium b0 p6 saw2 pine smooth s5 s4 s3
+do-saw-medium b0 p6 saw2 pine smooth s6 s5 s4
+do-saw-medium b0 p6 saw2 pine smooth s7 s6 s5
+do-saw-medium b0 p6 saw2 pine smooth s8 s7 s6
+do-saw-medium b1 p2 saw0 oak smooth s3 s2 s1
+do-saw-medium b1 p2 saw0 oak smooth s4 s3 s2
+do-saw-medium b1 p2 saw0 oak smooth s5 s4 s3
+do-saw-medium b1 p2 saw1 oak smooth s3 s2 s1
+do-saw-medium b1 p2 saw1 oak smooth s4 s3 s2
+do-saw-medium b1 p2 saw1 oak smooth s5 s4 s3
+do-saw-medium b1 p2 saw2 oak smooth s3 s2 s1
+do-saw-medium b1 p2 saw2 oak smooth s4 s3 s2
+do-saw-medium b1 p2 saw2 oak smooth s5 s4 s3
+do-saw-small b0 p0 saw0 pine smooth s2 s1
+do-saw-small b0 p0 saw0 pine smooth s3 s2
+do-saw-small b0 p0 saw0 pine smooth s4 s3
+do-saw-small b0 p0 saw0 pine smooth s5 s4
+do-saw-small b0 p0 saw0 pine smooth s6 s5
+do-saw-small b0 p0 saw0 pine smooth s7 s6
+do-saw-small b0 p0 saw0 pine smooth s8 s7
+do-saw-small b0 p0 saw1 pine smooth s2 s1
+do-saw-small b0 p0 saw1 pine smooth s3 s2
+do-saw-small b0 p0 saw1 pine smooth s4 s3
+do-saw-small b0 p0 saw1 pine smooth s5 s4
+do-saw-small b0 p0 saw1 pine smooth s6 s5
+do-saw-small b0 p0 saw1 pine smooth s7 s6
+do-saw-small b0 p0 saw1 pine smooth s8 s7
+do-saw-small b0 p0 saw2 pine smooth s2 s1
+do-saw-small b0 p0 saw2 pine smooth s3 s2
+do-saw-small b0 p0 saw2 pine smooth s4 s3
+do-saw-small b0 p0 saw2 pine smooth s5 s4
+do-saw-small b0 p0 saw2 pine smooth s6 s5
+do-saw-small b0 p0 saw2 pine smooth s7 s6
+do-saw-small b0 p0 saw2 pine smooth s8 s7
+do-saw-small b0 p3 saw0 pine smooth s2 s1
+do-saw-small b0 p3 saw0 pine smooth s3 s2
+do-saw-small b0 p3 saw0 pine smooth s4 s3
+do-saw-small b0 p3 saw0 pine smooth s5 s4
+do-saw-small b0 p3 saw0 pine smooth s6 s5
+do-saw-small b0 p3 saw0 pine smooth s7 s6
+do-saw-small b0 p3 saw0 pine smooth s8 s7
+do-saw-small b0 p3 saw1 pine smooth s2 s1
+do-saw-small b0 p3 saw1 pine smooth s3 s2
+do-saw-small b0 p3 saw1 pine smooth s4 s3
+do-saw-small b0 p3 saw1 pine smooth s5 s4
+do-saw-small b0 p3 saw1 pine smooth s6 s5
+do-saw-small b0 p3 saw1 pine smooth s7 s6
+do-saw-small b0 p3 saw1 pine smooth s8 s7
+do-saw-small b0 p3 saw2 pine smooth s2 s1
+do-saw-small b0 p3 saw2 pine smooth s3 s2
+do-saw-small b0 p3 saw2 pine smooth s4 s3
+do-saw-small b0 p3 saw2 pine smooth s5 s4
+do-saw-small b0 p3 saw2 pine smooth s6 s5
+do-saw-small b0 p3 saw2 pine smooth s7 s6
+do-saw-small b0 p3 saw2 pine smooth s8 s7
+do-saw-small b1 p1 saw0 oak smooth s2 s1
+do-saw-small b1 p1 saw0 oak smooth s3 s2
+do-saw-small b1 p1 saw0 oak smooth s4 s3
+do-saw-small b1 p1 saw0 oak smooth s5 s4
+do-saw-small b1 p1 saw1 oak smooth s2 s1
+do-saw-small b1 p1 saw1 oak smooth s3 s2
+do-saw-small b1 p1 saw1 oak smooth s4 s3
+do-saw-small b1 p1 saw1 oak smooth s5 s4
+do-saw-small b1 p1 saw2 oak smooth s2 s1
+do-saw-small b1 p1 saw2 oak smooth s3 s2
+do-saw-small b1 p1 saw2 oak smooth s4 s3
+do-saw-small b1 p1 saw2 oak smooth s5 s4
+do-saw-small b1 p3 saw0 oak smooth s2 s1
+do-saw-small b1 p3 saw0 oak smooth s3 s2
+do-saw-small b1 p3 saw0 oak smooth s4 s3
+do-saw-small b1 p3 saw0 oak smooth s5 s4
+do-saw-small b1 p3 saw1 oak smooth s2 s1
+do-saw-small b1 p3 saw1 oak smooth s3 s2
+do-saw-small b1 p3 saw1 oak smooth s4 s3
+do-saw-small b1 p3 saw1 oak smooth s5 s4
+do-saw-small b1 p3 saw2 oak smooth s2 s1
+do-saw-small b1 p3 saw2 oak smooth s3 s2
+do-saw-small b1 p3 saw2 oak smooth s4 s3
+do-saw-small b1 p3 saw2 oak smooth s5 s4
+do-spray-varnish p0 spray-varnisher1 blue smooth
+do-spray-varnish p2 spray-varnisher2 red smooth
+do-spray-varnish p4 spray-varnisher1 white smooth
+do-spray-varnish p4 spray-varnisher2 white smooth
+do-spray-varnish p5 spray-varnisher0 black smooth
+do-spray-varnish p7 spray-varnisher0 black verysmooth
+do-spray-varnish p7 spray-varnisher1 blue verysmooth
+do-spray-varnish p7 spray-varnisher1 white verysmooth
+do-spray-varnish p7 spray-varnisher2 red verysmooth
+do-spray-varnish p7 spray-varnisher2 white verysmooth

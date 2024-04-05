@@ -1,0 +1,8 @@
+move pos0-1 pos0-2
+move pos0-2 pos0-3
+pickup pos0-1 key1
+pickup-and-loose pos0-2 key1 key3
+pickup-and-loose pos0-2 key3 key1
+putdown pos0-3 key1
+unlock pos0-1 pos0-2 key1 shape1
+unlock pos0-2 pos0-3 key3 shape0

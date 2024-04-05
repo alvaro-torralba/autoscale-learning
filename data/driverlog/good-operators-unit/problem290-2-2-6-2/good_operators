@@ -1,0 +1,14 @@
+board-truck driver2 truck3 s1
+drive-truck truck3 s0 s2 driver2
+drive-truck truck3 s1 s2 driver2
+drive-truck truck3 s1 s4 driver2
+drive-truck truck3 s2 s3 driver2
+drive-truck truck3 s4 s2 driver2
+drive-truck truck3 s4 s5 driver2
+drive-truck truck3 s5 s0 driver2
+drive-truck truck3 s5 s1 driver2
+drive-truck truck3 s5 s4 driver2
+load-truck package1 truck3 s4
+load-truck package2 truck3 s5
+unload-truck package1 truck3 s5
+unload-truck package2 truck3 s2

@@ -1,0 +1,31 @@
+calibrate rover0 camera2 objective0 waypoint0
+calibrate rover1 camera1 objective0 waypoint0
+calibrate rover1 camera4 objective0 waypoint0
+calibrate rover1 camera5 objective0 waypoint0
+communicate_image_data rover0 general objective0 colour waypoint0 waypoint3
+communicate_image_data rover0 general objective0 low_res waypoint0 waypoint3
+communicate_image_data rover1 general objective0 colour waypoint0 waypoint3
+communicate_image_data rover1 general objective0 low_res waypoint0 waypoint3
+communicate_rock_data rover0 general waypoint0 waypoint0 waypoint3
+communicate_rock_data rover0 general waypoint1 waypoint0 waypoint3
+communicate_rock_data rover0 general waypoint1 waypoint1 waypoint3
+communicate_rock_data rover0 general waypoint3 waypoint0 waypoint3
+communicate_rock_data rover0 general waypoint3 waypoint1 waypoint3
+communicate_soil_data rover1 general waypoint0 waypoint0 waypoint3
+communicate_soil_data rover2 general waypoint1 waypoint1 waypoint3
+drop rover0 rover0store
+navigate rover0 waypoint1 waypoint0
+navigate rover0 waypoint1 waypoint3
+navigate rover0 waypoint3 waypoint1
+sample_rock rover0 rover0store waypoint0
+sample_rock rover0 rover0store waypoint1
+sample_rock rover0 rover0store waypoint3
+sample_soil rover1 rover1store waypoint0
+sample_soil rover2 rover2store waypoint1
+take_image rover0 waypoint0 objective0 camera2 colour
+take_image rover0 waypoint0 objective0 camera2 low_res
+take_image rover1 waypoint0 objective0 camera1 low_res
+take_image rover1 waypoint0 objective0 camera4 colour
+take_image rover1 waypoint0 objective0 camera4 low_res
+take_image rover1 waypoint0 objective0 camera5 colour
+take_image rover1 waypoint0 objective0 camera5 low_res

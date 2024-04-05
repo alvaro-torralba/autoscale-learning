@@ -1,0 +1,129 @@
+do-glaze p0 glazer0 blue
+do-glaze p0 glazer1 blue
+do-glaze p1 glazer1 natural
+do-glaze p1 glazer2 natural
+do-glaze p2 glazer1 white
+do-glaze p5 glazer0 black
+do-glaze p5 glazer1 black
+do-glaze p6 glazer0 black
+do-glaze p6 glazer0 blue
+do-glaze p6 glazer1 black
+do-glaze p6 glazer1 blue
+do-glaze p6 glazer1 natural
+do-glaze p6 glazer1 white
+do-glaze p6 glazer2 natural
+do-grind p5 grinder0 smooth natural untreated untreated
+do-grind p5 grinder1 smooth natural untreated untreated
+do-grind p5 grinder2 smooth natural untreated untreated
+do-grind p6 grinder0 smooth natural untreated untreated
+do-grind p6 grinder0 verysmooth natural colourfragments untreated
+do-grind p6 grinder0 verysmooth red varnished colourfragments
+do-grind p6 grinder1 smooth natural untreated untreated
+do-grind p6 grinder1 verysmooth natural colourfragments untreated
+do-grind p6 grinder1 verysmooth red varnished colourfragments
+do-grind p6 grinder2 smooth natural untreated untreated
+do-grind p6 grinder2 verysmooth natural colourfragments untreated
+do-grind p6 grinder2 verysmooth red varnished colourfragments
+do-immersion-varnish p2 immersion-varnisher0 white smooth
+do-immersion-varnish p2 immersion-varnisher1 white smooth
+do-immersion-varnish p2 immersion-varnisher2 white smooth
+do-immersion-varnish p3 immersion-varnisher0 white smooth
+do-immersion-varnish p3 immersion-varnisher1 white smooth
+do-immersion-varnish p3 immersion-varnisher2 white smooth
+do-immersion-varnish p4 immersion-varnisher0 white smooth
+do-immersion-varnish p4 immersion-varnisher1 white smooth
+do-immersion-varnish p4 immersion-varnisher2 white smooth
+do-immersion-varnish p8 immersion-varnisher0 white smooth
+do-immersion-varnish p8 immersion-varnisher1 white smooth
+do-immersion-varnish p8 immersion-varnisher2 white smooth
+do-plane p1 planer0 smooth mauve glazed
+do-plane p1 planer1 smooth mauve glazed
+do-plane p1 planer2 smooth mauve glazed
+do-plane p2 planer0 smooth red colourfragments
+do-plane p2 planer1 smooth red colourfragments
+do-plane p2 planer2 smooth red colourfragments
+do-plane p3 planer0 verysmooth mauve varnished
+do-plane p3 planer1 verysmooth mauve varnished
+do-plane p3 planer2 verysmooth mauve varnished
+do-plane p6 planer0 verysmooth red varnished
+do-plane p6 planer1 verysmooth red varnished
+do-plane p6 planer2 verysmooth red varnished
+do-saw-medium b0 p7 saw0 walnut smooth s3 s2 s1
+do-saw-medium b0 p7 saw0 walnut smooth s4 s3 s2
+do-saw-medium b0 p7 saw0 walnut smooth s5 s4 s3
+do-saw-medium b0 p7 saw0 walnut smooth s6 s5 s4
+do-saw-medium b0 p7 saw1 walnut smooth s3 s2 s1
+do-saw-medium b0 p7 saw1 walnut smooth s4 s3 s2
+do-saw-medium b0 p7 saw1 walnut smooth s5 s4 s3
+do-saw-medium b0 p7 saw1 walnut smooth s6 s5 s4
+do-saw-medium b0 p7 saw2 walnut smooth s3 s2 s1
+do-saw-medium b0 p7 saw2 walnut smooth s4 s3 s2
+do-saw-medium b0 p7 saw2 walnut smooth s5 s4 s3
+do-saw-medium b0 p7 saw2 walnut smooth s6 s5 s4
+do-saw-medium b2 p4 saw0 oak smooth s2 s1 s0
+do-saw-medium b2 p4 saw0 oak smooth s3 s2 s1
+do-saw-medium b2 p4 saw1 oak smooth s2 s1 s0
+do-saw-medium b2 p4 saw1 oak smooth s3 s2 s1
+do-saw-medium b2 p4 saw2 oak smooth s2 s1 s0
+do-saw-medium b2 p4 saw2 oak smooth s3 s2 s1
+do-saw-small b0 p0 saw0 walnut smooth s2 s1
+do-saw-small b0 p0 saw0 walnut smooth s3 s2
+do-saw-small b0 p0 saw0 walnut smooth s4 s3
+do-saw-small b0 p0 saw0 walnut smooth s5 s4
+do-saw-small b0 p0 saw0 walnut smooth s6 s5
+do-saw-small b0 p0 saw1 walnut smooth s2 s1
+do-saw-small b0 p0 saw1 walnut smooth s3 s2
+do-saw-small b0 p0 saw1 walnut smooth s4 s3
+do-saw-small b0 p0 saw1 walnut smooth s5 s4
+do-saw-small b0 p0 saw1 walnut smooth s6 s5
+do-saw-small b0 p0 saw2 walnut smooth s2 s1
+do-saw-small b0 p0 saw2 walnut smooth s3 s2
+do-saw-small b0 p0 saw2 walnut smooth s4 s3
+do-saw-small b0 p0 saw2 walnut smooth s5 s4
+do-saw-small b0 p0 saw2 walnut smooth s6 s5
+do-saw-small b0 p5 saw0 walnut smooth s2 s1
+do-saw-small b0 p5 saw0 walnut smooth s3 s2
+do-saw-small b0 p5 saw0 walnut smooth s4 s3
+do-saw-small b0 p5 saw0 walnut smooth s5 s4
+do-saw-small b0 p5 saw0 walnut smooth s6 s5
+do-saw-small b0 p5 saw1 walnut smooth s2 s1
+do-saw-small b0 p5 saw1 walnut smooth s3 s2
+do-saw-small b0 p5 saw1 walnut smooth s4 s3
+do-saw-small b0 p5 saw1 walnut smooth s5 s4
+do-saw-small b0 p5 saw1 walnut smooth s6 s5
+do-saw-small b0 p5 saw2 walnut smooth s2 s1
+do-saw-small b0 p5 saw2 walnut smooth s3 s2
+do-saw-small b0 p5 saw2 walnut smooth s4 s3
+do-saw-small b0 p5 saw2 walnut smooth s5 s4
+do-saw-small b0 p5 saw2 walnut smooth s6 s5
+do-saw-small b0 p8 saw0 walnut smooth s2 s1
+do-saw-small b0 p8 saw0 walnut smooth s3 s2
+do-saw-small b0 p8 saw0 walnut smooth s4 s3
+do-saw-small b0 p8 saw0 walnut smooth s5 s4
+do-saw-small b0 p8 saw0 walnut smooth s6 s5
+do-saw-small b0 p8 saw1 walnut smooth s2 s1
+do-saw-small b0 p8 saw1 walnut smooth s3 s2
+do-saw-small b0 p8 saw1 walnut smooth s4 s3
+do-saw-small b0 p8 saw1 walnut smooth s5 s4
+do-saw-small b0 p8 saw1 walnut smooth s6 s5
+do-saw-small b0 p8 saw2 walnut smooth s2 s1
+do-saw-small b0 p8 saw2 walnut smooth s3 s2
+do-saw-small b0 p8 saw2 walnut smooth s4 s3
+do-saw-small b0 p8 saw2 walnut smooth s5 s4
+do-saw-small b0 p8 saw2 walnut smooth s6 s5
+do-saw-small b2 p8 saw0 oak smooth s1 s0
+do-saw-small b2 p8 saw0 oak smooth s3 s2
+do-saw-small b2 p8 saw1 oak smooth s1 s0
+do-saw-small b2 p8 saw1 oak smooth s3 s2
+do-saw-small b2 p8 saw2 oak smooth s1 s0
+do-saw-small b2 p8 saw2 oak smooth s3 s2
+do-spray-varnish p2 spray-varnisher0 white smooth
+do-spray-varnish p2 spray-varnisher2 white smooth
+do-spray-varnish p3 spray-varnisher0 white smooth
+do-spray-varnish p3 spray-varnisher2 white smooth
+do-spray-varnish p4 spray-varnisher0 white smooth
+do-spray-varnish p4 spray-varnisher1 mauve smooth
+do-spray-varnish p4 spray-varnisher2 white smooth
+do-spray-varnish p8 spray-varnisher0 white smooth
+do-spray-varnish p8 spray-varnisher1 mauve smooth
+do-spray-varnish p8 spray-varnisher2 white smooth

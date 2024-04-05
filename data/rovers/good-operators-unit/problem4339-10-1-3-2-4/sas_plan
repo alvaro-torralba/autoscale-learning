@@ -1,0 +1,4 @@
+(calibrate rover1 camera2 objective0 waypoint3)
+(take_image rover1 waypoint3 objective0 camera2 high_res)
+(communicate_image_data rover1 general objective0 high_res waypoint3 waypoint0)
+; cost = 3 (unit cost)

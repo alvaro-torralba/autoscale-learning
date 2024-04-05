@@ -1,0 +1,234 @@
+do-glaze p0 glazer0 white
+do-glaze p0 glazer1 white
+do-glaze p2 glazer0 green
+do-glaze p2 glazer0 white
+do-glaze p2 glazer1 red
+do-glaze p2 glazer1 white
+do-glaze p3 glazer0 green
+do-glaze p3 glazer0 white
+do-glaze p3 glazer1 red
+do-glaze p3 glazer1 white
+do-glaze p5 glazer1 red
+do-glaze p6 glazer0 green
+do-glaze p7 glazer0 white
+do-glaze p7 glazer1 white
+do-glaze p9 glazer0 green
+do-glaze p9 glazer0 white
+do-glaze p9 glazer1 red
+do-glaze p9 glazer1 white
+do-grind p4 grinder0 smooth natural untreated untreated
+do-grind p4 grinder1 smooth natural untreated untreated
+do-immersion-varnish p1 immersion-varnisher0 natural smooth
+do-immersion-varnish p1 immersion-varnisher1 natural smooth
+do-immersion-varnish p10 immersion-varnisher0 blue smooth
+do-immersion-varnish p10 immersion-varnisher1 blue smooth
+do-immersion-varnish p5 immersion-varnisher1 red smooth
+do-immersion-varnish p6 immersion-varnisher1 green smooth
+do-immersion-varnish p7 immersion-varnisher0 white smooth
+do-plane p0 planer0 rough natural untreated
+do-plane p0 planer1 rough natural untreated
+do-plane p1 planer0 rough natural untreated
+do-plane p1 planer1 rough natural untreated
+do-plane p10 planer0 rough natural untreated
+do-plane p10 planer1 rough natural untreated
+do-plane p3 planer0 rough natural untreated
+do-plane p3 planer1 rough natural untreated
+do-plane p4 planer0 rough natural untreated
+do-plane p4 planer1 rough natural untreated
+do-plane p5 planer0 rough natural untreated
+do-plane p5 planer1 rough natural untreated
+do-plane p7 planer0 rough natural untreated
+do-plane p7 planer1 rough natural untreated
+do-saw-large b0 p0 saw0 mahogany rough s10 s8 s9 s7
+do-saw-large b0 p0 saw0 mahogany rough s12 s10 s11 s9
+do-saw-large b0 p0 saw0 mahogany rough s6 s4 s5 s3
+do-saw-large b0 p0 saw0 mahogany rough s7 s5 s6 s4
+do-saw-large b0 p0 saw0 mahogany rough s9 s7 s8 s6
+do-saw-large b0 p0 saw1 mahogany rough s10 s8 s9 s7
+do-saw-large b0 p0 saw1 mahogany rough s12 s10 s11 s9
+do-saw-large b0 p0 saw1 mahogany rough s6 s4 s5 s3
+do-saw-large b0 p0 saw1 mahogany rough s7 s5 s6 s4
+do-saw-large b0 p0 saw1 mahogany rough s9 s7 s8 s6
+do-saw-large b0 p10 saw0 mahogany rough s10 s8 s9 s7
+do-saw-large b0 p10 saw0 mahogany rough s12 s10 s11 s9
+do-saw-large b0 p10 saw0 mahogany rough s6 s4 s5 s3
+do-saw-large b0 p10 saw0 mahogany rough s7 s5 s6 s4
+do-saw-large b0 p10 saw0 mahogany rough s9 s7 s8 s6
+do-saw-large b0 p10 saw1 mahogany rough s10 s8 s9 s7
+do-saw-large b0 p10 saw1 mahogany rough s12 s10 s11 s9
+do-saw-large b0 p10 saw1 mahogany rough s6 s4 s5 s3
+do-saw-large b0 p10 saw1 mahogany rough s7 s5 s6 s4
+do-saw-large b0 p10 saw1 mahogany rough s9 s7 s8 s6
+do-saw-large b0 p2 saw0 mahogany rough s10 s8 s9 s7
+do-saw-large b0 p2 saw0 mahogany rough s12 s10 s11 s9
+do-saw-large b0 p2 saw0 mahogany rough s6 s4 s5 s3
+do-saw-large b0 p2 saw0 mahogany rough s7 s5 s6 s4
+do-saw-large b0 p2 saw0 mahogany rough s9 s7 s8 s6
+do-saw-large b0 p2 saw1 mahogany rough s10 s8 s9 s7
+do-saw-large b0 p2 saw1 mahogany rough s12 s10 s11 s9
+do-saw-large b0 p2 saw1 mahogany rough s6 s4 s5 s3
+do-saw-large b0 p2 saw1 mahogany rough s7 s5 s6 s4
+do-saw-large b0 p2 saw1 mahogany rough s9 s7 s8 s6
+do-saw-large b0 p5 saw0 mahogany rough s12 s10 s11 s9
+do-saw-large b0 p5 saw0 mahogany rough s6 s4 s5 s3
+do-saw-large b0 p5 saw0 mahogany rough s9 s7 s8 s6
+do-saw-large b0 p5 saw1 mahogany rough s12 s10 s11 s9
+do-saw-large b0 p5 saw1 mahogany rough s6 s4 s5 s3
+do-saw-large b0 p5 saw1 mahogany rough s9 s7 s8 s6
+do-saw-large b1 p0 saw0 mahogany smooth s3 s1 s2 s0
+do-saw-large b1 p0 saw1 mahogany smooth s3 s1 s2 s0
+do-saw-large b1 p10 saw0 mahogany smooth s3 s1 s2 s0
+do-saw-large b1 p10 saw1 mahogany smooth s3 s1 s2 s0
+do-saw-large b1 p5 saw0 mahogany smooth s3 s1 s2 s0
+do-saw-large b1 p5 saw1 mahogany smooth s3 s1 s2 s0
+do-saw-large b2 p5 saw0 teak smooth s3 s1 s2 s0
+do-saw-large b2 p5 saw0 teak smooth s4 s2 s3 s1
+do-saw-large b2 p5 saw0 teak smooth s5 s3 s4 s2
+do-saw-large b2 p5 saw0 teak smooth s6 s4 s5 s3
+do-saw-large b2 p5 saw1 teak smooth s3 s1 s2 s0
+do-saw-large b2 p5 saw1 teak smooth s4 s2 s3 s1
+do-saw-large b2 p5 saw1 teak smooth s5 s3 s4 s2
+do-saw-large b2 p5 saw1 teak smooth s6 s4 s5 s3
+do-saw-large b4 p5 saw0 walnut smooth s3 s1 s2 s0
+do-saw-large b4 p5 saw0 walnut smooth s4 s2 s3 s1
+do-saw-large b4 p5 saw0 walnut smooth s5 s3 s4 s2
+do-saw-large b4 p5 saw0 walnut smooth s6 s4 s5 s3
+do-saw-large b4 p5 saw0 walnut smooth s7 s5 s6 s4
+do-saw-large b4 p5 saw1 walnut smooth s3 s1 s2 s0
+do-saw-large b4 p5 saw1 walnut smooth s4 s2 s3 s1
+do-saw-large b4 p5 saw1 walnut smooth s5 s3 s4 s2
+do-saw-large b4 p5 saw1 walnut smooth s6 s4 s5 s3
+do-saw-large b4 p5 saw1 walnut smooth s7 s5 s6 s4
+do-saw-medium b0 p7 saw0 mahogany rough s12 s11 s10
+do-saw-medium b0 p7 saw0 mahogany rough s6 s5 s4
+do-saw-medium b0 p7 saw0 mahogany rough s9 s8 s7
+do-saw-medium b0 p7 saw1 mahogany rough s12 s11 s10
+do-saw-medium b0 p7 saw1 mahogany rough s6 s5 s4
+do-saw-medium b0 p7 saw1 mahogany rough s9 s8 s7
+do-saw-medium b1 p7 saw0 mahogany smooth s2 s1 s0
+do-saw-medium b1 p7 saw0 mahogany smooth s3 s2 s1
+do-saw-medium b1 p7 saw1 mahogany smooth s2 s1 s0
+do-saw-medium b1 p7 saw1 mahogany smooth s3 s2 s1
+do-saw-medium b2 p1 saw0 teak smooth s2 s1 s0
+do-saw-medium b2 p1 saw0 teak smooth s3 s2 s1
+do-saw-medium b2 p1 saw0 teak smooth s4 s3 s2
+do-saw-medium b2 p1 saw0 teak smooth s5 s4 s3
+do-saw-medium b2 p1 saw0 teak smooth s6 s5 s4
+do-saw-medium b2 p1 saw1 teak smooth s2 s1 s0
+do-saw-medium b2 p1 saw1 teak smooth s3 s2 s1
+do-saw-medium b2 p1 saw1 teak smooth s4 s3 s2
+do-saw-medium b2 p1 saw1 teak smooth s5 s4 s3
+do-saw-medium b2 p1 saw1 teak smooth s6 s5 s4
+do-saw-medium b2 p4 saw0 teak smooth s2 s1 s0
+do-saw-medium b2 p4 saw0 teak smooth s3 s2 s1
+do-saw-medium b2 p4 saw0 teak smooth s4 s3 s2
+do-saw-medium b2 p4 saw0 teak smooth s5 s4 s3
+do-saw-medium b2 p4 saw0 teak smooth s6 s5 s4
+do-saw-medium b2 p4 saw1 teak smooth s2 s1 s0
+do-saw-medium b2 p4 saw1 teak smooth s3 s2 s1
+do-saw-medium b2 p4 saw1 teak smooth s4 s3 s2
+do-saw-medium b2 p4 saw1 teak smooth s5 s4 s3
+do-saw-medium b2 p4 saw1 teak smooth s6 s5 s4
+do-saw-medium b2 p7 saw0 teak smooth s2 s1 s0
+do-saw-medium b2 p7 saw0 teak smooth s3 s2 s1
+do-saw-medium b2 p7 saw0 teak smooth s4 s3 s2
+do-saw-medium b2 p7 saw0 teak smooth s5 s4 s3
+do-saw-medium b2 p7 saw0 teak smooth s6 s5 s4
+do-saw-medium b2 p7 saw1 teak smooth s2 s1 s0
+do-saw-medium b2 p7 saw1 teak smooth s3 s2 s1
+do-saw-medium b2 p7 saw1 teak smooth s4 s3 s2
+do-saw-medium b2 p7 saw1 teak smooth s5 s4 s3
+do-saw-medium b2 p7 saw1 teak smooth s6 s5 s4
+do-saw-medium b3 p1 saw0 teak rough s2 s1 s0
+do-saw-medium b3 p1 saw1 teak rough s2 s1 s0
+do-saw-medium b3 p4 saw0 teak rough s2 s1 s0
+do-saw-medium b3 p4 saw1 teak rough s2 s1 s0
+do-saw-medium b3 p7 saw0 teak rough s2 s1 s0
+do-saw-medium b3 p7 saw1 teak rough s2 s1 s0
+do-saw-medium b4 p7 saw0 walnut smooth s3 s2 s1
+do-saw-medium b4 p7 saw0 walnut smooth s4 s3 s2
+do-saw-medium b4 p7 saw0 walnut smooth s5 s4 s3
+do-saw-medium b4 p7 saw0 walnut smooth s6 s5 s4
+do-saw-medium b4 p7 saw0 walnut smooth s7 s6 s5
+do-saw-medium b4 p7 saw1 walnut smooth s3 s2 s1
+do-saw-medium b4 p7 saw1 walnut smooth s4 s3 s2
+do-saw-medium b4 p7 saw1 walnut smooth s5 s4 s3
+do-saw-medium b4 p7 saw1 walnut smooth s6 s5 s4
+do-saw-medium b4 p7 saw1 walnut smooth s7 s6 s5
+do-saw-medium b4 p8 saw0 walnut smooth s2 s1 s0
+do-saw-medium b4 p8 saw0 walnut smooth s3 s2 s1
+do-saw-medium b4 p8 saw0 walnut smooth s4 s3 s2
+do-saw-medium b4 p8 saw0 walnut smooth s5 s4 s3
+do-saw-medium b4 p8 saw0 walnut smooth s6 s5 s4
+do-saw-medium b4 p8 saw0 walnut smooth s7 s6 s5
+do-saw-medium b4 p8 saw1 walnut smooth s2 s1 s0
+do-saw-medium b4 p8 saw1 walnut smooth s3 s2 s1
+do-saw-medium b4 p8 saw1 walnut smooth s4 s3 s2
+do-saw-medium b4 p8 saw1 walnut smooth s5 s4 s3
+do-saw-medium b4 p8 saw1 walnut smooth s6 s5 s4
+do-saw-medium b4 p8 saw1 walnut smooth s7 s6 s5
+do-saw-small b1 p9 saw0 mahogany smooth s1 s0
+do-saw-small b1 p9 saw0 mahogany smooth s3 s2
+do-saw-small b1 p9 saw1 mahogany smooth s1 s0
+do-saw-small b1 p9 saw1 mahogany smooth s3 s2
+do-saw-small b2 p3 saw0 teak smooth s1 s0
+do-saw-small b2 p3 saw0 teak smooth s2 s1
+do-saw-small b2 p3 saw0 teak smooth s3 s2
+do-saw-small b2 p3 saw0 teak smooth s4 s3
+do-saw-small b2 p3 saw0 teak smooth s5 s4
+do-saw-small b2 p3 saw0 teak smooth s6 s5
+do-saw-small b2 p3 saw1 teak smooth s1 s0
+do-saw-small b2 p3 saw1 teak smooth s2 s1
+do-saw-small b2 p3 saw1 teak smooth s3 s2
+do-saw-small b2 p3 saw1 teak smooth s4 s3
+do-saw-small b2 p3 saw1 teak smooth s5 s4
+do-saw-small b2 p3 saw1 teak smooth s6 s5
+do-saw-small b2 p9 saw0 teak smooth s1 s0
+do-saw-small b2 p9 saw0 teak smooth s2 s1
+do-saw-small b2 p9 saw0 teak smooth s3 s2
+do-saw-small b2 p9 saw0 teak smooth s4 s3
+do-saw-small b2 p9 saw0 teak smooth s5 s4
+do-saw-small b2 p9 saw0 teak smooth s6 s5
+do-saw-small b2 p9 saw1 teak smooth s1 s0
+do-saw-small b2 p9 saw1 teak smooth s2 s1
+do-saw-small b2 p9 saw1 teak smooth s3 s2
+do-saw-small b2 p9 saw1 teak smooth s4 s3
+do-saw-small b2 p9 saw1 teak smooth s5 s4
+do-saw-small b2 p9 saw1 teak smooth s6 s5
+do-saw-small b3 p3 saw0 teak rough s2 s1
+do-saw-small b3 p3 saw1 teak rough s2 s1
+do-saw-small b4 p6 saw0 walnut smooth s1 s0
+do-saw-small b4 p6 saw0 walnut smooth s2 s1
+do-saw-small b4 p6 saw0 walnut smooth s3 s2
+do-saw-small b4 p6 saw0 walnut smooth s4 s3
+do-saw-small b4 p6 saw0 walnut smooth s5 s4
+do-saw-small b4 p6 saw0 walnut smooth s6 s5
+do-saw-small b4 p6 saw0 walnut smooth s7 s6
+do-saw-small b4 p6 saw1 walnut smooth s1 s0
+do-saw-small b4 p6 saw1 walnut smooth s2 s1
+do-saw-small b4 p6 saw1 walnut smooth s3 s2
+do-saw-small b4 p6 saw1 walnut smooth s4 s3
+do-saw-small b4 p6 saw1 walnut smooth s5 s4
+do-saw-small b4 p6 saw1 walnut smooth s6 s5
+do-saw-small b4 p6 saw1 walnut smooth s7 s6
+do-saw-small b4 p9 saw0 walnut smooth s1 s0
+do-saw-small b4 p9 saw0 walnut smooth s2 s1
+do-saw-small b4 p9 saw0 walnut smooth s3 s2
+do-saw-small b4 p9 saw0 walnut smooth s4 s3
+do-saw-small b4 p9 saw0 walnut smooth s5 s4
+do-saw-small b4 p9 saw0 walnut smooth s6 s5
+do-saw-small b4 p9 saw0 walnut smooth s7 s6
+do-saw-small b4 p9 saw1 walnut smooth s1 s0
+do-saw-small b4 p9 saw1 walnut smooth s2 s1
+do-saw-small b4 p9 saw1 walnut smooth s3 s2
+do-saw-small b4 p9 saw1 walnut smooth s4 s3
+do-saw-small b4 p9 saw1 walnut smooth s5 s4
+do-saw-small b4 p9 saw1 walnut smooth s6 s5
+do-saw-small b4 p9 saw1 walnut smooth s7 s6
+do-spray-varnish p1 spray-varnisher0 natural smooth
+do-spray-varnish p1 spray-varnisher1 natural smooth
+do-spray-varnish p10 spray-varnisher0 blue smooth
+do-spray-varnish p10 spray-varnisher1 blue smooth
+do-spray-varnish p5 spray-varnisher1 red smooth
+do-spray-varnish p6 spray-varnisher1 green smooth
+do-spray-varnish p7 spray-varnisher0 white smooth

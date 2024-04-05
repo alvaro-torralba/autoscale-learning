@@ -1,0 +1,6 @@
+(put_down girl0 place0 tent0)
+(drive_tent girl0 place0 place1 car0 tent0)
+(put_up girl0 place1 tent0)
+(drive girl0 place1 place0 car0)
+(walk_together tent0 place1 guy0 place0 girl0 couple0)
+; cost = 5 (unit cost)

@@ -1,0 +1,7 @@
+(walk driver1 s2 p2-0)
+(walk driver1 p2-0 s0)
+(board-truck driver1 truck1 s0)
+(drive-truck truck1 s0 s3 driver1)
+(drive-truck truck1 s3 s1 driver1)
+(disembark-truck driver1 truck1 s1)
+; cost = 6 (unit cost)

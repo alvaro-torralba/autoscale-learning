@@ -1,0 +1,19 @@
+drive-truck t3 l3-0 l3-2 c3
+drive-truck t4 l4-0 l4-1 c4
+drive-truck t4 l4-1 l4-0 c4
+drive-truck t5 l4-1 l4-0 c4
+drive-truck t5 l4-3 l4-1 c4
+fly-airplane a0 l3-0 l4-0
+fly-airplane a0 l4-0 l3-0
+fly-airplane a1 l2-0 l4-0
+fly-airplane a1 l4-0 l3-0
+load-airplane p0 a0 l4-0
+load-airplane p0 a1 l4-0
+load-truck p0 t3 l3-0
+load-truck p0 t4 l4-1
+load-truck p0 t5 l4-1
+unload-airplane p0 a0 l3-0
+unload-airplane p0 a1 l3-0
+unload-truck p0 t3 l3-2
+unload-truck p0 t4 l4-0
+unload-truck p0 t5 l4-0

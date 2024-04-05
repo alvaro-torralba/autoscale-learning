@@ -1,0 +1,6 @@
+move pos1-2 pos1-3
+move pos2-2 pos1-2
+move pos3-2 pos2-2
+pickup pos1-2 key2
+pickup-and-loose pos1-3 key1 key2
+putdown pos1-3 key2

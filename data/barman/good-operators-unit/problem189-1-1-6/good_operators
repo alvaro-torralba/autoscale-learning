@@ -1,0 +1,26 @@
+clean-shot shot2 ingredient3 left right
+clean-shot shot2 ingredient3 right left
+clean-shot shot2 ingredient4 left right
+clean-shot shot2 ingredient4 right left
+fill-shot shot2 ingredient3 left right dispenser3
+fill-shot shot2 ingredient3 right left dispenser3
+fill-shot shot2 ingredient4 left right dispenser4
+fill-shot shot2 ingredient4 right left dispenser4
+grasp left shaker1
+grasp left shot2
+grasp right shaker1
+grasp right shot2
+leave left shot2
+leave right shot2
+pour-shaker-to-shot cocktail1 shot1 left shaker1 l2 l1
+pour-shaker-to-shot cocktail1 shot1 right shaker1 l2 l1
+pour-shot-to-clean-shaker shot2 ingredient3 shaker1 left l0 l1
+pour-shot-to-clean-shaker shot2 ingredient3 shaker1 right l0 l1
+pour-shot-to-clean-shaker shot2 ingredient4 shaker1 left l0 l1
+pour-shot-to-clean-shaker shot2 ingredient4 shaker1 right l0 l1
+pour-shot-to-used-shaker shot2 ingredient3 shaker1 left l1 l2
+pour-shot-to-used-shaker shot2 ingredient3 shaker1 right l1 l2
+pour-shot-to-used-shaker shot2 ingredient4 shaker1 left l1 l2
+pour-shot-to-used-shaker shot2 ingredient4 shaker1 right l1 l2
+shake cocktail1 ingredient4 ingredient3 shaker1 left right
+shake cocktail1 ingredient4 ingredient3 shaker1 right left

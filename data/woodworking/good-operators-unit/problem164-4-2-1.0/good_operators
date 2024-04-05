@@ -1,0 +1,34 @@
+do-glaze p0 glazer0 black
+do-glaze p0 glazer1 black
+do-glaze p1 glazer0 natural
+do-glaze p1 glazer1 natural
+do-immersion-varnish p2 immersion-varnisher0 black smooth
+do-immersion-varnish p2 immersion-varnisher1 black smooth
+do-immersion-varnish p3 immersion-varnisher0 black smooth
+do-immersion-varnish p3 immersion-varnisher1 black smooth
+do-plane p1 planer0 rough natural untreated
+do-plane p1 planer1 rough natural untreated
+do-plane p2 planer0 rough natural untreated
+do-plane p2 planer1 rough natural untreated
+do-plane p3 planer0 rough natural untreated
+do-plane p3 planer1 rough natural untreated
+do-saw-large b0 p3 saw0 walnut rough s3 s1 s2 s0
+do-saw-large b0 p3 saw0 walnut rough s5 s3 s4 s2
+do-saw-large b0 p3 saw1 walnut rough s3 s1 s2 s0
+do-saw-large b0 p3 saw1 walnut rough s5 s3 s4 s2
+do-saw-medium b0 p0 saw0 walnut rough s2 s1 s0
+do-saw-medium b0 p0 saw0 walnut rough s5 s4 s3
+do-saw-medium b0 p0 saw1 walnut rough s2 s1 s0
+do-saw-medium b0 p0 saw1 walnut rough s5 s4 s3
+do-saw-medium b1 p1 saw0 teak rough s2 s1 s0
+do-saw-medium b1 p1 saw0 teak rough s4 s3 s2
+do-saw-medium b1 p1 saw1 teak rough s2 s1 s0
+do-saw-medium b1 p1 saw1 teak rough s4 s3 s2
+do-saw-medium b1 p2 saw0 teak rough s2 s1 s0
+do-saw-medium b1 p2 saw0 teak rough s4 s3 s2
+do-saw-medium b1 p2 saw1 teak rough s2 s1 s0
+do-saw-medium b1 p2 saw1 teak rough s4 s3 s2
+do-spray-varnish p2 spray-varnisher0 black smooth
+do-spray-varnish p2 spray-varnisher1 black smooth
+do-spray-varnish p3 spray-varnisher0 black smooth
+do-spray-varnish p3 spray-varnisher1 black smooth

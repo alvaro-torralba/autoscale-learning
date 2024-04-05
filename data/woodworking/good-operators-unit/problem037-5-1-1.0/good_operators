@@ -1,0 +1,32 @@
+do-glaze p0 glazer0 red
+do-glaze p2 glazer0 mauve
+do-glaze p3 glazer0 mauve
+do-grind p0 grinder0 smooth natural untreated untreated
+do-grind p4 grinder0 smooth natural untreated untreated
+do-immersion-varnish p0 immersion-varnisher0 red verysmooth
+do-immersion-varnish p1 immersion-varnisher0 red smooth
+do-immersion-varnish p3 immersion-varnisher0 mauve smooth
+do-immersion-varnish p4 immersion-varnisher0 mauve verysmooth
+do-immersion-varnish p4 immersion-varnisher0 red verysmooth
+do-plane p0 planer0 rough natural untreated
+do-plane p1 planer0 verysmooth mauve varnished
+do-plane p2 planer0 rough natural untreated
+do-plane p3 planer0 rough natural untreated
+do-plane p4 planer0 rough natural colourfragments
+do-saw-large b0 p3 saw0 beech rough s3 s1 s2 s0
+do-saw-large b0 p3 saw0 beech rough s4 s2 s3 s1
+do-saw-large b0 p3 saw0 beech rough s5 s3 s4 s2
+do-saw-large b0 p3 saw0 beech rough s6 s4 s5 s3
+do-saw-medium b0 p2 saw0 beech rough s2 s1 s0
+do-saw-medium b0 p2 saw0 beech rough s3 s2 s1
+do-saw-medium b0 p2 saw0 beech rough s5 s4 s3
+do-saw-medium b0 p2 saw0 beech rough s6 s5 s4
+do-saw-small b0 p0 saw0 beech rough s1 s0
+do-saw-small b0 p0 saw0 beech rough s3 s2
+do-saw-small b0 p0 saw0 beech rough s4 s3
+do-saw-small b0 p0 saw0 beech rough s6 s5
+do-spray-varnish p0 spray-varnisher0 red verysmooth
+do-spray-varnish p1 spray-varnisher0 red smooth
+do-spray-varnish p3 spray-varnisher0 mauve smooth
+do-spray-varnish p4 spray-varnisher0 mauve verysmooth
+do-spray-varnish p4 spray-varnisher0 red verysmooth

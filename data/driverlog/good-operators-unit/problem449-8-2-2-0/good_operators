@@ -1,0 +1,68 @@
+board-truck driver1 truck1 s1
+board-truck driver1 truck6 s1
+board-truck driver2 truck1 s1
+board-truck driver2 truck6 s1
+board-truck driver3 truck1 s1
+board-truck driver3 truck6 s1
+board-truck driver4 truck1 s1
+board-truck driver4 truck6 s1
+board-truck driver5 truck1 s1
+board-truck driver5 truck6 s1
+board-truck driver6 truck1 s1
+board-truck driver6 truck6 s1
+board-truck driver7 truck1 s1
+board-truck driver7 truck6 s1
+board-truck driver8 truck1 s1
+board-truck driver8 truck6 s1
+disembark-truck driver1 truck1 s0
+disembark-truck driver1 truck6 s0
+disembark-truck driver2 truck1 s0
+disembark-truck driver2 truck6 s0
+disembark-truck driver3 truck1 s0
+disembark-truck driver3 truck6 s0
+disembark-truck driver4 truck1 s0
+disembark-truck driver4 truck6 s0
+disembark-truck driver5 truck1 s0
+disembark-truck driver5 truck6 s0
+disembark-truck driver6 truck1 s0
+disembark-truck driver6 truck6 s0
+disembark-truck driver7 truck1 s0
+disembark-truck driver7 truck6 s0
+disembark-truck driver8 truck1 s0
+disembark-truck driver8 truck6 s0
+drive-truck truck1 s1 s0 driver1
+drive-truck truck1 s1 s0 driver2
+drive-truck truck1 s1 s0 driver3
+drive-truck truck1 s1 s0 driver4
+drive-truck truck1 s1 s0 driver5
+drive-truck truck1 s1 s0 driver6
+drive-truck truck1 s1 s0 driver7
+drive-truck truck1 s1 s0 driver8
+drive-truck truck6 s1 s0 driver1
+drive-truck truck6 s1 s0 driver2
+drive-truck truck6 s1 s0 driver3
+drive-truck truck6 s1 s0 driver4
+drive-truck truck6 s1 s0 driver5
+drive-truck truck6 s1 s0 driver6
+drive-truck truck6 s1 s0 driver7
+drive-truck truck6 s1 s0 driver8
+load-truck package1 truck1 s1
+load-truck package1 truck6 s1
+unload-truck package1 truck1 s0
+unload-truck package1 truck6 s0
+walk driver1 p0-1 s1
+walk driver1 s0 p0-1
+walk driver2 p0-1 s1
+walk driver2 s0 p0-1
+walk driver3 p0-1 s1
+walk driver3 s0 p0-1
+walk driver4 p0-1 s1
+walk driver4 s0 p0-1
+walk driver5 p0-1 s1
+walk driver5 s0 p0-1
+walk driver6 p0-1 s1
+walk driver6 s0 p0-1
+walk driver7 p0-1 s1
+walk driver7 s0 p0-1
+walk driver8 p0-1 s1
+walk driver8 s0 p0-1

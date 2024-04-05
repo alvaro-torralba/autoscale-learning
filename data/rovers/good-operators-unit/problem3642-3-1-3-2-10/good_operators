@@ -1,0 +1,42 @@
+calibrate rover0 camera2 objective0 waypoint2
+calibrate rover0 camera2 objective0 waypoint8
+calibrate rover1 camera1 objective0 waypoint2
+calibrate rover1 camera1 objective0 waypoint3
+calibrate rover1 camera1 objective0 waypoint8
+communicate_image_data rover0 general objective0 low_res waypoint2 waypoint5
+communicate_image_data rover0 general objective0 low_res waypoint8 waypoint5
+communicate_image_data rover1 general objective0 low_res waypoint2 waypoint5
+communicate_image_data rover1 general objective0 low_res waypoint8 waypoint5
+communicate_rock_data rover0 general waypoint2 waypoint2 waypoint5
+communicate_rock_data rover0 general waypoint8 waypoint8 waypoint5
+communicate_rock_data rover1 general waypoint2 waypoint2 waypoint5
+communicate_rock_data rover1 general waypoint8 waypoint2 waypoint5
+communicate_rock_data rover1 general waypoint8 waypoint8 waypoint5
+communicate_soil_data rover1 general waypoint2 waypoint2 waypoint5
+communicate_soil_data rover2 general waypoint1 waypoint2 waypoint5
+communicate_soil_data rover2 general waypoint1 waypoint6 waypoint5
+communicate_soil_data rover2 general waypoint1 waypoint9 waypoint5
+communicate_soil_data rover2 general waypoint2 waypoint2 waypoint5
+drop rover1 rover1store
+drop rover2 rover2store
+navigate rover0 waypoint6 waypoint2
+navigate rover0 waypoint6 waypoint8
+navigate rover1 waypoint3 waypoint2
+navigate rover1 waypoint8 waypoint3
+navigate rover2 waypoint1 waypoint6
+navigate rover2 waypoint1 waypoint9
+navigate rover2 waypoint3 waypoint2
+navigate rover2 waypoint9 waypoint1
+navigate rover2 waypoint9 waypoint3
+sample_rock rover0 rover0store waypoint2
+sample_rock rover0 rover0store waypoint8
+sample_rock rover1 rover1store waypoint2
+sample_rock rover1 rover1store waypoint8
+sample_soil rover1 rover1store waypoint2
+sample_soil rover2 rover2store waypoint1
+sample_soil rover2 rover2store waypoint2
+take_image rover0 waypoint2 objective0 camera2 low_res
+take_image rover0 waypoint8 objective0 camera2 low_res
+take_image rover1 waypoint2 objective0 camera1 low_res
+take_image rover1 waypoint3 objective0 camera1 low_res
+take_image rover1 waypoint8 objective0 camera1 low_res
