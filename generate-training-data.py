@@ -232,15 +232,22 @@ def main():
     RUN = RunExperiment(PLANNER_TIME_LIMIT, PLANNER_MEMORY_LIMIT)
     sampler = ParametersSampler(domain, args.planner_desired_lower_time, args.planner_desired_upper_time)
 
+    solved_tasks = []
     i = 0
-    while sampler.accumulated_time < args.total_time and sampler.accumulated_time_solved < args.total_time_tasks_solved:
+    while sampler.accumulated_time < args.total_time and sampler.accumulated_time_solved < args.total_time_tasks_solved and \
+            (not args.tasks or len(solved_tasks) < args.tasks):
         i+= 1
         print()
         logging.info(f"Iteration {i}: time solved={sampler.accumulated_time_solved}, time unsolved={sampler.accumulated_time-sampler.accumulated_time_solved}" )
         # Generate instances
         instances_to_run_good_operators = []
 
-        for j in range(args.batch):
+        batch_size = args.batch
+        if args.tasks:
+            batch_size = min(batch_size, len(solved_tasks) - args.tasks)
+            assert batch_size > 0
+
+        for j in range(batch_size):
             parameters = sampler.get_parameters()
             instance_name = sampler.get_instance_name(parameters) + ".pddl"
             domain.generate_instance(GENERATORS_DIR, parameters, TASKS_DIR.joinpath(instance_name), TASKS_DIR)
@@ -263,19 +270,5 @@ def main():
             with open(f'{OUTPUT_DIR}/good-operators-unit/{task}/properties') as f:
                 properties = json.load(f)
                 sampler.notify_experiment_results(task, properties)
-
-        # Save data
-
-    # ###
-    # # Run lama and symbolic search to gather all training data
-    # ###
-    # if not os.path.exists(f'{TRAINING_DIR}/runs-lama'):
-    #     # Run lama, with empty config and using the alias
-    #     RUN.run_planner(f'{TRAINING_DIR}/runs-lama', REPO_PARTIAL_GROUNDING, [], ENV, SUITE_ALL, driver_options = ["--alias", "lama-first",
-    #                                                                                                                "--transform-task", f"{REPO_PARTIAL_GROUNDING}/builds/release/bin/preprocess-h2",
-    #                                                                                                                "--transform-task-options", f"h2_time_limit,300"])
-    # else:training
-    #     assert args.resume
-
 
 main()

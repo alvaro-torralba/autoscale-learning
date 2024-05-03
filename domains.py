@@ -112,7 +112,7 @@ class ConstantAttr:
     def get_lower_values(self, cfg):
         cfg[self.name] = [self.value]
 
-    def linear_expand(cfg):
+    def linear_expand(self, cfg):
         return []
 
     def dominates(self, value, other):

@@ -7,3 +7,7 @@ for your publications yet. If you want to use this, contact me: alto@cs.aau.dk
 
 You should get the pddl-generators from https://github.com/AI-Planning/pddl-generators and a planner.
 
+Go into pddl-generators and ./build_all
+
+Go into the planner and compile the planner
+
