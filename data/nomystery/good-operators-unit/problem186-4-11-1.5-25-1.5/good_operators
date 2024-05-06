@@ -1,0 +1,26 @@
+drive t0 l0 l2 level6 level2 level8
+drive t0 l1 l0 level8 level4 level12
+drive t0 l2 l1 level12 level8 level20
+drive t0 l3 l2 level20 level8 level28
+load p0 t0 l0
+load p1 t0 l3
+load p10 t0 l0
+load p2 t0 l3
+load p3 t0 l1
+load p4 t0 l3
+load p5 t0 l1
+load p6 t0 l0
+load p7 t0 l2
+load p8 t0 l2
+load p9 t0 l3
+unload p0 t0 l2
+unload p1 t0 l2
+unload p10 t0 l2
+unload p2 t0 l2
+unload p3 t0 l0
+unload p4 t0 l2
+unload p5 t0 l2
+unload p6 t0 l2
+unload p7 t0 l0
+unload p8 t0 l1
+unload p9 t0 l2

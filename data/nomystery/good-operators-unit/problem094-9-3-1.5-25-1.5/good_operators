@@ -1,0 +1,17 @@
+drive t0 l0 l7 level88 level13 level101
+drive t0 l1 l0 level101 level13 level114
+drive t0 l2 l3 level131 level16 level147
+drive t0 l2 l6 level39 level24 level63
+drive t0 l2 l6 level45 level24 level69
+drive t0 l3 l1 level114 level17 level131
+drive t0 l3 l2 level63 level16 level79
+drive t0 l5 l3 level79 level1 level80
+drive t0 l5 l7 level72 level8 level80
+drive t0 l7 l2 level69 level3 level72
+drive t0 l7 l5 level80 level8 level88
+load p0 t0 l0
+load p1 t0 l3
+load p2 t0 l1
+unload p0 t0 l5
+unload p1 t0 l0
+unload p2 t0 l6

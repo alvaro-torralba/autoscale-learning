@@ -1,0 +1,18 @@
+drive t0 l1 l4 level164 level5 level169
+drive t0 l10 l16 level113 level20 level133
+drive t0 l12 l10 level133 level25 level158
+drive t0 l12 l4 level174 level6 level180
+drive t0 l15 l3 level141 level16 level157
+drive t0 l16 l3 level90 level23 level113
+drive t0 l16 l3 level95 level23 level118
+drive t0 l17 l12 level180 level24 level204
+drive t0 l3 l16 level118 level23 level141
+drive t0 l4 l1 level169 level5 level174
+drive t0 l4 l12 level158 level6 level164
+drive t0 l4 l15 level157 level7 level164
+load p0 t0 l12
+load p1 t0 l1
+load p2 t0 l16
+unload p0 t0 l16
+unload p1 t0 l16
+unload p2 t0 l3

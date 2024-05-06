@@ -1,0 +1,11 @@
+drive t0 l0 l3 level36 level24 level60
+drive t0 l1 l0 level60 level8 level68
+drive t0 l2 l4 level93 level20 level113
+drive t0 l4 l1 level68 level25 level93
+drive t0 l4 l2 level113 level20 level133
+load p0 t0 l1
+load p1 t0 l2
+load p2 t0 l2
+unload p0 t0 l3
+unload p1 t0 l4
+unload p2 t0 l0

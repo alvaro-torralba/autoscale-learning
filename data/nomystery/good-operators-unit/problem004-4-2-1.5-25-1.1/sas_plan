@@ -1,0 +1,7 @@
+(load p1 t0 l2)
+(load p0 t0 l2)
+(drive t0 l2 l0 level5 level3 level8)
+(unload p0 t0 l0)
+(drive t0 l0 l1 level0 level5 level5)
+(unload p1 t0 l1)
+; cost = 6 (unit cost)

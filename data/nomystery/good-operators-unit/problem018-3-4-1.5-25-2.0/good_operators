@@ -1,0 +1,11 @@
+drive t0 l0 l2 level78 level19 level97
+drive t0 l1 l0 level97 level13 level110
+drive t0 l2 l1 level55 level23 level78
+load p0 t0 l0
+load p1 t0 l2
+load p2 t0 l0
+load p3 t0 l0
+unload p0 t0 l1
+unload p1 t0 l1
+unload p2 t0 l2
+unload p3 t0 l2

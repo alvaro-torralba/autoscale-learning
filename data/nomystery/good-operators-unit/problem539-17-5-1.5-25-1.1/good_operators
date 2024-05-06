@@ -1,0 +1,22 @@
+drive t0 l0 l2 level152 level15 level167
+drive t0 l1 l10 level101 level19 level120
+drive t0 l10 l2 level8 level25 level33
+drive t0 l10 l4 level91 level10 level101
+drive t0 l15 l4 level43 level24 level67
+drive t0 l2 l8 level139 level13 level152
+drive t0 l4 l10 level33 level10 level43
+drive t0 l4 l15 level67 level24 level91
+drive t0 l5 l6 level129 level4 level133
+drive t0 l6 l9 level121 level8 level129
+drive t0 l8 l5 level133 level6 level139
+drive t0 l9 l1 level120 level1 level121
+load p0 t0 l15
+load p1 t0 l6
+load p2 t0 l2
+load p3 t0 l8
+load p4 t0 l5
+unload p0 t0 l10
+unload p1 t0 l1
+unload p2 t0 l9
+unload p3 t0 l4
+unload p4 t0 l2

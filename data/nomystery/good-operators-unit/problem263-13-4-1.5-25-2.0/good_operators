@@ -1,0 +1,14 @@
+drive t0 l10 l3 level135 level1 level136
+drive t0 l10 l9 level56 level4 level60
+drive t0 l12 l4 level85 level21 level106
+drive t0 l2 l12 level106 level23 level129
+drive t0 l3 l2 level129 level6 level135
+drive t0 l4 l10 level60 level25 level85
+load p0 t0 l4
+load p1 t0 l3
+load p2 t0 l2
+load p3 t0 l4
+unload p0 t0 l10
+unload p1 t0 l10
+unload p2 t0 l4
+unload p3 t0 l9

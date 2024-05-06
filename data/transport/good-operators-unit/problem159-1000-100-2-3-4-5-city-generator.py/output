@@ -1,0 +1,4702 @@
+begin_version
+3
+end_version
+begin_metric
+1
+end_metric
+11
+begin_variable
+var3
+-1
+2
+Atom at(truck-1, city-loc-1)
+Atom at(truck-1, city-loc-2)
+end_variable
+begin_variable
+var4
+-1
+2
+Atom at(truck-2, city-loc-1)
+Atom at(truck-2, city-loc-2)
+end_variable
+begin_variable
+var5
+-1
+2
+Atom at(truck-3, city-loc-1)
+Atom at(truck-3, city-loc-2)
+end_variable
+begin_variable
+var6
+-1
+2
+Atom at(truck-4, city-loc-1)
+Atom at(truck-4, city-loc-2)
+end_variable
+begin_variable
+var7
+-1
+5
+Atom capacity(truck-1, capacity-0)
+Atom capacity(truck-1, capacity-1)
+Atom capacity(truck-1, capacity-2)
+Atom capacity(truck-1, capacity-3)
+Atom capacity(truck-1, capacity-4)
+end_variable
+begin_variable
+var8
+-1
+5
+Atom capacity(truck-2, capacity-0)
+Atom capacity(truck-2, capacity-1)
+Atom capacity(truck-2, capacity-2)
+Atom capacity(truck-2, capacity-3)
+Atom capacity(truck-2, capacity-4)
+end_variable
+begin_variable
+var9
+-1
+5
+Atom capacity(truck-3, capacity-0)
+Atom capacity(truck-3, capacity-1)
+Atom capacity(truck-3, capacity-2)
+Atom capacity(truck-3, capacity-3)
+Atom capacity(truck-3, capacity-4)
+end_variable
+begin_variable
+var10
+-1
+5
+Atom capacity(truck-4, capacity-0)
+Atom capacity(truck-4, capacity-1)
+Atom capacity(truck-4, capacity-2)
+Atom capacity(truck-4, capacity-3)
+Atom capacity(truck-4, capacity-4)
+end_variable
+begin_variable
+var0
+-1
+6
+Atom at(package-1, city-loc-1)
+Atom at(package-1, city-loc-2)
+Atom in(package-1, truck-1)
+Atom in(package-1, truck-2)
+Atom in(package-1, truck-3)
+Atom in(package-1, truck-4)
+end_variable
+begin_variable
+var1
+-1
+6
+Atom at(package-2, city-loc-1)
+Atom at(package-2, city-loc-2)
+Atom in(package-2, truck-1)
+Atom in(package-2, truck-2)
+Atom in(package-2, truck-3)
+Atom in(package-2, truck-4)
+end_variable
+begin_variable
+var2
+-1
+6
+Atom at(package-3, city-loc-1)
+Atom at(package-3, city-loc-2)
+Atom in(package-3, truck-1)
+Atom in(package-3, truck-2)
+Atom in(package-3, truck-3)
+Atom in(package-3, truck-4)
+end_variable
+0
+begin_state
+1
+0
+1
+1
+2
+3
+3
+2
+0
+0
+0
+end_state
+begin_goal
+3
+8 1
+9 1
+10 1
+end_goal
+200
+begin_operator
+drive truck-1 city-loc-1 city-loc-2
+0
+1
+0 0 0 1
+41
+end_operator
+begin_operator
+drive truck-1 city-loc-2 city-loc-1
+0
+1
+0 0 1 0
+41
+end_operator
+begin_operator
+drive truck-2 city-loc-1 city-loc-2
+0
+1
+0 1 0 1
+41
+end_operator
+begin_operator
+drive truck-2 city-loc-2 city-loc-1
+0
+1
+0 1 1 0
+41
+end_operator
+begin_operator
+drive truck-3 city-loc-1 city-loc-2
+0
+1
+0 2 0 1
+41
+end_operator
+begin_operator
+drive truck-3 city-loc-2 city-loc-1
+0
+1
+0 2 1 0
+41
+end_operator
+begin_operator
+drive truck-4 city-loc-1 city-loc-2
+0
+1
+0 3 0 1
+41
+end_operator
+begin_operator
+drive truck-4 city-loc-2 city-loc-1
+0
+1
+0 3 1 0
+41
+end_operator
+begin_operator
+drop truck-1 city-loc-1 package-1 capacity-0 capacity-1
+1
+0 0
+2
+0 8 2 0
+0 4 0 1
+1
+end_operator
+begin_operator
+drop truck-1 city-loc-1 package-1 capacity-1 capacity-2
+1
+0 0
+2
+0 8 2 0
+0 4 1 2
+1
+end_operator
+begin_operator
+drop truck-1 city-loc-1 package-1 capacity-2 capacity-3
+1
+0 0
+2
+0 8 2 0
+0 4 2 3
+1
+end_operator
+begin_operator
+drop truck-1 city-loc-1 package-1 capacity-3 capacity-4
+1
+0 0
+2
+0 8 2 0
+0 4 3 4
+1
+end_operator
+begin_operator
+drop truck-1 city-loc-1 package-2 capacity-0 capacity-1
+1
+0 0
+2
+0 9 2 0
+0 4 0 1
+1
+end_operator
+begin_operator
+drop truck-1 city-loc-1 package-2 capacity-1 capacity-2
+1
+0 0
+2
+0 9 2 0
+0 4 1 2
+1
+end_operator
+begin_operator
+drop truck-1 city-loc-1 package-2 capacity-2 capacity-3
+1
+0 0
+2
+0 9 2 0
+0 4 2 3
+1
+end_operator
+begin_operator
+drop truck-1 city-loc-1 package-2 capacity-3 capacity-4
+1
+0 0
+2
+0 9 2 0
+0 4 3 4
+1
+end_operator
+begin_operator
+drop truck-1 city-loc-1 package-3 capacity-0 capacity-1
+1
+0 0
+2
+0 10 2 0
+0 4 0 1
+1
+end_operator
+begin_operator
+drop truck-1 city-loc-1 package-3 capacity-1 capacity-2
+1
+0 0
+2
+0 10 2 0
+0 4 1 2
+1
+end_operator
+begin_operator
+drop truck-1 city-loc-1 package-3 capacity-2 capacity-3
+1
+0 0
+2
+0 10 2 0
+0 4 2 3
+1
+end_operator
+begin_operator
+drop truck-1 city-loc-1 package-3 capacity-3 capacity-4
+1
+0 0
+2
+0 10 2 0
+0 4 3 4
+1
+end_operator
+begin_operator
+drop truck-1 city-loc-2 package-1 capacity-0 capacity-1
+1
+0 1
+2
+0 8 2 1
+0 4 0 1
+1
+end_operator
+begin_operator
+drop truck-1 city-loc-2 package-1 capacity-1 capacity-2
+1
+0 1
+2
+0 8 2 1
+0 4 1 2
+1
+end_operator
+begin_operator
+drop truck-1 city-loc-2 package-1 capacity-2 capacity-3
+1
+0 1
+2
+0 8 2 1
+0 4 2 3
+1
+end_operator
+begin_operator
+drop truck-1 city-loc-2 package-1 capacity-3 capacity-4
+1
+0 1
+2
+0 8 2 1
+0 4 3 4
+1
+end_operator
+begin_operator
+drop truck-1 city-loc-2 package-2 capacity-0 capacity-1
+1
+0 1
+2
+0 9 2 1
+0 4 0 1
+1
+end_operator
+begin_operator
+drop truck-1 city-loc-2 package-2 capacity-1 capacity-2
+1
+0 1
+2
+0 9 2 1
+0 4 1 2
+1
+end_operator
+begin_operator
+drop truck-1 city-loc-2 package-2 capacity-2 capacity-3
+1
+0 1
+2
+0 9 2 1
+0 4 2 3
+1
+end_operator
+begin_operator
+drop truck-1 city-loc-2 package-2 capacity-3 capacity-4
+1
+0 1
+2
+0 9 2 1
+0 4 3 4
+1
+end_operator
+begin_operator
+drop truck-1 city-loc-2 package-3 capacity-0 capacity-1
+1
+0 1
+2
+0 10 2 1
+0 4 0 1
+1
+end_operator
+begin_operator
+drop truck-1 city-loc-2 package-3 capacity-1 capacity-2
+1
+0 1
+2
+0 10 2 1
+0 4 1 2
+1
+end_operator
+begin_operator
+drop truck-1 city-loc-2 package-3 capacity-2 capacity-3
+1
+0 1
+2
+0 10 2 1
+0 4 2 3
+1
+end_operator
+begin_operator
+drop truck-1 city-loc-2 package-3 capacity-3 capacity-4
+1
+0 1
+2
+0 10 2 1
+0 4 3 4
+1
+end_operator
+begin_operator
+drop truck-2 city-loc-1 package-1 capacity-0 capacity-1
+1
+1 0
+2
+0 8 3 0
+0 5 0 1
+1
+end_operator
+begin_operator
+drop truck-2 city-loc-1 package-1 capacity-1 capacity-2
+1
+1 0
+2
+0 8 3 0
+0 5 1 2
+1
+end_operator
+begin_operator
+drop truck-2 city-loc-1 package-1 capacity-2 capacity-3
+1
+1 0
+2
+0 8 3 0
+0 5 2 3
+1
+end_operator
+begin_operator
+drop truck-2 city-loc-1 package-1 capacity-3 capacity-4
+1
+1 0
+2
+0 8 3 0
+0 5 3 4
+1
+end_operator
+begin_operator
+drop truck-2 city-loc-1 package-2 capacity-0 capacity-1
+1
+1 0
+2
+0 9 3 0
+0 5 0 1
+1
+end_operator
+begin_operator
+drop truck-2 city-loc-1 package-2 capacity-1 capacity-2
+1
+1 0
+2
+0 9 3 0
+0 5 1 2
+1
+end_operator
+begin_operator
+drop truck-2 city-loc-1 package-2 capacity-2 capacity-3
+1
+1 0
+2
+0 9 3 0
+0 5 2 3
+1
+end_operator
+begin_operator
+drop truck-2 city-loc-1 package-2 capacity-3 capacity-4
+1
+1 0
+2
+0 9 3 0
+0 5 3 4
+1
+end_operator
+begin_operator
+drop truck-2 city-loc-1 package-3 capacity-0 capacity-1
+1
+1 0
+2
+0 10 3 0
+0 5 0 1
+1
+end_operator
+begin_operator
+drop truck-2 city-loc-1 package-3 capacity-1 capacity-2
+1
+1 0
+2
+0 10 3 0
+0 5 1 2
+1
+end_operator
+begin_operator
+drop truck-2 city-loc-1 package-3 capacity-2 capacity-3
+1
+1 0
+2
+0 10 3 0
+0 5 2 3
+1
+end_operator
+begin_operator
+drop truck-2 city-loc-1 package-3 capacity-3 capacity-4
+1
+1 0
+2
+0 10 3 0
+0 5 3 4
+1
+end_operator
+begin_operator
+drop truck-2 city-loc-2 package-1 capacity-0 capacity-1
+1
+1 1
+2
+0 8 3 1
+0 5 0 1
+1
+end_operator
+begin_operator
+drop truck-2 city-loc-2 package-1 capacity-1 capacity-2
+1
+1 1
+2
+0 8 3 1
+0 5 1 2
+1
+end_operator
+begin_operator
+drop truck-2 city-loc-2 package-1 capacity-2 capacity-3
+1
+1 1
+2
+0 8 3 1
+0 5 2 3
+1
+end_operator
+begin_operator
+drop truck-2 city-loc-2 package-1 capacity-3 capacity-4
+1
+1 1
+2
+0 8 3 1
+0 5 3 4
+1
+end_operator
+begin_operator
+drop truck-2 city-loc-2 package-2 capacity-0 capacity-1
+1
+1 1
+2
+0 9 3 1
+0 5 0 1
+1
+end_operator
+begin_operator
+drop truck-2 city-loc-2 package-2 capacity-1 capacity-2
+1
+1 1
+2
+0 9 3 1
+0 5 1 2
+1
+end_operator
+begin_operator
+drop truck-2 city-loc-2 package-2 capacity-2 capacity-3
+1
+1 1
+2
+0 9 3 1
+0 5 2 3
+1
+end_operator
+begin_operator
+drop truck-2 city-loc-2 package-2 capacity-3 capacity-4
+1
+1 1
+2
+0 9 3 1
+0 5 3 4
+1
+end_operator
+begin_operator
+drop truck-2 city-loc-2 package-3 capacity-0 capacity-1
+1
+1 1
+2
+0 10 3 1
+0 5 0 1
+1
+end_operator
+begin_operator
+drop truck-2 city-loc-2 package-3 capacity-1 capacity-2
+1
+1 1
+2
+0 10 3 1
+0 5 1 2
+1
+end_operator
+begin_operator
+drop truck-2 city-loc-2 package-3 capacity-2 capacity-3
+1
+1 1
+2
+0 10 3 1
+0 5 2 3
+1
+end_operator
+begin_operator
+drop truck-2 city-loc-2 package-3 capacity-3 capacity-4
+1
+1 1
+2
+0 10 3 1
+0 5 3 4
+1
+end_operator
+begin_operator
+drop truck-3 city-loc-1 package-1 capacity-0 capacity-1
+1
+2 0
+2
+0 8 4 0
+0 6 0 1
+1
+end_operator
+begin_operator
+drop truck-3 city-loc-1 package-1 capacity-1 capacity-2
+1
+2 0
+2
+0 8 4 0
+0 6 1 2
+1
+end_operator
+begin_operator
+drop truck-3 city-loc-1 package-1 capacity-2 capacity-3
+1
+2 0
+2
+0 8 4 0
+0 6 2 3
+1
+end_operator
+begin_operator
+drop truck-3 city-loc-1 package-1 capacity-3 capacity-4
+1
+2 0
+2
+0 8 4 0
+0 6 3 4
+1
+end_operator
+begin_operator
+drop truck-3 city-loc-1 package-2 capacity-0 capacity-1
+1
+2 0
+2
+0 9 4 0
+0 6 0 1
+1
+end_operator
+begin_operator
+drop truck-3 city-loc-1 package-2 capacity-1 capacity-2
+1
+2 0
+2
+0 9 4 0
+0 6 1 2
+1
+end_operator
+begin_operator
+drop truck-3 city-loc-1 package-2 capacity-2 capacity-3
+1
+2 0
+2
+0 9 4 0
+0 6 2 3
+1
+end_operator
+begin_operator
+drop truck-3 city-loc-1 package-2 capacity-3 capacity-4
+1
+2 0
+2
+0 9 4 0
+0 6 3 4
+1
+end_operator
+begin_operator
+drop truck-3 city-loc-1 package-3 capacity-0 capacity-1
+1
+2 0
+2
+0 10 4 0
+0 6 0 1
+1
+end_operator
+begin_operator
+drop truck-3 city-loc-1 package-3 capacity-1 capacity-2
+1
+2 0
+2
+0 10 4 0
+0 6 1 2
+1
+end_operator
+begin_operator
+drop truck-3 city-loc-1 package-3 capacity-2 capacity-3
+1
+2 0
+2
+0 10 4 0
+0 6 2 3
+1
+end_operator
+begin_operator
+drop truck-3 city-loc-1 package-3 capacity-3 capacity-4
+1
+2 0
+2
+0 10 4 0
+0 6 3 4
+1
+end_operator
+begin_operator
+drop truck-3 city-loc-2 package-1 capacity-0 capacity-1
+1
+2 1
+2
+0 8 4 1
+0 6 0 1
+1
+end_operator
+begin_operator
+drop truck-3 city-loc-2 package-1 capacity-1 capacity-2
+1
+2 1
+2
+0 8 4 1
+0 6 1 2
+1
+end_operator
+begin_operator
+drop truck-3 city-loc-2 package-1 capacity-2 capacity-3
+1
+2 1
+2
+0 8 4 1
+0 6 2 3
+1
+end_operator
+begin_operator
+drop truck-3 city-loc-2 package-1 capacity-3 capacity-4
+1
+2 1
+2
+0 8 4 1
+0 6 3 4
+1
+end_operator
+begin_operator
+drop truck-3 city-loc-2 package-2 capacity-0 capacity-1
+1
+2 1
+2
+0 9 4 1
+0 6 0 1
+1
+end_operator
+begin_operator
+drop truck-3 city-loc-2 package-2 capacity-1 capacity-2
+1
+2 1
+2
+0 9 4 1
+0 6 1 2
+1
+end_operator
+begin_operator
+drop truck-3 city-loc-2 package-2 capacity-2 capacity-3
+1
+2 1
+2
+0 9 4 1
+0 6 2 3
+1
+end_operator
+begin_operator
+drop truck-3 city-loc-2 package-2 capacity-3 capacity-4
+1
+2 1
+2
+0 9 4 1
+0 6 3 4
+1
+end_operator
+begin_operator
+drop truck-3 city-loc-2 package-3 capacity-0 capacity-1
+1
+2 1
+2
+0 10 4 1
+0 6 0 1
+1
+end_operator
+begin_operator
+drop truck-3 city-loc-2 package-3 capacity-1 capacity-2
+1
+2 1
+2
+0 10 4 1
+0 6 1 2
+1
+end_operator
+begin_operator
+drop truck-3 city-loc-2 package-3 capacity-2 capacity-3
+1
+2 1
+2
+0 10 4 1
+0 6 2 3
+1
+end_operator
+begin_operator
+drop truck-3 city-loc-2 package-3 capacity-3 capacity-4
+1
+2 1
+2
+0 10 4 1
+0 6 3 4
+1
+end_operator
+begin_operator
+drop truck-4 city-loc-1 package-1 capacity-0 capacity-1
+1
+3 0
+2
+0 8 5 0
+0 7 0 1
+1
+end_operator
+begin_operator
+drop truck-4 city-loc-1 package-1 capacity-1 capacity-2
+1
+3 0
+2
+0 8 5 0
+0 7 1 2
+1
+end_operator
+begin_operator
+drop truck-4 city-loc-1 package-1 capacity-2 capacity-3
+1
+3 0
+2
+0 8 5 0
+0 7 2 3
+1
+end_operator
+begin_operator
+drop truck-4 city-loc-1 package-1 capacity-3 capacity-4
+1
+3 0
+2
+0 8 5 0
+0 7 3 4
+1
+end_operator
+begin_operator
+drop truck-4 city-loc-1 package-2 capacity-0 capacity-1
+1
+3 0
+2
+0 9 5 0
+0 7 0 1
+1
+end_operator
+begin_operator
+drop truck-4 city-loc-1 package-2 capacity-1 capacity-2
+1
+3 0
+2
+0 9 5 0
+0 7 1 2
+1
+end_operator
+begin_operator
+drop truck-4 city-loc-1 package-2 capacity-2 capacity-3
+1
+3 0
+2
+0 9 5 0
+0 7 2 3
+1
+end_operator
+begin_operator
+drop truck-4 city-loc-1 package-2 capacity-3 capacity-4
+1
+3 0
+2
+0 9 5 0
+0 7 3 4
+1
+end_operator
+begin_operator
+drop truck-4 city-loc-1 package-3 capacity-0 capacity-1
+1
+3 0
+2
+0 10 5 0
+0 7 0 1
+1
+end_operator
+begin_operator
+drop truck-4 city-loc-1 package-3 capacity-1 capacity-2
+1
+3 0
+2
+0 10 5 0
+0 7 1 2
+1
+end_operator
+begin_operator
+drop truck-4 city-loc-1 package-3 capacity-2 capacity-3
+1
+3 0
+2
+0 10 5 0
+0 7 2 3
+1
+end_operator
+begin_operator
+drop truck-4 city-loc-1 package-3 capacity-3 capacity-4
+1
+3 0
+2
+0 10 5 0
+0 7 3 4
+1
+end_operator
+begin_operator
+drop truck-4 city-loc-2 package-1 capacity-0 capacity-1
+1
+3 1
+2
+0 8 5 1
+0 7 0 1
+1
+end_operator
+begin_operator
+drop truck-4 city-loc-2 package-1 capacity-1 capacity-2
+1
+3 1
+2
+0 8 5 1
+0 7 1 2
+1
+end_operator
+begin_operator
+drop truck-4 city-loc-2 package-1 capacity-2 capacity-3
+1
+3 1
+2
+0 8 5 1
+0 7 2 3
+1
+end_operator
+begin_operator
+drop truck-4 city-loc-2 package-1 capacity-3 capacity-4
+1
+3 1
+2
+0 8 5 1
+0 7 3 4
+1
+end_operator
+begin_operator
+drop truck-4 city-loc-2 package-2 capacity-0 capacity-1
+1
+3 1
+2
+0 9 5 1
+0 7 0 1
+1
+end_operator
+begin_operator
+drop truck-4 city-loc-2 package-2 capacity-1 capacity-2
+1
+3 1
+2
+0 9 5 1
+0 7 1 2
+1
+end_operator
+begin_operator
+drop truck-4 city-loc-2 package-2 capacity-2 capacity-3
+1
+3 1
+2
+0 9 5 1
+0 7 2 3
+1
+end_operator
+begin_operator
+drop truck-4 city-loc-2 package-2 capacity-3 capacity-4
+1
+3 1
+2
+0 9 5 1
+0 7 3 4
+1
+end_operator
+begin_operator
+drop truck-4 city-loc-2 package-3 capacity-0 capacity-1
+1
+3 1
+2
+0 10 5 1
+0 7 0 1
+1
+end_operator
+begin_operator
+drop truck-4 city-loc-2 package-3 capacity-1 capacity-2
+1
+3 1
+2
+0 10 5 1
+0 7 1 2
+1
+end_operator
+begin_operator
+drop truck-4 city-loc-2 package-3 capacity-2 capacity-3
+1
+3 1
+2
+0 10 5 1
+0 7 2 3
+1
+end_operator
+begin_operator
+drop truck-4 city-loc-2 package-3 capacity-3 capacity-4
+1
+3 1
+2
+0 10 5 1
+0 7 3 4
+1
+end_operator
+begin_operator
+pick-up truck-1 city-loc-1 package-1 capacity-0 capacity-1
+1
+0 0
+2
+0 8 0 2
+0 4 1 0
+1
+end_operator
+begin_operator
+pick-up truck-1 city-loc-1 package-1 capacity-1 capacity-2
+1
+0 0
+2
+0 8 0 2
+0 4 2 1
+1
+end_operator
+begin_operator
+pick-up truck-1 city-loc-1 package-1 capacity-2 capacity-3
+1
+0 0
+2
+0 8 0 2
+0 4 3 2
+1
+end_operator
+begin_operator
+pick-up truck-1 city-loc-1 package-1 capacity-3 capacity-4
+1
+0 0
+2
+0 8 0 2
+0 4 4 3
+1
+end_operator
+begin_operator
+pick-up truck-1 city-loc-1 package-2 capacity-0 capacity-1
+1
+0 0
+2
+0 9 0 2
+0 4 1 0
+1
+end_operator
+begin_operator
+pick-up truck-1 city-loc-1 package-2 capacity-1 capacity-2
+1
+0 0
+2
+0 9 0 2
+0 4 2 1
+1
+end_operator
+begin_operator
+pick-up truck-1 city-loc-1 package-2 capacity-2 capacity-3
+1
+0 0
+2
+0 9 0 2
+0 4 3 2
+1
+end_operator
+begin_operator
+pick-up truck-1 city-loc-1 package-2 capacity-3 capacity-4
+1
+0 0
+2
+0 9 0 2
+0 4 4 3
+1
+end_operator
+begin_operator
+pick-up truck-1 city-loc-1 package-3 capacity-0 capacity-1
+1
+0 0
+2
+0 10 0 2
+0 4 1 0
+1
+end_operator
+begin_operator
+pick-up truck-1 city-loc-1 package-3 capacity-1 capacity-2
+1
+0 0
+2
+0 10 0 2
+0 4 2 1
+1
+end_operator
+begin_operator
+pick-up truck-1 city-loc-1 package-3 capacity-2 capacity-3
+1
+0 0
+2
+0 10 0 2
+0 4 3 2
+1
+end_operator
+begin_operator
+pick-up truck-1 city-loc-1 package-3 capacity-3 capacity-4
+1
+0 0
+2
+0 10 0 2
+0 4 4 3
+1
+end_operator
+begin_operator
+pick-up truck-1 city-loc-2 package-1 capacity-0 capacity-1
+1
+0 1
+2
+0 8 1 2
+0 4 1 0
+1
+end_operator
+begin_operator
+pick-up truck-1 city-loc-2 package-1 capacity-1 capacity-2
+1
+0 1
+2
+0 8 1 2
+0 4 2 1
+1
+end_operator
+begin_operator
+pick-up truck-1 city-loc-2 package-1 capacity-2 capacity-3
+1
+0 1
+2
+0 8 1 2
+0 4 3 2
+1
+end_operator
+begin_operator
+pick-up truck-1 city-loc-2 package-1 capacity-3 capacity-4
+1
+0 1
+2
+0 8 1 2
+0 4 4 3
+1
+end_operator
+begin_operator
+pick-up truck-1 city-loc-2 package-2 capacity-0 capacity-1
+1
+0 1
+2
+0 9 1 2
+0 4 1 0
+1
+end_operator
+begin_operator
+pick-up truck-1 city-loc-2 package-2 capacity-1 capacity-2
+1
+0 1
+2
+0 9 1 2
+0 4 2 1
+1
+end_operator
+begin_operator
+pick-up truck-1 city-loc-2 package-2 capacity-2 capacity-3
+1
+0 1
+2
+0 9 1 2
+0 4 3 2
+1
+end_operator
+begin_operator
+pick-up truck-1 city-loc-2 package-2 capacity-3 capacity-4
+1
+0 1
+2
+0 9 1 2
+0 4 4 3
+1
+end_operator
+begin_operator
+pick-up truck-1 city-loc-2 package-3 capacity-0 capacity-1
+1
+0 1
+2
+0 10 1 2
+0 4 1 0
+1
+end_operator
+begin_operator
+pick-up truck-1 city-loc-2 package-3 capacity-1 capacity-2
+1
+0 1
+2
+0 10 1 2
+0 4 2 1
+1
+end_operator
+begin_operator
+pick-up truck-1 city-loc-2 package-3 capacity-2 capacity-3
+1
+0 1
+2
+0 10 1 2
+0 4 3 2
+1
+end_operator
+begin_operator
+pick-up truck-1 city-loc-2 package-3 capacity-3 capacity-4
+1
+0 1
+2
+0 10 1 2
+0 4 4 3
+1
+end_operator
+begin_operator
+pick-up truck-2 city-loc-1 package-1 capacity-0 capacity-1
+1
+1 0
+2
+0 8 0 3
+0 5 1 0
+1
+end_operator
+begin_operator
+pick-up truck-2 city-loc-1 package-1 capacity-1 capacity-2
+1
+1 0
+2
+0 8 0 3
+0 5 2 1
+1
+end_operator
+begin_operator
+pick-up truck-2 city-loc-1 package-1 capacity-2 capacity-3
+1
+1 0
+2
+0 8 0 3
+0 5 3 2
+1
+end_operator
+begin_operator
+pick-up truck-2 city-loc-1 package-1 capacity-3 capacity-4
+1
+1 0
+2
+0 8 0 3
+0 5 4 3
+1
+end_operator
+begin_operator
+pick-up truck-2 city-loc-1 package-2 capacity-0 capacity-1
+1
+1 0
+2
+0 9 0 3
+0 5 1 0
+1
+end_operator
+begin_operator
+pick-up truck-2 city-loc-1 package-2 capacity-1 capacity-2
+1
+1 0
+2
+0 9 0 3
+0 5 2 1
+1
+end_operator
+begin_operator
+pick-up truck-2 city-loc-1 package-2 capacity-2 capacity-3
+1
+1 0
+2
+0 9 0 3
+0 5 3 2
+1
+end_operator
+begin_operator
+pick-up truck-2 city-loc-1 package-2 capacity-3 capacity-4
+1
+1 0
+2
+0 9 0 3
+0 5 4 3
+1
+end_operator
+begin_operator
+pick-up truck-2 city-loc-1 package-3 capacity-0 capacity-1
+1
+1 0
+2
+0 10 0 3
+0 5 1 0
+1
+end_operator
+begin_operator
+pick-up truck-2 city-loc-1 package-3 capacity-1 capacity-2
+1
+1 0
+2
+0 10 0 3
+0 5 2 1
+1
+end_operator
+begin_operator
+pick-up truck-2 city-loc-1 package-3 capacity-2 capacity-3
+1
+1 0
+2
+0 10 0 3
+0 5 3 2
+1
+end_operator
+begin_operator
+pick-up truck-2 city-loc-1 package-3 capacity-3 capacity-4
+1
+1 0
+2
+0 10 0 3
+0 5 4 3
+1
+end_operator
+begin_operator
+pick-up truck-2 city-loc-2 package-1 capacity-0 capacity-1
+1
+1 1
+2
+0 8 1 3
+0 5 1 0
+1
+end_operator
+begin_operator
+pick-up truck-2 city-loc-2 package-1 capacity-1 capacity-2
+1
+1 1
+2
+0 8 1 3
+0 5 2 1
+1
+end_operator
+begin_operator
+pick-up truck-2 city-loc-2 package-1 capacity-2 capacity-3
+1
+1 1
+2
+0 8 1 3
+0 5 3 2
+1
+end_operator
+begin_operator
+pick-up truck-2 city-loc-2 package-1 capacity-3 capacity-4
+1
+1 1
+2
+0 8 1 3
+0 5 4 3
+1
+end_operator
+begin_operator
+pick-up truck-2 city-loc-2 package-2 capacity-0 capacity-1
+1
+1 1
+2
+0 9 1 3
+0 5 1 0
+1
+end_operator
+begin_operator
+pick-up truck-2 city-loc-2 package-2 capacity-1 capacity-2
+1
+1 1
+2
+0 9 1 3
+0 5 2 1
+1
+end_operator
+begin_operator
+pick-up truck-2 city-loc-2 package-2 capacity-2 capacity-3
+1
+1 1
+2
+0 9 1 3
+0 5 3 2
+1
+end_operator
+begin_operator
+pick-up truck-2 city-loc-2 package-2 capacity-3 capacity-4
+1
+1 1
+2
+0 9 1 3
+0 5 4 3
+1
+end_operator
+begin_operator
+pick-up truck-2 city-loc-2 package-3 capacity-0 capacity-1
+1
+1 1
+2
+0 10 1 3
+0 5 1 0
+1
+end_operator
+begin_operator
+pick-up truck-2 city-loc-2 package-3 capacity-1 capacity-2
+1
+1 1
+2
+0 10 1 3
+0 5 2 1
+1
+end_operator
+begin_operator
+pick-up truck-2 city-loc-2 package-3 capacity-2 capacity-3
+1
+1 1
+2
+0 10 1 3
+0 5 3 2
+1
+end_operator
+begin_operator
+pick-up truck-2 city-loc-2 package-3 capacity-3 capacity-4
+1
+1 1
+2
+0 10 1 3
+0 5 4 3
+1
+end_operator
+begin_operator
+pick-up truck-3 city-loc-1 package-1 capacity-0 capacity-1
+1
+2 0
+2
+0 8 0 4
+0 6 1 0
+1
+end_operator
+begin_operator
+pick-up truck-3 city-loc-1 package-1 capacity-1 capacity-2
+1
+2 0
+2
+0 8 0 4
+0 6 2 1
+1
+end_operator
+begin_operator
+pick-up truck-3 city-loc-1 package-1 capacity-2 capacity-3
+1
+2 0
+2
+0 8 0 4
+0 6 3 2
+1
+end_operator
+begin_operator
+pick-up truck-3 city-loc-1 package-1 capacity-3 capacity-4
+1
+2 0
+2
+0 8 0 4
+0 6 4 3
+1
+end_operator
+begin_operator
+pick-up truck-3 city-loc-1 package-2 capacity-0 capacity-1
+1
+2 0
+2
+0 9 0 4
+0 6 1 0
+1
+end_operator
+begin_operator
+pick-up truck-3 city-loc-1 package-2 capacity-1 capacity-2
+1
+2 0
+2
+0 9 0 4
+0 6 2 1
+1
+end_operator
+begin_operator
+pick-up truck-3 city-loc-1 package-2 capacity-2 capacity-3
+1
+2 0
+2
+0 9 0 4
+0 6 3 2
+1
+end_operator
+begin_operator
+pick-up truck-3 city-loc-1 package-2 capacity-3 capacity-4
+1
+2 0
+2
+0 9 0 4
+0 6 4 3
+1
+end_operator
+begin_operator
+pick-up truck-3 city-loc-1 package-3 capacity-0 capacity-1
+1
+2 0
+2
+0 10 0 4
+0 6 1 0
+1
+end_operator
+begin_operator
+pick-up truck-3 city-loc-1 package-3 capacity-1 capacity-2
+1
+2 0
+2
+0 10 0 4
+0 6 2 1
+1
+end_operator
+begin_operator
+pick-up truck-3 city-loc-1 package-3 capacity-2 capacity-3
+1
+2 0
+2
+0 10 0 4
+0 6 3 2
+1
+end_operator
+begin_operator
+pick-up truck-3 city-loc-1 package-3 capacity-3 capacity-4
+1
+2 0
+2
+0 10 0 4
+0 6 4 3
+1
+end_operator
+begin_operator
+pick-up truck-3 city-loc-2 package-1 capacity-0 capacity-1
+1
+2 1
+2
+0 8 1 4
+0 6 1 0
+1
+end_operator
+begin_operator
+pick-up truck-3 city-loc-2 package-1 capacity-1 capacity-2
+1
+2 1
+2
+0 8 1 4
+0 6 2 1
+1
+end_operator
+begin_operator
+pick-up truck-3 city-loc-2 package-1 capacity-2 capacity-3
+1
+2 1
+2
+0 8 1 4
+0 6 3 2
+1
+end_operator
+begin_operator
+pick-up truck-3 city-loc-2 package-1 capacity-3 capacity-4
+1
+2 1
+2
+0 8 1 4
+0 6 4 3
+1
+end_operator
+begin_operator
+pick-up truck-3 city-loc-2 package-2 capacity-0 capacity-1
+1
+2 1
+2
+0 9 1 4
+0 6 1 0
+1
+end_operator
+begin_operator
+pick-up truck-3 city-loc-2 package-2 capacity-1 capacity-2
+1
+2 1
+2
+0 9 1 4
+0 6 2 1
+1
+end_operator
+begin_operator
+pick-up truck-3 city-loc-2 package-2 capacity-2 capacity-3
+1
+2 1
+2
+0 9 1 4
+0 6 3 2
+1
+end_operator
+begin_operator
+pick-up truck-3 city-loc-2 package-2 capacity-3 capacity-4
+1
+2 1
+2
+0 9 1 4
+0 6 4 3
+1
+end_operator
+begin_operator
+pick-up truck-3 city-loc-2 package-3 capacity-0 capacity-1
+1
+2 1
+2
+0 10 1 4
+0 6 1 0
+1
+end_operator
+begin_operator
+pick-up truck-3 city-loc-2 package-3 capacity-1 capacity-2
+1
+2 1
+2
+0 10 1 4
+0 6 2 1
+1
+end_operator
+begin_operator
+pick-up truck-3 city-loc-2 package-3 capacity-2 capacity-3
+1
+2 1
+2
+0 10 1 4
+0 6 3 2
+1
+end_operator
+begin_operator
+pick-up truck-3 city-loc-2 package-3 capacity-3 capacity-4
+1
+2 1
+2
+0 10 1 4
+0 6 4 3
+1
+end_operator
+begin_operator
+pick-up truck-4 city-loc-1 package-1 capacity-0 capacity-1
+1
+3 0
+2
+0 8 0 5
+0 7 1 0
+1
+end_operator
+begin_operator
+pick-up truck-4 city-loc-1 package-1 capacity-1 capacity-2
+1
+3 0
+2
+0 8 0 5
+0 7 2 1
+1
+end_operator
+begin_operator
+pick-up truck-4 city-loc-1 package-1 capacity-2 capacity-3
+1
+3 0
+2
+0 8 0 5
+0 7 3 2
+1
+end_operator
+begin_operator
+pick-up truck-4 city-loc-1 package-1 capacity-3 capacity-4
+1
+3 0
+2
+0 8 0 5
+0 7 4 3
+1
+end_operator
+begin_operator
+pick-up truck-4 city-loc-1 package-2 capacity-0 capacity-1
+1
+3 0
+2
+0 9 0 5
+0 7 1 0
+1
+end_operator
+begin_operator
+pick-up truck-4 city-loc-1 package-2 capacity-1 capacity-2
+1
+3 0
+2
+0 9 0 5
+0 7 2 1
+1
+end_operator
+begin_operator
+pick-up truck-4 city-loc-1 package-2 capacity-2 capacity-3
+1
+3 0
+2
+0 9 0 5
+0 7 3 2
+1
+end_operator
+begin_operator
+pick-up truck-4 city-loc-1 package-2 capacity-3 capacity-4
+1
+3 0
+2
+0 9 0 5
+0 7 4 3
+1
+end_operator
+begin_operator
+pick-up truck-4 city-loc-1 package-3 capacity-0 capacity-1
+1
+3 0
+2
+0 10 0 5
+0 7 1 0
+1
+end_operator
+begin_operator
+pick-up truck-4 city-loc-1 package-3 capacity-1 capacity-2
+1
+3 0
+2
+0 10 0 5
+0 7 2 1
+1
+end_operator
+begin_operator
+pick-up truck-4 city-loc-1 package-3 capacity-2 capacity-3
+1
+3 0
+2
+0 10 0 5
+0 7 3 2
+1
+end_operator
+begin_operator
+pick-up truck-4 city-loc-1 package-3 capacity-3 capacity-4
+1
+3 0
+2
+0 10 0 5
+0 7 4 3
+1
+end_operator
+begin_operator
+pick-up truck-4 city-loc-2 package-1 capacity-0 capacity-1
+1
+3 1
+2
+0 8 1 5
+0 7 1 0
+1
+end_operator
+begin_operator
+pick-up truck-4 city-loc-2 package-1 capacity-1 capacity-2
+1
+3 1
+2
+0 8 1 5
+0 7 2 1
+1
+end_operator
+begin_operator
+pick-up truck-4 city-loc-2 package-1 capacity-2 capacity-3
+1
+3 1
+2
+0 8 1 5
+0 7 3 2
+1
+end_operator
+begin_operator
+pick-up truck-4 city-loc-2 package-1 capacity-3 capacity-4
+1
+3 1
+2
+0 8 1 5
+0 7 4 3
+1
+end_operator
+begin_operator
+pick-up truck-4 city-loc-2 package-2 capacity-0 capacity-1
+1
+3 1
+2
+0 9 1 5
+0 7 1 0
+1
+end_operator
+begin_operator
+pick-up truck-4 city-loc-2 package-2 capacity-1 capacity-2
+1
+3 1
+2
+0 9 1 5
+0 7 2 1
+1
+end_operator
+begin_operator
+pick-up truck-4 city-loc-2 package-2 capacity-2 capacity-3
+1
+3 1
+2
+0 9 1 5
+0 7 3 2
+1
+end_operator
+begin_operator
+pick-up truck-4 city-loc-2 package-2 capacity-3 capacity-4
+1
+3 1
+2
+0 9 1 5
+0 7 4 3
+1
+end_operator
+begin_operator
+pick-up truck-4 city-loc-2 package-3 capacity-0 capacity-1
+1
+3 1
+2
+0 10 1 5
+0 7 1 0
+1
+end_operator
+begin_operator
+pick-up truck-4 city-loc-2 package-3 capacity-1 capacity-2
+1
+3 1
+2
+0 10 1 5
+0 7 2 1
+1
+end_operator
+begin_operator
+pick-up truck-4 city-loc-2 package-3 capacity-2 capacity-3
+1
+3 1
+2
+0 10 1 5
+0 7 3 2
+1
+end_operator
+begin_operator
+pick-up truck-4 city-loc-2 package-3 capacity-3 capacity-4
+1
+3 1
+2
+0 10 1 5
+0 7 4 3
+1
+end_operator
+0
+begin_SG
+switch 8
+check 0
+switch 0
+check 0
+switch 4
+check 0
+check 0
+check 1
+104
+check 1
+105
+check 1
+106
+check 1
+107
+check 0
+check 0
+switch 1
+check 0
+switch 5
+check 0
+check 0
+check 1
+128
+check 1
+129
+check 1
+130
+check 1
+131
+check 0
+check 0
+switch 2
+check 0
+switch 6
+check 0
+check 0
+check 1
+152
+check 1
+153
+check 1
+154
+check 1
+155
+check 0
+check 0
+switch 3
+check 0
+switch 7
+check 0
+check 0
+check 1
+176
+check 1
+177
+check 1
+178
+check 1
+179
+check 0
+check 0
+check 0
+switch 0
+check 0
+check 0
+switch 4
+check 0
+check 0
+check 1
+116
+check 1
+117
+check 1
+118
+check 1
+119
+check 0
+switch 1
+check 0
+check 0
+switch 5
+check 0
+check 0
+check 1
+140
+check 1
+141
+check 1
+142
+check 1
+143
+check 0
+switch 2
+check 0
+check 0
+switch 6
+check 0
+check 0
+check 1
+164
+check 1
+165
+check 1
+166
+check 1
+167
+check 0
+switch 3
+check 0
+check 0
+switch 7
+check 0
+check 0
+check 1
+188
+check 1
+189
+check 1
+190
+check 1
+191
+check 0
+check 0
+switch 0
+check 0
+switch 4
+check 0
+check 1
+8
+check 1
+9
+check 1
+10
+check 1
+11
+check 0
+check 0
+switch 4
+check 0
+check 1
+20
+check 1
+21
+check 1
+22
+check 1
+23
+check 0
+check 0
+check 0
+switch 1
+check 0
+switch 5
+check 0
+check 1
+32
+check 1
+33
+check 1
+34
+check 1
+35
+check 0
+check 0
+switch 5
+check 0
+check 1
+44
+check 1
+45
+check 1
+46
+check 1
+47
+check 0
+check 0
+check 0
+switch 2
+check 0
+switch 6
+check 0
+check 1
+56
+check 1
+57
+check 1
+58
+check 1
+59
+check 0
+check 0
+switch 6
+check 0
+check 1
+68
+check 1
+69
+check 1
+70
+check 1
+71
+check 0
+check 0
+check 0
+switch 3
+check 0
+switch 7
+check 0
+check 1
+80
+check 1
+81
+check 1
+82
+check 1
+83
+check 0
+check 0
+switch 7
+check 0
+check 1
+92
+check 1
+93
+check 1
+94
+check 1
+95
+check 0
+check 0
+check 0
+switch 9
+check 0
+switch 0
+check 0
+switch 4
+check 0
+check 0
+check 1
+108
+check 1
+109
+check 1
+110
+check 1
+111
+check 0
+check 0
+switch 1
+check 0
+switch 5
+check 0
+check 0
+check 1
+132
+check 1
+133
+check 1
+134
+check 1
+135
+check 0
+check 0
+switch 2
+check 0
+switch 6
+check 0
+check 0
+check 1
+156
+check 1
+157
+check 1
+158
+check 1
+159
+check 0
+check 0
+switch 3
+check 0
+switch 7
+check 0
+check 0
+check 1
+180
+check 1
+181
+check 1
+182
+check 1
+183
+check 0
+check 0
+check 0
+switch 0
+check 0
+check 0
+switch 4
+check 0
+check 0
+check 1
+120
+check 1
+121
+check 1
+122
+check 1
+123
+check 0
+switch 1
+check 0
+check 0
+switch 5
+check 0
+check 0
+check 1
+144
+check 1
+145
+check 1
+146
+check 1
+147
+check 0
+switch 2
+check 0
+check 0
+switch 6
+check 0
+check 0
+check 1
+168
+check 1
+169
+check 1
+170
+check 1
+171
+check 0
+switch 3
+check 0
+check 0
+switch 7
+check 0
+check 0
+check 1
+192
+check 1
+193
+check 1
+194
+check 1
+195
+check 0
+check 0
+switch 0
+check 0
+switch 4
+check 0
+check 1
+12
+check 1
+13
+check 1
+14
+check 1
+15
+check 0
+check 0
+switch 4
+check 0
+check 1
+24
+check 1
+25
+check 1
+26
+check 1
+27
+check 0
+check 0
+check 0
+switch 1
+check 0
+switch 5
+check 0
+check 1
+36
+check 1
+37
+check 1
+38
+check 1
+39
+check 0
+check 0
+switch 5
+check 0
+check 1
+48
+check 1
+49
+check 1
+50
+check 1
+51
+check 0
+check 0
+check 0
+switch 2
+check 0
+switch 6
+check 0
+check 1
+60
+check 1
+61
+check 1
+62
+check 1
+63
+check 0
+check 0
+switch 6
+check 0
+check 1
+72
+check 1
+73
+check 1
+74
+check 1
+75
+check 0
+check 0
+check 0
+switch 3
+check 0
+switch 7
+check 0
+check 1
+84
+check 1
+85
+check 1
+86
+check 1
+87
+check 0
+check 0
+switch 7
+check 0
+check 1
+96
+check 1
+97
+check 1
+98
+check 1
+99
+check 0
+check 0
+check 0
+switch 10
+check 0
+switch 0
+check 0
+switch 4
+check 0
+check 0
+check 1
+112
+check 1
+113
+check 1
+114
+check 1
+115
+check 0
+check 0
+switch 1
+check 0
+switch 5
+check 0
+check 0
+check 1
+136
+check 1
+137
+check 1
+138
+check 1
+139
+check 0
+check 0
+switch 2
+check 0
+switch 6
+check 0
+check 0
+check 1
+160
+check 1
+161
+check 1
+162
+check 1
+163
+check 0
+check 0
+switch 3
+check 0
+switch 7
+check 0
+check 0
+check 1
+184
+check 1
+185
+check 1
+186
+check 1
+187
+check 0
+check 0
+check 0
+switch 0
+check 0
+check 0
+switch 4
+check 0
+check 0
+check 1
+124
+check 1
+125
+check 1
+126
+check 1
+127
+check 0
+switch 1
+check 0
+check 0
+switch 5
+check 0
+check 0
+check 1
+148
+check 1
+149
+check 1
+150
+check 1
+151
+check 0
+switch 2
+check 0
+check 0
+switch 6
+check 0
+check 0
+check 1
+172
+check 1
+173
+check 1
+174
+check 1
+175
+check 0
+switch 3
+check 0
+check 0
+switch 7
+check 0
+check 0
+check 1
+196
+check 1
+197
+check 1
+198
+check 1
+199
+check 0
+check 0
+switch 0
+check 0
+switch 4
+check 0
+check 1
+16
+check 1
+17
+check 1
+18
+check 1
+19
+check 0
+check 0
+switch 4
+check 0
+check 1
+28
+check 1
+29
+check 1
+30
+check 1
+31
+check 0
+check 0
+check 0
+switch 1
+check 0
+switch 5
+check 0
+check 1
+40
+check 1
+41
+check 1
+42
+check 1
+43
+check 0
+check 0
+switch 5
+check 0
+check 1
+52
+check 1
+53
+check 1
+54
+check 1
+55
+check 0
+check 0
+check 0
+switch 2
+check 0
+switch 6
+check 0
+check 1
+64
+check 1
+65
+check 1
+66
+check 1
+67
+check 0
+check 0
+switch 6
+check 0
+check 1
+76
+check 1
+77
+check 1
+78
+check 1
+79
+check 0
+check 0
+check 0
+switch 3
+check 0
+switch 7
+check 0
+check 1
+88
+check 1
+89
+check 1
+90
+check 1
+91
+check 0
+check 0
+switch 7
+check 0
+check 1
+100
+check 1
+101
+check 1
+102
+check 1
+103
+check 0
+check 0
+check 0
+switch 0
+check 0
+check 1
+0
+check 1
+1
+switch 1
+check 0
+check 1
+2
+check 1
+3
+switch 2
+check 0
+check 1
+4
+check 1
+5
+switch 3
+check 0
+check 1
+6
+check 1
+7
+check 0
+end_SG
+begin_DTG
+1
+1
+0
+0
+1
+0
+1
+0
+end_DTG
+begin_DTG
+1
+1
+2
+0
+1
+0
+3
+0
+end_DTG
+begin_DTG
+1
+1
+4
+0
+1
+0
+5
+0
+end_DTG
+begin_DTG
+1
+1
+6
+0
+1
+0
+7
+0
+end_DTG
+begin_DTG
+6
+1
+8
+2
+8 2
+0 0
+1
+12
+2
+9 2
+0 0
+1
+16
+2
+10 2
+0 0
+1
+20
+2
+8 2
+0 1
+1
+24
+2
+9 2
+0 1
+1
+28
+2
+10 2
+0 1
+12
+0
+104
+2
+8 0
+0 0
+0
+108
+2
+9 0
+0 0
+0
+112
+2
+10 0
+0 0
+0
+116
+2
+8 1
+0 1
+0
+120
+2
+9 1
+0 1
+0
+124
+2
+10 1
+0 1
+2
+9
+2
+8 2
+0 0
+2
+13
+2
+9 2
+0 0
+2
+17
+2
+10 2
+0 0
+2
+21
+2
+8 2
+0 1
+2
+25
+2
+9 2
+0 1
+2
+29
+2
+10 2
+0 1
+12
+1
+105
+2
+8 0
+0 0
+1
+109
+2
+9 0
+0 0
+1
+113
+2
+10 0
+0 0
+1
+117
+2
+8 1
+0 1
+1
+121
+2
+9 1
+0 1
+1
+125
+2
+10 1
+0 1
+3
+10
+2
+8 2
+0 0
+3
+14
+2
+9 2
+0 0
+3
+18
+2
+10 2
+0 0
+3
+22
+2
+8 2
+0 1
+3
+26
+2
+9 2
+0 1
+3
+30
+2
+10 2
+0 1
+12
+2
+106
+2
+8 0
+0 0
+2
+110
+2
+9 0
+0 0
+2
+114
+2
+10 0
+0 0
+2
+118
+2
+8 1
+0 1
+2
+122
+2
+9 1
+0 1
+2
+126
+2
+10 1
+0 1
+4
+11
+2
+8 2
+0 0
+4
+15
+2
+9 2
+0 0
+4
+19
+2
+10 2
+0 0
+4
+23
+2
+8 2
+0 1
+4
+27
+2
+9 2
+0 1
+4
+31
+2
+10 2
+0 1
+6
+3
+107
+2
+8 0
+0 0
+3
+111
+2
+9 0
+0 0
+3
+115
+2
+10 0
+0 0
+3
+119
+2
+8 1
+0 1
+3
+123
+2
+9 1
+0 1
+3
+127
+2
+10 1
+0 1
+end_DTG
+begin_DTG
+6
+1
+32
+2
+8 3
+1 0
+1
+36
+2
+9 3
+1 0
+1
+40
+2
+10 3
+1 0
+1
+44
+2
+8 3
+1 1
+1
+48
+2
+9 3
+1 1
+1
+52
+2
+10 3
+1 1
+12
+0
+128
+2
+8 0
+1 0
+0
+132
+2
+9 0
+1 0
+0
+136
+2
+10 0
+1 0
+0
+140
+2
+8 1
+1 1
+0
+144
+2
+9 1
+1 1
+0
+148
+2
+10 1
+1 1
+2
+33
+2
+8 3
+1 0
+2
+37
+2
+9 3
+1 0
+2
+41
+2
+10 3
+1 0
+2
+45
+2
+8 3
+1 1
+2
+49
+2
+9 3
+1 1
+2
+53
+2
+10 3
+1 1
+12
+1
+129
+2
+8 0
+1 0
+1
+133
+2
+9 0
+1 0
+1
+137
+2
+10 0
+1 0
+1
+141
+2
+8 1
+1 1
+1
+145
+2
+9 1
+1 1
+1
+149
+2
+10 1
+1 1
+3
+34
+2
+8 3
+1 0
+3
+38
+2
+9 3
+1 0
+3
+42
+2
+10 3
+1 0
+3
+46
+2
+8 3
+1 1
+3
+50
+2
+9 3
+1 1
+3
+54
+2
+10 3
+1 1
+12
+2
+130
+2
+8 0
+1 0
+2
+134
+2
+9 0
+1 0
+2
+138
+2
+10 0
+1 0
+2
+142
+2
+8 1
+1 1
+2
+146
+2
+9 1
+1 1
+2
+150
+2
+10 1
+1 1
+4
+35
+2
+8 3
+1 0
+4
+39
+2
+9 3
+1 0
+4
+43
+2
+10 3
+1 0
+4
+47
+2
+8 3
+1 1
+4
+51
+2
+9 3
+1 1
+4
+55
+2
+10 3
+1 1
+6
+3
+131
+2
+8 0
+1 0
+3
+135
+2
+9 0
+1 0
+3
+139
+2
+10 0
+1 0
+3
+143
+2
+8 1
+1 1
+3
+147
+2
+9 1
+1 1
+3
+151
+2
+10 1
+1 1
+end_DTG
+begin_DTG
+6
+1
+56
+2
+8 4
+2 0
+1
+60
+2
+9 4
+2 0
+1
+64
+2
+10 4
+2 0
+1
+68
+2
+8 4
+2 1
+1
+72
+2
+9 4
+2 1
+1
+76
+2
+10 4
+2 1
+12
+0
+152
+2
+8 0
+2 0
+0
+156
+2
+9 0
+2 0
+0
+160
+2
+10 0
+2 0
+0
+164
+2
+8 1
+2 1
+0
+168
+2
+9 1
+2 1
+0
+172
+2
+10 1
+2 1
+2
+57
+2
+8 4
+2 0
+2
+61
+2
+9 4
+2 0
+2
+65
+2
+10 4
+2 0
+2
+69
+2
+8 4
+2 1
+2
+73
+2
+9 4
+2 1
+2
+77
+2
+10 4
+2 1
+12
+1
+153
+2
+8 0
+2 0
+1
+157
+2
+9 0
+2 0
+1
+161
+2
+10 0
+2 0
+1
+165
+2
+8 1
+2 1
+1
+169
+2
+9 1
+2 1
+1
+173
+2
+10 1
+2 1
+3
+58
+2
+8 4
+2 0
+3
+62
+2
+9 4
+2 0
+3
+66
+2
+10 4
+2 0
+3
+70
+2
+8 4
+2 1
+3
+74
+2
+9 4
+2 1
+3
+78
+2
+10 4
+2 1
+12
+2
+154
+2
+8 0
+2 0
+2
+158
+2
+9 0
+2 0
+2
+162
+2
+10 0
+2 0
+2
+166
+2
+8 1
+2 1
+2
+170
+2
+9 1
+2 1
+2
+174
+2
+10 1
+2 1
+4
+59
+2
+8 4
+2 0
+4
+63
+2
+9 4
+2 0
+4
+67
+2
+10 4
+2 0
+4
+71
+2
+8 4
+2 1
+4
+75
+2
+9 4
+2 1
+4
+79
+2
+10 4
+2 1
+6
+3
+155
+2
+8 0
+2 0
+3
+159
+2
+9 0
+2 0
+3
+163
+2
+10 0
+2 0
+3
+167
+2
+8 1
+2 1
+3
+171
+2
+9 1
+2 1
+3
+175
+2
+10 1
+2 1
+end_DTG
+begin_DTG
+6
+1
+80
+2
+8 5
+3 0
+1
+84
+2
+9 5
+3 0
+1
+88
+2
+10 5
+3 0
+1
+92
+2
+8 5
+3 1
+1
+96
+2
+9 5
+3 1
+1
+100
+2
+10 5
+3 1
+12
+0
+176
+2
+8 0
+3 0
+0
+180
+2
+9 0
+3 0
+0
+184
+2
+10 0
+3 0
+0
+188
+2
+8 1
+3 1
+0
+192
+2
+9 1
+3 1
+0
+196
+2
+10 1
+3 1
+2
+81
+2
+8 5
+3 0
+2
+85
+2
+9 5
+3 0
+2
+89
+2
+10 5
+3 0
+2
+93
+2
+8 5
+3 1
+2
+97
+2
+9 5
+3 1
+2
+101
+2
+10 5
+3 1
+12
+1
+177
+2
+8 0
+3 0
+1
+181
+2
+9 0
+3 0
+1
+185
+2
+10 0
+3 0
+1
+189
+2
+8 1
+3 1
+1
+193
+2
+9 1
+3 1
+1
+197
+2
+10 1
+3 1
+3
+82
+2
+8 5
+3 0
+3
+86
+2
+9 5
+3 0
+3
+90
+2
+10 5
+3 0
+3
+94
+2
+8 5
+3 1
+3
+98
+2
+9 5
+3 1
+3
+102
+2
+10 5
+3 1
+12
+2
+178
+2
+8 0
+3 0
+2
+182
+2
+9 0
+3 0
+2
+186
+2
+10 0
+3 0
+2
+190
+2
+8 1
+3 1
+2
+194
+2
+9 1
+3 1
+2
+198
+2
+10 1
+3 1
+4
+83
+2
+8 5
+3 0
+4
+87
+2
+9 5
+3 0
+4
+91
+2
+10 5
+3 0
+4
+95
+2
+8 5
+3 1
+4
+99
+2
+9 5
+3 1
+4
+103
+2
+10 5
+3 1
+6
+3
+179
+2
+8 0
+3 0
+3
+183
+2
+9 0
+3 0
+3
+187
+2
+10 0
+3 0
+3
+191
+2
+8 1
+3 1
+3
+195
+2
+9 1
+3 1
+3
+199
+2
+10 1
+3 1
+end_DTG
+begin_DTG
+16
+2
+104
+2
+0 0
+4 1
+2
+105
+2
+0 0
+4 2
+2
+106
+2
+0 0
+4 3
+2
+107
+2
+0 0
+4 4
+3
+128
+2
+1 0
+5 1
+3
+129
+2
+1 0
+5 2
+3
+130
+2
+1 0
+5 3
+3
+131
+2
+1 0
+5 4
+4
+152
+2
+2 0
+6 1
+4
+153
+2
+2 0
+6 2
+4
+154
+2
+2 0
+6 3
+4
+155
+2
+2 0
+6 4
+5
+176
+2
+3 0
+7 1
+5
+177
+2
+3 0
+7 2
+5
+178
+2
+3 0
+7 3
+5
+179
+2
+3 0
+7 4
+16
+2
+116
+2
+0 1
+4 1
+2
+117
+2
+0 1
+4 2
+2
+118
+2
+0 1
+4 3
+2
+119
+2
+0 1
+4 4
+3
+140
+2
+1 1
+5 1
+3
+141
+2
+1 1
+5 2
+3
+142
+2
+1 1
+5 3
+3
+143
+2
+1 1
+5 4
+4
+164
+2
+2 1
+6 1
+4
+165
+2
+2 1
+6 2
+4
+166
+2
+2 1
+6 3
+4
+167
+2
+2 1
+6 4
+5
+188
+2
+3 1
+7 1
+5
+189
+2
+3 1
+7 2
+5
+190
+2
+3 1
+7 3
+5
+191
+2
+3 1
+7 4
+8
+0
+8
+2
+0 0
+4 0
+0
+9
+2
+0 0
+4 1
+0
+10
+2
+0 0
+4 2
+0
+11
+2
+0 0
+4 3
+1
+20
+2
+0 1
+4 0
+1
+21
+2
+0 1
+4 1
+1
+22
+2
+0 1
+4 2
+1
+23
+2
+0 1
+4 3
+8
+0
+32
+2
+1 0
+5 0
+0
+33
+2
+1 0
+5 1
+0
+34
+2
+1 0
+5 2
+0
+35
+2
+1 0
+5 3
+1
+44
+2
+1 1
+5 0
+1
+45
+2
+1 1
+5 1
+1
+46
+2
+1 1
+5 2
+1
+47
+2
+1 1
+5 3
+8
+0
+56
+2
+2 0
+6 0
+0
+57
+2
+2 0
+6 1
+0
+58
+2
+2 0
+6 2
+0
+59
+2
+2 0
+6 3
+1
+68
+2
+2 1
+6 0
+1
+69
+2
+2 1
+6 1
+1
+70
+2
+2 1
+6 2
+1
+71
+2
+2 1
+6 3
+8
+0
+80
+2
+3 0
+7 0
+0
+81
+2
+3 0
+7 1
+0
+82
+2
+3 0
+7 2
+0
+83
+2
+3 0
+7 3
+1
+92
+2
+3 1
+7 0
+1
+93
+2
+3 1
+7 1
+1
+94
+2
+3 1
+7 2
+1
+95
+2
+3 1
+7 3
+end_DTG
+begin_DTG
+16
+2
+108
+2
+0 0
+4 1
+2
+109
+2
+0 0
+4 2
+2
+110
+2
+0 0
+4 3
+2
+111
+2
+0 0
+4 4
+3
+132
+2
+1 0
+5 1
+3
+133
+2
+1 0
+5 2
+3
+134
+2
+1 0
+5 3
+3
+135
+2
+1 0
+5 4
+4
+156
+2
+2 0
+6 1
+4
+157
+2
+2 0
+6 2
+4
+158
+2
+2 0
+6 3
+4
+159
+2
+2 0
+6 4
+5
+180
+2
+3 0
+7 1
+5
+181
+2
+3 0
+7 2
+5
+182
+2
+3 0
+7 3
+5
+183
+2
+3 0
+7 4
+16
+2
+120
+2
+0 1
+4 1
+2
+121
+2
+0 1
+4 2
+2
+122
+2
+0 1
+4 3
+2
+123
+2
+0 1
+4 4
+3
+144
+2
+1 1
+5 1
+3
+145
+2
+1 1
+5 2
+3
+146
+2
+1 1
+5 3
+3
+147
+2
+1 1
+5 4
+4
+168
+2
+2 1
+6 1
+4
+169
+2
+2 1
+6 2
+4
+170
+2
+2 1
+6 3
+4
+171
+2
+2 1
+6 4
+5
+192
+2
+3 1
+7 1
+5
+193
+2
+3 1
+7 2
+5
+194
+2
+3 1
+7 3
+5
+195
+2
+3 1
+7 4
+8
+0
+12
+2
+0 0
+4 0
+0
+13
+2
+0 0
+4 1
+0
+14
+2
+0 0
+4 2
+0
+15
+2
+0 0
+4 3
+1
+24
+2
+0 1
+4 0
+1
+25
+2
+0 1
+4 1
+1
+26
+2
+0 1
+4 2
+1
+27
+2
+0 1
+4 3
+8
+0
+36
+2
+1 0
+5 0
+0
+37
+2
+1 0
+5 1
+0
+38
+2
+1 0
+5 2
+0
+39
+2
+1 0
+5 3
+1
+48
+2
+1 1
+5 0
+1
+49
+2
+1 1
+5 1
+1
+50
+2
+1 1
+5 2
+1
+51
+2
+1 1
+5 3
+8
+0
+60
+2
+2 0
+6 0
+0
+61
+2
+2 0
+6 1
+0
+62
+2
+2 0
+6 2
+0
+63
+2
+2 0
+6 3
+1
+72
+2
+2 1
+6 0
+1
+73
+2
+2 1
+6 1
+1
+74
+2
+2 1
+6 2
+1
+75
+2
+2 1
+6 3
+8
+0
+84
+2
+3 0
+7 0
+0
+85
+2
+3 0
+7 1
+0
+86
+2
+3 0
+7 2
+0
+87
+2
+3 0
+7 3
+1
+96
+2
+3 1
+7 0
+1
+97
+2
+3 1
+7 1
+1
+98
+2
+3 1
+7 2
+1
+99
+2
+3 1
+7 3
+end_DTG
+begin_DTG
+16
+2
+112
+2
+0 0
+4 1
+2
+113
+2
+0 0
+4 2
+2
+114
+2
+0 0
+4 3
+2
+115
+2
+0 0
+4 4
+3
+136
+2
+1 0
+5 1
+3
+137
+2
+1 0
+5 2
+3
+138
+2
+1 0
+5 3
+3
+139
+2
+1 0
+5 4
+4
+160
+2
+2 0
+6 1
+4
+161
+2
+2 0
+6 2
+4
+162
+2
+2 0
+6 3
+4
+163
+2
+2 0
+6 4
+5
+184
+2
+3 0
+7 1
+5
+185
+2
+3 0
+7 2
+5
+186
+2
+3 0
+7 3
+5
+187
+2
+3 0
+7 4
+16
+2
+124
+2
+0 1
+4 1
+2
+125
+2
+0 1
+4 2
+2
+126
+2
+0 1
+4 3
+2
+127
+2
+0 1
+4 4
+3
+148
+2
+1 1
+5 1
+3
+149
+2
+1 1
+5 2
+3
+150
+2
+1 1
+5 3
+3
+151
+2
+1 1
+5 4
+4
+172
+2
+2 1
+6 1
+4
+173
+2
+2 1
+6 2
+4
+174
+2
+2 1
+6 3
+4
+175
+2
+2 1
+6 4
+5
+196
+2
+3 1
+7 1
+5
+197
+2
+3 1
+7 2
+5
+198
+2
+3 1
+7 3
+5
+199
+2
+3 1
+7 4
+8
+0
+16
+2
+0 0
+4 0
+0
+17
+2
+0 0
+4 1
+0
+18
+2
+0 0
+4 2
+0
+19
+2
+0 0
+4 3
+1
+28
+2
+0 1
+4 0
+1
+29
+2
+0 1
+4 1
+1
+30
+2
+0 1
+4 2
+1
+31
+2
+0 1
+4 3
+8
+0
+40
+2
+1 0
+5 0
+0
+41
+2
+1 0
+5 1
+0
+42
+2
+1 0
+5 2
+0
+43
+2
+1 0
+5 3
+1
+52
+2
+1 1
+5 0
+1
+53
+2
+1 1
+5 1
+1
+54
+2
+1 1
+5 2
+1
+55
+2
+1 1
+5 3
+8
+0
+64
+2
+2 0
+6 0
+0
+65
+2
+2 0
+6 1
+0
+66
+2
+2 0
+6 2
+0
+67
+2
+2 0
+6 3
+1
+76
+2
+2 1
+6 0
+1
+77
+2
+2 1
+6 1
+1
+78
+2
+2 1
+6 2
+1
+79
+2
+2 1
+6 3
+8
+0
+88
+2
+3 0
+7 0
+0
+89
+2
+3 0
+7 1
+0
+90
+2
+3 0
+7 2
+0
+91
+2
+3 0
+7 3
+1
+100
+2
+3 1
+7 0
+1
+101
+2
+3 1
+7 1
+1
+102
+2
+3 1
+7 2
+1
+103
+2
+3 1
+7 3
+end_DTG
+begin_CG
+4
+8 16
+9 16
+10 16
+4 48
+4
+8 16
+9 16
+10 16
+5 48
+4
+8 16
+9 16
+10 16
+6 48
+4
+8 16
+9 16
+10 16
+7 48
+3
+8 16
+9 16
+10 16
+3
+8 16
+9 16
+10 16
+3
+8 16
+9 16
+10 16
+3
+8 16
+9 16
+10 16
+4
+4 16
+5 16
+6 16
+7 16
+4
+4 16
+5 16
+6 16
+7 16
+4
+4 16
+5 16
+6 16
+7 16
+end_CG

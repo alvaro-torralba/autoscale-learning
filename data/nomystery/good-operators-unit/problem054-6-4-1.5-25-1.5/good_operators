@@ -1,0 +1,16 @@
+drive t0 l0 l3 level1 level13 level14
+drive t0 l0 l3 level13 level13 level26
+drive t0 l0 l4 level20 level6 level26
+drive t0 l3 l0 level26 level13 level39
+drive t0 l3 l5 level35 level4 level39
+drive t0 l4 l0 level14 level6 level20
+drive t0 l4 l0 level26 level6 level32
+drive t0 l5 l4 level32 level3 level35
+load p0 t0 l3
+load p1 t0 l4
+load p2 t0 l4
+load p3 t0 l4
+unload p0 t0 l4
+unload p1 t0 l0
+unload p2 t0 l3
+unload p3 t0 l3

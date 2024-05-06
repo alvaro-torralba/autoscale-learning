@@ -1,0 +1,60 @@
+drive t0 l0 l1 level59 level25 level84
+drive t0 l0 l1 level75 level25 level100
+drive t0 l0 l3 level19 level10 level29
+drive t0 l0 l3 level75 level10 level85
+drive t0 l0 l6 level35 level7 level42
+drive t0 l0 l6 level78 level7 level85
+drive t0 l0 l6 level93 level7 level100
+drive t0 l1 l0 level29 level25 level54
+drive t0 l1 l0 level42 level25 level67
+drive t0 l1 l2 level45 level24 level69
+drive t0 l1 l6 level30 level24 level54
+drive t0 l1 l6 level35 level24 level59
+drive t0 l1 l6 level51 level24 level75
+drive t0 l2 l6 level114 level22 level136
+drive t0 l2 l7 level122 level14 level136
+drive t0 l2 l7 level31 level14 level45
+drive t0 l3 l0 level100 level10 level110
+drive t0 l3 l0 level85 level10 level95
+drive t0 l3 l4 level18 level1 level19
+drive t0 l3 l4 level25 level1 level26
+drive t0 l3 l4 level30 level1 level31
+drive t0 l3 l4 level46 level1 level47
+drive t0 l3 l4 level74 level1 level75
+drive t0 l3 l6 level69 level4 level73
+drive t0 l3 l6 level91 level4 level95
+drive t0 l3 l7 level30 level17 level47
+drive t0 l4 l3 level73 level1 level74
+drive t0 l4 l7 level27 level19 level46
+drive t0 l6 l0 level84 level7 level91
+drive t0 l6 l1 level45 level24 level69
+drive t0 l6 l1 level54 level24 level78
+drive t0 l6 l1 level67 level24 level91
+drive t0 l6 l1 level69 level24 level93
+drive t0 l6 l3 level110 level4 level114
+drive t0 l6 l3 level26 level4 level30
+drive t0 l6 l3 level31 level4 level35
+drive t0 l6 l3 level47 level4 level51
+drive t0 l7 l3 level95 level17 level112
+drive t0 l7 l4 level1 level19 level20
+drive t0 l7 l4 level2 level19 level21
+drive t0 l7 l8 level117 level5 level122
+drive t0 l7 l8 level22 level5 level27
+drive t0 l7 l8 level25 level5 level30
+drive t0 l7 l8 level26 level5 level31
+drive t0 l8 l7 level112 level5 level117
+drive t0 l8 l7 level17 level5 level22
+drive t0 l8 l7 level20 level5 level25
+drive t0 l8 l7 level21 level5 level26
+load p0 t0 l3
+load p1 t0 l0
+load p2 t0 l0
+load p3 t0 l8
+load p4 t0 l6
+load p5 t0 l8
+unload p0 t0 l0
+unload p1 t0 l4
+unload p2 t0 l6
+unload p3 t0 l7
+unload p4 t0 l1
+unload p5 t0 l7

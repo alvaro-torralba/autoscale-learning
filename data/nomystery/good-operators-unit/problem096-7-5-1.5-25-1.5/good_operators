@@ -1,0 +1,16 @@
+drive t0 l0 l4 level16 level10 level26
+drive t0 l1 l3 level38 level23 level61
+drive t0 l2 l4 level81 level1 level82
+drive t0 l3 l0 level26 level12 level38
+drive t0 l4 l1 level61 level20 level81
+drive t0 l4 l2 level15 level1 level16
+load p0 t0 l2
+load p1 t0 l0
+load p2 t0 l4
+load p3 t0 l1
+load p4 t0 l0
+unload p0 t0 l3
+unload p1 t0 l2
+unload p2 t0 l3
+unload p3 t0 l0
+unload p4 t0 l2

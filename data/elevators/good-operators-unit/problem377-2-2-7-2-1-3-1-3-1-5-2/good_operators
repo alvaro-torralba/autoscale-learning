@@ -1,0 +1,111 @@
+board p0 fast0 n1 n0 n1
+board p0 fast0 n1 n1 n2
+board p0 fast1 n1 n1 n2
+board p0 fast1 n1 n2 n3
+board p1 fast0 n0 n0 n1
+board p1 fast0 n0 n1 n2
+board p1 fast0 n0 n2 n3
+board p1 fast1 n0 n0 n1
+board p1 fast1 n0 n1 n2
+board p1 fast1 n0 n2 n3
+board p2 fast0 n1 n0 n1
+board p2 fast0 n1 n1 n2
+board p2 fast0 n1 n2 n3
+board p2 fast1 n1 n1 n2
+board p2 fast1 n1 n2 n3
+board p3 fast0 n3 n0 n1
+board p3 fast0 n3 n1 n2
+board p3 fast0 n3 n2 n3
+board p3 fast1 n3 n0 n1
+board p3 fast1 n3 n1 n2
+board p3 fast1 n3 n2 n3
+board p4 fast0 n2 n1 n2
+board p4 fast0 n2 n2 n3
+board p4 fast1 n2 n0 n1
+board p4 fast1 n2 n1 n2
+board p4 fast1 n2 n2 n3
+board p4 slow1-0 n2 n0 n1
+board p4 slow1-0 n2 n1 n2
+board p5 fast0 n2 n1 n2
+board p5 fast0 n2 n2 n3
+board p5 fast1 n2 n1 n2
+board p5 fast1 n2 n2 n3
+board p6 fast0 n4 n0 n1
+board p6 fast0 n4 n1 n2
+board p6 fast0 n4 n2 n3
+board p6 fast1 n4 n0 n1
+board p6 slow1-0 n4 n0 n1
+leave p0 fast0 n0 n1 n0
+leave p0 fast0 n0 n2 n1
+leave p0 fast0 n0 n3 n2
+leave p0 fast1 n0 n1 n0
+leave p0 fast1 n0 n2 n1
+leave p0 fast1 n0 n3 n2
+leave p1 fast0 n3 n1 n0
+leave p1 fast0 n3 n2 n1
+leave p1 fast0 n3 n3 n2
+leave p1 fast1 n3 n1 n0
+leave p1 fast1 n3 n2 n1
+leave p1 fast1 n3 n3 n2
+leave p2 fast0 n2 n1 n0
+leave p2 fast0 n2 n2 n1
+leave p2 fast0 n2 n3 n2
+leave p2 fast1 n2 n2 n1
+leave p2 fast1 n2 n3 n2
+leave p3 fast0 n1 n1 n0
+leave p3 fast0 n1 n2 n1
+leave p3 fast0 n1 n3 n2
+leave p3 fast1 n1 n1 n0
+leave p3 fast1 n1 n2 n1
+leave p3 fast1 n1 n3 n2
+leave p4 fast0 n4 n1 n0
+leave p4 fast0 n4 n2 n1
+leave p4 fast0 n4 n3 n2
+leave p4 fast1 n4 n1 n0
+leave p4 fast1 n4 n2 n1
+leave p4 fast1 n4 n3 n2
+leave p4 slow1-0 n4 n1 n0
+leave p5 fast0 n0 n1 n0
+leave p5 fast0 n0 n2 n1
+leave p5 fast0 n0 n3 n2
+leave p5 fast1 n0 n1 n0
+leave p5 fast1 n0 n2 n1
+leave p5 fast1 n0 n3 n2
+leave p6 fast0 n2 n1 n0
+leave p6 fast0 n2 n2 n1
+leave p6 fast0 n2 n3 n2
+leave p6 fast1 n2 n1 n0
+leave p6 fast1 n2 n2 n1
+leave p6 fast1 n2 n3 n2
+leave p6 slow1-0 n2 n1 n0
+leave p6 slow1-0 n2 n2 n1
+move-down-fast fast0 n2 n0
+move-down-fast fast0 n2 n1
+move-down-fast fast0 n3 n1
+move-down-fast fast0 n3 n2
+move-down-fast fast0 n4 n0
+move-down-fast fast0 n4 n1
+move-down-fast fast0 n4 n2
+move-down-fast fast0 n4 n3
+move-down-fast fast1 n2 n0
+move-down-fast fast1 n3 n1
+move-down-fast fast1 n4 n0
+move-down-fast fast1 n4 n1
+move-down-fast fast1 n4 n2
+move-down-fast fast1 n4 n3
+move-down-slow slow1-0 n4 n2
+move-up-fast fast0 n0 n2
+move-up-fast fast0 n0 n3
+move-up-fast fast0 n0 n4
+move-up-fast fast0 n1 n2
+move-up-fast fast0 n1 n4
+move-up-fast fast0 n2 n3
+move-up-fast fast0 n2 n4
+move-up-fast fast0 n3 n4
+move-up-fast fast1 n0 n3
+move-up-fast fast1 n0 n4
+move-up-fast fast1 n1 n2
+move-up-fast fast1 n1 n4
+move-up-fast fast1 n2 n4
+move-up-fast fast1 n3 n4
+move-up-slow slow1-0 n2 n4

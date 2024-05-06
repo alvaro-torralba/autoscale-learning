@@ -1,0 +1,8 @@
+drive t0 l0 l2 level4 level22 level26
+drive t0 l1 l0 level26 level6 level32
+load p0 t0 l0
+load p1 t0 l0
+load p2 t0 l1
+unload p0 t0 l2
+unload p1 t0 l2
+unload p2 t0 l2

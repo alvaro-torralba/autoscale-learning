@@ -1,0 +1,10 @@
+drive t0 l0 l3 level43 level8 level51
+drive t0 l1 l0 level51 level1 level52
+drive t0 l2 l1 level17 level4 level21
+drive t0 l3 l2 level21 level22 level43
+load p0 t0 l0
+load p1 t0 l3
+load p2 t0 l2
+unload p0 t0 l3
+unload p1 t0 l1
+unload p2 t0 l1
