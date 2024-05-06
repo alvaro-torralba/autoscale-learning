@@ -1,0 +1,10 @@
+drive t0 l0 l1 level67 level23 level90
+drive t0 l0 l2 level67 level23 level90
+drive t0 l1 l2 level45 level11 level56
+drive t0 l1 l2 level56 level11 level67
+drive t0 l2 l1 level45 level11 level56
+drive t0 l2 l1 level56 level11 level67
+load p0 t0 l2
+load p1 t0 l1
+unload p0 t0 l1
+unload p1 t0 l2

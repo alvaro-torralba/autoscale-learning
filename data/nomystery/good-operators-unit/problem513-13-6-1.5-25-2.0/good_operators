@@ -1,0 +1,110 @@
+drive t0 l0 l1 level195 level20 level215
+drive t0 l0 l1 level201 level20 level221
+drive t0 l0 l1 level207 level20 level227
+drive t0 l0 l1 level210 level20 level230
+drive t0 l0 l1 level213 level20 level233
+drive t0 l0 l1 level219 level20 level239
+drive t0 l0 l1 level230 level20 level250
+drive t0 l0 l1 level236 level20 level256
+drive t0 l0 l7 level297 level24 level321
+drive t0 l0 l9 level200 level18 level218
+drive t0 l0 l9 level206 level18 level224
+drive t0 l1 l0 level191 level20 level211
+drive t0 l1 l0 level197 level20 level217
+drive t0 l1 l0 level218 level20 level238
+drive t0 l1 l0 level224 level20 level244
+drive t0 l1 l10 level179 level16 level195
+drive t0 l1 l10 level194 level16 level210
+drive t0 l1 l10 level197 level16 level213
+drive t0 l1 l10 level203 level16 level219
+drive t0 l1 l10 level214 level16 level230
+drive t0 l1 l10 level220 level16 level236
+drive t0 l10 l1 level187 level16 level203
+drive t0 l10 l1 level193 level16 level209
+drive t0 l10 l1 level211 level16 level227
+drive t0 l10 l1 level217 level16 level233
+drive t0 l10 l1 level238 level16 level254
+drive t0 l10 l1 level244 level16 level260
+drive t0 l10 l4 level344 level24 level368
+drive t0 l10 l7 level356 level12 level368
+drive t0 l10 l8 level201 level13 level214
+drive t0 l10 l8 level207 level13 level220
+drive t0 l10 l8 level249 level13 level262
+drive t0 l10 l8 level255 level13 level268
+drive t0 l10 l8 level261 level13 level274
+drive t0 l10 l8 level355 level13 level368
+drive t0 l11 l12 level401 level13 level414
+drive t0 l12 l2 level381 level20 level401
+drive t0 l2 l10 level368 level13 level381
+drive t0 l4 l10 level209 level24 level233
+drive t0 l4 l10 level233 level24 level257
+drive t0 l4 l10 level260 level24 level284
+drive t0 l4 l10 level268 level24 level292
+drive t0 l4 l10 level274 level24 level298
+drive t0 l4 l6 level337 level7 level344
+drive t0 l5 l6 level240 level16 level256
+drive t0 l5 l6 level264 level16 level280
+drive t0 l5 l6 level291 level16 level307
+drive t0 l5 l6 level299 level16 level315
+drive t0 l5 l6 level305 level16 level321
+drive t0 l6 l4 level233 level7 level240
+drive t0 l6 l4 level257 level7 level264
+drive t0 l6 l4 level284 level7 level291
+drive t0 l6 l4 level292 level7 level299
+drive t0 l6 l4 level298 level7 level305
+drive t0 l6 l5 level256 level16 level272
+drive t0 l6 l5 level280 level16 level296
+drive t0 l6 l5 level307 level16 level323
+drive t0 l6 l5 level315 level16 level331
+drive t0 l6 l5 level321 level16 level337
+drive t0 l6 l7 level215 level25 level240
+drive t0 l6 l7 level239 level25 level264
+drive t0 l6 l7 level266 level25 level291
+drive t0 l6 l7 level274 level25 level299
+drive t0 l6 l7 level280 level25 level305
+drive t0 l7 l0 level215 level24 level239
+drive t0 l7 l0 level250 level24 level274
+drive t0 l7 l0 level256 level24 level280
+drive t0 l7 l10 level203 level12 level215
+drive t0 l7 l10 level227 level12 level239
+drive t0 l7 l10 level254 level12 level266
+drive t0 l7 l10 level262 level12 level274
+drive t0 l7 l10 level268 level12 level280
+drive t0 l7 l6 level272 level25 level297
+drive t0 l7 l6 level296 level25 level321
+drive t0 l7 l6 level323 level25 level348
+drive t0 l7 l6 level331 level25 level356
+drive t0 l7 l8 level267 level7 level274
+drive t0 l7 l8 level273 level7 level280
+drive t0 l7 l9 level248 level18 level266
+drive t0 l8 l10 level254 level13 level267
+drive t0 l8 l10 level260 level13 level273
+drive t0 l8 l7 level348 level7 level355
+drive t0 l8 l9 level185 level16 level201
+drive t0 l8 l9 level191 level16 level207
+drive t0 l8 l9 level233 level16 level249
+drive t0 l8 l9 level239 level16 level255
+drive t0 l8 l9 level245 level16 level261
+drive t0 l8 l9 level251 level16 level267
+drive t0 l8 l9 level257 level16 level273
+drive t0 l8 l9 level339 level16 level355
+drive t0 l9 l0 level215 level18 level233
+drive t0 l9 l0 level221 level18 level239
+drive t0 l9 l0 level227 level18 level245
+drive t0 l9 l0 level230 level18 level248
+drive t0 l9 l0 level233 level18 level251
+drive t0 l9 l0 level239 level18 level257
+drive t0 l9 l0 level321 level18 level339
+drive t0 l9 l7 level321 level18 level339
+load p0 t0 l2
+load p1 t0 l12
+load p2 t0 l6
+load p3 t0 l8
+load p4 t0 l2
+load p5 t0 l5
+unload p0 t0 l5
+unload p1 t0 l2
+unload p2 t0 l10
+unload p3 t0 l9
+unload p4 t0 l0
+unload p5 t0 l1

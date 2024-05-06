@@ -1,0 +1,14 @@
+drive t0 l0 l1 level85 level2 level87
+drive t0 l0 l4 level28 level6 level34
+drive t0 l1 l0 level34 level2 level36
+drive t0 l1 l2 level68 level17 level85
+drive t0 l2 l5 level57 level11 level68
+drive t0 l5 l1 level36 level21 level57
+load p0 t0 l1
+load p1 t0 l2
+load p2 t0 l5
+load p3 t0 l1
+unload p0 t0 l2
+unload p1 t0 l5
+unload p2 t0 l4
+unload p3 t0 l5

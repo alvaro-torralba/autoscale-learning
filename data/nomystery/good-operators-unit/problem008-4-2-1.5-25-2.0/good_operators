@@ -1,0 +1,6 @@
+drive t0 l1 l3 level14 level7 level21
+drive t0 l3 l1 level21 level7 level28
+load p0 t0 l1
+load p1 t0 l1
+unload p0 t0 l3
+unload p1 t0 l3

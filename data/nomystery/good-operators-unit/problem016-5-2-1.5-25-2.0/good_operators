@@ -1,0 +1,9 @@
+drive t0 l1 l2 level58 level16 level74
+drive t0 l1 l4 level50 level24 level74
+drive t0 l2 l3 level43 level15 level58
+drive t0 l4 l1 level74 level24 level98
+drive t0 l4 l3 level47 level3 level50
+load p0 t0 l1
+load p1 t0 l4
+unload p0 t0 l3
+unload p1 t0 l3

@@ -1,0 +1,8 @@
+drive t0 l0 l1 level8 level1 level9
+drive t0 l0 l4 level5 level2 level7
+drive t0 l1 l0 level7 level1 level8
+drive t0 l4 l0 level3 level2 level5
+load p0 t0 l4
+load p1 t0 l1
+unload p0 t0 l0
+unload p1 t0 l4

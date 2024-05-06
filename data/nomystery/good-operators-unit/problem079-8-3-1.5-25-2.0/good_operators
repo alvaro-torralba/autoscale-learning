@@ -1,0 +1,11 @@
+drive t0 l1 l3 level112 level23 level135
+drive t0 l2 l5 level164 level24 level188
+drive t0 l3 l1 level135 level23 level158
+drive t0 l3 l6 level94 level18 level112
+drive t0 l5 l3 level158 level6 level164
+load p0 t0 l1
+load p1 t0 l1
+load p2 t0 l5
+unload p0 t0 l6
+unload p1 t0 l3
+unload p2 t0 l6

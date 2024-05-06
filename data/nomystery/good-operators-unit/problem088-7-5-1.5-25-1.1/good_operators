@@ -1,0 +1,18 @@
+drive t0 l0 l2 level37 level21 level58
+drive t0 l1 l4 level10 level18 level28
+drive t0 l1 l6 level104 level2 level106
+drive t0 l2 l1 level28 level9 level37
+drive t0 l3 l0 level58 level23 level81
+drive t0 l4 l1 level106 level18 level124
+drive t0 l5 l3 level81 level14 level95
+drive t0 l6 l5 level95 level9 level104
+load p0 t0 l5
+load p1 t0 l1
+load p2 t0 l6
+load p3 t0 l3
+load p4 t0 l3
+unload p0 t0 l0
+unload p1 t0 l3
+unload p2 t0 l2
+unload p3 t0 l1
+unload p4 t0 l4

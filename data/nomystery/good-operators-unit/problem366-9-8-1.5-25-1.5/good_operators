@@ -1,0 +1,33 @@
+drive t0 l0 l3 level88 level21 level109
+drive t0 l0 l5 level87 level22 level109
+drive t0 l2 l4 level41 level14 level55
+drive t0 l2 l8 level44 level19 level63
+drive t0 l2 l8 level51 level19 level70
+drive t0 l3 l0 level109 level21 level130
+drive t0 l3 l4 level77 level11 level88
+drive t0 l3 l7 level78 level10 level88
+drive t0 l4 l2 level63 level14 level77
+drive t0 l4 l2 level70 level14 level84
+drive t0 l5 l4 level84 level3 level87
+drive t0 l5 l6 level150 level25 level175
+drive t0 l6 l3 level130 level20 level150
+drive t0 l7 l8 level74 level4 level78
+drive t0 l8 l2 level25 level19 level44
+drive t0 l8 l2 level32 level19 level51
+drive t0 l8 l2 level55 level19 level74
+load p0 t0 l5
+load p1 t0 l6
+load p2 t0 l5
+load p3 t0 l3
+load p4 t0 l0
+load p5 t0 l5
+load p6 t0 l5
+load p7 t0 l8
+unload p0 t0 l6
+unload p1 t0 l0
+unload p2 t0 l2
+unload p3 t0 l0
+unload p4 t0 l4
+unload p5 t0 l3
+unload p6 t0 l8
+unload p7 t0 l2

@@ -1,0 +1,8664 @@
+begin_version
+3
+end_version
+begin_metric
+1
+end_metric
+5
+begin_variable
+var3
+-1
+7
+Atom at(t0, l0)
+Atom at(t0, l1)
+Atom at(t0, l2)
+Atom at(t0, l3)
+Atom at(t0, l4)
+Atom at(t0, l5)
+Atom at(t0, l6)
+end_variable
+begin_variable
+var4
+-1
+49
+Atom fuel(t0, level0)
+Atom fuel(t0, level1)
+Atom fuel(t0, level10)
+Atom fuel(t0, level11)
+Atom fuel(t0, level12)
+Atom fuel(t0, level13)
+Atom fuel(t0, level14)
+Atom fuel(t0, level15)
+Atom fuel(t0, level16)
+Atom fuel(t0, level17)
+Atom fuel(t0, level18)
+Atom fuel(t0, level19)
+Atom fuel(t0, level2)
+Atom fuel(t0, level20)
+Atom fuel(t0, level21)
+Atom fuel(t0, level22)
+Atom fuel(t0, level23)
+Atom fuel(t0, level24)
+Atom fuel(t0, level25)
+Atom fuel(t0, level26)
+Atom fuel(t0, level27)
+Atom fuel(t0, level28)
+Atom fuel(t0, level29)
+Atom fuel(t0, level3)
+Atom fuel(t0, level30)
+Atom fuel(t0, level31)
+Atom fuel(t0, level32)
+Atom fuel(t0, level33)
+Atom fuel(t0, level34)
+Atom fuel(t0, level36)
+Atom fuel(t0, level37)
+Atom fuel(t0, level39)
+Atom fuel(t0, level4)
+Atom fuel(t0, level40)
+Atom fuel(t0, level41)
+Atom fuel(t0, level42)
+Atom fuel(t0, level45)
+Atom fuel(t0, level46)
+Atom fuel(t0, level48)
+Atom fuel(t0, level5)
+Atom fuel(t0, level51)
+Atom fuel(t0, level54)
+Atom fuel(t0, level55)
+Atom fuel(t0, level6)
+Atom fuel(t0, level62)
+Atom fuel(t0, level69)
+Atom fuel(t0, level7)
+Atom fuel(t0, level8)
+Atom fuel(t0, level9)
+end_variable
+begin_variable
+var2
+-1
+8
+Atom at(p2, l0)
+Atom at(p2, l1)
+Atom at(p2, l2)
+Atom at(p2, l3)
+Atom at(p2, l4)
+Atom at(p2, l5)
+Atom at(p2, l6)
+Atom in(p2, t0)
+end_variable
+begin_variable
+var1
+-1
+8
+Atom at(p1, l0)
+Atom at(p1, l1)
+Atom at(p1, l2)
+Atom at(p1, l3)
+Atom at(p1, l4)
+Atom at(p1, l5)
+Atom at(p1, l6)
+Atom in(p1, t0)
+end_variable
+begin_variable
+var0
+-1
+8
+Atom at(p0, l0)
+Atom at(p0, l1)
+Atom at(p0, l2)
+Atom at(p0, l3)
+Atom at(p0, l4)
+Atom at(p0, l5)
+Atom at(p0, l6)
+Atom in(p0, t0)
+end_variable
+416
+begin_mutex_group
+mutex
+fw
+2
+0 0
+1 20
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 0
+1 22
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 0
+1 26
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 0
+1 27
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 0
+1 31
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 0
+1 34
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 0
+1 36
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 0
+1 37
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 0
+1 40
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 0
+1 42
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 0
+1 44
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 0
+1 45
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 1
+1 4
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 1
+1 6
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 1
+1 9
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 1
+1 10
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 1
+1 13
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 1
+1 17
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 1
+1 19
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 1
+1 21
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 1
+1 22
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 1
+1 24
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 1
+1 25
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 1
+1 26
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 1
+1 28
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 1
+1 29
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 1
+1 30
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 1
+1 33
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 1
+1 35
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 1
+1 36
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 1
+1 37
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 1
+1 38
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 1
+1 40
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 1
+1 41
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 1
+1 44
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 2
+1 11
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 2
+1 13
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 2
+1 14
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 2
+1 15
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 2
+1 17
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 2
+1 18
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 2
+1 19
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 2
+1 20
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 2
+1 21
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 2
+1 24
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 2
+1 25
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 2
+1 27
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 2
+1 28
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 2
+1 29
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 2
+1 30
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 2
+1 31
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 2
+1 33
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 2
+1 34
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 2
+1 35
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 2
+1 36
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 2
+1 38
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 2
+1 40
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 2
+1 41
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 2
+1 42
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 2
+1 44
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 2
+1 45
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 2
+1 47
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 3
+1 2
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 3
+1 11
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 3
+1 14
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 3
+1 15
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 3
+1 17
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 3
+1 18
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 3
+1 20
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 3
+1 21
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 3
+1 25
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 3
+1 27
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 3
+1 29
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 3
+1 30
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 3
+1 31
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 3
+1 33
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 3
+1 34
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 3
+1 35
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 3
+1 36
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 3
+1 37
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 3
+1 40
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 3
+1 41
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 3
+1 42
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 3
+1 45
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 4
+1 7
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 4
+1 9
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 4
+1 11
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 4
+1 13
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 4
+1 14
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 4
+1 18
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 4
+1 19
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 4
+1 20
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 4
+1 22
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 4
+1 23
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 4
+1 25
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 4
+1 26
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 4
+1 27
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 4
+1 28
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 4
+1 29
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 4
+1 31
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 4
+1 33
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 4
+1 34
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 4
+1 35
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 4
+1 36
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 4
+1 37
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 4
+1 38
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 4
+1 40
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 4
+1 41
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 4
+1 42
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 4
+1 44
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 4
+1 45
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 5
+1 17
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 5
+1 19
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 5
+1 22
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 5
+1 24
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 5
+1 26
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 5
+1 29
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 5
+1 33
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 5
+1 34
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 5
+1 35
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 5
+1 37
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 5
+1 38
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 5
+1 41
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 5
+1 42
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 5
+1 44
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 5
+1 45
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 6
+1 3
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 6
+1 6
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 6
+1 7
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 6
+1 9
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 6
+1 13
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 6
+1 14
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 6
+1 16
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 6
+1 18
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 6
+1 19
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 6
+1 20
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 6
+1 21
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 6
+1 22
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 6
+1 25
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 6
+1 26
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 6
+1 27
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 6
+1 28
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 6
+1 30
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 6
+1 31
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 6
+1 33
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 6
+1 34
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 6
+1 35
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 6
+1 36
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 6
+1 37
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 6
+1 38
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 6
+1 40
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 6
+1 41
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 6
+1 42
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 6
+1 44
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 6
+1 45
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 6
+1 48
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 14
+2 2
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 14
+4 2
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 17
+2 2
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 17
+4 2
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 18
+2 6
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 18
+3 6
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 18
+4 6
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 19
+2 2
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 19
+2 4
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 19
+3 2
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 19
+3 4
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 19
+4 2
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 19
+4 4
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 20
+2 2
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 20
+4 2
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 21
+2 2
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 21
+2 6
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 21
+3 2
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 21
+3 6
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 21
+4 2
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 21
+4 6
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 22
+2 1
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 22
+2 4
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 22
+2 5
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 22
+2 6
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 22
+3 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 22
+3 1
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 22
+3 4
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 22
+3 5
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 22
+3 6
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 22
+4 1
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 22
+4 4
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 22
+4 5
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 22
+4 6
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 24
+2 2
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 24
+4 2
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 25
+2 2
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 25
+2 6
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 25
+3 2
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 25
+3 6
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 25
+4 2
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 25
+4 6
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 26
+2 4
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 26
+2 6
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 26
+3 4
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 26
+3 6
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 26
+4 4
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 26
+4 6
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 27
+2 2
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 27
+2 4
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 27
+3 2
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 27
+3 4
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 27
+4 2
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 27
+4 4
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 28
+2 2
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 28
+2 6
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 28
+3 2
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 28
+3 6
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 28
+4 2
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 28
+4 6
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 29
+2 2
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 29
+2 4
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 29
+3 2
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 29
+3 4
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 29
+4 2
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 29
+4 4
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 30
+2 1
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 30
+2 2
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 30
+2 3
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 30
+2 6
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 30
+3 2
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 30
+3 6
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 30
+4 1
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 30
+4 2
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 30
+4 3
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 30
+4 6
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 31
+2 2
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 31
+2 4
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 31
+2 6
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 31
+3 2
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 31
+3 4
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 31
+3 6
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 31
+4 2
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 31
+4 4
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 31
+4 6
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 33
+2 1
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 33
+2 2
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 33
+2 3
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 33
+2 4
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 33
+2 5
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 33
+2 6
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 33
+3 2
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 33
+3 4
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 33
+3 5
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 33
+3 6
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 33
+4 1
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 33
+4 2
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 33
+4 3
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 33
+4 4
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 33
+4 5
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 33
+4 6
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 34
+2 2
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 34
+2 4
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 34
+2 6
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 34
+3 2
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 34
+3 4
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 34
+3 5
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 34
+3 6
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 34
+4 2
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 34
+4 4
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 34
+4 6
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 35
+2 1
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 35
+2 2
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 35
+2 4
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 35
+2 6
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 35
+3 2
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 35
+3 4
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 35
+3 6
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 35
+4 1
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 35
+4 2
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 35
+4 4
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 35
+4 6
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 36
+2 1
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 36
+2 2
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 36
+2 4
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 36
+2 6
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 36
+3 2
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 36
+3 4
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 36
+3 6
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 36
+4 1
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 36
+4 2
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 36
+4 4
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 36
+4 6
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 37
+2 1
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 37
+2 2
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 37
+2 3
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 37
+2 4
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 37
+2 5
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 37
+2 6
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 37
+2 7
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 37
+3 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 37
+3 1
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 37
+3 4
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 37
+3 5
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 37
+3 6
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 37
+4 1
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 37
+4 2
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 37
+4 3
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 37
+4 4
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 37
+4 5
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 37
+4 6
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 37
+4 7
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 38
+2 1
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 38
+2 2
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 38
+2 4
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 38
+2 6
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 38
+3 2
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 38
+3 4
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 38
+3 5
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 38
+3 6
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 38
+4 1
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 38
+4 2
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 38
+4 4
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 38
+4 6
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 40
+2 1
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 40
+2 2
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 40
+2 3
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 40
+2 4
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 40
+2 6
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 40
+3 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 40
+3 1
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 40
+3 2
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 40
+3 4
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 40
+3 5
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 40
+3 6
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 40
+3 7
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 40
+4 1
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 40
+4 2
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 40
+4 3
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 40
+4 4
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 40
+4 6
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 41
+2 1
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 41
+2 2
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 41
+2 3
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 41
+2 4
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 41
+2 5
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 41
+2 6
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 41
+3 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 41
+3 1
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 41
+3 2
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 41
+3 4
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 41
+3 5
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 41
+3 6
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 41
+3 7
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 41
+4 1
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 41
+4 2
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 41
+4 3
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 41
+4 4
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 41
+4 5
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 41
+4 6
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 42
+2 1
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 42
+2 2
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 42
+2 3
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 42
+2 4
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 42
+2 5
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 42
+2 6
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 42
+2 7
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 42
+3 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 42
+3 2
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 42
+3 4
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 42
+3 5
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 42
+3 6
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 42
+4 1
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 42
+4 2
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 42
+4 3
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 42
+4 4
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 42
+4 5
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 42
+4 6
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 42
+4 7
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 44
+2 1
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 44
+2 2
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 44
+2 3
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 44
+2 4
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 44
+2 5
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 44
+2 6
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 44
+2 7
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 44
+3 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 44
+3 1
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 44
+3 2
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 44
+3 4
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 44
+3 5
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 44
+3 6
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 44
+4 1
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 44
+4 2
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 44
+4 3
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 44
+4 4
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 44
+4 5
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 44
+4 6
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 44
+4 7
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 45
+2 1
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 45
+2 2
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 45
+2 3
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 45
+2 4
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 45
+2 5
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 45
+2 6
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 45
+2 7
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 45
+3 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 45
+3 1
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 45
+3 2
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 45
+3 4
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 45
+3 5
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 45
+3 6
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 45
+3 7
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 45
+4 1
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 45
+4 2
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 45
+4 3
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 45
+4 4
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 45
+4 5
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 45
+4 6
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 45
+4 7
+end_mutex_group
+begin_state
+1
+45
+0
+3
+0
+end_state
+begin_goal
+3
+2 1
+3 1
+4 2
+end_goal
+303
+begin_operator
+drive t0 l0 l1 level0 level15 level15
+0
+2
+0 0 0 1
+0 1 7 0
+1
+end_operator
+begin_operator
+drive t0 l0 l1 level1 level15 level16
+0
+2
+0 0 0 1
+0 1 8 1
+1
+end_operator
+begin_operator
+drive t0 l0 l1 level10 level15 level25
+0
+2
+0 0 0 1
+0 1 18 2
+1
+end_operator
+begin_operator
+drive t0 l0 l1 level11 level15 level26
+0
+2
+0 0 0 1
+0 1 19 3
+1
+end_operator
+begin_operator
+drive t0 l0 l1 level13 level15 level28
+0
+2
+0 0 0 1
+0 1 21 5
+1
+end_operator
+begin_operator
+drive t0 l0 l1 level15 level15 level30
+0
+2
+0 0 0 1
+0 1 24 7
+1
+end_operator
+begin_operator
+drive t0 l0 l1 level16 level15 level31
+0
+2
+0 0 0 1
+0 1 25 8
+1
+end_operator
+begin_operator
+drive t0 l0 l1 level19 level15 level34
+0
+2
+0 0 0 1
+0 1 28 11
+1
+end_operator
+begin_operator
+drive t0 l0 l1 level2 level15 level17
+0
+2
+0 0 0 1
+0 1 9 12
+1
+end_operator
+begin_operator
+drive t0 l0 l1 level21 level15 level36
+0
+2
+0 0 0 1
+0 1 29 14
+1
+end_operator
+begin_operator
+drive t0 l0 l1 level22 level15 level37
+0
+2
+0 0 0 1
+0 1 30 15
+1
+end_operator
+begin_operator
+drive t0 l0 l1 level25 level15 level40
+0
+2
+0 0 0 1
+0 1 33 18
+1
+end_operator
+begin_operator
+drive t0 l0 l1 level27 level15 level42
+0
+2
+0 0 0 1
+0 1 35 20
+1
+end_operator
+begin_operator
+drive t0 l0 l1 level3 level15 level18
+0
+2
+0 0 0 1
+0 1 10 23
+1
+end_operator
+begin_operator
+drive t0 l0 l1 level33 level15 level48
+0
+2
+0 0 0 1
+0 1 38 27
+1
+end_operator
+begin_operator
+drive t0 l0 l1 level39 level15 level54
+0
+2
+0 0 0 1
+0 1 41 31
+1
+end_operator
+begin_operator
+drive t0 l0 l1 level4 level15 level19
+0
+2
+0 0 0 1
+0 1 11 32
+1
+end_operator
+begin_operator
+drive t0 l0 l1 level5 level15 level20
+0
+2
+0 0 0 1
+0 1 13 39
+1
+end_operator
+begin_operator
+drive t0 l0 l1 level6 level15 level21
+0
+2
+0 0 0 1
+0 1 14 43
+1
+end_operator
+begin_operator
+drive t0 l0 l1 level7 level15 level22
+0
+2
+0 0 0 1
+0 1 15 46
+1
+end_operator
+begin_operator
+drive t0 l0 l1 level8 level15 level23
+0
+2
+0 0 0 1
+0 1 16 47
+1
+end_operator
+begin_operator
+drive t0 l0 l1 level9 level15 level24
+0
+2
+0 0 0 1
+0 1 17 48
+1
+end_operator
+begin_operator
+drive t0 l0 l2 level0 level25 level25
+0
+2
+0 0 0 2
+0 1 18 0
+1
+end_operator
+begin_operator
+drive t0 l0 l2 level1 level25 level26
+0
+2
+0 0 0 2
+0 1 19 1
+1
+end_operator
+begin_operator
+drive t0 l0 l2 level11 level25 level36
+0
+2
+0 0 0 2
+0 1 29 3
+1
+end_operator
+begin_operator
+drive t0 l0 l2 level12 level25 level37
+0
+2
+0 0 0 2
+0 1 30 4
+1
+end_operator
+begin_operator
+drive t0 l0 l2 level15 level25 level40
+0
+2
+0 0 0 2
+0 1 33 7
+1
+end_operator
+begin_operator
+drive t0 l0 l2 level17 level25 level42
+0
+2
+0 0 0 2
+0 1 35 9
+1
+end_operator
+begin_operator
+drive t0 l0 l2 level23 level25 level48
+0
+2
+0 0 0 2
+0 1 38 16
+1
+end_operator
+begin_operator
+drive t0 l0 l2 level29 level25 level54
+0
+2
+0 0 0 2
+0 1 41 22
+1
+end_operator
+begin_operator
+drive t0 l0 l2 level3 level25 level28
+0
+2
+0 0 0 2
+0 1 21 23
+1
+end_operator
+begin_operator
+drive t0 l0 l2 level5 level25 level30
+0
+2
+0 0 0 2
+0 1 24 39
+1
+end_operator
+begin_operator
+drive t0 l0 l2 level6 level25 level31
+0
+2
+0 0 0 2
+0 1 25 43
+1
+end_operator
+begin_operator
+drive t0 l0 l2 level9 level25 level34
+0
+2
+0 0 0 2
+0 1 28 48
+1
+end_operator
+begin_operator
+drive t0 l0 l3 level0 level25 level25
+0
+2
+0 0 0 3
+0 1 18 0
+1
+end_operator
+begin_operator
+drive t0 l0 l3 level1 level25 level26
+0
+2
+0 0 0 3
+0 1 19 1
+1
+end_operator
+begin_operator
+drive t0 l0 l3 level11 level25 level36
+0
+2
+0 0 0 3
+0 1 29 3
+1
+end_operator
+begin_operator
+drive t0 l0 l3 level12 level25 level37
+0
+2
+0 0 0 3
+0 1 30 4
+1
+end_operator
+begin_operator
+drive t0 l0 l3 level15 level25 level40
+0
+2
+0 0 0 3
+0 1 33 7
+1
+end_operator
+begin_operator
+drive t0 l0 l3 level17 level25 level42
+0
+2
+0 0 0 3
+0 1 35 9
+1
+end_operator
+begin_operator
+drive t0 l0 l3 level23 level25 level48
+0
+2
+0 0 0 3
+0 1 38 16
+1
+end_operator
+begin_operator
+drive t0 l0 l3 level29 level25 level54
+0
+2
+0 0 0 3
+0 1 41 22
+1
+end_operator
+begin_operator
+drive t0 l0 l3 level3 level25 level28
+0
+2
+0 0 0 3
+0 1 21 23
+1
+end_operator
+begin_operator
+drive t0 l0 l3 level5 level25 level30
+0
+2
+0 0 0 3
+0 1 24 39
+1
+end_operator
+begin_operator
+drive t0 l0 l3 level6 level25 level31
+0
+2
+0 0 0 3
+0 1 25 43
+1
+end_operator
+begin_operator
+drive t0 l0 l3 level9 level25 level34
+0
+2
+0 0 0 3
+0 1 28 48
+1
+end_operator
+begin_operator
+drive t0 l0 l4 level0 level24 level24
+0
+2
+0 0 0 4
+0 1 17 0
+1
+end_operator
+begin_operator
+drive t0 l0 l4 level1 level24 level25
+0
+2
+0 0 0 4
+0 1 18 1
+1
+end_operator
+begin_operator
+drive t0 l0 l4 level10 level24 level34
+0
+2
+0 0 0 4
+0 1 28 2
+1
+end_operator
+begin_operator
+drive t0 l0 l4 level12 level24 level36
+0
+2
+0 0 0 4
+0 1 29 4
+1
+end_operator
+begin_operator
+drive t0 l0 l4 level13 level24 level37
+0
+2
+0 0 0 4
+0 1 30 5
+1
+end_operator
+begin_operator
+drive t0 l0 l4 level16 level24 level40
+0
+2
+0 0 0 4
+0 1 33 8
+1
+end_operator
+begin_operator
+drive t0 l0 l4 level18 level24 level42
+0
+2
+0 0 0 4
+0 1 35 10
+1
+end_operator
+begin_operator
+drive t0 l0 l4 level2 level24 level26
+0
+2
+0 0 0 4
+0 1 19 12
+1
+end_operator
+begin_operator
+drive t0 l0 l4 level24 level24 level48
+0
+2
+0 0 0 4
+0 1 38 17
+1
+end_operator
+begin_operator
+drive t0 l0 l4 level30 level24 level54
+0
+2
+0 0 0 4
+0 1 41 24
+1
+end_operator
+begin_operator
+drive t0 l0 l4 level4 level24 level28
+0
+2
+0 0 0 4
+0 1 21 32
+1
+end_operator
+begin_operator
+drive t0 l0 l4 level6 level24 level30
+0
+2
+0 0 0 4
+0 1 24 43
+1
+end_operator
+begin_operator
+drive t0 l0 l4 level7 level24 level31
+0
+2
+0 0 0 4
+0 1 25 46
+1
+end_operator
+begin_operator
+drive t0 l0 l5 level0 level3 level3
+0
+2
+0 0 0 5
+0 1 23 0
+1
+end_operator
+begin_operator
+drive t0 l0 l5 level1 level3 level4
+0
+2
+0 0 0 5
+0 1 32 1
+1
+end_operator
+begin_operator
+drive t0 l0 l5 level10 level3 level13
+0
+2
+0 0 0 5
+0 1 5 2
+1
+end_operator
+begin_operator
+drive t0 l0 l5 level11 level3 level14
+0
+2
+0 0 0 5
+0 1 6 3
+1
+end_operator
+begin_operator
+drive t0 l0 l5 level12 level3 level15
+0
+2
+0 0 0 5
+0 1 7 4
+1
+end_operator
+begin_operator
+drive t0 l0 l5 level13 level3 level16
+0
+2
+0 0 0 5
+0 1 8 5
+1
+end_operator
+begin_operator
+drive t0 l0 l5 level14 level3 level17
+0
+2
+0 0 0 5
+0 1 9 6
+1
+end_operator
+begin_operator
+drive t0 l0 l5 level15 level3 level18
+0
+2
+0 0 0 5
+0 1 10 7
+1
+end_operator
+begin_operator
+drive t0 l0 l5 level16 level3 level19
+0
+2
+0 0 0 5
+0 1 11 8
+1
+end_operator
+begin_operator
+drive t0 l0 l5 level17 level3 level20
+0
+2
+0 0 0 5
+0 1 13 9
+1
+end_operator
+begin_operator
+drive t0 l0 l5 level18 level3 level21
+0
+2
+0 0 0 5
+0 1 14 10
+1
+end_operator
+begin_operator
+drive t0 l0 l5 level19 level3 level22
+0
+2
+0 0 0 5
+0 1 15 11
+1
+end_operator
+begin_operator
+drive t0 l0 l5 level2 level3 level5
+0
+2
+0 0 0 5
+0 1 39 12
+1
+end_operator
+begin_operator
+drive t0 l0 l5 level20 level3 level23
+0
+2
+0 0 0 5
+0 1 16 13
+1
+end_operator
+begin_operator
+drive t0 l0 l5 level21 level3 level24
+0
+2
+0 0 0 5
+0 1 17 14
+1
+end_operator
+begin_operator
+drive t0 l0 l5 level22 level3 level25
+0
+2
+0 0 0 5
+0 1 18 15
+1
+end_operator
+begin_operator
+drive t0 l0 l5 level23 level3 level26
+0
+2
+0 0 0 5
+0 1 19 16
+1
+end_operator
+begin_operator
+drive t0 l0 l5 level25 level3 level28
+0
+2
+0 0 0 5
+0 1 21 18
+1
+end_operator
+begin_operator
+drive t0 l0 l5 level27 level3 level30
+0
+2
+0 0 0 5
+0 1 24 20
+1
+end_operator
+begin_operator
+drive t0 l0 l5 level28 level3 level31
+0
+2
+0 0 0 5
+0 1 25 21
+1
+end_operator
+begin_operator
+drive t0 l0 l5 level3 level3 level6
+0
+2
+0 0 0 5
+0 1 43 23
+1
+end_operator
+begin_operator
+drive t0 l0 l5 level31 level3 level34
+0
+2
+0 0 0 5
+0 1 28 25
+1
+end_operator
+begin_operator
+drive t0 l0 l5 level33 level3 level36
+0
+2
+0 0 0 5
+0 1 29 27
+1
+end_operator
+begin_operator
+drive t0 l0 l5 level34 level3 level37
+0
+2
+0 0 0 5
+0 1 30 28
+1
+end_operator
+begin_operator
+drive t0 l0 l5 level37 level3 level40
+0
+2
+0 0 0 5
+0 1 33 30
+1
+end_operator
+begin_operator
+drive t0 l0 l5 level39 level3 level42
+0
+2
+0 0 0 5
+0 1 35 31
+1
+end_operator
+begin_operator
+drive t0 l0 l5 level4 level3 level7
+0
+2
+0 0 0 5
+0 1 46 32
+1
+end_operator
+begin_operator
+drive t0 l0 l5 level45 level3 level48
+0
+2
+0 0 0 5
+0 1 38 36
+1
+end_operator
+begin_operator
+drive t0 l0 l5 level5 level3 level8
+0
+2
+0 0 0 5
+0 1 47 39
+1
+end_operator
+begin_operator
+drive t0 l0 l5 level51 level3 level54
+0
+2
+0 0 0 5
+0 1 41 40
+1
+end_operator
+begin_operator
+drive t0 l0 l5 level6 level3 level9
+0
+2
+0 0 0 5
+0 1 48 43
+1
+end_operator
+begin_operator
+drive t0 l0 l5 level7 level3 level10
+0
+2
+0 0 0 5
+0 1 2 46
+1
+end_operator
+begin_operator
+drive t0 l0 l5 level8 level3 level11
+0
+2
+0 0 0 5
+0 1 3 47
+1
+end_operator
+begin_operator
+drive t0 l0 l5 level9 level3 level12
+0
+2
+0 0 0 5
+0 1 4 48
+1
+end_operator
+begin_operator
+drive t0 l1 l0 level0 level15 level15
+0
+2
+0 0 1 0
+0 1 7 0
+1
+end_operator
+begin_operator
+drive t0 l1 l0 level1 level15 level16
+0
+2
+0 0 1 0
+0 1 8 1
+1
+end_operator
+begin_operator
+drive t0 l1 l0 level10 level15 level25
+0
+2
+0 0 1 0
+0 1 18 2
+1
+end_operator
+begin_operator
+drive t0 l1 l0 level12 level15 level27
+0
+2
+0 0 1 0
+0 1 20 4
+1
+end_operator
+begin_operator
+drive t0 l1 l0 level18 level15 level33
+0
+2
+0 0 1 0
+0 1 27 10
+1
+end_operator
+begin_operator
+drive t0 l1 l0 level24 level15 level39
+0
+2
+0 0 1 0
+0 1 31 17
+1
+end_operator
+begin_operator
+drive t0 l1 l0 level26 level15 level41
+0
+2
+0 0 1 0
+0 1 34 19
+1
+end_operator
+begin_operator
+drive t0 l1 l0 level4 level15 level19
+0
+2
+0 0 1 0
+0 1 11 32
+1
+end_operator
+begin_operator
+drive t0 l1 l0 level40 level15 level55
+0
+2
+0 0 1 0
+0 1 42 33
+1
+end_operator
+begin_operator
+drive t0 l1 l0 level54 level15 level69
+0
+2
+0 0 1 0
+0 1 45 41
+1
+end_operator
+begin_operator
+drive t0 l1 l0 level6 level15 level21
+0
+2
+0 0 1 0
+0 1 14 43
+1
+end_operator
+begin_operator
+drive t0 l1 l0 level7 level15 level22
+0
+2
+0 0 1 0
+0 1 15 46
+1
+end_operator
+begin_operator
+drive t0 l1 l0 level8 level15 level23
+0
+2
+0 0 1 0
+0 1 16 47
+1
+end_operator
+begin_operator
+drive t0 l1 l3 level0 level7 level7
+0
+2
+0 0 1 3
+0 1 46 0
+1
+end_operator
+begin_operator
+drive t0 l1 l3 level1 level7 level8
+0
+2
+0 0 1 3
+0 1 47 1
+1
+end_operator
+begin_operator
+drive t0 l1 l3 level12 level7 level19
+0
+2
+0 0 1 3
+0 1 11 4
+1
+end_operator
+begin_operator
+drive t0 l1 l3 level14 level7 level21
+0
+2
+0 0 1 3
+0 1 14 6
+1
+end_operator
+begin_operator
+drive t0 l1 l3 level15 level7 level22
+0
+2
+0 0 1 3
+0 1 15 7
+1
+end_operator
+begin_operator
+drive t0 l1 l3 level16 level7 level23
+0
+2
+0 0 1 3
+0 1 16 8
+1
+end_operator
+begin_operator
+drive t0 l1 l3 level18 level7 level25
+0
+2
+0 0 1 3
+0 1 18 10
+1
+end_operator
+begin_operator
+drive t0 l1 l3 level2 level7 level9
+0
+2
+0 0 1 3
+0 1 48 12
+1
+end_operator
+begin_operator
+drive t0 l1 l3 level20 level7 level27
+0
+2
+0 0 1 3
+0 1 20 13
+1
+end_operator
+begin_operator
+drive t0 l1 l3 level26 level7 level33
+0
+2
+0 0 1 3
+0 1 27 19
+1
+end_operator
+begin_operator
+drive t0 l1 l3 level3 level7 level10
+0
+2
+0 0 1 3
+0 1 2 23
+1
+end_operator
+begin_operator
+drive t0 l1 l3 level32 level7 level39
+0
+2
+0 0 1 3
+0 1 31 26
+1
+end_operator
+begin_operator
+drive t0 l1 l3 level34 level7 level41
+0
+2
+0 0 1 3
+0 1 34 28
+1
+end_operator
+begin_operator
+drive t0 l1 l3 level4 level7 level11
+0
+2
+0 0 1 3
+0 1 3 32
+1
+end_operator
+begin_operator
+drive t0 l1 l3 level48 level7 level55
+0
+2
+0 0 1 3
+0 1 42 38
+1
+end_operator
+begin_operator
+drive t0 l1 l3 level6 level7 level13
+0
+2
+0 0 1 3
+0 1 5 43
+1
+end_operator
+begin_operator
+drive t0 l1 l3 level62 level7 level69
+0
+2
+0 0 1 3
+0 1 45 44
+1
+end_operator
+begin_operator
+drive t0 l1 l3 level8 level7 level15
+0
+2
+0 0 1 3
+0 1 7 47
+1
+end_operator
+begin_operator
+drive t0 l1 l3 level9 level7 level16
+0
+2
+0 0 1 3
+0 1 8 48
+1
+end_operator
+begin_operator
+drive t0 l2 l0 level21 level25 level46
+0
+2
+0 0 2 0
+0 1 37 14
+1
+end_operator
+begin_operator
+drive t0 l2 l0 level4 level25 level29
+0
+2
+0 0 2 0
+0 1 22 32
+1
+end_operator
+begin_operator
+drive t0 l2 l0 level7 level25 level32
+0
+2
+0 0 2 0
+0 1 26 46
+1
+end_operator
+begin_operator
+drive t0 l2 l3 level0 level16 level16
+0
+2
+0 0 2 3
+0 1 8 0
+1
+end_operator
+begin_operator
+drive t0 l2 l3 level1 level16 level17
+0
+2
+0 0 2 3
+0 1 9 1
+1
+end_operator
+begin_operator
+drive t0 l2 l3 level13 level16 level29
+0
+2
+0 0 2 3
+0 1 22 5
+1
+end_operator
+begin_operator
+drive t0 l2 l3 level16 level16 level32
+0
+2
+0 0 2 3
+0 1 26 8
+1
+end_operator
+begin_operator
+drive t0 l2 l3 level2 level16 level18
+0
+2
+0 0 2 3
+0 1 10 12
+1
+end_operator
+begin_operator
+drive t0 l2 l3 level30 level16 level46
+0
+2
+0 0 2 3
+0 1 37 24
+1
+end_operator
+begin_operator
+drive t0 l2 l3 level7 level16 level23
+0
+2
+0 0 2 3
+0 1 16 46
+1
+end_operator
+begin_operator
+drive t0 l3 l0 level1 level25 level26
+0
+2
+0 0 3 0
+0 1 19 1
+1
+end_operator
+begin_operator
+drive t0 l3 l0 level23 level25 level48
+0
+2
+0 0 3 0
+0 1 38 16
+1
+end_operator
+begin_operator
+drive t0 l3 l0 level37 level25 level62
+0
+2
+0 0 3 0
+0 1 44 30
+1
+end_operator
+begin_operator
+drive t0 l3 l0 level4 level25 level29
+0
+2
+0 0 3 0
+0 1 22 32
+1
+end_operator
+begin_operator
+drive t0 l3 l0 level5 level25 level30
+0
+2
+0 0 3 0
+0 1 24 39
+1
+end_operator
+begin_operator
+drive t0 l3 l0 level7 level25 level32
+0
+2
+0 0 3 0
+0 1 26 46
+1
+end_operator
+begin_operator
+drive t0 l3 l0 level9 level25 level34
+0
+2
+0 0 3 0
+0 1 28 48
+1
+end_operator
+begin_operator
+drive t0 l3 l1 level0 level7 level7
+0
+2
+0 0 3 1
+0 1 46 0
+1
+end_operator
+begin_operator
+drive t0 l3 l1 level1 level7 level8
+0
+2
+0 0 3 1
+0 1 47 1
+1
+end_operator
+begin_operator
+drive t0 l3 l1 level10 level7 level17
+0
+2
+0 0 3 1
+0 1 9 2
+1
+end_operator
+begin_operator
+drive t0 l3 l1 level11 level7 level18
+0
+2
+0 0 3 1
+0 1 10 3
+1
+end_operator
+begin_operator
+drive t0 l3 l1 level13 level7 level20
+0
+2
+0 0 3 1
+0 1 13 5
+1
+end_operator
+begin_operator
+drive t0 l3 l1 level16 level7 level23
+0
+2
+0 0 3 1
+0 1 16 8
+1
+end_operator
+begin_operator
+drive t0 l3 l1 level19 level7 level26
+0
+2
+0 0 3 1
+0 1 19 11
+1
+end_operator
+begin_operator
+drive t0 l3 l1 level2 level7 level9
+0
+2
+0 0 3 1
+0 1 48 12
+1
+end_operator
+begin_operator
+drive t0 l3 l1 level22 level7 level29
+0
+2
+0 0 3 1
+0 1 22 15
+1
+end_operator
+begin_operator
+drive t0 l3 l1 level23 level7 level30
+0
+2
+0 0 3 1
+0 1 24 16
+1
+end_operator
+begin_operator
+drive t0 l3 l1 level25 level7 level32
+0
+2
+0 0 3 1
+0 1 26 18
+1
+end_operator
+begin_operator
+drive t0 l3 l1 level27 level7 level34
+0
+2
+0 0 3 1
+0 1 28 20
+1
+end_operator
+begin_operator
+drive t0 l3 l1 level4 level7 level11
+0
+2
+0 0 3 1
+0 1 3 32
+1
+end_operator
+begin_operator
+drive t0 l3 l1 level41 level7 level48
+0
+2
+0 0 3 1
+0 1 38 34
+1
+end_operator
+begin_operator
+drive t0 l3 l1 level5 level7 level12
+0
+2
+0 0 3 1
+0 1 4 39
+1
+end_operator
+begin_operator
+drive t0 l3 l1 level55 level7 level62
+0
+2
+0 0 3 1
+0 1 44 42
+1
+end_operator
+begin_operator
+drive t0 l3 l1 level6 level7 level13
+0
+2
+0 0 3 1
+0 1 5 43
+1
+end_operator
+begin_operator
+drive t0 l3 l1 level7 level7 level14
+0
+2
+0 0 3 1
+0 1 6 46
+1
+end_operator
+begin_operator
+drive t0 l3 l1 level8 level7 level15
+0
+2
+0 0 3 1
+0 1 7 47
+1
+end_operator
+begin_operator
+drive t0 l3 l1 level9 level7 level16
+0
+2
+0 0 3 1
+0 1 8 48
+1
+end_operator
+begin_operator
+drive t0 l3 l2 level0 level16 level16
+0
+2
+0 0 3 2
+0 1 8 0
+1
+end_operator
+begin_operator
+drive t0 l3 l2 level1 level16 level17
+0
+2
+0 0 3 2
+0 1 9 1
+1
+end_operator
+begin_operator
+drive t0 l3 l2 level10 level16 level26
+0
+2
+0 0 3 2
+0 1 19 2
+1
+end_operator
+begin_operator
+drive t0 l3 l2 level13 level16 level29
+0
+2
+0 0 3 2
+0 1 22 5
+1
+end_operator
+begin_operator
+drive t0 l3 l2 level14 level16 level30
+0
+2
+0 0 3 2
+0 1 24 6
+1
+end_operator
+begin_operator
+drive t0 l3 l2 level16 level16 level32
+0
+2
+0 0 3 2
+0 1 26 8
+1
+end_operator
+begin_operator
+drive t0 l3 l2 level18 level16 level34
+0
+2
+0 0 3 2
+0 1 28 10
+1
+end_operator
+begin_operator
+drive t0 l3 l2 level2 level16 level18
+0
+2
+0 0 3 2
+0 1 10 12
+1
+end_operator
+begin_operator
+drive t0 l3 l2 level32 level16 level48
+0
+2
+0 0 3 2
+0 1 38 26
+1
+end_operator
+begin_operator
+drive t0 l3 l2 level4 level16 level20
+0
+2
+0 0 3 2
+0 1 13 32
+1
+end_operator
+begin_operator
+drive t0 l3 l2 level46 level16 level62
+0
+2
+0 0 3 2
+0 1 44 37
+1
+end_operator
+begin_operator
+drive t0 l3 l2 level7 level16 level23
+0
+2
+0 0 3 2
+0 1 16 46
+1
+end_operator
+begin_operator
+drive t0 l3 l4 level1 level25 level26
+0
+2
+0 0 3 4
+0 1 19 1
+1
+end_operator
+begin_operator
+drive t0 l3 l4 level23 level25 level48
+0
+2
+0 0 3 4
+0 1 38 16
+1
+end_operator
+begin_operator
+drive t0 l3 l4 level37 level25 level62
+0
+2
+0 0 3 4
+0 1 44 30
+1
+end_operator
+begin_operator
+drive t0 l3 l4 level4 level25 level29
+0
+2
+0 0 3 4
+0 1 22 32
+1
+end_operator
+begin_operator
+drive t0 l3 l4 level5 level25 level30
+0
+2
+0 0 3 4
+0 1 24 39
+1
+end_operator
+begin_operator
+drive t0 l3 l4 level7 level25 level32
+0
+2
+0 0 3 4
+0 1 26 46
+1
+end_operator
+begin_operator
+drive t0 l3 l4 level9 level25 level34
+0
+2
+0 0 3 4
+0 1 28 48
+1
+end_operator
+begin_operator
+drive t0 l4 l0 level0 level24 level24
+0
+2
+0 0 4 0
+0 1 17 0
+1
+end_operator
+begin_operator
+drive t0 l4 l0 level13 level24 level37
+0
+2
+0 0 4 0
+0 1 30 5
+1
+end_operator
+begin_operator
+drive t0 l4 l0 level4 level24 level28
+0
+2
+0 0 4 0
+0 1 21 32
+1
+end_operator
+begin_operator
+drive t0 l4 l0 level6 level24 level30
+0
+2
+0 0 4 0
+0 1 24 43
+1
+end_operator
+begin_operator
+drive t0 l4 l3 level12 level25 level37
+0
+2
+0 0 4 3
+0 1 30 4
+1
+end_operator
+begin_operator
+drive t0 l4 l3 level3 level25 level28
+0
+2
+0 0 4 3
+0 1 21 23
+1
+end_operator
+begin_operator
+drive t0 l4 l3 level5 level25 level30
+0
+2
+0 0 4 3
+0 1 24 39
+1
+end_operator
+begin_operator
+drive t0 l4 l5 level0 level23 level23
+0
+2
+0 0 4 5
+0 1 16 0
+1
+end_operator
+begin_operator
+drive t0 l4 l5 level1 level23 level24
+0
+2
+0 0 4 5
+0 1 17 1
+1
+end_operator
+begin_operator
+drive t0 l4 l5 level14 level23 level37
+0
+2
+0 0 4 5
+0 1 30 6
+1
+end_operator
+begin_operator
+drive t0 l4 l5 level5 level23 level28
+0
+2
+0 0 4 5
+0 1 21 39
+1
+end_operator
+begin_operator
+drive t0 l4 l5 level7 level23 level30
+0
+2
+0 0 4 5
+0 1 24 46
+1
+end_operator
+begin_operator
+drive t0 l5 l0 level0 level3 level3
+0
+2
+0 0 5 0
+0 1 23 0
+1
+end_operator
+begin_operator
+drive t0 l5 l0 level1 level3 level4
+0
+2
+0 0 5 0
+0 1 32 1
+1
+end_operator
+begin_operator
+drive t0 l5 l0 level10 level3 level13
+0
+2
+0 0 5 0
+0 1 5 2
+1
+end_operator
+begin_operator
+drive t0 l5 l0 level11 level3 level14
+0
+2
+0 0 5 0
+0 1 6 3
+1
+end_operator
+begin_operator
+drive t0 l5 l0 level12 level3 level15
+0
+2
+0 0 5 0
+0 1 7 4
+1
+end_operator
+begin_operator
+drive t0 l5 l0 level13 level3 level16
+0
+2
+0 0 5 0
+0 1 8 5
+1
+end_operator
+begin_operator
+drive t0 l5 l0 level14 level3 level17
+0
+2
+0 0 5 0
+0 1 9 6
+1
+end_operator
+begin_operator
+drive t0 l5 l0 level15 level3 level18
+0
+2
+0 0 5 0
+0 1 10 7
+1
+end_operator
+begin_operator
+drive t0 l5 l0 level16 level3 level19
+0
+2
+0 0 5 0
+0 1 11 8
+1
+end_operator
+begin_operator
+drive t0 l5 l0 level17 level3 level20
+0
+2
+0 0 5 0
+0 1 13 9
+1
+end_operator
+begin_operator
+drive t0 l5 l0 level18 level3 level21
+0
+2
+0 0 5 0
+0 1 14 10
+1
+end_operator
+begin_operator
+drive t0 l5 l0 level19 level3 level22
+0
+2
+0 0 5 0
+0 1 15 11
+1
+end_operator
+begin_operator
+drive t0 l5 l0 level2 level3 level5
+0
+2
+0 0 5 0
+0 1 39 12
+1
+end_operator
+begin_operator
+drive t0 l5 l0 level20 level3 level23
+0
+2
+0 0 5 0
+0 1 16 13
+1
+end_operator
+begin_operator
+drive t0 l5 l0 level22 level3 level25
+0
+2
+0 0 5 0
+0 1 18 15
+1
+end_operator
+begin_operator
+drive t0 l5 l0 level24 level3 level27
+0
+2
+0 0 5 0
+0 1 20 17
+1
+end_operator
+begin_operator
+drive t0 l5 l0 level25 level3 level28
+0
+2
+0 0 5 0
+0 1 21 18
+1
+end_operator
+begin_operator
+drive t0 l5 l0 level28 level3 level31
+0
+2
+0 0 5 0
+0 1 25 21
+1
+end_operator
+begin_operator
+drive t0 l5 l0 level3 level3 level6
+0
+2
+0 0 5 0
+0 1 43 23
+1
+end_operator
+begin_operator
+drive t0 l5 l0 level30 level3 level33
+0
+2
+0 0 5 0
+0 1 27 24
+1
+end_operator
+begin_operator
+drive t0 l5 l0 level31 level3 level34
+0
+2
+0 0 5 0
+0 1 28 25
+1
+end_operator
+begin_operator
+drive t0 l5 l0 level34 level3 level37
+0
+2
+0 0 5 0
+0 1 30 28
+1
+end_operator
+begin_operator
+drive t0 l5 l0 level36 level3 level39
+0
+2
+0 0 5 0
+0 1 31 29
+1
+end_operator
+begin_operator
+drive t0 l5 l0 level4 level3 level7
+0
+2
+0 0 5 0
+0 1 46 32
+1
+end_operator
+begin_operator
+drive t0 l5 l0 level42 level3 level45
+0
+2
+0 0 5 0
+0 1 36 35
+1
+end_operator
+begin_operator
+drive t0 l5 l0 level48 level3 level51
+0
+2
+0 0 5 0
+0 1 40 38
+1
+end_operator
+begin_operator
+drive t0 l5 l0 level5 level3 level8
+0
+2
+0 0 5 0
+0 1 47 39
+1
+end_operator
+begin_operator
+drive t0 l5 l0 level6 level3 level9
+0
+2
+0 0 5 0
+0 1 48 43
+1
+end_operator
+begin_operator
+drive t0 l5 l0 level7 level3 level10
+0
+2
+0 0 5 0
+0 1 2 46
+1
+end_operator
+begin_operator
+drive t0 l5 l0 level8 level3 level11
+0
+2
+0 0 5 0
+0 1 3 47
+1
+end_operator
+begin_operator
+drive t0 l5 l0 level9 level3 level12
+0
+2
+0 0 5 0
+0 1 4 48
+1
+end_operator
+begin_operator
+drive t0 l5 l4 level0 level23 level23
+0
+2
+0 0 5 4
+0 1 16 0
+1
+end_operator
+begin_operator
+drive t0 l5 l4 level10 level23 level33
+0
+2
+0 0 5 4
+0 1 27 2
+1
+end_operator
+begin_operator
+drive t0 l5 l4 level11 level23 level34
+0
+2
+0 0 5 4
+0 1 28 3
+1
+end_operator
+begin_operator
+drive t0 l5 l4 level14 level23 level37
+0
+2
+0 0 5 4
+0 1 30 6
+1
+end_operator
+begin_operator
+drive t0 l5 l4 level16 level23 level39
+0
+2
+0 0 5 4
+0 1 31 8
+1
+end_operator
+begin_operator
+drive t0 l5 l4 level2 level23 level25
+0
+2
+0 0 5 4
+0 1 18 12
+1
+end_operator
+begin_operator
+drive t0 l5 l4 level22 level23 level45
+0
+2
+0 0 5 4
+0 1 36 15
+1
+end_operator
+begin_operator
+drive t0 l5 l4 level28 level23 level51
+0
+2
+0 0 5 4
+0 1 40 21
+1
+end_operator
+begin_operator
+drive t0 l5 l4 level4 level23 level27
+0
+2
+0 0 5 4
+0 1 20 32
+1
+end_operator
+begin_operator
+drive t0 l5 l4 level5 level23 level28
+0
+2
+0 0 5 4
+0 1 21 39
+1
+end_operator
+begin_operator
+drive t0 l5 l4 level8 level23 level31
+0
+2
+0 0 5 4
+0 1 25 47
+1
+end_operator
+begin_operator
+drive t0 l5 l6 level0 level15 level15
+0
+2
+0 0 5 6
+0 1 7 0
+1
+end_operator
+begin_operator
+drive t0 l5 l6 level1 level15 level16
+0
+2
+0 0 5 6
+0 1 8 1
+1
+end_operator
+begin_operator
+drive t0 l5 l6 level10 level15 level25
+0
+2
+0 0 5 6
+0 1 18 2
+1
+end_operator
+begin_operator
+drive t0 l5 l6 level12 level15 level27
+0
+2
+0 0 5 6
+0 1 20 4
+1
+end_operator
+begin_operator
+drive t0 l5 l6 level13 level15 level28
+0
+2
+0 0 5 6
+0 1 21 5
+1
+end_operator
+begin_operator
+drive t0 l5 l6 level16 level15 level31
+0
+2
+0 0 5 6
+0 1 25 8
+1
+end_operator
+begin_operator
+drive t0 l5 l6 level18 level15 level33
+0
+2
+0 0 5 6
+0 1 27 10
+1
+end_operator
+begin_operator
+drive t0 l5 l6 level19 level15 level34
+0
+2
+0 0 5 6
+0 1 28 11
+1
+end_operator
+begin_operator
+drive t0 l5 l6 level2 level15 level17
+0
+2
+0 0 5 6
+0 1 9 12
+1
+end_operator
+begin_operator
+drive t0 l5 l6 level22 level15 level37
+0
+2
+0 0 5 6
+0 1 30 15
+1
+end_operator
+begin_operator
+drive t0 l5 l6 level24 level15 level39
+0
+2
+0 0 5 6
+0 1 31 17
+1
+end_operator
+begin_operator
+drive t0 l5 l6 level3 level15 level18
+0
+2
+0 0 5 6
+0 1 10 23
+1
+end_operator
+begin_operator
+drive t0 l5 l6 level30 level15 level45
+0
+2
+0 0 5 6
+0 1 36 24
+1
+end_operator
+begin_operator
+drive t0 l5 l6 level36 level15 level51
+0
+2
+0 0 5 6
+0 1 40 29
+1
+end_operator
+begin_operator
+drive t0 l5 l6 level4 level15 level19
+0
+2
+0 0 5 6
+0 1 11 32
+1
+end_operator
+begin_operator
+drive t0 l5 l6 level5 level15 level20
+0
+2
+0 0 5 6
+0 1 13 39
+1
+end_operator
+begin_operator
+drive t0 l5 l6 level6 level15 level21
+0
+2
+0 0 5 6
+0 1 14 43
+1
+end_operator
+begin_operator
+drive t0 l5 l6 level7 level15 level22
+0
+2
+0 0 5 6
+0 1 15 46
+1
+end_operator
+begin_operator
+drive t0 l5 l6 level8 level15 level23
+0
+2
+0 0 5 6
+0 1 16 47
+1
+end_operator
+begin_operator
+drive t0 l6 l5 level1 level15 level16
+0
+2
+0 0 6 5
+0 1 8 1
+1
+end_operator
+begin_operator
+drive t0 l6 l5 level15 level15 level30
+0
+2
+0 0 6 5
+0 1 24 7
+1
+end_operator
+begin_operator
+drive t0 l6 l5 level21 level15 level36
+0
+2
+0 0 6 5
+0 1 29 14
+1
+end_operator
+begin_operator
+drive t0 l6 l5 level3 level15 level18
+0
+2
+0 0 6 5
+0 1 10 23
+1
+end_operator
+begin_operator
+drive t0 l6 l5 level4 level15 level19
+0
+2
+0 0 6 5
+0 1 11 32
+1
+end_operator
+begin_operator
+drive t0 l6 l5 level7 level15 level22
+0
+2
+0 0 6 5
+0 1 15 46
+1
+end_operator
+begin_operator
+drive t0 l6 l5 level9 level15 level24
+0
+2
+0 0 6 5
+0 1 17 48
+1
+end_operator
+begin_operator
+load p0 t0 l0
+1
+0 0
+1
+0 4 0 7
+1
+end_operator
+begin_operator
+load p0 t0 l1
+1
+0 1
+1
+0 4 1 7
+1
+end_operator
+begin_operator
+load p0 t0 l2
+1
+0 2
+1
+0 4 2 7
+1
+end_operator
+begin_operator
+load p0 t0 l3
+1
+0 3
+1
+0 4 3 7
+1
+end_operator
+begin_operator
+load p0 t0 l4
+1
+0 4
+1
+0 4 4 7
+1
+end_operator
+begin_operator
+load p0 t0 l5
+1
+0 5
+1
+0 4 5 7
+1
+end_operator
+begin_operator
+load p0 t0 l6
+1
+0 6
+1
+0 4 6 7
+1
+end_operator
+begin_operator
+load p1 t0 l0
+1
+0 0
+1
+0 3 0 7
+1
+end_operator
+begin_operator
+load p1 t0 l1
+1
+0 1
+1
+0 3 1 7
+1
+end_operator
+begin_operator
+load p1 t0 l2
+1
+0 2
+1
+0 3 2 7
+1
+end_operator
+begin_operator
+load p1 t0 l3
+1
+0 3
+1
+0 3 3 7
+1
+end_operator
+begin_operator
+load p1 t0 l4
+1
+0 4
+1
+0 3 4 7
+1
+end_operator
+begin_operator
+load p1 t0 l5
+1
+0 5
+1
+0 3 5 7
+1
+end_operator
+begin_operator
+load p1 t0 l6
+1
+0 6
+1
+0 3 6 7
+1
+end_operator
+begin_operator
+load p2 t0 l0
+1
+0 0
+1
+0 2 0 7
+1
+end_operator
+begin_operator
+load p2 t0 l1
+1
+0 1
+1
+0 2 1 7
+1
+end_operator
+begin_operator
+load p2 t0 l2
+1
+0 2
+1
+0 2 2 7
+1
+end_operator
+begin_operator
+load p2 t0 l3
+1
+0 3
+1
+0 2 3 7
+1
+end_operator
+begin_operator
+load p2 t0 l4
+1
+0 4
+1
+0 2 4 7
+1
+end_operator
+begin_operator
+load p2 t0 l5
+1
+0 5
+1
+0 2 5 7
+1
+end_operator
+begin_operator
+load p2 t0 l6
+1
+0 6
+1
+0 2 6 7
+1
+end_operator
+begin_operator
+unload p0 t0 l0
+1
+0 0
+1
+0 4 7 0
+1
+end_operator
+begin_operator
+unload p0 t0 l1
+1
+0 1
+1
+0 4 7 1
+1
+end_operator
+begin_operator
+unload p0 t0 l2
+1
+0 2
+1
+0 4 7 2
+1
+end_operator
+begin_operator
+unload p0 t0 l3
+1
+0 3
+1
+0 4 7 3
+1
+end_operator
+begin_operator
+unload p0 t0 l4
+1
+0 4
+1
+0 4 7 4
+1
+end_operator
+begin_operator
+unload p0 t0 l5
+1
+0 5
+1
+0 4 7 5
+1
+end_operator
+begin_operator
+unload p0 t0 l6
+1
+0 6
+1
+0 4 7 6
+1
+end_operator
+begin_operator
+unload p1 t0 l0
+1
+0 0
+1
+0 3 7 0
+1
+end_operator
+begin_operator
+unload p1 t0 l1
+1
+0 1
+1
+0 3 7 1
+1
+end_operator
+begin_operator
+unload p1 t0 l2
+1
+0 2
+1
+0 3 7 2
+1
+end_operator
+begin_operator
+unload p1 t0 l3
+1
+0 3
+1
+0 3 7 3
+1
+end_operator
+begin_operator
+unload p1 t0 l4
+1
+0 4
+1
+0 3 7 4
+1
+end_operator
+begin_operator
+unload p1 t0 l5
+1
+0 5
+1
+0 3 7 5
+1
+end_operator
+begin_operator
+unload p1 t0 l6
+1
+0 6
+1
+0 3 7 6
+1
+end_operator
+begin_operator
+unload p2 t0 l0
+1
+0 0
+1
+0 2 7 0
+1
+end_operator
+begin_operator
+unload p2 t0 l1
+1
+0 1
+1
+0 2 7 1
+1
+end_operator
+begin_operator
+unload p2 t0 l2
+1
+0 2
+1
+0 2 7 2
+1
+end_operator
+begin_operator
+unload p2 t0 l3
+1
+0 3
+1
+0 2 7 3
+1
+end_operator
+begin_operator
+unload p2 t0 l4
+1
+0 4
+1
+0 2 7 4
+1
+end_operator
+begin_operator
+unload p2 t0 l5
+1
+0 5
+1
+0 2 7 5
+1
+end_operator
+begin_operator
+unload p2 t0 l6
+1
+0 6
+1
+0 2 7 6
+1
+end_operator
+0
+begin_SG
+switch 4
+check 0
+switch 0
+check 0
+check 1
+261
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 0
+check 0
+check 0
+check 1
+262
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 0
+check 0
+check 0
+check 0
+check 1
+263
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 0
+check 0
+check 0
+check 0
+check 0
+check 1
+264
+check 0
+check 0
+check 0
+check 0
+switch 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 1
+265
+check 0
+check 0
+check 0
+switch 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 1
+266
+check 0
+check 0
+switch 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 1
+267
+check 0
+switch 0
+check 0
+check 1
+282
+check 1
+283
+check 1
+284
+check 1
+285
+check 1
+286
+check 1
+287
+check 1
+288
+check 0
+switch 3
+check 0
+switch 0
+check 0
+check 1
+268
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 0
+check 0
+check 0
+check 1
+269
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 0
+check 0
+check 0
+check 0
+check 1
+270
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 0
+check 0
+check 0
+check 0
+check 0
+check 1
+271
+check 0
+check 0
+check 0
+check 0
+switch 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 1
+272
+check 0
+check 0
+check 0
+switch 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 1
+273
+check 0
+check 0
+switch 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 1
+274
+check 0
+switch 0
+check 0
+check 1
+289
+check 1
+290
+check 1
+291
+check 1
+292
+check 1
+293
+check 1
+294
+check 1
+295
+check 0
+switch 2
+check 0
+switch 0
+check 0
+check 1
+275
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 0
+check 0
+check 0
+check 1
+276
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 0
+check 0
+check 0
+check 0
+check 1
+277
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 0
+check 0
+check 0
+check 0
+check 0
+check 1
+278
+check 0
+check 0
+check 0
+check 0
+switch 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 1
+279
+check 0
+check 0
+check 0
+switch 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 1
+280
+check 0
+check 0
+switch 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 1
+281
+check 0
+switch 0
+check 0
+check 1
+296
+check 1
+297
+check 1
+298
+check 1
+299
+check 1
+300
+check 1
+301
+check 1
+302
+check 0
+switch 0
+check 0
+switch 1
+check 0
+check 0
+check 0
+check 1
+90
+check 1
+91
+check 1
+92
+check 1
+61
+check 1
+62
+check 2
+0
+63
+check 2
+1
+64
+check 2
+8
+65
+check 2
+13
+66
+check 2
+16
+67
+check 0
+check 2
+17
+68
+check 2
+18
+69
+check 2
+19
+70
+check 2
+20
+72
+check 3
+21
+46
+73
+check 5
+2
+22
+34
+47
+74
+check 5
+3
+23
+35
+53
+75
+check 0
+check 5
+4
+30
+42
+56
+76
+check 0
+check 1
+59
+check 5
+5
+31
+43
+57
+77
+check 5
+6
+32
+44
+58
+78
+check 0
+check 0
+check 5
+7
+33
+45
+48
+80
+check 5
+9
+24
+36
+49
+81
+check 5
+10
+25
+37
+50
+82
+check 0
+check 1
+60
+check 5
+11
+26
+38
+51
+83
+check 0
+check 5
+12
+27
+39
+52
+84
+check 0
+check 0
+check 5
+14
+28
+40
+54
+86
+check 1
+71
+check 0
+check 5
+15
+29
+41
+55
+88
+check 0
+check 1
+79
+check 0
+check 0
+check 1
+85
+check 1
+87
+check 1
+89
+check 0
+switch 1
+check 0
+check 0
+check 0
+check 1
+116
+check 1
+119
+check 0
+check 1
+121
+check 0
+check 2
+93
+123
+check 2
+94
+124
+check 0
+check 0
+check 2
+100
+108
+check 0
+check 0
+check 2
+103
+109
+check 2
+104
+110
+check 2
+105
+111
+check 0
+check 2
+95
+112
+check 0
+check 2
+96
+114
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 2
+97
+115
+check 0
+check 0
+check 0
+check 2
+98
+117
+check 0
+check 0
+check 2
+99
+118
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 2
+101
+120
+check 0
+check 0
+check 2
+102
+122
+check 1
+106
+check 1
+107
+check 1
+113
+check 0
+switch 1
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 1
+128
+check 1
+129
+check 1
+132
+check 0
+check 0
+check 0
+check 0
+check 0
+check 1
+134
+check 0
+check 0
+check 0
+check 0
+check 0
+check 2
+126
+130
+check 0
+check 0
+check 0
+check 2
+127
+131
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 2
+125
+133
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 1
+check 0
+check 0
+check 0
+check 0
+check 1
+154
+check 1
+156
+check 1
+158
+check 1
+159
+check 1
+160
+check 2
+161
+162
+check 2
+144
+163
+check 2
+145
+169
+check 0
+check 0
+check 2
+146
+171
+check 0
+check 0
+check 2
+147
+173
+check 0
+check 0
+check 4
+135
+148
+164
+174
+check 0
+check 0
+check 4
+138
+150
+165
+177
+check 0
+check 4
+139
+151
+166
+178
+check 0
+check 4
+140
+152
+167
+179
+check 0
+check 4
+141
+153
+168
+180
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 4
+136
+155
+170
+175
+check 0
+check 0
+check 0
+check 0
+check 0
+check 4
+137
+157
+172
+176
+check 0
+check 1
+142
+check 1
+143
+check 1
+149
+check 0
+switch 1
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 1
+188
+check 2
+181
+189
+check 0
+check 0
+check 0
+check 3
+183
+186
+191
+check 0
+check 0
+check 3
+184
+187
+192
+check 0
+check 0
+check 0
+check 0
+check 0
+check 3
+182
+185
+190
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 1
+check 0
+check 0
+check 0
+check 1
+221
+check 1
+222
+check 1
+223
+check 1
+195
+check 1
+196
+check 2
+197
+235
+check 2
+198
+236
+check 2
+199
+243
+check 2
+200
+246
+check 2
+201
+249
+check 0
+check 2
+202
+250
+check 2
+203
+251
+check 2
+204
+252
+check 3
+206
+224
+253
+check 0
+check 3
+207
+229
+237
+check 0
+check 3
+208
+232
+238
+check 3
+209
+233
+239
+check 0
+check 1
+193
+check 0
+check 3
+210
+234
+240
+check 0
+check 3
+212
+225
+241
+check 3
+213
+226
+242
+check 0
+check 3
+214
+227
+244
+check 3
+215
+228
+245
+check 1
+194
+check 0
+check 0
+check 0
+check 3
+217
+230
+247
+check 0
+check 0
+check 1
+205
+check 3
+218
+231
+248
+check 0
+check 0
+check 1
+211
+check 0
+check 0
+check 1
+216
+check 1
+219
+check 1
+220
+check 0
+switch 1
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 1
+254
+check 0
+check 1
+257
+check 1
+258
+check 0
+check 0
+check 0
+check 1
+259
+check 0
+check 1
+260
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 1
+255
+check 0
+check 0
+check 0
+check 0
+check 1
+256
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+end_SG
+begin_DTG
+93
+1
+1
+1
+1 8
+1
+0
+1
+1 7
+1
+21
+1
+1 17
+1
+20
+1
+1 16
+1
+19
+1
+1 15
+1
+18
+1
+1 14
+1
+17
+1
+1 13
+1
+16
+1
+1 11
+1
+15
+1
+1 41
+1
+14
+1
+1 38
+1
+13
+1
+1 10
+1
+12
+1
+1 35
+1
+11
+1
+1 33
+1
+10
+1
+1 30
+1
+9
+1
+1 29
+1
+8
+1
+1 9
+1
+7
+1
+1 28
+1
+6
+1
+1 25
+1
+5
+1
+1 24
+1
+4
+1
+1 21
+1
+3
+1
+1 19
+1
+2
+1
+1 18
+2
+26
+1
+1 33
+2
+33
+1
+1 28
+2
+32
+1
+1 25
+2
+31
+1
+1 24
+2
+30
+1
+1 21
+2
+29
+1
+1 41
+2
+27
+1
+1 35
+2
+22
+1
+1 18
+2
+25
+1
+1 30
+2
+24
+1
+1 29
+2
+23
+1
+1 19
+2
+28
+1
+1 38
+3
+40
+1
+1 38
+3
+45
+1
+1 28
+3
+44
+1
+1 25
+3
+43
+1
+1 24
+3
+42
+1
+1 21
+3
+41
+1
+1 41
+3
+39
+1
+1 35
+3
+38
+1
+1 33
+3
+37
+1
+1 30
+3
+36
+1
+1 29
+3
+35
+1
+1 19
+3
+34
+1
+1 18
+4
+46
+1
+1 17
+4
+58
+1
+1 25
+4
+57
+1
+1 24
+4
+56
+1
+1 21
+4
+55
+1
+1 41
+4
+54
+1
+1 38
+4
+53
+1
+1 19
+4
+51
+1
+1 33
+4
+50
+1
+1 30
+4
+49
+1
+1 29
+4
+48
+1
+1 28
+4
+47
+1
+1 18
+4
+52
+1
+1 35
+5
+76
+1
+1 21
+5
+92
+1
+1 4
+5
+77
+1
+1 24
+5
+78
+1
+1 25
+5
+79
+1
+1 43
+5
+80
+1
+1 28
+5
+81
+1
+1 29
+5
+82
+1
+1 30
+5
+83
+1
+1 33
+5
+84
+1
+1 35
+5
+85
+1
+1 46
+5
+86
+1
+1 38
+5
+87
+1
+1 47
+5
+88
+1
+1 41
+5
+89
+1
+1 48
+5
+90
+1
+1 2
+5
+91
+1
+1 3
+5
+67
+1
+1 11
+5
+59
+1
+1 23
+5
+60
+1
+1 32
+5
+61
+1
+1 5
+5
+62
+1
+1 6
+5
+63
+1
+1 7
+5
+64
+1
+1 8
+5
+65
+1
+1 9
+5
+66
+1
+1 10
+5
+75
+1
+1 19
+5
+68
+1
+1 13
+5
+69
+1
+1 14
+5
+70
+1
+1 15
+5
+71
+1
+1 39
+5
+72
+1
+1 16
+5
+73
+1
+1 17
+5
+74
+1
+1 18
+32
+0
+94
+1
+1 8
+0
+93
+1
+1 7
+0
+105
+1
+1 16
+0
+104
+1
+1 15
+0
+103
+1
+1 14
+0
+102
+1
+1 45
+0
+101
+1
+1 42
+0
+100
+1
+1 11
+0
+99
+1
+1 34
+0
+98
+1
+1 31
+0
+97
+1
+1 27
+0
+96
+1
+1 20
+0
+95
+1
+1 18
+3
+124
+1
+1 8
+3
+123
+1
+1 7
+3
+122
+1
+1 45
+3
+121
+1
+1 5
+3
+120
+1
+1 42
+3
+119
+1
+1 3
+3
+118
+1
+1 34
+3
+117
+1
+1 31
+3
+116
+1
+1 2
+3
+115
+1
+1 27
+3
+114
+1
+1 20
+3
+113
+1
+1 48
+3
+112
+1
+1 18
+3
+111
+1
+1 16
+3
+110
+1
+1 15
+3
+109
+1
+1 14
+3
+108
+1
+1 11
+3
+107
+1
+1 47
+3
+106
+1
+1 46
+10
+0
+125
+1
+1 37
+0
+126
+1
+1 22
+0
+127
+1
+1 26
+3
+128
+1
+1 8
+3
+129
+1
+1 9
+3
+130
+1
+1 22
+3
+131
+1
+1 26
+3
+132
+1
+1 10
+3
+133
+1
+1 37
+3
+134
+1
+1 16
+46
+0
+136
+1
+1 38
+0
+137
+1
+1 44
+0
+138
+1
+1 22
+0
+139
+1
+1 24
+0
+140
+1
+1 26
+0
+141
+1
+1 28
+0
+135
+1
+1 19
+1
+152
+1
+1 26
+1
+158
+1
+1 5
+1
+153
+1
+1 28
+1
+154
+1
+1 3
+1
+155
+1
+1 38
+1
+156
+1
+1 4
+1
+157
+1
+1 44
+1
+159
+1
+1 6
+1
+160
+1
+1 7
+1
+161
+1
+1 8
+1
+150
+1
+1 22
+1
+149
+1
+1 48
+1
+148
+1
+1 19
+1
+147
+1
+1 16
+1
+146
+1
+1 13
+1
+145
+1
+1 10
+1
+144
+1
+1 9
+1
+143
+1
+1 47
+1
+142
+1
+1 46
+1
+151
+1
+1 24
+2
+166
+1
+1 24
+2
+173
+1
+1 16
+2
+172
+1
+1 44
+2
+171
+1
+1 13
+2
+170
+1
+1 38
+2
+169
+1
+1 10
+2
+168
+1
+1 28
+2
+167
+1
+1 26
+2
+165
+1
+1 22
+2
+164
+1
+1 19
+2
+163
+1
+1 9
+2
+162
+1
+1 8
+4
+174
+1
+1 19
+4
+175
+1
+1 38
+4
+176
+1
+1 44
+4
+177
+1
+1 22
+4
+178
+1
+1 24
+4
+179
+1
+1 26
+4
+180
+1
+1 28
+12
+0
+181
+1
+1 17
+0
+182
+1
+1 30
+0
+183
+1
+1 21
+0
+184
+1
+1 24
+3
+185
+1
+1 30
+3
+186
+1
+1 21
+3
+187
+1
+1 24
+5
+188
+1
+1 16
+5
+189
+1
+1 17
+5
+190
+1
+1 30
+5
+191
+1
+1 21
+5
+192
+1
+1 24
+61
+0
+194
+1
+1 32
+0
+223
+1
+1 4
+0
+222
+1
+1 3
+0
+221
+1
+1 2
+0
+220
+1
+1 48
+0
+219
+1
+1 47
+0
+218
+1
+1 40
+0
+217
+1
+1 36
+0
+216
+1
+1 46
+0
+215
+1
+1 31
+0
+214
+1
+1 30
+0
+213
+1
+1 28
+0
+212
+1
+1 27
+0
+211
+1
+1 43
+0
+210
+1
+1 25
+0
+209
+1
+1 21
+0
+207
+1
+1 18
+0
+208
+1
+1 20
+0
+193
+1
+1 23
+0
+195
+1
+1 5
+0
+196
+1
+1 6
+0
+197
+1
+1 7
+0
+198
+1
+1 8
+0
+199
+1
+1 9
+0
+200
+1
+1 10
+0
+201
+1
+1 11
+0
+202
+1
+1 13
+0
+203
+1
+1 14
+0
+204
+1
+1 15
+0
+205
+1
+1 39
+0
+206
+1
+1 16
+4
+234
+1
+1 25
+4
+233
+1
+1 21
+4
+232
+1
+1 20
+4
+231
+1
+1 40
+4
+230
+1
+1 36
+4
+228
+1
+1 31
+4
+227
+1
+1 30
+4
+226
+1
+1 28
+4
+225
+1
+1 27
+4
+224
+1
+1 16
+4
+229
+1
+1 18
+6
+253
+1
+1 16
+6
+252
+1
+1 15
+6
+251
+1
+1 14
+6
+250
+1
+1 13
+6
+249
+1
+1 11
+6
+248
+1
+1 40
+6
+247
+1
+1 36
+6
+246
+1
+1 10
+6
+245
+1
+1 31
+6
+244
+1
+1 30
+6
+243
+1
+1 9
+6
+242
+1
+1 28
+6
+241
+1
+1 27
+6
+240
+1
+1 25
+6
+239
+1
+1 21
+6
+238
+1
+1 20
+6
+237
+1
+1 18
+6
+236
+1
+1 8
+6
+235
+1
+1 7
+7
+5
+254
+1
+1 8
+5
+255
+1
+1 24
+5
+256
+1
+1 29
+5
+257
+1
+1 10
+5
+258
+1
+1 11
+5
+259
+1
+1 15
+5
+260
+1
+1 17
+end_DTG
+begin_DTG
+0
+0
+3
+23
+116
+1
+0 1
+46
+90
+1
+0 0
+46
+221
+1
+0 5
+4
+32
+119
+1
+0 1
+32
+154
+1
+0 3
+47
+91
+1
+0 0
+47
+222
+1
+0 5
+3
+39
+156
+1
+0 3
+48
+92
+1
+0 0
+48
+223
+1
+0 5
+4
+2
+61
+1
+0 0
+2
+195
+1
+0 5
+43
+121
+1
+0 1
+43
+158
+1
+0 3
+3
+3
+62
+1
+0 0
+3
+196
+1
+0 5
+46
+159
+1
+0 3
+7
+0
+0
+1
+0 0
+0
+93
+1
+0 1
+0
+235
+1
+0 5
+4
+63
+1
+0 0
+4
+197
+1
+0 5
+47
+123
+1
+0 1
+47
+160
+1
+0 3
+10
+0
+128
+1
+0 2
+0
+162
+1
+0 3
+1
+1
+1
+0 0
+1
+94
+1
+0 1
+1
+236
+1
+0 5
+1
+254
+1
+0 6
+5
+64
+1
+0 0
+5
+198
+1
+0 5
+48
+124
+1
+0 1
+48
+161
+1
+0 3
+7
+1
+129
+1
+0 2
+1
+163
+1
+0 3
+2
+144
+1
+0 3
+6
+65
+1
+0 0
+6
+199
+1
+0 5
+12
+8
+1
+0 0
+12
+243
+1
+0 5
+8
+3
+145
+1
+0 3
+7
+66
+1
+0 0
+7
+200
+1
+0 5
+12
+132
+1
+0 2
+12
+169
+1
+0 3
+23
+13
+1
+0 0
+23
+246
+1
+0 5
+23
+257
+1
+0 6
+7
+4
+108
+1
+0 1
+8
+67
+1
+0 0
+8
+201
+1
+0 5
+32
+16
+1
+0 0
+32
+100
+1
+0 1
+32
+249
+1
+0 5
+32
+258
+1
+0 6
+0
+6
+5
+146
+1
+0 3
+9
+68
+1
+0 0
+9
+202
+1
+0 5
+32
+171
+1
+0 3
+39
+17
+1
+0 0
+39
+250
+1
+0 5
+6
+6
+109
+1
+0 1
+10
+69
+1
+0 0
+10
+203
+1
+0 5
+43
+18
+1
+0 0
+43
+103
+1
+0 1
+43
+251
+1
+0 5
+7
+7
+110
+1
+0 1
+11
+70
+1
+0 0
+11
+204
+1
+0 5
+46
+19
+1
+0 0
+46
+104
+1
+0 1
+46
+252
+1
+0 5
+46
+259
+1
+0 6
+11
+0
+188
+1
+0 4
+0
+224
+1
+0 5
+8
+111
+1
+0 1
+8
+147
+1
+0 3
+13
+72
+1
+0 0
+13
+206
+1
+0 5
+46
+134
+1
+0 2
+46
+173
+1
+0 3
+47
+20
+1
+0 0
+47
+105
+1
+0 1
+47
+253
+1
+0 5
+6
+0
+46
+1
+0 0
+0
+181
+1
+0 4
+1
+189
+1
+0 4
+14
+73
+1
+0 0
+48
+21
+1
+0 0
+48
+260
+1
+0 6
+9
+0
+22
+1
+0 0
+1
+47
+1
+0 0
+2
+2
+1
+0 0
+2
+95
+1
+0 1
+2
+237
+1
+0 5
+10
+112
+1
+0 1
+12
+229
+1
+0 5
+15
+74
+1
+0 0
+15
+207
+1
+0 5
+7
+1
+23
+1
+0 0
+1
+135
+1
+0 3
+2
+164
+1
+0 3
+3
+3
+1
+0 0
+11
+148
+1
+0 3
+12
+53
+1
+0 0
+16
+75
+1
+0 0
+5
+4
+96
+1
+0 1
+4
+238
+1
+0 5
+13
+114
+1
+0 1
+17
+208
+1
+0 5
+32
+232
+1
+0 5
+10
+5
+4
+1
+0 0
+5
+239
+1
+0 5
+18
+76
+1
+0 0
+18
+209
+1
+0 5
+23
+30
+1
+0 0
+23
+186
+1
+0 4
+32
+56
+1
+0 0
+32
+183
+1
+0 4
+39
+191
+1
+0 4
+39
+233
+1
+0 5
+5
+5
+130
+1
+0 2
+5
+165
+1
+0 3
+15
+150
+1
+0 3
+32
+126
+1
+0 2
+32
+138
+1
+0 3
+2
+0
+59
+1
+0 0
+0
+193
+1
+0 5
+11
+6
+166
+1
+0 3
+7
+5
+1
+0 0
+7
+255
+1
+0 6
+16
+151
+1
+0 3
+20
+77
+1
+0 0
+39
+31
+1
+0 0
+39
+139
+1
+0 3
+39
+187
+1
+0 4
+43
+57
+1
+0 0
+43
+184
+1
+0 4
+46
+192
+1
+0 4
+7
+8
+6
+1
+0 0
+8
+240
+1
+0 5
+21
+78
+1
+0 0
+21
+210
+1
+0 5
+43
+32
+1
+0 0
+46
+58
+1
+0 0
+47
+234
+1
+0 5
+5
+8
+131
+1
+0 2
+8
+167
+1
+0 3
+18
+152
+1
+0 3
+46
+127
+1
+0 2
+46
+140
+1
+0 3
+5
+2
+225
+1
+0 5
+10
+97
+1
+0 1
+10
+241
+1
+0 5
+19
+115
+1
+0 1
+24
+212
+1
+0 5
+10
+2
+48
+1
+0 0
+3
+226
+1
+0 5
+10
+168
+1
+0 3
+11
+7
+1
+0 0
+11
+242
+1
+0 5
+20
+153
+1
+0 3
+25
+80
+1
+0 0
+25
+213
+1
+0 5
+48
+33
+1
+0 0
+48
+141
+1
+0 3
+5
+3
+24
+1
+0 0
+4
+49
+1
+0 0
+14
+9
+1
+0 0
+14
+256
+1
+0 6
+27
+81
+1
+0 0
+10
+4
+25
+1
+0 0
+4
+185
+1
+0 4
+5
+50
+1
+0 0
+5
+182
+1
+0 4
+6
+190
+1
+0 4
+6
+227
+1
+0 5
+15
+10
+1
+0 0
+15
+244
+1
+0 5
+28
+82
+1
+0 0
+28
+214
+1
+0 5
+5
+8
+228
+1
+0 5
+17
+98
+1
+0 1
+17
+245
+1
+0 5
+26
+117
+1
+0 1
+29
+215
+1
+0 5
+2
+1
+60
+1
+0 0
+1
+194
+1
+0 5
+4
+7
+26
+1
+0 0
+8
+51
+1
+0 0
+18
+11
+1
+0 0
+30
+83
+1
+0 0
+2
+19
+99
+1
+0 1
+28
+118
+1
+0 1
+4
+9
+27
+1
+0 0
+10
+52
+1
+0 0
+20
+12
+1
+0 0
+31
+84
+1
+0 0
+3
+15
+230
+1
+0 5
+24
+247
+1
+0 5
+35
+217
+1
+0 5
+2
+14
+125
+1
+0 2
+24
+133
+1
+0 2
+7
+16
+28
+1
+0 0
+16
+136
+1
+0 3
+17
+54
+1
+0 0
+26
+170
+1
+0 3
+27
+14
+1
+0 0
+34
+155
+1
+0 3
+36
+86
+1
+0 0
+2
+12
+71
+1
+0 0
+12
+205
+1
+0 5
+3
+21
+231
+1
+0 5
+29
+248
+1
+0 5
+38
+218
+1
+0 5
+4
+22
+29
+1
+0 0
+24
+55
+1
+0 0
+31
+15
+1
+0 0
+40
+88
+1
+0 0
+2
+33
+101
+1
+0 1
+38
+120
+1
+0 1
+2
+23
+79
+1
+0 0
+23
+211
+1
+0 5
+3
+30
+137
+1
+0 3
+37
+172
+1
+0 3
+42
+157
+1
+0 3
+2
+41
+102
+1
+0 1
+44
+122
+1
+0 1
+4
+0
+106
+1
+0 1
+0
+142
+1
+0 3
+32
+85
+1
+0 0
+32
+216
+1
+0 5
+4
+1
+107
+1
+0 1
+1
+143
+1
+0 3
+39
+87
+1
+0 0
+39
+219
+1
+0 5
+4
+12
+113
+1
+0 1
+12
+149
+1
+0 3
+43
+89
+1
+0 0
+43
+220
+1
+0 5
+end_DTG
+begin_DTG
+1
+7
+275
+1
+0 0
+1
+7
+276
+1
+0 1
+1
+7
+277
+1
+0 2
+1
+7
+278
+1
+0 3
+1
+7
+279
+1
+0 4
+1
+7
+280
+1
+0 5
+1
+7
+281
+1
+0 6
+7
+0
+296
+1
+0 0
+1
+297
+1
+0 1
+2
+298
+1
+0 2
+3
+299
+1
+0 3
+4
+300
+1
+0 4
+5
+301
+1
+0 5
+6
+302
+1
+0 6
+end_DTG
+begin_DTG
+1
+7
+268
+1
+0 0
+1
+7
+269
+1
+0 1
+1
+7
+270
+1
+0 2
+1
+7
+271
+1
+0 3
+1
+7
+272
+1
+0 4
+1
+7
+273
+1
+0 5
+1
+7
+274
+1
+0 6
+7
+0
+289
+1
+0 0
+1
+290
+1
+0 1
+2
+291
+1
+0 2
+3
+292
+1
+0 3
+4
+293
+1
+0 4
+5
+294
+1
+0 5
+6
+295
+1
+0 6
+end_DTG
+begin_DTG
+1
+7
+261
+1
+0 0
+1
+7
+262
+1
+0 1
+1
+7
+263
+1
+0 2
+1
+7
+264
+1
+0 3
+1
+7
+265
+1
+0 4
+1
+7
+266
+1
+0 5
+1
+7
+267
+1
+0 6
+7
+0
+282
+1
+0 0
+1
+283
+1
+0 1
+2
+284
+1
+0 2
+3
+285
+1
+0 3
+4
+286
+1
+0 4
+5
+287
+1
+0 5
+6
+288
+1
+0 6
+end_DTG
+begin_CG
+4
+4 14
+3 14
+2 14
+1 261
+1
+0 261
+0
+0
+0
+end_CG

@@ -1,0 +1,26 @@
+drive t0 l0 l1 level48 level6 level54
+drive t0 l1 l0 level54 level6 level60
+drive t0 l1 l4 level45 level3 level48
+drive t0 l3 l5 level20 level21 level41
+drive t0 l4 l3 level41 level4 level45
+drive t0 l5 l1 level3 level17 level20
+load p0 t0 l5
+load p1 t0 l3
+load p2 t0 l5
+load p3 t0 l0
+load p4 t0 l1
+load p5 t0 l0
+load p6 t0 l3
+load p7 t0 l1
+load p8 t0 l0
+load p9 t0 l4
+unload p0 t0 l1
+unload p1 t0 l1
+unload p2 t0 l1
+unload p3 t0 l3
+unload p4 t0 l0
+unload p5 t0 l5
+unload p6 t0 l5
+unload p7 t0 l4
+unload p8 t0 l5
+unload p9 t0 l5

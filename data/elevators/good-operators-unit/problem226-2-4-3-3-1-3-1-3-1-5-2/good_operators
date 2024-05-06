@@ -1,0 +1,17 @@
+board p0 fast1 n0 n0 n1
+board p1 slow1-0 n5 n0 n1
+board p1 slow1-0 n5 n1 n2
+board p2 slow1-0 n8 n0 n1
+leave p0 fast1 n2 n1 n0
+leave p1 slow1-0 n6 n1 n0
+leave p1 slow1-0 n6 n2 n1
+leave p2 slow1-0 n7 n1 n0
+leave p2 slow1-0 n7 n2 n1
+move-down-slow slow1-0 n7 n5
+move-down-slow slow1-0 n7 n6
+move-down-slow slow1-0 n8 n5
+move-down-slow slow1-0 n8 n7
+move-up-fast fast1 n0 n2
+move-up-slow slow1-0 n5 n6
+move-up-slow slow1-0 n5 n7
+move-up-slow slow1-0 n6 n7

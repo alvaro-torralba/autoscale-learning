@@ -1,0 +1,67 @@
+drive t0 l0 l1 level109 level6 level115
+drive t0 l0 l12 level106 level9 level115
+drive t0 l0 l6 level95 level12 level107
+drive t0 l1 l0 level107 level6 level113
+drive t0 l1 l0 level115 level6 level121
+drive t0 l1 l3 level24 level10 level34
+drive t0 l1 l3 level33 level10 level43
+drive t0 l1 l7 level105 level4 level109
+drive t0 l1 l7 level117 level4 level121
+drive t0 l10 l2 level57 level8 level65
+drive t0 l10 l2 level66 level8 level74
+drive t0 l10 l2 level81 level8 level89
+drive t0 l10 l6 level72 level6 level78
+drive t0 l11 l4 level142 level1 level143
+drive t0 l12 l3 level26 level20 level46
+drive t0 l12 l3 level28 level20 level48
+drive t0 l12 l5 level100 level6 level106
+drive t0 l12 l5 level52 level6 level58
+drive t0 l12 l5 level54 level6 level60
+drive t0 l12 l9 level88 level6 level94
+drive t0 l2 l10 level65 level8 level73
+drive t0 l2 l10 level78 level8 level86
+drive t0 l2 l7 level38 level19 level57
+drive t0 l2 l7 level47 level19 level66
+drive t0 l2 l9 level66 level15 level81
+drive t0 l3 l1 level121 level10 level131
+drive t0 l3 l8 level10 level14 level24
+drive t0 l3 l8 level12 level14 level26
+drive t0 l3 l8 level14 level14 level28
+drive t0 l3 l8 level19 level14 level33
+drive t0 l4 l11 level11 level1 level12
+drive t0 l4 l11 level2 level1 level3
+drive t0 l4 l11 level4 level1 level5
+drive t0 l4 l11 level6 level1 level7
+drive t0 l4 l3 level131 level11 level142
+drive t0 l5 l12 level46 level6 level52
+drive t0 l5 l12 level48 level6 level54
+drive t0 l5 l12 level94 level6 level100
+drive t0 l6 l10 level74 level6 level80
+drive t0 l6 l10 level89 level6 level95
+drive t0 l6 l9 level64 level8 level72
+drive t0 l7 l1 level113 level4 level117
+drive t0 l7 l1 level34 level4 level38
+drive t0 l7 l1 level43 level4 level47
+drive t0 l7 l2 level86 level19 level105
+drive t0 l8 l4 level12 level7 level19
+drive t0 l8 l4 level3 level7 level10
+drive t0 l8 l4 level5 level7 level12
+drive t0 l8 l4 level7 level7 level14
+drive t0 l9 l12 level58 level6 level64
+drive t0 l9 l12 level60 level6 level66
+drive t0 l9 l2 level73 level15 level88
+drive t0 l9 l6 level80 level8 level88
+load p0 t0 l0
+load p1 t0 l2
+load p2 t0 l0
+load p3 t0 l7
+load p4 t0 l7
+load p5 t0 l10
+load p6 t0 l5
+unload p0 t0 l12
+unload p1 t0 l3
+unload p2 t0 l9
+unload p3 t0 l8
+unload p4 t0 l3
+unload p5 t0 l11
+unload p6 t0 l3
