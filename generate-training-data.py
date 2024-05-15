@@ -49,7 +49,7 @@ def parse_args():
                         help="Stops generating instances when the total time used on solving tasks is larger than "
                              "this amount (default: %(default)ss)")
 
-    parser.add_argument("--planner", default="good_operators", help="good_operators or lama")
+    parser.add_argument("--planner-config", default="good_operators", help="good_operators or lama")
 
     parser.add_argument("--debug", action="store_true", help="Print debug info")
 
@@ -264,12 +264,12 @@ def main():
 
         # Run planner on instances
         suite = suites.build_suite(OUTPUT_DIR, [f'tasks:{name}' for name in instances_to_run_good_operators])
-        if args.planner == "good_operators":
+        if args.planner_config == "good_operators":
             RUN.run_good_operators(f'{OUTPUT_DIR}/good-operators-unit', REPO_GOOD_OPERATORS,
                                    ['--search', "sbd(store_operators_in_optimal_plan=true, cost_type=1)"], ENV,
                                    suite)
         else:
-            assert args.planner == 'lama'
+            assert args.planner_config == 'lama'
             RUN.run_planner(f'{OUTPUT_DIR}/good-operators-unit', REPO_GOOD_OPERATORS, [], ENV, suite, driver_options = ['--alias', 'lama-first'])
 
         for task in instances_to_run_good_operators:
