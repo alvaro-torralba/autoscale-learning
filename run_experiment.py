@@ -80,7 +80,7 @@ class RunExperiment:
         rev = "ipc2023-classical"
         cached_rev = MockCachedRevision(name='planner', repo=planner, local_rev='default', global_rev=None, build_options=build_options)
 
-        self.run(path_exp, cached_rev, planner, config, ENV, SUITE, build_options=build_options, driver_options=driver_options, extra_parsers =[f"{os.path.dirname(__file__)}/parsers/goodops-parser.py"] )
+        self.run(path_exp, cached_rev, planner, config, ENV, SUITE, build_options=build_options, driver_options=driver_options)
 
 
     def run_good_operators(self, path_exp, planner, config, ENV, SUITE, build_options = [], driver_options = []):
