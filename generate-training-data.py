@@ -1,17 +1,16 @@
 #! /usr/bin/env python3
 import argparse
-import itertools
 import json
 from pathlib import Path
-import random
 import os
 import logging
+import random
 
 import domains
 import utils
 import shutil
 from downward import suites
-import statistics
+from parameters_sampler import ParametersSampler
 
 from run_experiment import RunExperiment
 from lab.environments import LocalEnvironment
@@ -29,7 +28,7 @@ def parse_args():
     parser.add_argument("--tasks", type=int,
                         help="Number of tasks to generate in total (default: %(default)s)")
 
-    parser.add_argument("--batch", type=int, default=10,
+    parser.add_argument("--batch", type=int, default=1,
                         help="Number of tasks to generate in each round (default: %(default)s)")
 
     parser.add_argument("--planner-time-limit", type=float, default=600,
@@ -56,6 +55,21 @@ def parse_args():
     parser.add_argument("--random-seed", type=int, default=2024,
                         help="Initial random seed our internal random seeds (default: %(default)d)")
 
+    parser.add_argument("--previous-runs", type=Path, nargs='*', help="Folders with previous runs."
+                                                                      "Must be provided if options to generate testing data are provided.")
+
+    parser.add_argument("--logfile", type=Path, help="Log file")
+
+    parser.add_argument("--test-same-size", action="store_true", help="Generates test instances by making a copy"
+                                                                      "of the previous runs and using a different seed")
+
+    parser.add_argument("--test-larger-size", action="store_true",
+                        help="Generates test instances by continuing with the generation process of the previous runs"
+                             "and only generating larger instances than the ones solved in the training data. "
+                             "It is recommended to increase the runtime for the planner to avoid having no instances solved")
+
+
+
     parser.add_argument(
         "--generators-dir",
         default=DIR / "pddl-generators",
@@ -63,7 +77,7 @@ def parse_args():
 
     parser.add_argument(
         "--output-dir",
-        default="data",
+        default="datatmp",
         help="Directory where to store logs and temporary files (default: %(default)s)",
     )
 
@@ -73,139 +87,24 @@ def parse_args():
     return parser.parse_args()
 
 
-class Configuration:
-    def __init__(self, parameters):
-        self.parameters = parameters
-        self.runs = []
+def run_planner_on_instances(ENV, RUN, OUTPUT_DIR, instances, planner_config):
+        ROOT = os.path.dirname(os.path.abspath(__file__))
 
-    def __hash__(self):
-        atr_names = sorted([k for k in self.parameters.keys() if k != "seed"])
-        return hash(tuple(self.parameters[attr] for attr in atr_names))
+        REPO_GOOD_OPERATORS = f"{ROOT}/fd-symbolic"
+        REPO_LAMA = f"{ROOT}/downward"
 
-    def __repr__(self):
-        return str(self.parameters)
-
-    def __eq__(self, other):
-        return self.parameters == other.parameters
-
-    def average_time(self):
-        return statistics.mean(self.runs) if self.runs else 0
-
-    def num_attempts(self):
-        return len(self.runs)
-
-
-class ParametersSampler:
-    def __init__(self, domain, lower_time_limit, upper_time_limit):
-        self.domain = domain
-        self.seed = 0
-        self.lower_time_limit = lower_time_limit
-        self.upper_time_limit = upper_time_limit
-
-        self.accumulated_time = 0
-        self.accumulated_time_solved = 0
-        self.num_trivial_tasks = 0
-        self.num_solved_tasks = 0
-
-        self.open_list = []
-        self.configurations = set()
-        self.not_viable_configurations = set()
-
-        self.instance_to_configuration = {}
-
-        lower_values = {}
-        for p in self.domain.attributes:
-            p.get_lower_values(lower_values)
-        self.atr_names = [k for k in lower_values.keys()]
-        value_lists = [lower_values[k] for k in self.atr_names]
-
-        for value_list in itertools.product(*value_lists):
-            config = Configuration({k: v for k, v in zip(self.atr_names, value_list)})
-            self.open_list.append(config)
-            self.configurations.add(config)
-
-    def viable(self, c):
-        if c.runs:
-            return c.average_time() < self.upper_time_limit
+        # Run planner on instances
+        suite = suites.build_suite(OUTPUT_DIR, [f'tasks:{name}' for name in instances])
+        if planner_config == "good_operators":
+            RUN.run_good_operators(f'{OUTPUT_DIR}/good-operators-unit', REPO_GOOD_OPERATORS,
+                                   ['--search', "sbd(store_operators_in_optimal_plan=true, cost_type=1)"], ENV,
+                                   suite)
         else:
-            for c2 in self.not_viable_configurations:
-                if all(atr.dominates(c2.parameters, c.parameters) for atr in self.domain.attributes):
-                    return False
-            return True
-
-    def get_instance_name(self, parameters):
-        seed = parameters["seed"] if "seed" in parameters else self.seed
-        pname = "-".join([str(parameters[p]) for p in parameters if p != "seed"])
-        return f"problem{seed:03d}-{pname}"
-
-    def expand(self, configuration):
-        for p in self.domain.attributes:
-            for newvalues in p.linear_expand(configuration.parameters):
-                newconfig = Configuration(newvalues)
-                if newconfig not in self.configurations:
-                    self.configurations.add(newconfig)
-                    self.open_list.append(newconfig)
-
-
-    def pick_from_open_list(self):
-        # When we pick problems from the open list, we risk that they are unsolvable.
-        # To avoid spending too much time on unsolvable tasks, we make sure that at least
-        # half of the time is spent on solvable tasks
-        if self.accumulated_time > self.accumulated_time_solved*2 and self.accumulated_time > 3600:
-            return False
-        else:
-            return True
-
-    def get_parameters(self):
-        config = None
-        if self.pick_from_open_list():
-            while not config and self.open_list:
-                candidate = self.open_list.pop(0)
-                if self.viable(candidate):
-                    config = candidate
-                    logging.info(f"Picking from open: {config}")
-                    self.expand(config)
-
-        if not config:
-            to_select = [c for c in self.configurations if self.viable(c)]
-            # At least half of the tasks must be non trivial
-            if self.num_trivial_tasks > self.num_solved_tasks/2.0 and any(c.average_time() > self.lower_time_limit for c in to_select):
-                    to_select = [c for c in to_select if c.average_time() > self.lower_time_limit]
-
-            config = random.choice(to_select)
-
-            logging.info(f"Picking from closed: {config}")
-
-        self.seed += 1  # Always use a different seed
-        instance_name = self.get_instance_name(config.parameters)
-        self.instance_to_configuration[instance_name] = config
-        parameters = config.parameters.copy()
-        parameters["seed"] = self.seed
-        return parameters
-
-    def notify_experiment_results(self, task, results):
-        config = self.instance_to_configuration[task]
-        wctime = results['planner_wall_clock_time']
-        self.accumulated_time += wctime
-        if results['coverage'] == 1:
-            self.num_solved_tasks += 1
-            config.runs.append(wctime)
-            self.accumulated_time_solved += wctime
-            logging.info(f"{config} solved in {wctime}")
-            if wctime < self.lower_time_limit:
-                self.num_trivial_tasks += 1
-        else:
-            config.runs.append(self.upper_time_limit * 2)
-            logging.info(f"{config} failed in {wctime}")
-
-
-        if not self.viable(config):
-            self.not_viable_configurations.add(config)
+            assert planner_config == 'lama'
+            RUN.run_planner(f'{OUTPUT_DIR}/good-operators-unit', REPO_GOOD_OPERATORS, [], ENV, suite, driver_options = ['--alias', 'lama-first'])
 
 
 def main():
-    ROOT = os.path.dirname(os.path.abspath(__file__))
-
     args = parse_args()
     PLANNER_TIME_LIMIT = args.planner_time_limit
     PLANNER_MEMORY_LIMIT = 3 * 1024 ** 3  # 3 GiB in Bytes
@@ -217,9 +116,7 @@ def main():
 
     domain = domains.get_domains()[args.domain]
 
-    utils.setup_logging(args.debug)
-    REPO_GOOD_OPERATORS = f"{ROOT}/fd-symbolic"
-    REPO_LAMA = f"{ROOT}/downward"
+    utils.setup_logging(args.debug, args.logfile)
 
     logging.info(f"Running generation of training data for domain {args.domain}")
 
@@ -235,12 +132,64 @@ def main():
     RUN = RunExperiment(PLANNER_TIME_LIMIT, PLANNER_MEMORY_LIMIT)
     sampler = ParametersSampler(domain, args.planner_desired_lower_time, args.planner_desired_upper_time)
 
+
+    if args.test_same_size:
+        # Does a single batch with all the same parameter configurations that were in the training set
+        assert not args.test_larger_size, "test_same_size and test_larger_size are exclusive options"
+        assert args.batch == 1, \
+            "A non default value has been provided for batch. However, test_same_size option ignores batch."
+        assert args.previous_runs, "Cannot generate a test set without a training set"
+
+
+        tasks = []
+        for prev_run in args.previous_runs:
+            if (prev_run / "tasks").is_dir():
+                prev_run = (prev_run / "tasks")
+
+        for task in prev_run.iterdir():
+            if task.name == "domain.pddl":
+                continue
+            tasks.append(sampler.get_parameters_from_filename(task.stem))
+
+        if args.tasks:
+            selection = random.choices(tasks, args.tasks)
+        else:
+            selection = tasks
+
+        instances_names = []
+        for task in selection:
+            task["seed"] = random.randint(1000, 1000000)
+            instance_name = sampler.get_instance_name(task) + ".pddl"
+            domain.generate_instance(GENERATORS_DIR, task, TASKS_DIR.joinpath(instance_name), TASKS_DIR)
+            instances_names.append(instance_name)
+        run_planner_on_instances(ENV,RUN,OUTPUT_DIR, instances_names, args.planner_config)
+
+
+        exit()
+    elif args.test_larger_size:
+
+        tasks = []
+        for prev_run in args.previous_runs:
+            if (prev_run / "tasks").is_dir():
+                prev_run = (prev_run / "tasks")
+
+        for task in prev_run.iterdir():
+            if task.name == "domain.pddl":
+                continue
+            tasks.append(sampler.get_parameters_from_filename(task.stem))
+
+        # Continue the generation, avoiding to generate instances of the
+        # same size (or smaller) than in the training set. For that, we inform
+        # the parameter sampler of all the sizes that should be skip
+        sampler.add_to_skip_list(tasks)
+        pass
+
     solved_tasks = []
     i = 0
-    while sampler.accumulated_time < args.total_time and sampler.accumulated_time_solved < args.total_time_tasks_solved and \
-            (not args.tasks or len(solved_tasks) < args.tasks):
+    while sampler.accumulated_time < args.total_time and\
+          sampler.accumulated_time_solved < args.total_time_tasks_solved and \
+          (not args.tasks or len(solved_tasks) < args.tasks):
         i+= 1
-        print()
         logging.info(f"Iteration {i}: time solved={sampler.accumulated_time_solved}, time unsolved={sampler.accumulated_time-sampler.accumulated_time_solved}" )
         # Generate instances
         instances_to_run_good_operators = []
@@ -262,20 +211,14 @@ def main():
         instances_to_run_good_operators = [t for t in generated_tasks if
                                            not t.startswith("domain") and not t.replace(".pddl", "") in solved_tasks]
 
-        # Run planner on instances
-        suite = suites.build_suite(OUTPUT_DIR, [f'tasks:{name}' for name in instances_to_run_good_operators])
-        if args.planner_config == "good_operators":
-            RUN.run_good_operators(f'{OUTPUT_DIR}/good-operators-unit', REPO_GOOD_OPERATORS,
-                                   ['--search', "sbd(store_operators_in_optimal_plan=true, cost_type=1)"], ENV,
-                                   suite)
-        else:
-            assert args.planner_config == 'lama'
-            RUN.run_planner(f'{OUTPUT_DIR}/good-operators-unit', REPO_GOOD_OPERATORS, [], ENV, suite, driver_options = ['--alias', 'lama-first'])
+        run_planner_on_instances(ENV,RUN,OUTPUT_DIR, instances_to_run_good_operators, args.planner_config)
 
         for task in instances_to_run_good_operators:
             task = task[:-5]
             with open(f'{OUTPUT_DIR}/good-operators-unit/{task}/properties') as f:
                 properties = json.load(f)
                 sampler.notify_experiment_results(task, properties)
+
+
 
 main()

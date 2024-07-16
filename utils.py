@@ -4,7 +4,7 @@ import lzma
 import sys
 
 
-def setup_logging(debug):
+def setup_logging(debug, filename):
     """
     Print DEBUG and INFO messages to stdout and higher levels to stderr.
     """
@@ -33,6 +33,11 @@ def setup_logging(debug):
 
     logger.addHandler(h1)
     logger.addHandler(h2)
+    if filename:
+        h3 = logging.FileHandler(filename)
+        h3.setLevel(logging.INFO)
+        h3.setFormatter(formatter)
+        logger.addHandler(h3)
 
 
 def read_database(database_path):
