@@ -1,5 +1,0 @@
-calibrate rover0 camera0 objective2 waypoint1
-calibrate rover0 camera2 objective0 waypoint1
-communicate_image_data rover0 general objective2 high_res waypoint1 waypoint7
-take_image rover0 waypoint1 objective2 camera0 high_res
-take_image rover0 waypoint1 objective2 camera2 high_res

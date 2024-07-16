@@ -1,8 +1,0 @@
-(drive-truck t0 l0-3 l0-0 c0)
-(load-truck p1 t0 l0-0)
-(drive-truck t0 l0-0 l0-3 c0)
-(load-truck p0 t3 l3-2)
-(drive-truck t3 l3-2 l3-3 c3)
-(unload-truck p0 t3 l3-3)
-(unload-truck p1 t0 l0-3)
-; cost = 7 (unit cost)

@@ -1,8 +1,0 @@
-(pickup pos1-4 key1)
-(unlock pos1-4 pos0-4 key1 shape0)
-(move pos1-4 pos0-4)
-(unlock pos0-4 pos0-3 key1 shape0)
-(move pos0-4 pos0-3)
-(move pos0-3 pos0-2)
-(putdown pos0-2 key1)
-; cost = 7 (unit cost)

@@ -1,6 +1,0 @@
-(move-and-eat-spawn pos1-2 pos1-3 pos2-0 dummypoint)
-(move pos1-3 pos2-3 pos1-1 pos1-2)
-(move pos2-3 pos2-2 pos1-2 pos1-3)
-(move pos2-2 pos2-1 pos1-3 pos2-3)
-(move-and-eat-no-spawn pos2-1 pos2-0)
-; cost = 5 (unit cost)

@@ -1,9 +1,0 @@
-drive t0 l0 l2 level18 level17 level35
-drive t0 l2 l3 level10 level8 level18
-drive t0 l3 l1 level3 level7 level10
-load p0 t0 l2
-load p1 t0 l2
-load p2 t0 l3
-unload p0 t0 l3
-unload p1 t0 l1
-unload p2 t0 l1

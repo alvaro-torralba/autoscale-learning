@@ -1,7 +1,0 @@
-board-truck driver4 truck3 s1
-board-truck driver6 truck4 s0
-disembark-truck driver4 truck3 s0
-drive-truck truck3 s1 s0 driver4
-drive-truck truck4 s0 s1 driver6
-load-truck package1 truck3 s1
-unload-truck package1 truck3 s0

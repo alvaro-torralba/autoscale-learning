@@ -5,7 +5,8 @@ from pathlib import Path
 import os
 import logging
 import random
-
+import time
+import sys
 import domains
 import utils
 import shutil
@@ -14,6 +15,7 @@ from parameters_sampler import ParametersSampler
 
 from run_experiment import RunExperiment
 from lab.environments import LocalEnvironment
+from lab.tools import Properties
 
 DIR = Path(__file__).resolve().parent
 
@@ -58,8 +60,6 @@ def parse_args():
     parser.add_argument("--previous-runs", type=Path, nargs='*', help="Folders with previous runs."
                                                                       "Must be provided if options to generate testing data are provided.")
 
-    parser.add_argument("--logfile", type=Path, help="Log file")
-
     parser.add_argument("--test-same-size", action="store_true", help="Generates test instances by making a copy"
                                                                       "of the previous runs and using a different seed")
 
@@ -67,8 +67,6 @@ def parse_args():
                         help="Generates test instances by continuing with the generation process of the previous runs"
                              "and only generating larger instances than the ones solved in the training data. "
                              "It is recommended to increase the runtime for the planner to avoid having no instances solved")
-
-
 
     parser.add_argument(
         "--generators-dir",
@@ -91,7 +89,7 @@ def run_planner_on_instances(ENV, RUN, OUTPUT_DIR, instances, planner_config):
         ROOT = os.path.dirname(os.path.abspath(__file__))
 
         REPO_GOOD_OPERATORS = f"{ROOT}/fd-symbolic"
-        REPO_LAMA = f"{ROOT}/downward"
+        # REPO_LAMA = f"{ROOT}/downward"
 
         # Run planner on instances
         suite = suites.build_suite(OUTPUT_DIR, [f'tasks:{name}' for name in instances])
@@ -116,30 +114,29 @@ def main():
 
     domain = domains.get_domains()[args.domain]
 
-    utils.setup_logging(args.debug, args.logfile)
-
-    logging.info(f"Running generation of training data for domain {args.domain}")
-
     if not args.resume:
         if os.path.exists(OUTPUT_DIR):
             shutil.rmtree(OUTPUT_DIR)
         os.mkdir(OUTPUT_DIR)
         os.mkdir(TASKS_DIR)
 
+    logger = logging.getLogger(__name__)
+    utils.setup_logging(logger, args.debug, f"{OUTPUT_DIR}/log")
+
+    logger.info(f"Running generation of training data for domain {args.domain} with options {sys.argv}")
+
     shutil.copy(domain.get_domain_file(GENERATORS_DIR), TASKS_DIR)
 
     ENV = LocalEnvironment(processes=args.cpus)
     RUN = RunExperiment(PLANNER_TIME_LIMIT, PLANNER_MEMORY_LIMIT)
-    sampler = ParametersSampler(domain, args.planner_desired_lower_time, args.planner_desired_upper_time)
-
-
+    sampler = ParametersSampler(domain, args.planner_desired_lower_time, args.planner_desired_upper_time, logger)
+    generation_properties = Properties(f"{OUTPUT_DIR}/properties")
     if args.test_same_size:
         # Does a single batch with all the same parameter configurations that were in the training set
         assert not args.test_larger_size, "test_same_size and test_larger_size are exclusive options"
         assert args.batch == 1, \
             "A non default value has been provided for batch. However, test_same_size option ignores batch."
         assert args.previous_runs, "Cannot generate a test set without a training set"
-
 
         tasks = []
         for prev_run in args.previous_runs:
@@ -164,7 +161,6 @@ def main():
             instances_names.append(instance_name)
         run_planner_on_instances(ENV,RUN,OUTPUT_DIR, instances_names, args.planner_config)
 
-
         exit()
     elif args.test_larger_size:
 
@@ -184,19 +180,20 @@ def main():
         sampler.add_to_skip_list(tasks)
         pass
 
+    attempted_tasks = []
     solved_tasks = []
     i = 0
     while sampler.accumulated_time < args.total_time and\
           sampler.accumulated_time_solved < args.total_time_tasks_solved and \
           (not args.tasks or len(solved_tasks) < args.tasks):
         i+= 1
-        logging.info(f"Iteration {i}: time solved={sampler.accumulated_time_solved}, time unsolved={sampler.accumulated_time-sampler.accumulated_time_solved}" )
+        logger.info(f"Iteration {i}: time solved={sampler.accumulated_time_solved}, time unsolved={sampler.accumulated_time-sampler.accumulated_time_solved}" )
         # Generate instances
         instances_to_run_good_operators = []
 
         batch_size = args.batch
         if args.tasks:
-            batch_size = min(batch_size, len(solved_tasks) - args.tasks)
+            batch_size = min(batch_size, args.tasks - len(solved_tasks))
             assert batch_size > 0
 
         for j in range(batch_size):
@@ -204,20 +201,32 @@ def main():
             instance_name = sampler.get_instance_name(parameters) + ".pddl"
             domain.generate_instance(GENERATORS_DIR, parameters, TASKS_DIR.joinpath(instance_name), TASKS_DIR)
             instances_to_run_good_operators.append(instance_name)
+            generation_properties[instance_name] = {"generation_parameters": parameters,
+                                                    "generation_command" : domain.get_generator_command(GENERATORS_DIR,parameters)}
 
-        generated_tasks = os.listdir(TASKS_DIR)
-        solved_tasks = os.listdir(f'{OUTPUT_DIR}/good-operators-unit') if os.path.exists(
-            f'{OUTPUT_DIR}/good-operators-unit') else []
-        instances_to_run_good_operators = [t for t in generated_tasks if
-                                           not t.startswith("domain") and not t.replace(".pddl", "") in solved_tasks]
+        generated_tasks =  [t for t in os.listdir(TASKS_DIR) if not t.startswith("domain")]
 
+        instances_to_run_good_operators = [t for t in generated_tasks if not t.replace(".pddl", "") in attempted_tasks]
         run_planner_on_instances(ENV,RUN,OUTPUT_DIR, instances_to_run_good_operators, args.planner_config)
 
-        for task in instances_to_run_good_operators:
-            task = task[:-5]
+        for task_pddl in instances_to_run_good_operators:
+            task = task_pddl[:-5]
+            attempted_tasks.append(task)
             with open(f'{OUTPUT_DIR}/good-operators-unit/{task}/properties') as f:
                 properties = json.load(f)
+                if properties['coverage'] == 1:
+                    solved_tasks.append(task)
+
                 sampler.notify_experiment_results(task, properties)
+                # generation_properties[task_pddl]["solver"] = properties
+
+        generation_properties.write()
+
+        logger.info(f"Finished generation. Generated tasks: {len(generated_tasks)}, "
+                    f"solved tasks: {len(solved_tasks)}, "
+                    f"process time: {time.process_time()}, "
+                    f"time solved: {sampler.accumulated_time_solved}, "
+                    f"time unsolved: {sampler.accumulated_time-sampler.accumulated_time_solved}")
 
 
 

@@ -4,13 +4,12 @@ import lzma
 import sys
 
 
-def setup_logging(debug, filename):
+def setup_logging(logger, debug, filename):
     """
     Print DEBUG and INFO messages to stdout and higher levels to stderr.
     """
     # Python adds a default handler if some log is generated before here.
     # Remove all handlers that have been added automatically.
-    logger = logging.getLogger("")
     for handler in logger.handlers:
         logger.removeHandler(handler)
 

@@ -43,4 +43,4 @@ def process_lab_dir(lab_dir, out, include_domain_name=False, planner = None):
                 else:
                     output_dir = '%s/%s' % (out, task_name)
 
-                shutil.copytree(input_dir, output_dir)
+                shutil.copytree(input_dir, output_dir,ignore=shutil.ignore_patterns('output','output.sas'))

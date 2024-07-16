@@ -1,8 +1,0 @@
-(do-saw-small b1 p2 saw0 beech rough s2 s1)
-(do-saw-medium b0 p0 saw0 walnut smooth s7 s6 s5)
-(do-saw-large b0 p1 saw0 walnut smooth s5 s3 s4 s2)
-(do-grind p1 grinder0 smooth natural untreated untreated)
-(do-grind p0 grinder0 smooth natural untreated untreated)
-(do-immersion-varnish p0 immersion-varnisher0 green verysmooth)
-(do-plane p2 planer0 rough natural untreated)
-; cost = 185 (general cost)

@@ -1,8 +1,0 @@
-(drive t0 l0 l1 level67 level23 level90)
-(load p1 t0 l1)
-(drive t0 l1 l2 level56 level11 level67)
-(load p0 t0 l2)
-(unload p1 t0 l2)
-(drive t0 l2 l1 level45 level11 level56)
-(unload p0 t0 l1)
-; cost = 7 (unit cost)

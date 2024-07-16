@@ -2,6 +2,7 @@ import logging
 import statistics
 import itertools
 import random
+from seed_set import SeedSet
 
 class Configuration:
     def __init__(self, parameters):
@@ -9,7 +10,7 @@ class Configuration:
         self.runs = []
 
     def __hash__(self):
-        atr_names = sorted([k for k in self.parameters.keys() if k != "seed"])
+        atr_names = sorted([k for k in self.parameters.keys() if k != "seed" and k != "instance_id"])
         return hash(tuple(self.parameters[attr] for attr in atr_names))
 
     def __repr__(self):
@@ -26,9 +27,10 @@ class Configuration:
 
 
 class ParametersSampler:
-    def __init__(self, domain, lower_time_limit, upper_time_limit):
+    def __init__(self, domain, lower_time_limit, upper_time_limit, logger):
+        self.logger = logger
         self.domain = domain
-        self.seed = 0
+        self.seed = SeedSet()
         self.lower_time_limit = lower_time_limit
         self.upper_time_limit = upper_time_limit
 
@@ -73,13 +75,14 @@ class ParametersSampler:
         parameters = {}
         for i, atr in enumerate(self.atr_names):
             parameters[atr] = values[i+1]
-        parameters["seed"] = values[0]
+        parameters["instance_id"] = values[0]
         return parameters
 
     def get_instance_name(self, parameters):
-        seed = parameters["seed"] if "seed" in parameters else self.seed
-        pname = "-".join([str(parameters[p]) for p in parameters if p != "seed"])
-        return f"problem{seed:03d}-{pname}"
+
+        id = parameters["instance_id"]
+        pname = "-".join([str(parameters[p]) for p in parameters if p != "seed" and p != "instance_id"])
+        return f"problem{id:03d}-{pname}"
 
     def expand(self, configuration):
         for p in self.domain.attributes:
@@ -107,7 +110,7 @@ class ParametersSampler:
                 if self.viable(candidate):
                     if tuple([str(candidate.parameters[atr]) for atr in self.atr_names]) not in self.skip_list:
                         config = candidate
-                        logging.info(f"Picking from open: {config}")
+                        self.logger.debug(f"Picking from open: {config}")
                     self.expand(candidate)
 
         if not config:
@@ -118,13 +121,14 @@ class ParametersSampler:
 
             config = random.choice(to_select)
 
-            logging.info(f"Picking from closed: {config}")
+            self.logger.info(f"Picking from closed: {config}")
 
-        self.seed += 1  # Always use a different seed
-        instance_name = self.get_instance_name(config.parameters)
-        self.instance_to_configuration[instance_name] = config
+
         parameters = config.parameters.copy()
-        parameters["seed"] = self.seed
+        parameters["instance_id"], parameters["seed"] = self.seed.get_seed()
+
+        instance_name = self.get_instance_name(parameters)
+        self.instance_to_configuration[instance_name] = config
         return parameters
 
     def notify_experiment_results(self, task, results):
@@ -135,12 +139,12 @@ class ParametersSampler:
             self.num_solved_tasks += 1
             config.runs.append(wctime)
             self.accumulated_time_solved += wctime
-            logging.info(f"{config} solved in {wctime}")
+            self.logger.info(f"{config} solved in {wctime}")
             if wctime < self.lower_time_limit:
                 self.num_trivial_tasks += 1
         else:
             config.runs.append(self.upper_time_limit * 2)
-            logging.info(f"{config} failed in {wctime}")
+            self.logger.info(f"{config} failed in {wctime}")
 
 
         if not self.viable(config):

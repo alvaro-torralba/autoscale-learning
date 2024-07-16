@@ -1,8 +1,0 @@
-(navigate rover1 waypoint0 waypoint2)
-(navigate rover1 waypoint2 waypoint9)
-(calibrate rover1 camera0 objective0 waypoint9)
-(sample_soil rover0 rover0store waypoint1)
-(communicate_soil_data rover0 general waypoint1 waypoint1 waypoint6)
-(take_image rover1 waypoint9 objective0 camera0 colour)
-(communicate_image_data rover1 general objective0 colour waypoint9 waypoint6)
-; cost = 7 (unit cost)

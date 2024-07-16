@@ -1,8 +1,0 @@
-(do-saw-medium b1 p1 saw0 cherry rough s3 s2 s1)
-(do-plane p1 planer0 rough natural untreated)
-(do-grind p1 grinder0 smooth natural untreated untreated)
-(do-glaze p1 glazer0 black)
-(do-saw-large b0 p0 saw0 oak smooth s4 s2 s3 s1)
-(do-grind p0 grinder0 smooth natural untreated untreated)
-(do-immersion-varnish p0 immersion-varnisher0 mauve verysmooth)
-; cost = 180 (general cost)

@@ -1,6 +1,0 @@
-(lift hoist3 crate0 pallet3 depot3)
-(load hoist3 crate0 truck0 depot3)
-(drive truck0 depot3 distributor0)
-(unload hoist5 crate0 truck0 distributor0)
-(drop hoist5 crate0 crate2 distributor0)
-; cost = 5 (unit cost)

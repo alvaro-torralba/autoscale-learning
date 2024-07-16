@@ -1,9 +1,0 @@
-drive-truck t0 l0-0 l0-2 c0
-drive-truck t5 l2-1 l2-0 c2
-fly-airplane a2 l2-0 l0-0
-load-airplane p0 a2 l2-0
-load-truck p0 t0 l0-0
-load-truck p0 t5 l2-1
-unload-airplane p0 a2 l0-0
-unload-truck p0 t0 l0-2
-unload-truck p0 t5 l2-0

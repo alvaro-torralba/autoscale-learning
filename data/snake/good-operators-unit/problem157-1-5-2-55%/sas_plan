@@ -1,8 +1,0 @@
-(move-and-eat-no-spawn pos0-4 pos1-4)
-(move pos1-4 pos1-3 pos0-3 pos0-4)
-(move pos1-3 pos0-3 pos0-4 pos1-4)
-(move-and-eat-no-spawn pos0-3 pos0-2)
-(move-and-eat-no-spawn pos0-2 pos0-1)
-(move-and-eat-no-spawn pos0-1 pos0-0)
-(move-and-eat-no-spawn pos0-0 pos1-0)
-; cost = 7 (unit cost)

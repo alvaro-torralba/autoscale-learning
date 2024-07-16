@@ -1,8 +1,0 @@
-calibrate rover7 camera5 objective0 waypoint3
-communicate_image_data rover7 general objective0 low_res waypoint0 waypoint3
-communicate_rock_data rover2 general waypoint1 waypoint1 waypoint3
-communicate_soil_data rover7 general waypoint0 waypoint0 waypoint3
-navigate rover7 waypoint3 waypoint0
-sample_rock rover2 rover2store waypoint1
-sample_soil rover7 rover7store waypoint0
-take_image rover7 waypoint3 objective0 camera5 low_res
