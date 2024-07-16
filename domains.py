@@ -87,8 +87,8 @@ DOMAIN_LIST = [
            penalty_for_instances_with_duplicated_parameters=math.inf),
     Domain("miconic",
            "miconic -f {floors} -p {passengers}",
-           [LinearAttr("passengers", lower_b=5, upper_b=20),
-            LinearAttr("floors", lower_b=5, upper_b=15)],
+           [LinearAttr("passengers", lower_b=1, upper_b=20),
+            LinearAttr("floors", lower_b=4, upper_b=15)],
            ),
     Domain("rovers",
            "rovgen {seed} {rovers} {waypoints} {objectives} {cameras} {goals}",
@@ -164,12 +164,12 @@ DOMAIN_LIST = [
 
     Domain("depots",
            "depots -e {depots} -i {distributors} -t {trucks} -p {pallets} -h {hoists} -c {crates} -s {seed}",
-           [LinearAttr("depots", lower_b=3, upper_b=10),
+           [LinearAttr("depots", lower_b=1, upper_b=10),
             LinearAttr("distributors", lower_b=2, upper_b=10),
-            LinearAttr("trucks", lower_b=2, upper_b=10),
+            LinearAttr("trucks", lower_b=1, upper_b=10),
             LinearAttr("pallets", lower_b=2, upper_b=20),
             LinearAttr("hoists", lower_b=2, upper_b=20),
-            LinearAttr("crates", lower_b=3, upper_b=20)]
+            LinearAttr("crates", lower_b=2, upper_b=20)]
            ),
 
     Domain("childsnack",
