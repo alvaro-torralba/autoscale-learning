@@ -33,20 +33,20 @@ def parse_args():
     parser.add_argument("--batch", type=int, default=1,
                         help="Number of tasks to generate in each round (default: %(default)s)")
 
-    parser.add_argument("--planner-time-limit", type=float, default=600,
+    parser.add_argument("--planner-time-limit", type=int, default=600,
                         help="Maximum time for each planner run (default: %(default)ss)")
 
-    parser.add_argument("--planner-desired-lower-time", type=float, default=5,
+    parser.add_argument("--planner-desired-lower-time", type=int, default=5,
                         help="Desired time for each planner run (default: %(default)ss)")
 
-    parser.add_argument("--planner-desired-upper-time", type=float, default=300,
+    parser.add_argument("--planner-desired-upper-time", type=int, default=300,
                         help="Desired time for each planner run (default: %(default)ss)")
 
-    parser.add_argument("--total-time-tasks-solved", type=float, default=4 * 3600,
+    parser.add_argument("--total-time-tasks-solved", type=int, default=4 * 3600,
                         help="Stops generating instances when the total time used on solving tasks (ignoring unsolved "
                              "tasks) is larger than this amount (default: %(default)ss)")
 
-    parser.add_argument("--total-time", type=float, default=6 * 3600,
+    parser.add_argument("--total-time", type=int, default=6 * 3600,
                         help="Stops generating instances when the total time used on solving tasks is larger than "
                              "this amount (default: %(default)ss)")
 
