@@ -300,7 +300,7 @@ DOMAIN_LIST = [
            ),
 
     Domain("data-network",
-           "generator/generator.py {items} {layers} {scripts} {network} {seed}",
+           "generator/generator.py {items} {layers} {scripts} {network} --seed {seed}",
            [EnumAttr("network", ["tiny-network", "small-network", "ring-network"]),
             EnumAttr("layers", [2, 3, 4, 5, 6]),  # There is no need to scale the number of layers linearly
             LinearAttr("extra_items", lower_b=2, upper_b=20),
