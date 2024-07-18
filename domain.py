@@ -7,8 +7,6 @@ import sys
 
 import math
 
-TMP_PROBLEM = "tmp-problem.pddl"
-TMP_DOMAIN = "tmp-domain.pddl"
 
 
 class LinearAttr:
@@ -62,7 +60,6 @@ class GridAttr:
 
         self.lower_x = lower_x
         self.upper_x = upper_x
-        
         self.grid_values = []
         for i in range(0, self.upper_x - self.lower_x):
             for j in range(maxdiff + 1):
@@ -165,6 +162,9 @@ class Domain:
             penalty_for_instances_with_duplicated_parameters=100.0,
             time_limit_to_consider_trivial=30  # An instance is trivial if the baseline solves it under this time limit
     ):
+        self.TMP_PROBLEM = "tmp-problem.pddl"
+        self.TMP_DOMAIN = "tmp-domain.pddl"
+
         self.name = name
         self.attributes = attributes
         self.generator_command = generator_command
@@ -187,17 +187,29 @@ class Domain:
 
         return cfg
 
-    def generate_instance(self, generators_dir, parameters, target_problem_file, target_dir):
+    def generate_instance(self, generators_dir, parameters, target_problem_file, TMP_DIR):
+        parameters["TMP_DOMAIN"] = TMP_DIR / self.TMP_DOMAIN
+        parameters["TMP_PROBLEM"] = TMP_DIR / self.TMP_PROBLEM
         command = self.get_generator_command(generators_dir, parameters)
 
         # If the generator fails, print error message and count task as unsolved.
         try:
-            self.generate_problem(command, target_problem_file)
+            # Some generators print to a file, others print to stdout.
+            if "TMP_PROBLEM" in self.generator_command:
+                subprocess.run(command, check=True)
+                shutil.move(TMP_DIR / self.TMP_PROBLEM, target_problem_file)
+            else:
+                with open(target_problem_file, "w") as f:
+                    subprocess.run(command, stdout=f, check=True)
+
+            if self.generated_domain_file():
+                target_domain_file = target_problem_file.parent / ("domain_" + str(target_problem_file.name))
+                shutil.move(TMP_DIR / self.TMP_DOMAIN, target_domain_file)
         except subprocess.CalledProcessError as err:
             print(err, file=sys.stderr)
-            return command, False
+            return False
 
-        return command, True
+        return True
 
     def get_penalty_for_instances_with_duplicated_parameters(self):
         return self.penalty_for_instances_with_duplicated_parameters
@@ -242,19 +254,6 @@ class Domain:
     def get_domain_filename(self, generators_dir):
         return (Path(generators_dir) / self.name / "domain.pddl").resolve()
 
-    def generate_problem(self, command, target_problem_file):
-        # Some generators print to a file, others print to stdout.
-        if TMP_PROBLEM in self.generator_command:
-            subprocess.run(command, check=True)
-            shutil.move(TMP_PROBLEM, target_problem_file)
-        else:
-            with open(target_problem_file, "w") as f:
-                subprocess.run(command, stdout=f, check=True)
-
-        if self.generated_domain_file():
-            target_domain_file = target_problem_file.parent / ("domain_" + str(target_problem_file.name))
-            shutil.move(TMP_DOMAIN, target_domain_file)
-
     def get_enum_parameters(self):
         return [attr for attr in self.attributes if isinstance(attr, EnumAttr)]
 
@@ -262,7 +261,7 @@ class Domain:
         return len(self.get_enum_parameters()) > 0
 
     def generated_domain_file(self):
-        return TMP_DOMAIN in self.generator_command
+        return "TMP_DOMAIN" in self.generator_command
 
     def discard_sequence(self, sequence):
         if self.discard_sequence_function is not None:

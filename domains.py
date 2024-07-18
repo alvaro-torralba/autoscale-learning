@@ -110,7 +110,7 @@ DOMAIN_LIST = [
            ],
            ),
     Domain("tpp",
-           "tpp -s {seed} -m {markets} -p {products} -t {trucks} -d {depots} -l {goods} " + TMP_PROBLEM,
+           "tpp -s {seed} -m {markets} -p {products} -t {trucks} -d {depots} -l {goods} {TMP_PROBLEM}",
            [LinearAttr("products", lower_b=2, upper_b=20),
             LinearAttr("markets", lower_b=1, upper_b=10),
             LinearAttr("trucks", lower_b=2, upper_b=10),
@@ -195,7 +195,7 @@ DOMAIN_LIST = [
            ),
 
     Domain("storage",
-           "storage -p 01 -o {containers} -e {seed} -c {crates} -n {hoists} -s {store_areas} -d {depots} " + TMP_PROBLEM,
+           "storage -p 01 -o {containers} -e {seed} -c {crates} -n {hoists} -s {store_areas} -d {depots} {TMP_PROBLEM}",
            [LinearAttr("crates", lower_b=2, upper_b=15),
             LinearAttr("hoists", lower_b=2, upper_b=5),
             LinearAttr("store_areas", lower_b=0, upper_b=10),
@@ -265,7 +265,7 @@ DOMAIN_LIST = [
            ),
 
     Domain("openstacks",
-           f"generator.py {{products}} {{orders}} {{density}} --domain {TMP_DOMAIN} --problem {TMP_PROBLEM} --seed {{seed}}",
+           "generator.py {products} {orders} {density} --domain {TMP_DOMAIN} --problem {TMP_PROBLEM} --seed {seed}",
            [EnumAttr("density", [10, 20, 33, 50, 66, 80]),
             # We require that both products and orders should be scaled.
             LinearAttr("products", lower_b=5, upper_b=100),

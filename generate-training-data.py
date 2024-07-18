@@ -132,54 +132,55 @@ def main():
     RUN = RunExperiment(PLANNER_TIME_LIMIT, PLANNER_MEMORY_LIMIT)
     sampler = ParametersSampler(domain, args.planner_desired_lower_time, args.planner_desired_upper_time, logger)
     generation_properties = Properties(f"{OUTPUT_DIR}/properties")
-    if args.test_same_size:
-        # Does a single batch with all the same parameter configurations that were in the training set
-        assert not args.test_larger_size, "test_same_size and test_larger_size are exclusive options"
-        assert args.batch == 1, \
-            "A non default value has been provided for batch. However, test_same_size option ignores batch."
-        assert args.previous_runs, "Cannot generate a test set without a training set"
 
-        tasks = []
-        for prev_run in args.previous_runs:
-            if (prev_run / "tasks").is_dir():
-                prev_run = (prev_run / "tasks")
-
-        for task in prev_run.iterdir():
-            if task.name == "domain.pddl":
-                continue
-            tasks.append(sampler.get_parameters_from_filename(task.stem))
-
-        if args.tasks:
-            selection = random.choices(tasks, args.tasks)
-        else:
-            selection = tasks
-
-        instances_names = []
-        for task in selection:
-            task["seed"] = random.randint(1000, 1000000)
-            instance_name = sampler.get_instance_name(task) + ".pddl"
-            domain.generate_instance(GENERATORS_DIR, task, TASKS_DIR.joinpath(instance_name), TASKS_DIR)
-            instances_names.append(instance_name)
-        run_planner_on_instances(ENV,RUN,OUTPUT_DIR, instances_names, args.planner_config)
-
-        exit()
-    elif args.test_larger_size:
-
-        tasks = []
-        for prev_run in args.previous_runs:
-            if (prev_run / "tasks").is_dir():
-                prev_run = (prev_run / "tasks")
-
-        for task in prev_run.iterdir():
-            if task.name.startswith("domain"):
-                continue
-            tasks.append(sampler.get_parameters_from_filename(task.stem))
-
-        # Continue the generation, avoiding to generate instances of the
-        # same size (or smaller) than in the training set. For that, we inform
-        # the parameter sampler of all the sizes that should be skip
-        sampler.add_to_skip_list(tasks)
-        pass
+    # if args.test_same_size:
+    #     # Does a single batch with all the same parameter configurations that were in the training set
+    #     assert not args.test_larger_size, "test_same_size and test_larger_size are exclusive options"
+    #     assert args.batch == 1, \
+    #         "A non default value has been provided for batch. However, test_same_size option ignores batch."
+    #     assert args.previous_runs, "Cannot generate a test set without a training set"
+    #
+    #     tasks = []
+    #     for prev_run in args.previous_runs:
+    #         if (prev_run / "tasks").is_dir():
+    #             prev_run = (prev_run / "tasks")
+    #
+    #     for task in prev_run.iterdir():
+    #         if task.name.startswith("domain"):
+    #             continue
+    #         tasks.append(sampler.get_parameters_from_filename(task.stem))
+    #
+    #     if args.tasks:
+    #         selection = random.choices(tasks, args.tasks)
+    #     else:
+    #         selection = tasks
+    #
+    #     instances_names = []
+    #     for task in selection:
+    #         task["seed"] = random.randint(1000, 1000000)
+    #         instance_name = sampler.get_instance_name(task) + ".pddl"
+    #         domain.generate_instance(GENERATORS_DIR, task, TASKS_DIR.joinpath(instance_name), TASKS_DIR)
+    #         instances_names.append(instance_name)
+    #     run_planner_on_instances(ENV,RUN,OUTPUT_DIR, instances_names, args.planner_config)
+    #
+    #     exit()
+    # elif args.test_larger_size:
+    #
+    #     tasks = []
+    #     for prev_run in args.previous_runs:
+    #         if (prev_run / "tasks").is_dir():
+    #             prev_run = (prev_run / "tasks")
+    #
+    #     for task in prev_run.iterdir():
+    #         if task.name.startswith("domain"):
+    #             continue
+    #         tasks.append(sampler.get_parameters_from_filename(task.stem))
+    #
+    #     # Continue the generation, avoiding to generate instances of the
+    #     # same size (or smaller) than in the training set. For that, we inform
+    #     # the parameter sampler of all the sizes that should be skip
+    #     sampler.add_to_skip_list(tasks)
+    #     pass
 
     attempted_tasks = []
     solved_tasks = []
@@ -200,8 +201,8 @@ def main():
         for j in range(batch_size):
             parameters = sampler.get_parameters()
             instance_name = sampler.get_instance_name(parameters) + ".pddl"
-            domain.generate_instance(GENERATORS_DIR, parameters, TASKS_DIR.joinpath(instance_name), TASKS_DIR)
-            instances_to_run_good_operators.append(instance_name)
+            if domain.generate_instance(GENERATORS_DIR, parameters, TASKS_DIR.joinpath(instance_name), OUTPUT_DIR):
+               instances_to_run_good_operators.append(instance_name)
             generation_properties[instance_name] = {"generation_parameters": parameters,
                                                     "generation_command" : domain.get_generator_command(GENERATORS_DIR,parameters)}
 
