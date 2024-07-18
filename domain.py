@@ -5,6 +5,8 @@ from string import Formatter
 import subprocess
 import sys
 
+import math
+
 TMP_PROBLEM = "tmp-problem.pddl"
 TMP_DOMAIN = "tmp-domain.pddl"
 
@@ -53,15 +55,14 @@ class LinearAttr:
 
 
 class GridAttr:
-    def __init__(self, name, name_x, name_y, lower_x, upper_x):
+    def __init__(self, name, name_x, name_y, lower_x, upper_x, maxdiff=3):
         self.name = name
         self.name_x = name_x
         self.name_y = name_y
 
         self.lower_x = lower_x
         self.upper_x = upper_x
-        maxdiff = 3
-
+        
         self.grid_values = []
         for i in range(0, self.upper_x - self.lower_x):
             for j in range(maxdiff + 1):
@@ -187,11 +188,11 @@ class Domain:
         return cfg
 
     def generate_instance(self, generators_dir, parameters, target_problem_file, target_dir):
-        command = self.get_generator_command(generators_dir, self.get_config(parameters))
+        command = self.get_generator_command(generators_dir, parameters)
 
         # If the generator fails, print error message and count task as unsolved.
         try:
-            self.generate_problem(command, target_problem_file, target_dir / "domain.pddl")
+            self.generate_problem(command, target_problem_file)
         except subprocess.CalledProcessError as err:
             print(err, file=sys.stderr)
             return command, False
@@ -230,6 +231,7 @@ class Domain:
         return self.generator_attribute_names
 
     def get_generator_command(self, generators_dir, parameters):
+        parameters = self.get_config(parameters)
         command = shlex.split(self.generator_command.format(**parameters))
         command[0] = str((Path(generators_dir) / self.name / command[0]).resolve())
         # Call Python scripts with the correct Python interpreter.
@@ -240,7 +242,7 @@ class Domain:
     def get_domain_filename(self, generators_dir):
         return (Path(generators_dir) / self.name / "domain.pddl").resolve()
 
-    def generate_problem(self, command, target_problem_file, target_domain_file):
+    def generate_problem(self, command, target_problem_file):
         # Some generators print to a file, others print to stdout.
         if TMP_PROBLEM in self.generator_command:
             subprocess.run(command, check=True)
@@ -250,6 +252,7 @@ class Domain:
                 subprocess.run(command, stdout=f, check=True)
 
         if self.generated_domain_file():
+            target_domain_file = target_problem_file.parent / ("domain_" + str(target_problem_file.name))
             shutil.move(TMP_DOMAIN, target_domain_file)
 
     def get_enum_parameters(self):

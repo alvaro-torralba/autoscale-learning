@@ -125,7 +125,8 @@ def main():
 
     logger.info(f"Running generation of training data for domain {args.domain} with options {sys.argv}")
 
-    shutil.copy(domain.get_domain_file(GENERATORS_DIR), TASKS_DIR)
+    if not domain.generated_domain_file():
+       shutil.copy(domain.get_domain_file(GENERATORS_DIR), TASKS_DIR)
 
     ENV = LocalEnvironment(processes=args.cpus)
     RUN = RunExperiment(PLANNER_TIME_LIMIT, PLANNER_MEMORY_LIMIT)
@@ -170,7 +171,7 @@ def main():
                 prev_run = (prev_run / "tasks")
 
         for task in prev_run.iterdir():
-            if task.name == "domain.pddl":
+            if task.name.startswith("domain"):
                 continue
             tasks.append(sampler.get_parameters_from_filename(task.stem))
 

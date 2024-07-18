@@ -290,7 +290,7 @@ DOMAIN_LIST = [
     # and how many keys to have.
     Domain("grid",
            "generate.py {x} {y} --shapes {shapes} --keys {keys} --locks {locks} --prob-goal {prob_key_in_goal}  --seed {seed}",
-           [GridAttr("grid", "x", "y", lower_x=3, upper_x=10),
+           [GridAttr("grid", "x", "y", lower_x=3, upper_x=20),
             EnumAttr("prob_key_in_goal", [0.5, 0.75, 1]),
             LinearAttr("shapes", lower_b=1, upper_b=5),
             LinearAttr("extra_keys", lower_b=1, upper_b=5),
