@@ -126,7 +126,7 @@ DOMAIN_LIST = [
     #       ),
     Domain("visitall",
            "grid -x {x} -y {y} -r {r} -u 0 -s {seed}",
-           [GridAttr("grid", "x", "y", lower_x=3, upper_x=8),
+           [GridAttr("grid", "x", "y", lower_x=3, upper_x=20),
             EnumAttr("r", [0.5, 0.75, 1])],
            ),
     Domain("woodworking",
